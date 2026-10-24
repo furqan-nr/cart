@@ -17,3 +17,16 @@ Filled in after each step by a commit that changes only this file. Times in UTC.
 - **Kaggle code dataset.** `p3-code` must be uploaded from the zip built from this commit with `obsaware/scripts/make_kaggle_zip.py`: 82 files, SHA-256 `dd75463cc246abc2ebbfddcf86b557335e8c21e47f5f6ba439d0431549955bb6`. All 82 files were checked identical to the commit.
 - **Wheelhouse build times** were not recorded; the Kaggle version history of the wheelhouse notebook holds them.
 - **Cohort order:** C252 ran before C261. The registration fixes no order.
+
+## Registration R2 (`PREREGISTRATION_P3_R2.md`)
+
+| Step | Commit | Commit time | Push time | Manifest check | Notes |
+|---|---|---|---|---|---|
+| R2 registration pushed | | | | | |
+| Wheelhouse built, Qiskit 2.6.0 | | | | | |
+| Wheelhouse built, Qiskit 2.3.1 | | | | | |
+| Calibration session N260 (Kaggle, start and end) | | | | | |
+| Labeling session C260 (Kaggle, start and end) | | | | | |
+| Calibration session N231 (Kaggle, start and end) | | | | | |
+| Labeling session C231 (Kaggle, start and end) | | | | | |
+| R2 registered analysis run | | | | | |

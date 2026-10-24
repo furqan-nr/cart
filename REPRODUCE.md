@@ -53,3 +53,12 @@ python obsaware/scripts/freeze_registration.py --verify
 ```bash
 PYTHONPATH=cart/src:obsaware/src python posthoc/diagnose_claim_c.py > posthoc/diagnose_claim_c.json
 ```
+
+## Registration R2
+
+Per Qiskit version (2.6.0, 2.3.1): build the wheelhouse, run the calibration session N with `obsaware/kaggle/nb_k1_calibration.ipynb` (rename its `out_k1` output to `out_N260` / `out_N231`), then, in a later, separate session, the labeling session with `obsaware/kaggle/nb_cohort_labeling.ipynb` (`COHORT = "C260"` / `"C231"`). Then:
+
+```bash
+python r2/analyze_r2.py --pair data/N260/out_N260 data/C260/out_C260 --pair data/N231/out_N231 data/C231/out_C231 --out results/registered_analysis_r2.json
+python r2/freeze_r2.py --verify
+```

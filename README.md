@@ -2,7 +2,7 @@
 
 Code, registration, data and reproduction recipes for Paper 3 of Furqan Nasir's doctoral research (CUSIT): a pre-registered study of whether a regression-testing pipeline for a quantum compiler, which chooses within a CI budget both **which tests** to run and **which oracle** each test gets, detects more transpiler regressions than output-only and naive all-oracle selection.
 
-**Status:** registered (commit `40077ab`, 2026-10-24) and run. Both cohorts labeled; registered analysis complete: claims A and B SUPPORTED, claim C NOT SUPPORTED. See `docs/RESULTS_P3.md` (with a post hoc diagnosis of claim C, clearly separated).
+**Status:** registered (commit `40077ab`, 2026-10-24) and run. Both cohorts labeled; registered analysis complete: claims A and B SUPPORTED, claim C NOT SUPPORTED. See `docs/RESULTS_P3.md` (with a post hoc diagnosis of claim C, clearly separated). A second registration, `PREREGISTRATION_P3_R2.md` (files in `r2/`), changes only the cost estimate (previous-revision costs from a separate calibration session) and re-tests claims A to C on fresh cohorts (Qiskit 2.6.0 and 2.3.1).
 
 ## Layout
 
@@ -10,6 +10,7 @@ Code, registration, data and reproduction recipes for Paper 3 of Furqan Nasir's 
 |---|---|
 | `PREREGISTRATION_P3.md` | The registration: question, disclosures, cohorts, rules, strategies, claims A to C, forecast |
 | `PREREGISTRATION_P3.sha256` | SHA-256 of every frozen file (`obsaware/scripts/freeze_registration.py`) |
+| `PREREGISTRATION_P3_R2.md`, `PREREGISTRATION_P3_R2.sha256`, `r2/` | Registration R2: the repaired cost estimate, its frozen analysis and manifest (`r2/freeze_r2.py --verify` also checks the first manifest) |
 | `REGISTRATION_RECORD.md` | Commit and push times of the registration and of every later run (not frozen) |
 | `cart/` | The `cart` prototype from the Paper 2 replication package ([Quantum-Selection](https://github.com/furqan-nr/Quantum-Selection), DOI [10.5281/zenodo.23475857](https://doi.org/10.5281/zenodo.23475857)), copied unchanged: `src/cart`, `configs`, `pyproject.toml`, `environment/requirements.lock` |
 | `obsaware/` | Paper 3 code: `src/obsaware` (state probe, contract checker v2, determinism runner, invisible-channel fault operators, selection strategies, cost model, reference benchmark), `scripts/` (development checks, Kaggle calibration and labeling drivers, frozen analysis, manifest and packaging tools), `kaggle/` (notebooks and runbook), `results/` (development results) |

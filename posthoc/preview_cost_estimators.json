@@ -1,0 +1,206 @@
+{
+ "out_C261": {
+  "k_compile": 0.414881574940982,
+  "k_benchmark": 0.8470652852025844,
+  "estimators": {
+   "registered": {
+    "0.02": {
+     "observability_spend_mean": 2.1771038898160713,
+     "observability_spend_max": 2.278679958167364,
+     "detected": {
+      "output_only": 9,
+      "all_checks": 15,
+      "observability": 18,
+      "cheapest_items": 16
+     }
+    },
+    "0.05": {
+     "observability_spend_mean": 1.7041983411221453,
+     "observability_spend_max": 1.7687566362384481,
+     "detected": {
+      "output_only": 9,
+      "all_checks": 18,
+      "observability": 18,
+      "cheapest_items": 16
+     }
+    },
+    "0.1": {
+     "observability_spend_mean": 1.5921589480796219,
+     "observability_spend_max": 1.6457316946186962,
+     "detected": {
+      "output_only": 10,
+      "all_checks": 18,
+      "observability": 18,
+      "cheapest_items": 18
+     }
+    }
+   },
+   "T1": {
+    "0.02": {
+     "observability_spend_mean": 1.316080866673569,
+     "observability_spend_max": 1.3722999407126528,
+     "detected": {
+      "output_only": 9,
+      "all_checks": 15,
+      "observability": 18,
+      "cheapest_items": 16
+     }
+    },
+    "0.05": {
+     "observability_spend_mean": 1.2261868949785035,
+     "observability_spend_max": 1.2774095792750635,
+     "detected": {
+      "output_only": 10,
+      "all_checks": 18,
+      "observability": 18,
+      "cheapest_items": 16
+     }
+    },
+    "0.1": {
+     "observability_spend_mean": 1.1646538785811325,
+     "observability_spend_max": 1.2114514954486404,
+     "detected": {
+      "output_only": 10,
+      "all_checks": 18,
+      "observability": 18,
+      "cheapest_items": 18
+     }
+    }
+   },
+   "T2_same_session": {
+    "0.02": {
+     "observability_spend_mean": 1.048884499576825,
+     "observability_spend_max": 1.0909783903182586,
+     "detected": {
+      "output_only": 9,
+      "all_checks": 15,
+      "observability": 18,
+      "cheapest_items": 16
+     }
+    },
+    "0.05": {
+     "observability_spend_mean": 1.007650219204508,
+     "observability_spend_max": 1.0516133880952698,
+     "detected": {
+      "output_only": 10,
+      "all_checks": 18,
+      "observability": 18,
+      "cheapest_items": 16
+     }
+    },
+    "0.1": {
+     "observability_spend_mean": 0.9986691292782757,
+     "observability_spend_max": 1.0744824996198266,
+     "detected": {
+      "output_only": 10,
+      "all_checks": 18,
+      "observability": 18,
+      "cheapest_items": 18
+     }
+    }
+   }
+  }
+ },
+ "out_C252": {
+  "k_compile": 0.4190727533874949,
+  "k_benchmark": 0.8728666852737695,
+  "estimators": {
+   "registered": {
+    "0.02": {
+     "observability_spend_mean": 2.1475059777476617,
+     "observability_spend_max": 2.4295481195531816,
+     "detected": {
+      "output_only": 9,
+      "all_checks": 15,
+      "observability": 18,
+      "cheapest_items": 16
+     }
+    },
+    "0.05": {
+     "observability_spend_mean": 1.703799008972697,
+     "observability_spend_max": 1.8423696302486958,
+     "detected": {
+      "output_only": 9,
+      "all_checks": 18,
+      "observability": 18,
+      "cheapest_items": 16
+     }
+    },
+    "0.1": {
+     "observability_spend_mean": 1.6002088109838353,
+     "observability_spend_max": 1.6814709848716305,
+     "detected": {
+      "output_only": 10,
+      "all_checks": 18,
+      "observability": 18,
+      "cheapest_items": 18
+     }
+    }
+   },
+   "T1": {
+    "0.02": {
+     "observability_spend_mean": 1.2753785965240447,
+     "observability_spend_max": 1.4310146308977028,
+     "detected": {
+      "output_only": 9,
+      "all_checks": 15,
+      "observability": 18,
+      "cheapest_items": 16
+     }
+    },
+    "0.05": {
+     "observability_spend_mean": 1.20965991193742,
+     "observability_spend_max": 1.290858842067685,
+     "detected": {
+      "output_only": 10,
+      "all_checks": 18,
+      "observability": 18,
+      "cheapest_items": 16
+     }
+    },
+    "0.1": {
+     "observability_spend_mean": 1.1482842575656105,
+     "observability_spend_max": 1.2169010611252193,
+     "detected": {
+      "output_only": 10,
+      "all_checks": 18,
+      "observability": 18,
+      "cheapest_items": 18
+     }
+    }
+   },
+   "T2_same_session": {
+    "0.02": {
+     "observability_spend_mean": 1.0693172102100688,
+     "observability_spend_max": 1.205297756392763,
+     "detected": {
+      "output_only": 9,
+      "all_checks": 15,
+      "observability": 18,
+      "cheapest_items": 16
+     }
+    },
+    "0.05": {
+     "observability_spend_mean": 1.0030234268894882,
+     "observability_spend_max": 1.0760106600236774,
+     "detected": {
+      "output_only": 9,
+      "all_checks": 18,
+      "observability": 18,
+      "cheapest_items": 16
+     }
+    },
+    "0.1": {
+     "observability_spend_mean": 1.0112289943337338,
+     "observability_spend_max": 1.0867524064150396,
+     "detected": {
+      "output_only": 10,
+      "all_checks": 18,
+      "observability": 18,
+      "cheapest_items": 18
+     }
+    }
+   }
+  }
+ }
+}
