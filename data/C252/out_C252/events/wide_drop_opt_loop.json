@@ -1,0 +1,2267 @@
+{
+ "event": "wide_drop_opt_loop",
+ "group": "visible",
+ "cohort": "C252",
+ "per_unit": {
+  "ghz-n5-line-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.0019758050000291405,
+    "quality": 0.00011319599991566065,
+    "contract": 2.827099990554416e-05,
+    "probe": 0.006118949000097018
+   }
+  },
+  "ghz-n5-line-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.0019422589999749107,
+    "quality": 0.00012637299994366913,
+    "contract": 2.9917999995632272e-05,
+    "probe": 0.005659737999962999
+   }
+  },
+  "ghz-n5-heavy_hex-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 8.012999978745938e-05,
+    "quality": 0.00010890199996538286,
+    "contract": 3.190000006725313e-05,
+    "probe": 0.06162062299995341
+   }
+  },
+  "ghz-n5-heavy_hex-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 9.623000005376525e-05,
+    "quality": 0.00011062300018238602,
+    "contract": 3.708799999913026e-05,
+    "probe": 0.058005699999966964
+   }
+  },
+  "ghz-n8-line-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.03047809800000323,
+    "quality": 0.00012249600000302507,
+    "contract": 3.5277999998584164e-05,
+    "probe": 0.007867504000003578
+   }
+  },
+  "ghz-n8-line-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.027268730000059804,
+    "quality": 0.00014427599990085582,
+    "contract": 4.1857000042000436e-05,
+    "probe": 0.0075741330001619644
+   }
+  },
+  "ghz-n8-heavy_hex-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.00011106000010840944,
+    "quality": 0.00012830500008931267,
+    "contract": 3.726399995684915e-05,
+    "probe": 0.09780490299999656
+   }
+  },
+  "ghz-n8-heavy_hex-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 9.977399999883119e-05,
+    "quality": 0.0001300569999997947,
+    "contract": 4.2341000003887075e-05,
+    "probe": 0.10314480699999962
+   }
+  },
+  "ghz-n12-line-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 26.853753120999954,
+    "quality": 0.00018574299997453636,
+    "contract": 5.1488000053723226e-05,
+    "probe": 0.01281915000004119
+   }
+  },
+  "ghz-n12-line-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 26.135782859000074,
+    "quality": 0.00017176699998344702,
+    "contract": 5.2345000085551874e-05,
+    "probe": 0.011310283999819148
+   }
+  },
+  "ghz-n12-heavy_hex-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.0001115310000017189,
+    "quality": 0.00017169500000591142,
+    "contract": 4.157400000792677e-05,
+    "probe": 0.1529220649999985
+   }
+  },
+  "ghz-n12-heavy_hex-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.00013499400006367068,
+    "quality": 0.00017772199998944416,
+    "contract": 7.912599994597258e-05,
+    "probe": 0.15026645700004337
+   }
+  },
+  "ghz-n18-line-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.00014258099997732643,
+    "quality": 0.0002260559999740508,
+    "contract": 6.614599999466009e-05,
+    "probe": 0.21258783800010406
+   }
+  },
+  "ghz-n18-line-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.00014260900000806487,
+    "quality": 0.00023881699999606099,
+    "contract": 6.752500000573036e-05,
+    "probe": 0.22083308300000226
+   }
+  },
+  "ghz-n18-heavy_hex-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.00016799700006231433,
+    "quality": 0.00033812699996360607,
+    "contract": 7.00919999871985e-05,
+    "probe": 0.35414136899998994
+   }
+  },
+  "ghz-n18-heavy_hex-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.00023478299999624141,
+    "quality": 0.0006204090000210272,
+    "contract": 6.965600005059969e-05,
+    "probe": 0.40502872100000786
+   }
+  },
+  "ghz-n27-line-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.00020195799993416585,
+    "quality": 0.00031208699999751843,
+    "contract": 7.315999994261801e-05
+   }
+  },
+  "ghz-n27-line-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.00019246399995154206,
+    "quality": 0.0002999529999669903,
+    "contract": 7.48990000829508e-05
+   }
+  },
+  "ghz-n27-heavy_hex-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.00026130100013688207,
+    "quality": 0.00037194900005488307,
+    "contract": 8.130199989864195e-05
+   }
+  },
+  "ghz-n27-heavy_hex-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.00022296100019048026,
+    "quality": 0.00034495600016271055,
+    "contract": 8.650699987811095e-05
+   }
+  },
+  "ghz-n40-line-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.0003046939999649112,
+    "quality": 0.0005320499999470485,
+    "contract": 0.00010791699992296344
+   }
+  },
+  "ghz-n40-line-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.0002933059999996601,
+    "quality": 0.0004244440000000793,
+    "contract": 0.00010877100000072915
+   }
+  },
+  "ghz-n40-heavy_hex-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.00030221700000510054,
+    "quality": 0.00043343099999759716,
+    "contract": 0.0001006309999951327
+   }
+  },
+  "ghz-n40-heavy_hex-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.00029700199999993515,
+    "quality": 0.00044130799999919645,
+    "contract": 0.0001041559999990227
+   }
+  },
+  "ghz-n65-line-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.0004358199999927592,
+    "quality": 0.0006675629999932653,
+    "contract": 0.0001420799999891642
+   }
+  },
+  "ghz-n65-line-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.00039729600007376575,
+    "quality": 0.0006413360001715773,
+    "contract": 0.0001556289998916327
+   }
+  },
+  "ghz-n65-heavy_hex-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.0004744649997974193,
+    "quality": 0.0006904399999712041,
+    "contract": 0.000169789999972636
+   }
+  },
+  "ghz-n65-heavy_hex-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.00048618199999950207,
+    "quality": 0.0006645290000015791,
+    "contract": 0.00014430200000248306
+   }
+  },
+  "qaoa_linear-n5-line-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.006043675000000803,
+    "quality": 0.0006130409999514086,
+    "contract": 2.9101000109221786e-05,
+    "probe": 0.009040610000056404
+   }
+  },
+  "qaoa_linear-n5-line-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.0072692990000007285,
+    "quality": 0.0007652379999996128,
+    "contract": 3.789600000914106e-05,
+    "probe": 0.011766398000006006
+   }
+  },
+  "qaoa_linear-n5-heavy_hex-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.00027593200002229423,
+    "quality": 0.0006502070000351523,
+    "contract": 3.30339998981799e-05,
+    "probe": 0.10550674000000981
+   }
+  },
+  "qaoa_linear-n5-heavy_hex-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.00028733799990732223,
+    "quality": 0.0006051889999980631,
+    "contract": 3.094900000633061e-05,
+    "probe": 0.11546384600001147
+   }
+  },
+  "qaoa_linear-n8-line-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.11374430900013976,
+    "quality": 0.0011126399999739078,
+    "contract": 3.621800010478182e-05,
+    "probe": 0.012454560000151105
+   }
+  },
+  "qaoa_linear-n8-line-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.11267430900011277,
+    "quality": 0.0009631979999085161,
+    "contract": 4.071799980920332e-05,
+    "probe": 0.012205841999957556
+   }
+  },
+  "qaoa_linear-n8-heavy_hex-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.00044864899996355234,
+    "quality": 0.0010015459999976883,
+    "contract": 4.165299992564542e-05,
+    "probe": 0.15272132400014016
+   }
+  },
+  "qaoa_linear-n8-heavy_hex-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.00048303200003374513,
+    "quality": 0.001050219000035213,
+    "contract": 3.762599999390659e-05,
+    "probe": 0.1593415190000087
+   }
+  },
+  "qaoa_linear-n12-line-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 55.499896657000136,
+    "quality": 0.0015353959997810307,
+    "contract": 4.803399997399538e-05,
+    "probe": 0.023430083999983253
+   }
+  },
+  "qaoa_linear-n12-line-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 55.66133595400015,
+    "quality": 0.0015785220000452682,
+    "contract": 4.855599991060444e-05,
+    "probe": 0.02578153900003599
+   }
+  },
+  "qaoa_linear-n12-heavy_hex-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.0006169900000259076,
+    "quality": 0.0014632579999442896,
+    "contract": 4.8300999992534344e-05,
+    "probe": 0.2344516250000197
+   }
+  },
+  "qaoa_linear-n12-heavy_hex-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.0007679010000174458,
+    "quality": 0.0014696809998895333,
+    "contract": 5.4681999927197467e-05,
+    "probe": 0.23477077599977747
+   }
+  },
+  "qaoa_linear-n18-line-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.0008730580000033683,
+    "quality": 0.002174539999998615,
+    "contract": 6.591900000074702e-05,
+    "probe": 0.27890979299999685
+   }
+  },
+  "qaoa_linear-n18-line-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.0009128039999950488,
+    "quality": 0.0021652700000913683,
+    "contract": 6.872099993415759e-05,
+    "probe": 0.2844596149999461
+   }
+  },
+  "qaoa_linear-n18-heavy_hex-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.001097258000072543,
+    "quality": 0.0024321710000094754,
+    "contract": 7.133700000849785e-05,
+    "probe": 0.5553178180000486
+   }
+  },
+  "qaoa_linear-n18-heavy_hex-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.0010057090000046287,
+    "quality": 0.002379847999996798,
+    "contract": 6.783499999585274e-05,
+    "probe": 0.553015840999997
+   }
+  },
+  "qaoa_linear-n27-line-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.001425939999990078,
+    "quality": 0.0033229859998300526,
+    "contract": 7.718699998804368e-05
+   }
+  },
+  "qaoa_linear-n27-line-opt3": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.0016846900000473397,
+    "quality": 0.005314056999850436,
+    "contract": 0.00013314100010575203
+   }
+  },
+  "qaoa_linear-n27-heavy_hex-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.0014612830000260146,
+    "quality": 0.0033322839999527787,
+    "contract": 7.934199993542279e-05
+   }
+  },
+  "qaoa_linear-n27-heavy_hex-opt3": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.001561356999900454,
+    "quality": 0.0038130299999465933,
+    "contract": 0.00014800100007050787
+   }
+  },
+  "qaoa_linear-n40-line-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.0021255400001791713,
+    "quality": 0.004815329999928508,
+    "contract": 9.656399993218656e-05
+   }
+  },
+  "qaoa_linear-n40-line-opt3": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.0020946329998423607,
+    "quality": 0.0049975730000824115,
+    "contract": 0.000152142999922944
+   }
+  },
+  "qaoa_linear-n40-heavy_hex-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.00208939799995278,
+    "quality": 0.005013893000068492,
+    "contract": 9.797099994557357e-05
+   }
+  },
+  "qaoa_linear-n40-heavy_hex-opt3": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.002528118999862272,
+    "quality": 0.00512844100012444,
+    "contract": 0.00016390800010412931
+   }
+  },
+  "qaoa_linear-n65-line-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.003280168999935995,
+    "quality": 0.0079899929999101,
+    "contract": 0.0001444489998903009
+   }
+  },
+  "qaoa_linear-n65-line-opt3": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.0034672730000693264,
+    "quality": 0.008400297999969553,
+    "contract": 0.00022390999993149308
+   }
+  },
+  "qaoa_linear-n65-heavy_hex-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.004573499000002812,
+    "quality": 0.008941685999957372,
+    "contract": 0.00015724599995792232
+   }
+  },
+  "qaoa_linear-n65-heavy_hex-opt3": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.00359001700007866,
+    "quality": 0.00826191100009055,
+    "contract": 0.00023580800007039215
+   }
+  },
+  "qft-n5-line-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.010910373999990952,
+    "quality": 0.0010819189999438095,
+    "contract": 3.6879000049339083e-05,
+    "probe": 0.013461898999935329
+   }
+  },
+  "qft-n5-line-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.010782135999988895,
+    "quality": 0.0011225709999962419,
+    "contract": 4.683700001351099e-05,
+    "probe": 0.013849176000007901
+   }
+  },
+  "qft-n5-heavy_hex-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.0006570139998984814,
+    "quality": 0.0009688600000572478,
+    "contract": 3.865699977723125e-05,
+    "probe": 0.10769753600015974
+   }
+  },
+  "qft-n5-heavy_hex-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.0009901199999831078,
+    "quality": 0.0010063729999956195,
+    "contract": 3.9385000036418205e-05,
+    "probe": 0.11580855199997586
+   }
+  },
+  "qft-n8-line-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.3892305749999423,
+    "quality": 0.0030736039999510467,
+    "contract": 5.0501999908192374e-05,
+    "probe": 0.027824625999983255
+   }
+  },
+  "qft-n8-line-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.314701121999974,
+    "quality": 0.0033239209999464947,
+    "contract": 4.4970999965698866e-05,
+    "probe": 0.02804638099996737
+   }
+  },
+  "qft-n8-heavy_hex-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.0017017929999951775,
+    "quality": 0.002870631999996931,
+    "contract": 7.955400000270174e-05,
+    "probe": 0.6339212060000037
+   }
+  },
+  "qft-n8-heavy_hex-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.0017772190000187038,
+    "quality": 0.002737582999998267,
+    "contract": 4.8105000018949795e-05,
+    "probe": 0.4509285970000292
+   }
+  },
+  "qft-n12-line-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 266.27929675300004,
+    "quality": 0.0068996640000023035,
+    "contract": 5.751599996983714e-05,
+    "probe": 0.07408490700004222
+   }
+  },
+  "qft-n12-line-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 245.75378054700002,
+    "quality": 0.009024168999985704,
+    "contract": 5.518099999335391e-05,
+    "probe": 0.09198070100001132
+   }
+  },
+  "qft-n12-heavy_hex-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.0037844359999326116,
+    "quality": 0.006128488000058496,
+    "contract": 6.322299987004953e-05,
+    "probe": 1.1823483880000367
+   }
+  },
+  "qft-n12-heavy_hex-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.0038902159999452124,
+    "quality": 0.007240535000050841,
+    "contract": 5.719299997508642e-05,
+    "probe": 1.0761950439999737
+   }
+  },
+  "qft-n18-line-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.011275761999968381,
+    "quality": 0.01602154900001551,
+    "contract": 8.109200007311301e-05,
+    "probe": 1.9526298920000045
+   }
+  },
+  "qft-n18-line-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.011318100000039522,
+    "quality": 0.0221319660000745,
+    "contract": 9.819899992180581e-05,
+    "probe": 1.480096924999998
+   }
+  },
+  "qft-n18-heavy_hex-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.00911416900000006,
+    "quality": 0.015523297000001435,
+    "contract": 6.653999999883808e-05,
+    "probe": 3.629419904999999
+   }
+  },
+  "qft-n18-heavy_hex-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.009171272999999758,
+    "quality": 0.017950106999997217,
+    "contract": 6.192299999696615e-05,
+    "probe": 2.683288066000003
+   }
+  },
+  "qft-n27-line-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.02096594400018148,
+    "quality": 0.03668209900001784,
+    "contract": 8.872900002643291e-05
+   }
+  },
+  "qft-n27-line-opt3": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": true,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": true,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.018983578999950623,
+    "quality": 0.04041929999993954,
+    "contract": 0.00017112499995164399
+   }
+  },
+  "qft-n27-heavy_hex-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.020321065999951315,
+    "quality": 0.03343121699992935,
+    "contract": 0.00010097100005168613
+   }
+  },
+  "qft-n27-heavy_hex-opt3": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": true,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": true,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.020876798000017516,
+    "quality": 0.03622361399993679,
+    "contract": 0.00019468399977995432
+   }
+  },
+  "qft-n40-line-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.048064274000125806,
+    "quality": 0.0853375199999391,
+    "contract": 0.00012239800003044365
+   }
+  },
+  "qft-n40-line-opt3": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.0401547629999186,
+    "quality": 0.07799343900001077,
+    "contract": 0.00019468099981168052
+   }
+  },
+  "qft-n40-heavy_hex-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.04376482900000411,
+    "quality": 0.07817939099999904,
+    "contract": 0.000119383999994227
+   }
+  },
+  "qft-n40-heavy_hex-opt3": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": true,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": true,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.04063063900002817,
+    "quality": 0.06738168799984123,
+    "contract": 0.00021239600005173997
+   }
+  },
+  "qft-n65-line-opt1": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.13165519099993617,
+    "quality": 0.23606272699998954,
+    "contract": 0.0002869019999707234
+   }
+  },
+  "qft-n65-line-opt3": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": true,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": true,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.09950009299996054,
+    "quality": 0.17315648799990413,
+    "contract": 0.000322760000017297
+   }
+  },
+  "qft-n65-heavy_hex-opt1": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.11764686799983792,
+    "quality": 0.20196834400007901,
+    "contract": 0.0002869719999125664
+   }
+  },
+  "qft-n65-heavy_hex-opt3": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": true,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": true,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.08845600200015724,
+    "quality": 0.1355186009998306,
+    "contract": 0.00029610700016746705
+   }
+  },
+  "qft-n100-line-opt1": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": true,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": true,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.30295889100011664,
+    "quality": 0.5009567809997861,
+    "contract": 0.0005593999999291555
+   }
+  },
+  "qft-n100-line-opt3": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": true,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": true,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.22032015400009186,
+    "quality": 0.3529956200000015,
+    "contract": 0.0003945099999782542
+   }
+  },
+  "qft-n100-heavy_hex-opt1": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": true,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": true,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.2881108440001299,
+    "quality": 0.4434335220000776,
+    "contract": 0.00036548800017044414
+   }
+  },
+  "qft-n100-heavy_hex-opt3": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": true,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": true,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.18053514200005338,
+    "quality": 0.21981806300004791,
+    "contract": 0.0004267019999133481
+   }
+  },
+  "qft-n127-line-opt1": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": true,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": true,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.5149857339999926,
+    "quality": 0.8364769560000695,
+    "contract": 0.00048122999987754156
+   }
+  },
+  "qft-n127-line-opt3": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.357570983999949,
+    "quality": 0.5526956809999319,
+    "contract": 0.000499349000165239
+   }
+  },
+  "qft-n127-heavy_hex-opt1": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": true,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": true,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.4529813579999882,
+    "quality": 0.7230325880000237,
+    "contract": 0.0005191580000882823
+   }
+  },
+  "qft-n127-heavy_hex-opt3": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": true,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": true,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.28374768799994854,
+    "quality": 0.2872622859999865,
+    "contract": 0.0004896129998996912
+   }
+  },
+  "random_clifford-n5-line-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.008325638000087565,
+    "quality": 0.0006148570000732434,
+    "contract": 3.722999986166542e-05,
+    "probe": 0.009550846999900386
+   }
+  },
+  "random_clifford-n5-line-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.008295941999904244,
+    "quality": 0.0006389530001342791,
+    "contract": 3.541899991432729e-05,
+    "probe": 0.01009826599988628
+   }
+  },
+  "random_clifford-n5-heavy_hex-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.0002780979999670308,
+    "quality": 0.0005713699999887467,
+    "contract": 4.202399998121109e-05,
+    "probe": 0.10429632800003219
+   }
+  },
+  "random_clifford-n5-heavy_hex-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.00025530899984005373,
+    "quality": 0.0005410300000221469,
+    "contract": 3.61760000942013e-05,
+    "probe": 0.0892758509999112
+   }
+  },
+  "random_clifford-n8-line-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.28185912499998267,
+    "quality": 0.0021111830001245835,
+    "contract": 4.546899981505703e-05,
+    "probe": 0.019942222000054244
+   }
+  },
+  "random_clifford-n8-line-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.39268779999997605,
+    "quality": 0.005005972999924779,
+    "contract": 4.6852999957991415e-05,
+    "probe": 0.03226930599998923
+   }
+  },
+  "random_clifford-n8-heavy_hex-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.0007777299999816023,
+    "quality": 0.0019923930001368717,
+    "contract": 8.955899988905003e-05,
+    "probe": 0.39660442900003545
+   }
+  },
+  "random_clifford-n8-heavy_hex-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.0008748919999561622,
+    "quality": 0.0022164849999626313,
+    "contract": 4.437400002643699e-05,
+    "probe": 0.40943976299990936
+   }
+  },
+  "random_clifford-n12-line-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 245.891541689,
+    "quality": 0.005802979000009145,
+    "contract": 5.466700002898506e-05,
+    "probe": 0.06192862599999671
+   }
+  },
+  "random_clifford-n12-line-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 261.578315663,
+    "quality": 0.006624620000138748,
+    "contract": 6.171999984871945e-05,
+    "probe": 0.07258808799997496
+   }
+  },
+  "random_clifford-n12-heavy_hex-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.003437993999995115,
+    "quality": 0.006701342999988924,
+    "contract": 5.645000000242817e-05,
+    "probe": 1.1361841470000087
+   }
+  },
+  "random_clifford-n12-heavy_hex-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.002014359999975568,
+    "quality": 0.005179886999940209,
+    "contract": 5.9028999885413214e-05,
+    "probe": 1.1628626809999787
+   }
+  },
+  "random_clifford-n18-line-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.005289532999995572,
+    "quality": 0.014397015999975338,
+    "contract": 7.692700000916375e-05,
+    "probe": 3.0733291909999707
+   }
+  },
+  "random_clifford-n18-line-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.0065129159997923125,
+    "quality": 0.01840668799991363,
+    "contract": 7.365399983427778e-05,
+    "probe": 3.162835030999986
+   }
+  },
+  "random_clifford-n18-heavy_hex-opt1": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.004437191999841161,
+    "quality": 0.011561510999854363,
+    "contract": 7.6724000109607e-05,
+    "probe": 4.191581197999994
+   }
+  },
+  "random_clifford-n18-heavy_hex-opt3": {
+   "status": "unchanged",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false,
+    "probe": false
+   },
+   "cost": {
+    "output": 0.004892830000002846,
+    "quality": 0.01451681600001109,
+    "contract": 7.819100000006074e-05,
+    "probe": 4.100008073000012
+   }
+  },
+  "random_clifford-n27-line-opt1": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.019274957999869002,
+    "quality": 0.04982885599997644,
+    "contract": 0.0001662940001097013
+   }
+  },
+  "random_clifford-n27-line-opt3": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.018708209000124043,
+    "quality": 0.05135690500014789,
+    "contract": 0.00016241499997704523
+   }
+  },
+  "random_clifford-n27-heavy_hex-opt1": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.012132678000170927,
+    "quality": 0.031224390000033964,
+    "contract": 0.00018047799994747038
+   }
+  },
+  "random_clifford-n27-heavy_hex-opt3": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.013621811999882993,
+    "quality": 0.03916775700008657,
+    "contract": 0.00019381700008125335
+   }
+  },
+  "random_clifford-n40-line-opt1": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.05149933699999565,
+    "quality": 0.14042686800007687,
+    "contract": 0.00036946799991710577
+   }
+  },
+  "random_clifford-n40-line-opt3": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.051337050000029194,
+    "quality": 0.1569213379998473,
+    "contract": 0.0002229470001111622
+   }
+  },
+  "random_clifford-n40-heavy_hex-opt1": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.029721651000045313,
+    "quality": 0.07745353099994645,
+    "contract": 0.00019718500016097096
+   }
+  },
+  "random_clifford-n40-heavy_hex-opt3": {
+   "status": "changed",
+   "detects": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "alarms": {
+    "output": false,
+    "quality": false,
+    "contract": false
+   },
+   "cost": {
+    "output": 0.029966701999910583,
+    "quality": 0.08487755999999536,
+    "contract": 0.00020623799991881242
+   }
+  }
+ },
+ "determinism": {
+  "fixed_cpu_per_launch_s": [
+   3.2727425029999964,
+   3.1507463140000205,
+   3.21275924199999
+  ],
+  "per_unit": {
+   "ghz-n40-line-opt3": {
+    "detects": false,
+    "cost": 0.013949226000000037
+   },
+   "ghz-n40-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 0.19619946300000002
+   },
+   "ghz-n65-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 0.3205780730000001
+   },
+   "qft-n18-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 0.34694523599999993
+   },
+   "qft-n40-line-opt3": {
+    "detects": false,
+    "cost": 1.3975754599999999
+   },
+   "qaoa_linear-n18-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 0.02919698699999973
+   },
+   "qaoa_linear-n18-line-opt1": {
+    "detects": false,
+    "cost": 0.008719658999999824
+   },
+   "ghz-n40-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.010320423000000245
+   },
+   "qft-n40-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.3960931699999999
+   },
+   "ghz-n8-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 0.007809642999999866
+   },
+   "qft-n18-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.065778259
+   },
+   "qft-n8-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.016814776000000142
+   },
+   "qft-n65-line-opt1": {
+    "detects": false,
+    "cost": 1.377313105
+   },
+   "qft-n100-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 5.356736802
+   },
+   "random_clifford-n12-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.02716332399999999
+   },
+   "random_clifford-n18-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 0.4070584109999995
+   },
+   "ghz-n65-line-opt1": {
+    "detects": false,
+    "cost": 0.007710867999999316
+   },
+   "qaoa_linear-n5-line-opt3": {
+    "detects": false,
+    "cost": 0.008460966000000347
+   },
+   "ghz-n18-line-opt3": {
+    "detects": false,
+    "cost": 0.009060446000000333
+   },
+   "qft-n100-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 3.455102933
+   },
+   "qaoa_linear-n65-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 0.34718857500000055
+   },
+   "qaoa_linear-n65-line-opt3": {
+    "detects": false,
+    "cost": 0.028030829999999618
+   },
+   "ghz-n8-line-opt1": {
+    "detects": false,
+    "cost": 0.005078683000000694
+   },
+   "ghz-n12-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.006791536999998904
+   },
+   "qft-n100-line-opt1": {
+    "detects": false,
+    "cost": 4.037084417
+   },
+   "random_clifford-n12-line-opt1": {
+    "detects": false,
+    "cost": 0.028938721999999473
+   },
+   "qft-n100-line-opt3": {
+    "detects": false,
+    "cost": 8.174844380000001
+   },
+   "qft-n12-line-opt3": {
+    "detects": false,
+    "cost": 0.11226905400000042
+   },
+   "qft-n12-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 0.14112692300000163
+   },
+   "ghz-n27-line-opt1": {
+    "detects": false,
+    "cost": 0.004898494999999059
+   },
+   "qaoa_linear-n65-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.026888655000000483
+   },
+   "qaoa_linear-n5-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 0.010234775999999002
+   },
+   "random_clifford-n40-line-opt1": {
+    "detects": false,
+    "cost": 0.6431668070000001
+   },
+   "qft-n65-line-opt3": {
+    "detects": false,
+    "cost": 3.530614847999999
+   },
+   "qft-n5-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 0.02108741800000047
+   },
+   "qft-n65-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 1.2825783449999992
+   },
+   "qft-n5-line-opt3": {
+    "detects": false,
+    "cost": 0.016279996999999824
+   },
+   "qft-n127-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 8.262625500999999
+   },
+   "ghz-n12-line-opt1": {
+    "detects": false,
+    "cost": 0.004502623000000483
+   },
+   "random_clifford-n8-line-opt3": {
+    "detects": false,
+    "cost": 0.04406127900000101
+   },
+   "ghz-n18-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 0.024413663999999002
+   },
+   "ghz-n5-line-opt1": {
+    "detects": false,
+    "cost": 0.003757476000000537
+   },
+   "ghz-n12-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 0.008973719999998409
+   },
+   "qaoa_linear-n8-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 0.011250277000000253
+   },
+   "qft-n5-line-opt1": {
+    "detects": false,
+    "cost": 0.00797449199999889
+   },
+   "qft-n8-line-opt1": {
+    "detects": false,
+    "cost": 0.014724192000000969
+   },
+   "qft-n18-line-opt3": {
+    "detects": false,
+    "cost": 0.2497290339999978
+   },
+   "qft-n127-line-opt1": {
+    "detects": false,
+    "cost": 6.960590827999997
+   },
+   "qft-n8-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 0.05079541099999929
+   },
+   "qaoa_linear-n40-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.017013283000000712
+   },
+   "random_clifford-n27-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 0.9081901620000039
+   },
+   "ghz-n40-line-opt1": {
+    "detects": false,
+    "cost": 0.005898132000002221
+   },
+   "qft-n127-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 6.091705217999998
+   },
+   "qft-n65-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 4.079759547999998
+   },
+   "ghz-n18-line-opt1": {
+    "detects": false,
+    "cost": 0.004967730000000614
+   },
+   "ghz-n18-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.010982996000002743
+   },
+   "qft-n40-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 1.5842018429999989
+   },
+   "qft-n8-line-opt3": {
+    "detects": false,
+    "cost": 0.04344173399999818
+   },
+   "random_clifford-n18-line-opt1": {
+    "detects": false,
+    "cost": 0.0669859129999999
+   },
+   "random_clifford-n40-line-opt3": {
+    "detects": false,
+    "cost": 3.4661224110000006
+   },
+   "qaoa_linear-n40-line-opt3": {
+    "detects": false,
+    "cost": 0.017356700000000558
+   },
+   "ghz-n27-line-opt3": {
+    "detects": false,
+    "cost": 0.007669796999998368
+   },
+   "ghz-n5-line-opt3": {
+    "detects": false,
+    "cost": 0.006344090999998997
+   },
+   "random_clifford-n5-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.010062115000000205
+   },
+   "qaoa_linear-n12-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.009284306000001408
+   },
+   "qft-n27-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.17109197699999612
+   },
+   "qaoa_linear-n18-line-opt3": {
+    "detects": false,
+    "cost": 0.014884152000000483
+   },
+   "random_clifford-n27-line-opt3": {
+    "detects": false,
+    "cost": 1.0859039489999986
+   },
+   "qft-n12-line-opt1": {
+    "detects": false,
+    "cost": 0.0324278759999963
+   },
+   "qft-n12-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.03169240799999784
+   },
+   "ghz-n27-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 0.15200078900000236
+   },
+   "random_clifford-n40-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 2.4192042550000004
+   },
+   "qaoa_linear-n8-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.008062143999996607
+   },
+   "ghz-n5-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 0.007397711999999501
+   },
+   "random_clifford-n5-line-opt1": {
+    "detects": false,
+    "cost": 0.0066156600000013555
+   },
+   "random_clifford-n5-line-opt3": {
+    "detects": false,
+    "cost": 0.013894943000003934
+   },
+   "qaoa_linear-n18-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.0145784130000024
+   },
+   "qaoa_linear-n27-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 0.1620088920000029
+   },
+   "random_clifford-n8-line-opt1": {
+    "detects": false,
+    "cost": 0.012001258000005066
+   },
+   "random_clifford-n18-line-opt3": {
+    "detects": false,
+    "cost": 0.497620886
+   },
+   "random_clifford-n5-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 0.017427110999996387
+   },
+   "qaoa_linear-n5-line-opt1": {
+    "detects": false,
+    "cost": 0.005637775000000289
+   },
+   "qaoa_linear-n12-line-opt1": {
+    "detects": false,
+    "cost": 0.007206521000004074
+   },
+   "ghz-n8-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.005384947999996115
+   },
+   "random_clifford-n8-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.014333570999998102
+   },
+   "qft-n127-line-opt3": {
+    "detects": false,
+    "cost": 12.507779101
+   },
+   "qaoa_linear-n40-line-opt1": {
+    "detects": false,
+    "cost": 0.013205533999997243
+   },
+   "qft-n40-line-opt1": {
+    "detects": false,
+    "cost": 0.44828565799999964
+   },
+   "qft-n5-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.00995222499999926
+   },
+   "ghz-n27-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.009782053999998652
+   },
+   "random_clifford-n18-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.05708831499999789
+   },
+   "random_clifford-n12-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 0.1163725210000024
+   },
+   "qft-n27-line-opt1": {
+    "detects": false,
+    "cost": 0.1745026619999983
+   },
+   "ghz-n8-line-opt3": {
+    "detects": false,
+    "cost": 0.006576261999999389
+   },
+   "random_clifford-n27-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.15772325400000042
+   },
+   "random_clifford-n27-line-opt1": {
+    "detects": false,
+    "cost": 0.2039404289999993
+   },
+   "random_clifford-n40-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.38969383000000235
+   },
+   "qft-n27-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 0.844283769999997
+   },
+   "qaoa_linear-n12-line-opt3": {
+    "detects": false,
+    "cost": 0.011955333000003066
+   },
+   "qaoa_linear-n27-line-opt1": {
+    "detects": false,
+    "cost": 0.009553306000000816
+   },
+   "qaoa_linear-n12-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 0.013257205999995136
+   },
+   "ghz-n65-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.015501452999998833
+   },
+   "random_clifford-n12-line-opt3": {
+    "detects": false,
+    "cost": 0.1261187599999971
+   },
+   "qaoa_linear-n40-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 0.20023171800000128
+   },
+   "ghz-n12-line-opt3": {
+    "detects": false,
+    "cost": 0.007559093999997657
+   },
+   "qaoa_linear-n65-line-opt1": {
+    "detects": false,
+    "cost": 0.017659465999997792
+   },
+   "ghz-n5-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.005290798000000763
+   },
+   "qaoa_linear-n27-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.014924463999999915
+   },
+   "qft-n27-line-opt3": {
+    "detects": false,
+    "cost": 0.6122547869999977
+   },
+   "qaoa_linear-n5-heavy_hex-opt1": {
+    "detects": false,
+    "cost": 0.0072700050000023
+   },
+   "qaoa_linear-n27-line-opt3": {
+    "detects": false,
+    "cost": 0.012962085000001622
+   },
+   "qft-n18-line-opt1": {
+    "detects": false,
+    "cost": 0.07486824699999417
+   },
+   "ghz-n65-line-opt3": {
+    "detects": false,
+    "cost": 0.015265597999995606
+   },
+   "random_clifford-n8-heavy_hex-opt3": {
+    "detects": false,
+    "cost": 0.045356536999999975
+   },
+   "qaoa_linear-n8-line-opt3": {
+    "detects": false,
+    "cost": 0.009975408000002517
+   },
+   "qaoa_linear-n8-line-opt1": {
+    "detects": false,
+    "cost": 0.006112652999998858
+   }
+  }
+ },
+ "wall_s": 133.84117603302002
+}

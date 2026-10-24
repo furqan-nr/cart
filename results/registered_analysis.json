@@ -1,0 +1,3145 @@
+{
+ "overall": {
+  "claim_A": true,
+  "claim_B": true,
+  "claim_C": false
+ },
+ "cohorts": [
+  {
+   "cohort": "out_C261",
+   "speed_factor_raw": 0.414881574940982,
+   "speed_factor_applied": 0.414881574940982,
+   "full_suite_estimate_s": 599.1959589612705,
+   "budgets_s": {
+    "0.02": 11.983919179225412,
+    "0.05": 29.959797948063528,
+    "0.1": 59.919595896127056
+   },
+   "excluded_operators": [],
+   "n_events": 18,
+   "n_detectable": 18,
+   "claim_A": {
+    "supported": true,
+    "detected_at_5pct": {
+     "observability": 18,
+     "output_only": 9,
+     "all_checks": 18,
+     "cheapest_items": 16
+    }
+   },
+   "claim_B": {
+    "supported": true,
+    "wins": 14,
+    "losses": 4,
+    "ties": 0,
+    "p": 0.01544189453125
+   },
+   "claim_C": {
+    "supported": false,
+    "spend_ratio": {
+     "0.02": {
+      "mean": 2.1771038898160713,
+      "max": 2.278679958167364
+     },
+     "0.05": {
+      "mean": 1.7041983411221453,
+      "max": 1.7687566362384481
+     },
+     "0.1": {
+      "mean": 1.5921589480796219,
+      "max": 1.6457316946186962
+     }
+    }
+   },
+   "detection_by_budget": {
+    "0.02": {
+     "output_only": 9,
+     "all_checks": 15,
+     "observability": 18,
+     "cheapest_items": 16
+    },
+    "0.05": {
+     "output_only": 9,
+     "all_checks": 18,
+     "observability": 18,
+     "cheapest_items": 16
+    },
+    "0.1": {
+     "output_only": 10,
+     "all_checks": 18,
+     "observability": 18,
+     "cheapest_items": 18
+    }
+   },
+   "events": [
+    {
+     "event": "cp_rule_missing_phase",
+     "group": "invisible",
+     "detectable": true,
+     "units_detecting": 12,
+     "checks_detecting": [
+      "probe"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.3381776208736964
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.313631398821746
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.0439886951557344
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.724310014524926
+       },
+       "random_items": {
+        "detected": 0.8,
+        "spend_ratio": 1.7644349152074335
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.451367358931375
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.9249351141476487
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.7181490521141758
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.638356126736517
+       },
+       "random_items": {
+        "detected": 0.8,
+        "spend_ratio": 1.6520191942231772
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.5607478105012265
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.6546531006629657
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.6023677267523635
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6023677267523628
+       },
+       "random_items": {
+        "detected": 0.95,
+        "spend_ratio": 1.8072564892606047
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": Infinity,
+      "all_checks": 8.079052396999087,
+      "observability": 0.08046915299850355,
+      "cheapest_items": 0.4927034969981854
+     }
+    },
+    {
+     "event": "cp_small_angle_sign_flip",
+     "group": "visible",
+     "detectable": true,
+     "units_detecting": 16,
+     "checks_detecting": [
+      "output",
+      "probe"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.3466532421193123
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.2896696967519587
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.012266741651611
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7333051600519995
+       },
+       "random_items": {
+        "detected": 0.95,
+        "spend_ratio": 1.712025004959667
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.4504577567689838
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.8933367926689615
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.6512112934391538
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.645426156426568
+       },
+       "random_items": {
+        "detected": 0.95,
+        "spend_ratio": 1.6006446686316274
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.560293009420031
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.569637021485278
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.565952494116569
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.5659524941165708
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.7594932623304462
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": 0.051912537000426084,
+      "all_checks": 7.939483992999591,
+      "observability": 0.06755026500026418,
+      "cheapest_items": 0.4150085409994766
+     }
+    },
+    {
+     "event": "cp_swap_detour",
+     "group": "visible",
+     "detectable": true,
+     "units_detecting": 2,
+     "checks_detecting": [
+      "quality"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.3704425904731463
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.299597613840643
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.038052344539988
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7637124322099909
+       },
+       "random_items": {
+        "detected": 0.15,
+        "spend_ratio": 1.707352456475223
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.4608171870140783
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.9008719472249511
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.6486490506252698
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.661185383969412
+       },
+       "random_items": {
+        "detected": 0.3,
+        "spend_ratio": 1.5936947556179168
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.5654727245425781
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.5541319441878856
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.5653179762359317
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.5653179762359315
+       },
+       "random_items": {
+        "detected": 0.65,
+        "spend_ratio": 1.7508333310344082
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": 0.02187996900142508,
+      "all_checks": 7.890684365001267,
+      "observability": 0.013593855000976873,
+      "cheapest_items": 0.05221021200122067
+     }
+    },
+    {
+     "event": "drop_first_rzz",
+     "group": "visible",
+     "detectable": true,
+     "units_detecting": 16,
+     "checks_detecting": [
+      "output",
+      "probe"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.3395304273931277
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.281493611571772
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.9972323474514806
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7265658902191148
+       },
+       "random_items": {
+        "detected": 0.9,
+        "spend_ratio": 1.7058882399664173
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.4440511551176378
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.8868006418797498
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.6334474351539112
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6439688739014582
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.5942295618681077
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.557089708594358
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.549949607487208
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.5554459487604397
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.5554459487604404
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.7521429336272123
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": 0.02835305999796134,
+      "all_checks": 7.394159296999632,
+      "observability": 0.04764419799713693,
+      "cheapest_items": 0.20914485099409674
+     }
+    },
+    {
+     "event": "drop_routed_swap",
+     "group": "visible",
+     "detectable": true,
+     "units_detecting": 36,
+     "checks_detecting": [
+      "output",
+      "probe"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.3504710440683807
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.3063889800686592
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.0298627767924176
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7457501415118073
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.7188373319771475
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.4507182725112289
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.8934781205914677
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.6449456753156668
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.650519079057852
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.5984198473873417
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.5604232672911535
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.5499028908504373
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.5606549884800216
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.5606549884800216
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.7535016350993164
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": 0.03849088399983458,
+      "all_checks": 8.031236108999266,
+      "observability": 0.038495199999729834,
+      "cheapest_items": 0.3207557990002492
+     }
+    },
+    {
+     "event": "final_layout_record_wide",
+     "group": "invisible",
+     "detectable": true,
+     "units_detecting": 16,
+     "checks_detecting": [
+      "probe"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.35363609962597
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.557288000083187
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.2657818135217282
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7412105085099874
+       },
+       "random_items": {
+        "detected": 0.75,
+        "spend_ratio": 1.9488496163206825
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.4609921318856167
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.9944607908767795
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.734230743213643
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6608137903085922
+       },
+       "random_items": {
+        "detected": 0.95,
+        "spend_ratio": 1.6930825992630112
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.5655601969783473
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.596980846547833
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.6120713684628283
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6120713684628274
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.798846134178785
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": Infinity,
+      "all_checks": 0.2039202769997246,
+      "observability": 16.768519165002143,
+      "cheapest_items": 4.406364079001612
+     }
+    },
+    {
+     "event": "hash_order_rz_4pi_heavyhex",
+     "group": "invisible",
+     "detectable": true,
+     "units_detecting": 29,
+     "checks_detecting": [
+      "determinism"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.340930755846328
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.533520350640625
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.244183362452984
+       },
+       "cheapest_items": {
+        "detected": false,
+        "spend_ratio": 1.7349987650153005
+       },
+       "random_items": {
+        "detected": 0.85,
+        "spend_ratio": 1.9311119944732102
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.444611286498918
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.9797928976965415
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.7213565129978738
+       },
+       "cheapest_items": {
+        "detected": false,
+        "spend_ratio": 1.6473420238199323
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.680149174574226
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.5573697742849981
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.584912251805394
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.5977220787162734
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.5977220787162738
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.7878239678085621
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": Infinity,
+      "all_checks": 10.270268618999271,
+      "observability": 10.447203239999581,
+      "cheapest_items": 77.88078807999912
+     }
+    },
+    {
+     "event": "hash_order_rz_shift_line",
+     "group": "invisible",
+     "detectable": true,
+     "units_detecting": 13,
+     "checks_detecting": [
+      "determinism"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.340930755846328
+       },
+       "all_checks": {
+        "detected": false,
+        "spend_ratio": 2.557992014510704
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.2716114593121506
+       },
+       "cheapest_items": {
+        "detected": false,
+        "spend_ratio": 1.7349987650153005
+       },
+       "random_items": {
+        "detected": 0.55,
+        "spend_ratio": 1.954861728825028
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.444611286498918
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.9916821012758743
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.7320611050834467
+       },
+       "cheapest_items": {
+        "detected": false,
+        "spend_ratio": 1.6473420238199323
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.695839334409922
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.5573697742849981
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.5933150171690493
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.6062516660133273
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6062516660133281
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.7992433356108153
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": Infinity,
+      "all_checks": 41.78004826299994,
+      "observability": 13.446921892999457,
+      "cheapest_items": 79.16635705499945
+     }
+    },
+    {
+     "event": "heavy_hex_trivial_layout",
+     "group": "visible",
+     "detectable": true,
+     "units_detecting": 58,
+     "checks_detecting": [
+      "quality"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.3594063867888107
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.693822838439111
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.244843305154926
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 2.2208503688960306
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.6863884717393092
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.4576946262691113
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.0270317961182713
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.6915728541580424
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.8774357470137477
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.5085677890702478
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.5639114441700948
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.4947853984575032
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.5804735964870837
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.5804735964870837
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.6623498320637156
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": 0.003174499999886393,
+      "all_checks": 7.333096988000207,
+      "observability": 0.005645442000286494,
+      "cheapest_items": 0.00811830300034444
+     }
+    },
+    {
+     "event": "input_count_includes_ancillas",
+     "group": "invisible",
+     "detectable": true,
+     "units_detecting": 56,
+     "checks_detecting": [
+      "contract",
+      "determinism"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.3496311803440662
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.317611315265671
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.0412432774416627
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7382211584928087
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.7409724016553147
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.449570254588849
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.905597837774773
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.6535637708864621
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6501055776709697
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.6130932434666896
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.5598492583299635
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.5630728875467903
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.5675177570092018
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.5675177570092023
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.7634957192072291
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": Infinity,
+      "all_checks": 7.726374349001649,
+      "observability": 0.00517788200090763,
+      "cheapest_items": 0.007650743000965576
+     }
+    },
+    {
+     "event": "input_registers_dropped",
+     "group": "invisible",
+     "detectable": true,
+     "units_detecting": 58,
+     "checks_detecting": [
+      "contract"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.341963782757321
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.5445460012670864
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.2550028198501018
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7401300012236003
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.9331444599118328
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.4476891453406506
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.9874550522080638
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.7266245301348129
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6529934732491043
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.6942161182559734
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.558598413829518
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.5882223466925034
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.6032483696576356
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6032483696576358
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.8158743749018906
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": Infinity,
+      "all_checks": 0.20423329499999454,
+      "observability": 0.0008663839998916956,
+      "cheapest_items": 0.0008663839998916956
+     }
+    },
+    {
+     "event": "phase_drop_after_translation_wide",
+     "group": "invisible",
+     "detectable": true,
+     "units_detecting": 14,
+     "checks_detecting": [
+      "probe"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.344666295975681
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.5052125011866893
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.216815804136882
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7343517594841749
+       },
+       "random_items": {
+        "detected": 0.75,
+        "spend_ratio": 1.9072342571053515
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.4517733257547352
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.9656807540590384
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.7086113315832607
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6471146601706228
+       },
+       "random_items": {
+        "detected": 0.9,
+        "spend_ratio": 1.6682293528378453
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.5609507939129068
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.5710463818747549
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.5922282212549577
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.592228221254958
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.7810614639625786
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": Infinity,
+      "all_checks": 0.19681228000035844,
+      "observability": 16.243971884001866,
+      "cheapest_items": 4.381023981002279
+     }
+    },
+    {
+     "event": "rz_canonicalize_without_phase",
+     "group": "invisible",
+     "detectable": true,
+     "units_detecting": 8,
+     "checks_detecting": [
+      "probe"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.3387081027558452
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.559735175382145
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.278679958167364
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7331787106846517
+       },
+       "random_items": {
+        "detected": 0.45,
+        "spend_ratio": 1.9612973037480792
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.4425048778005385
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.9958206079578649
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.742759890254008
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6469602117656756
+       },
+       "random_items": {
+        "detected": 0.75,
+        "spend_ratio": 1.7004198341428558
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.5563165699358081
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.6035415744219088
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.6106707939303366
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6106707939303362
+       },
+       "random_items": {
+        "detected": 0.95,
+        "spend_ratio": 1.8028848428337292
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": Infinity,
+      "all_checks": 20.233557098000592,
+      "observability": 14.752359427998075,
+      "cheapest_items": 3.1638947299979883
+     }
+    },
+    {
+     "event": "small_drop_opt_loop",
+     "group": "visible",
+     "detectable": true,
+     "units_detecting": 13,
+     "checks_detecting": [
+      "quality"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.336884676323246
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.543405724718506
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.2373532131694436
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7426488799428559
+       },
+       "random_items": {
+        "detected": 0.7,
+        "spend_ratio": 1.9372979392498406
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.4429928546896853
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.9808199403707298
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.7189695391230744
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6504020697909545
+       },
+       "random_items": {
+        "detected": 0.8,
+        "spend_ratio": 1.6849322199805792
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.5565605583803814
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.5841352295758355
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.5967779217480857
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.5967779217480862
+       },
+       "random_items": {
+        "detected": 0.85,
+        "spend_ratio": 1.7941475010356231
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": 0.017202114000106405,
+      "all_checks": 10.79089351000012,
+      "observability": 0.010530888001085259,
+      "cheapest_items": 0.03759487900123304
+     }
+    },
+    {
+     "event": "wide_drop_opt_loop",
+     "group": "visible",
+     "detectable": true,
+     "units_detecting": 12,
+     "checks_detecting": [
+      "quality"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.356301124525031
+       },
+       "all_checks": {
+        "detected": false,
+        "spend_ratio": 2.5345103185987643
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.2404013133317755
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7359687453552999
+       },
+       "random_items": {
+        "detected": 0.75,
+        "spend_ratio": 1.8974043489059622
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.458314137556613
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.96544616552747
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.7014980133500552
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6609052071466157
+       },
+       "random_items": {
+        "detected": 0.9,
+        "spend_ratio": 1.6019375639631692
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.5642211998138453
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.5126443176139306
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.5756296225639572
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.5756296225639561
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.7097861010127664
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": 5.099675078000111,
+      "all_checks": 56.13004534699904,
+      "observability": 26.282064638998236,
+      "cheapest_items": 12.294651340998232
+     }
+    },
+    {
+     "event": "wide_leaky_basis_h",
+     "group": "visible",
+     "detectable": true,
+     "units_detecting": 36,
+     "checks_detecting": [
+      "output"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.3425558805411844
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.5619742521480666
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.2765844378601
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7352313851588115
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.9708924510726142
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.4482213376810738
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.9941570920327374
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.7451659734366876
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6484928493715514
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.7089271561278558
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.5591747998760759
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.6112746530929076
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.6138943770688778
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6138943770688798
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.8108921898689376
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": 0.14396577399970312,
+      "all_checks": 16.478380377999663,
+      "observability": 10.875195244999901,
+      "cheapest_items": 0.02357721900028764
+     }
+    },
+    {
+     "event": "wide_no_elide_permutations",
+     "group": "visible",
+     "detectable": true,
+     "units_detecting": 11,
+     "checks_detecting": [
+      "quality"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.3468406331528684
+       },
+       "all_checks": {
+        "detected": false,
+        "spend_ratio": 2.5280213115521315
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.2388654611014873
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7392167831982366
+       },
+       "random_items": {
+        "detected": 0.55,
+        "spend_ratio": 1.9584865388225237
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.4502047585340738
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.0293871345661265
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.7687566362384481
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6706764559884344
+       },
+       "random_items": {
+        "detected": 0.9,
+        "spend_ratio": 1.7704847567714794
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.560166510302576
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.6581209682594522
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.6457316946186962
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6457316946186953
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.8857044588355316
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": 2.574242707000188,
+      "all_checks": 39.758904114999886,
+      "observability": 18.578619520998807,
+      "cheapest_items": 6.493355923998745
+     }
+    },
+    {
+     "event": "wide_rz_sign_flip",
+     "group": "visible",
+     "detectable": true,
+     "units_detecting": 30,
+     "checks_detecting": [
+      "output",
+      "probe"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.353290192753359
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.5359793248338725
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.255100885597449
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.743363622079101
+       },
+       "random_items": {
+        "detected": 0.95,
+        "spend_ratio": 1.9376845949908086
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.4542566046180558
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.9863168608867288
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.7339967330906214
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6547601353967247
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.6931203689535606
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.5704779944965532
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.5950351347108052
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.606904463556608
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6069044635566085
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.8034849789821985
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": 69.11008196799474,
+      "all_checks": 0.19925024499980282,
+      "observability": 11.075366865999715,
+      "cheapest_items": 0.405041832999828
+     }
+    }
+   ]
+  },
+  {
+   "cohort": "out_C252",
+   "speed_factor_raw": 0.4190727533874949,
+   "speed_factor_applied": 0.4190727533874949,
+   "full_suite_estimate_s": 605.2491012074485,
+   "budgets_s": {
+    "0.02": 12.104982024148969,
+    "0.05": 30.262455060372424,
+    "0.1": 60.52491012074485
+   },
+   "excluded_operators": [],
+   "n_events": 18,
+   "n_detectable": 18,
+   "claim_A": {
+    "supported": true,
+    "detected_at_5pct": {
+     "observability": 18,
+     "output_only": 9,
+     "all_checks": 18,
+     "cheapest_items": 16
+    }
+   },
+   "claim_B": {
+    "supported": true,
+    "wins": 14,
+    "losses": 4,
+    "ties": 0,
+    "p": 0.01544189453125
+   },
+   "claim_C": {
+    "supported": false,
+    "spend_ratio": {
+     "0.02": {
+      "mean": 2.1475059777476617,
+      "max": 2.4295481195531816
+     },
+     "0.05": {
+      "mean": 1.703799008972697,
+      "max": 1.8423696302486958
+     },
+     "0.1": {
+      "mean": 1.6002088109838353,
+      "max": 1.6814709848716305
+     }
+    }
+   },
+   "detection_by_budget": {
+    "0.02": {
+     "output_only": 9,
+     "all_checks": 15,
+     "observability": 18,
+     "cheapest_items": 16
+    },
+    "0.05": {
+     "output_only": 9,
+     "all_checks": 18,
+     "observability": 18,
+     "cheapest_items": 16
+    },
+    "0.1": {
+     "output_only": 10,
+     "all_checks": 18,
+     "observability": 18,
+     "cheapest_items": 18
+    }
+   },
+   "events": [
+    {
+     "event": "cp_rule_missing_phase",
+     "group": "invisible",
+     "detectable": true,
+     "units_detecting": 12,
+     "checks_detecting": [
+      "probe"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.3390433544352323
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.3668476473436355
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.068600860541205
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.753315629106247
+       },
+       "random_items": {
+        "detected": 0.8,
+        "spend_ratio": 1.791574681555381
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.4308129852192197
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.9826880486494225
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.7518615785212182
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6653485420284047
+       },
+       "random_items": {
+        "detected": 0.8,
+        "spend_ratio": 1.684416770539764
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.5909061153977802
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.6924848369808896
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.6286171773463827
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6286171773463838
+       },
+       "random_items": {
+        "detected": 0.95,
+        "spend_ratio": 1.8230003734136588
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": Infinity,
+      "all_checks": 8.197032996999582,
+      "observability": 0.07982939699864744,
+      "cheapest_items": 0.49570582099784133
+     }
+    },
+    {
+     "event": "cp_small_angle_sign_flip",
+     "group": "visible",
+     "detectable": true,
+     "units_detecting": 16,
+     "checks_detecting": [
+      "output",
+      "probe"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.3517744937874787
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.278199423012972
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.9651541911869446
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.766667638773596
+       },
+       "random_items": {
+        "detected": 0.95,
+        "spend_ratio": 1.6672755152908036
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.4375498007088472
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.9093863055963254
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.6401983292160527
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6737463231238607
+       },
+       "random_items": {
+        "detected": 0.95,
+        "spend_ratio": 1.5841122021118903
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.5942745231425939
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.571552611532055
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.566772916800995
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.5667729168009938
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.7369356139327128
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": 0.05249949199973969,
+      "all_checks": 7.37807318599889,
+      "observability": 0.0684587439994715,
+      "cheapest_items": 0.4198496689965623
+     }
+    },
+    {
+     "event": "cp_swap_detour",
+     "group": "visible",
+     "detectable": true,
+     "units_detecting": 2,
+     "checks_detecting": [
+      "quality"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.3641173829965256
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.3075707501483023
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.984967865716238
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7894710825507412
+       },
+       "random_items": {
+        "detected": 0.15,
+        "spend_ratio": 1.6765367515468754
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.4488169114016318
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.932643779241707
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.6465783660842903
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6999361804049835
+       },
+       "random_items": {
+        "detected": 0.3,
+        "spend_ratio": 1.5876774613493605
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.5999080784889863
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.5680664742445891
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.5792834252263697
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.5792834252263688
+       },
+       "random_items": {
+        "detected": 0.65,
+        "spend_ratio": 1.7376148804144425
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": 0.02034540199922219,
+      "all_checks": 7.450710413998808,
+      "observability": 0.01362794100020892,
+      "cheapest_items": 0.052128834999670914
+     }
+    },
+    {
+     "event": "drop_first_rzz",
+     "group": "visible",
+     "detectable": true,
+     "units_detecting": 16,
+     "checks_detecting": [
+      "output",
+      "probe"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.3503409097503114
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.274613047922398
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.96030888271081
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7648911330371166
+       },
+       "random_items": {
+        "detected": 0.9,
+        "spend_ratio": 1.6686373479904706
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.4356503119236854
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.9092646493394836
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.632790865196438
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.678867512851693
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.5811675623305625
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.593324778750013
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.5615203332387928
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.5637540914836257
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.5637540914836263
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.7277043874263531
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": 0.028927167000468046,
+      "all_checks": 6.867269592999865,
+      "observability": 0.048016412000613684,
+      "cheapest_items": 0.20459182799702091
+     }
+    },
+    {
+     "event": "drop_routed_swap",
+     "group": "visible",
+     "detectable": true,
+     "units_detecting": 36,
+     "checks_detecting": [
+      "output",
+      "probe"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.3423722306718107
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.2961344016497387
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.9655954851922794
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7656722608395639
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.6775006095993874
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.431659991549459
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.9073458697535
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.6243217987085674
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6759090841712045
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.5845629807755373
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.5913296185628998
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.5536371526765984
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.5592416397931228
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.5592416397931232
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.7337352142161
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": 0.03817634699935013,
+      "all_checks": 7.494708508999603,
+      "observability": 0.038400864999275086,
+      "cheapest_items": 0.3202220799984019
+     }
+    },
+    {
+     "event": "final_layout_record_wide",
+     "group": "invisible",
+     "detectable": true,
+     "units_detecting": 16,
+     "checks_detecting": [
+      "probe"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.3516563683747305
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.5366873929869787
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.212763118736138
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7751672232252922
+       },
+       "random_items": {
+        "detected": 0.75,
+        "spend_ratio": 1.899269167780332
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.439046697405256
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.0034292711561643
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.7178895107580292
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.682109696964126
+       },
+       "random_items": {
+        "detected": 0.95,
+        "spend_ratio": 1.6749510025254053
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.5950229714907984
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.5937313207662889
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.605296459030899
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6052964590308998
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.7759420516761555
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": Infinity,
+      "all_checks": 0.21388858100215202,
+      "observability": 16.082219300002556,
+      "cheapest_items": 4.450110009002621
+     }
+    },
+    {
+     "event": "hash_order_rz_4pi_heavyhex",
+     "group": "invisible",
+     "detectable": true,
+     "units_detecting": 29,
+     "checks_detecting": [
+      "determinism"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.351912509357772
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.7167758798311556
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.4295481195531816
+       },
+       "cheapest_items": {
+        "detected": false,
+        "spend_ratio": 1.777423344956103
+       },
+       "random_items": {
+        "detected": 0.85,
+        "spend_ratio": 2.0904236266701606
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.4362789517666699
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.10919127607655
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.8423696302486958
+       },
+       "cheapest_items": {
+        "detected": false,
+        "spend_ratio": 1.6838803976192873
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.795581993460035
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.5936390986715052
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.6988364847443818
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.6814709848716305
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.681470984871631
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.8636876021330209
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": Infinity,
+      "all_checks": 11.76246017599978,
+      "observability": 11.933120117999081,
+      "cheapest_items": 81.22613929299573
+     }
+    },
+    {
+     "event": "hash_order_rz_shift_line",
+     "group": "invisible",
+     "detectable": true,
+     "units_detecting": 13,
+     "checks_detecting": [
+      "determinism"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.351912509357772
+       },
+       "all_checks": {
+        "detected": false,
+        "spend_ratio": 2.542940404751406
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.2248651582685732
+       },
+       "cheapest_items": {
+        "detected": false,
+        "spend_ratio": 1.777423344956103
+       },
+       "random_items": {
+        "detected": 0.55,
+        "spend_ratio": 1.908690599478455
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.4362789517666699
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.0113515206075054
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.7270716384288338
+       },
+       "cheapest_items": {
+        "detected": false,
+        "spend_ratio": 1.6838803976192873
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.684655224078541
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.5936390986715052
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.610345770337453
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.612527675056297
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6125276750562965
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.7846509856464126
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": Infinity,
+      "all_checks": 42.27458915499781,
+      "observability": 12.753282699997209,
+      "cheapest_items": 80.31238165199598
+     }
+    },
+    {
+     "event": "heavy_hex_trivial_layout",
+     "group": "visible",
+     "detectable": true,
+     "units_detecting": 58,
+     "checks_detecting": [
+      "quality"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.3643677429711727
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.7020701920696997
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.2088102929562403
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 2.275443525652605
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.6405434688238203
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.4443568910980404
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.0550507980572483
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.6848454161194857
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.9179696581522159
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.494735615848278
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.5976780683371905
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.50316661486139
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.58610582271787
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.5861058227178704
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.643895103816814
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": 0.0031863559993325907,
+      "all_checks": 6.6854329109997614,
+      "observability": 0.00589282099895172,
+      "cheapest_items": 0.008311567998944724
+     }
+    },
+    {
+     "event": "input_count_includes_ancillas",
+     "group": "invisible",
+     "detectable": true,
+     "units_detecting": 56,
+     "checks_detecting": [
+      "contract",
+      "determinism"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.3527591439076094
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.2825024224644044
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.9655006025240023
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7628441422249943
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.6686446236519683
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.4351605341127263
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.9065001089603686
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.6172645218760755
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6774342889147238
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.5767429669241662
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.5930798898445333
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.5459127130027595
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.5550927920130722
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.555092792013072
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.7254173840872724
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": Infinity,
+      "all_checks": 6.927673981001419,
+      "observability": 0.005606890000080966,
+      "cheapest_items": 0.00802563700007397
+     }
+    },
+    {
+     "event": "input_registers_dropped",
+     "group": "invisible",
+     "detectable": true,
+     "units_detecting": 58,
+     "checks_detecting": [
+      "contract"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.3386581128063666
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.537596397890265
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.2049637441642895
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7647582579958938
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.90201820225908
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.4322419851440875
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.0021567697376916
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.7165080604788374
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6790002320909763
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.6762349532350513
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.5811689941560145
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.5986324736208724
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.6049483318557163
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6049483318557163
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.7783507441171795
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": Infinity,
+      "all_checks": 0.20947528100020918,
+      "observability": 0.0008629640005892725,
+      "cheapest_items": 0.0008629640005892725
+     }
+    },
+    {
+     "event": "phase_drop_after_translation_wide",
+     "group": "invisible",
+     "detectable": true,
+     "units_detecting": 14,
+     "checks_detecting": [
+      "probe"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.3481799125720484
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.5370188932736455
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.221817964153087
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7665857000319036
+       },
+       "random_items": {
+        "detected": 0.75,
+        "spend_ratio": 1.909512412016572
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.4329445649896904
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.0018066784783395
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.72058388244206
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6733006313923746
+       },
+       "random_items": {
+        "detected": 0.9,
+        "spend_ratio": 1.6805048058607388
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.5919719052830155
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.5978265363479993
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.6057843117505641
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6057843117505641
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.7793829840721924
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": Infinity,
+      "all_checks": 0.21050432200115665,
+      "observability": 16.22621009700495,
+      "cheapest_items": 4.438424227005264
+     }
+    },
+    {
+     "event": "rz_canonicalize_without_phase",
+     "group": "invisible",
+     "detectable": true,
+     "units_detecting": 8,
+     "checks_detecting": [
+      "probe"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.34392052185983
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.5064815919981203
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.1898215766132307
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7657153445049387
+       },
+       "random_items": {
+        "detected": 0.45,
+        "spend_ratio": 1.8795294414489854
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.4286864077202097
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.9931222968746705
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.7114451995937503
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6728774445100167
+       },
+       "random_items": {
+        "detected": 0.75,
+        "spend_ratio": 1.6673188952296885
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.5898428266482751
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.592939406926109
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.5978726111457295
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.5978726111457315
+       },
+       "random_items": {
+        "detected": 0.95,
+        "spend_ratio": 1.7711989345813892
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": Infinity,
+      "all_checks": 19.63052193899811,
+      "observability": 13.686234327997399,
+      "cheapest_items": 3.197258266997377
+     }
+    },
+    {
+     "event": "small_drop_opt_loop",
+     "group": "visible",
+     "detectable": true,
+     "units_detecting": 13,
+     "checks_detecting": [
+      "quality"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.3454157595201572
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.5430603181061207
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.2047932430429196
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7835968213689035
+       },
+       "random_items": {
+        "detected": 0.7,
+        "spend_ratio": 1.9009676990178805
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.433680251831624
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.0063115543624837
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.7195663920255364
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6863497881844074
+       },
+       "random_items": {
+        "detected": 0.8,
+        "spend_ratio": 1.678663911819239
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.5923397487039823
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.6009191481936407
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.606618675203454
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6066186752034541
+       },
+       "random_items": {
+        "detected": 0.85,
+        "spend_ratio": 1.7808497679570272
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": 0.016334946999720046,
+      "all_checks": 10.2608703159997,
+      "observability": 0.010576611000260527,
+      "cheapest_items": 0.038571033999915016
+     }
+    },
+    {
+     "event": "wide_drop_opt_loop",
+     "group": "visible",
+     "detectable": true,
+     "units_detecting": 12,
+     "checks_detecting": [
+      "quality"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.3628767079608595
+       },
+       "all_checks": {
+        "detected": false,
+        "spend_ratio": 2.537144403661904
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.215654764830742
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.777013186973983
+       },
+       "random_items": {
+        "detected": 0.75,
+        "spend_ratio": 1.8745819246843407
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.44697295647826
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.9982545829264753
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.7103700478608406
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6937625787048345
+       },
+       "random_items": {
+        "detected": 0.9,
+        "spend_ratio": 1.6098943650293671
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.5989861010273003
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.543136761817071
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.5882896287861947
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.588289628786195
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.7114301911956746
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": 5.2276501869981935,
+      "all_checks": 57.63838281699664,
+      "observability": 26.259919698996235,
+      "cheapest_items": 12.760954726996285
+     }
+    },
+    {
+     "event": "wide_leaky_basis_h",
+     "group": "visible",
+     "detectable": true,
+     "units_detecting": 36,
+     "checks_detecting": [
+      "output"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.345361272450289
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.5237535330538243
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.2008553325274494
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7763304701403029
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.8918082264363165
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.4316766722846244
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.9978136371085542
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.7120025853698302
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6800263161256463
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.6698263281163732
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.5913379589304824
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.5925307945555927
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.6013531919442818
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.601353191944281
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.7722482404956503
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": 0.14037175699938587,
+      "all_checks": 15.866791836999282,
+      "observability": 10.000356788998669,
+      "cheapest_items": 0.024510604999150587
+     }
+    },
+    {
+     "event": "wide_no_elide_permutations",
+     "group": "visible",
+     "detectable": true,
+     "units_detecting": 11,
+     "checks_detecting": [
+      "quality"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.3537303950808715
+       },
+       "all_checks": {
+        "detected": false,
+        "spend_ratio": 2.527989610306682
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.209905241133801
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7797778040493786
+       },
+       "random_items": {
+        "detected": 0.55,
+        "spend_ratio": 1.9227827057087419
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.4391513276471661
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.050767590441268
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.7632598160177284
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.7051141563054009
+       },
+       "random_items": {
+        "detected": 0.9,
+        "spend_ratio": 1.7587874182337877
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.5950752866117535
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.6667790956606485
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.650757384268335
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.650757384268335
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.8656745729812276
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": 2.5252746639987613,
+      "all_checks": 40.335989502997634,
+      "observability": 18.103360668996935,
+      "cheapest_items": 6.5750410659968885
+     }
+    },
+    {
+     "event": "wide_rz_sign_flip",
+     "group": "visible",
+     "detectable": true,
+     "units_detecting": 30,
+     "checks_detecting": [
+      "output",
+      "probe"
+     ],
+     "budgets": {
+      "0.02": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.3461043830130623
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.5307366939401024
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 2.221181155606781
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.770995134171348
+       },
+       "random_items": {
+        "detected": 0.95,
+        "spend_ratio": 1.9072456565851432
+       }
+      },
+      "0.05": {
+       "output_only": {
+        "detected": false,
+        "spend_ratio": 1.4339274770150479
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 2.0081026785092386
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.7294545225622762
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.6775080550709862
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.6794501227794174
+       }
+      },
+      "0.1": {
+       "output_only": {
+        "detected": true,
+        "spend_ratio": 1.5705885489686848
+       },
+       "all_checks": {
+        "detected": true,
+        "spend_ratio": 1.61041787605385
+       },
+       "observability": {
+        "detected": true,
+        "spend_ratio": 1.6099714784144936
+       },
+       "cheapest_items": {
+        "detected": true,
+        "spend_ratio": 1.609971478414493
+       },
+       "random_items": {
+        "detected": 1,
+        "spend_ratio": 1.7768481262120617
+       }
+      }
+     },
+     "first_cost": {
+      "output_only": 69.12761935500023,
+      "all_checks": 0.2076459600001499,
+      "observability": 10.638040581998215,
+      "cheapest_items": 0.39871590099805587
+     }
+    }
+   ]
+  }
+ ]
+}

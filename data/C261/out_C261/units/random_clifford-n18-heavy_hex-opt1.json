@@ -1,0 +1,39 @@
+{
+ "test_id": "random_clifford-n18-heavy_hex-opt1",
+ "family": "random_clifford",
+ "n": 18,
+ "backend": "heavy_hex",
+ "level": 1,
+ "physical_qubits": 19,
+ "compile_s": 0.016071393999936845,
+ "compile_samples": [
+  0.016885614000102578,
+  0.016110943000057887,
+  0.016071393999936845,
+  0.01544124300016847,
+  0.015326537999953871
+ ],
+ "compile_iqr_s": 0.001114388000019062,
+ "output_tier": "structural",
+ "output_s": 0.005393688999902224,
+ "output_samples": [
+  0.005393688999902224,
+  0.005222359999834225,
+  0.005539528999861432
+ ],
+ "quality_s": 0.012975891000223783,
+ "probe_applicable": true,
+ "probe_s": 4.020646853000017,
+ "probe_samples": [
+  4.024191148,
+  3.9844627290001426,
+  4.020646853000017
+ ],
+ "contract_s": 7.108299996616552e-05,
+ "clean_verdicts_pass": {
+  "output": true,
+  "quality": true,
+  "probe": true,
+  "contract": true
+ }
+}

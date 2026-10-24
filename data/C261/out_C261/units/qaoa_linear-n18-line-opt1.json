@@ -1,0 +1,39 @@
+{
+ "test_id": "qaoa_linear-n18-line-opt1",
+ "family": "qaoa_linear",
+ "n": 18,
+ "backend": "line",
+ "level": 1,
+ "physical_qubits": 18,
+ "compile_s": 0.0022086049999998636,
+ "compile_samples": [
+  0.0022086049999998636,
+  0.0020597690000059288,
+  0.0022826200000025665,
+  0.0024352179999951318,
+  0.0018136549999994145
+ ],
+ "compile_iqr_s": 0.0004222069999961775,
+ "output_tier": "structural",
+ "output_s": 0.0009866010000010306,
+ "output_samples": [
+  0.001119655000003661,
+  0.0009866010000010306,
+  0.0009700709999975743
+ ],
+ "quality_s": 0.002411267999995914,
+ "probe_applicable": true,
+ "probe_s": 0.28383269199999717,
+ "probe_samples": [
+  0.28383269199999717,
+  0.28385006699999593,
+  0.2714910409999973
+ ],
+ "contract_s": 5.782299999879115e-05,
+ "clean_verdicts_pass": {
+  "output": true,
+  "quality": true,
+  "probe": true,
+  "contract": true
+ }
+}

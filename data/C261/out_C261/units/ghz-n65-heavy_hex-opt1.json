@@ -1,0 +1,33 @@
+{
+ "test_id": "ghz-n65-heavy_hex-opt1",
+ "family": "ghz",
+ "n": 65,
+ "backend": "heavy_hex",
+ "level": 1,
+ "physical_qubits": 115,
+ "compile_s": 0.006037398999978905,
+ "compile_samples": [
+  0.005636001000084434,
+  0.006037398999978905,
+  0.0072730780000256345,
+  0.007470465000096738,
+  0.005639200999894456
+ ],
+ "compile_iqr_s": 0.0017341705000717411,
+ "output_tier": "structural",
+ "output_s": 0.0005846139999903244,
+ "output_samples": [
+  0.0008525049997842871,
+  0.0005846139999903244,
+  0.0005001619999802642
+ ],
+ "quality_s": 0.0008275730001514603,
+ "probe_applicable": false,
+ "probe_s": null,
+ "contract_s": 0.00019349399985912896,
+ "clean_verdicts_pass": {
+  "output": true,
+  "quality": true,
+  "contract": true
+ }
+}

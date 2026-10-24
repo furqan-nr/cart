@@ -1,0 +1,92 @@
+{
+ "wide_drop_opt_loop": {
+  "constructible": true,
+  "errors": [],
+  "n_errors": 0
+ },
+ "heavy_hex_trivial_layout": {
+  "constructible": true,
+  "errors": [],
+  "n_errors": 0
+ },
+ "small_drop_opt_loop": {
+  "constructible": true,
+  "errors": [],
+  "n_errors": 0
+ },
+ "cp_swap_detour": {
+  "constructible": true,
+  "errors": [],
+  "n_errors": 0
+ },
+ "wide_no_elide_permutations": {
+  "constructible": true,
+  "errors": [],
+  "n_errors": 0
+ },
+ "cp_small_angle_sign_flip": {
+  "constructible": true,
+  "errors": [],
+  "n_errors": 0
+ },
+ "wide_rz_sign_flip": {
+  "constructible": true,
+  "errors": [],
+  "n_errors": 0
+ },
+ "drop_routed_swap": {
+  "constructible": true,
+  "errors": [],
+  "n_errors": 0
+ },
+ "drop_first_rzz": {
+  "constructible": true,
+  "errors": [],
+  "n_errors": 0
+ },
+ "wide_leaky_basis_h": {
+  "constructible": true,
+  "errors": [],
+  "n_errors": 0
+ },
+ "phase_drop_after_translation_wide": {
+  "constructible": true,
+  "errors": [],
+  "n_errors": 0
+ },
+ "rz_canonicalize_without_phase": {
+  "constructible": true,
+  "errors": [],
+  "n_errors": 0
+ },
+ "cp_rule_missing_phase": {
+  "constructible": true,
+  "errors": [],
+  "n_errors": 0
+ },
+ "input_count_includes_ancillas": {
+  "constructible": true,
+  "errors": [],
+  "n_errors": 0
+ },
+ "input_registers_dropped": {
+  "constructible": true,
+  "errors": [],
+  "n_errors": 0
+ },
+ "final_layout_record_wide": {
+  "constructible": true,
+  "errors": [],
+  "n_errors": 0
+ },
+ "hash_order_rz_shift_line": {
+  "constructible": true,
+  "errors": [],
+  "n_errors": 0
+ },
+ "hash_order_rz_4pi_heavyhex": {
+  "constructible": true,
+  "errors": [],
+  "n_errors": 0
+ }
+}

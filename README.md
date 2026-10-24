@@ -2,7 +2,7 @@
 
 Code, registration, data and reproduction recipes for Paper 3 of Furqan Nasir's doctoral research (CUSIT): a pre-registered study of whether a regression-testing pipeline for a quantum compiler, which chooses within a CI budget both **which tests** to run and **which oracle** each test gets, detects more transpiler regressions than output-only and naive all-oracle selection.
 
-**Status:** registration draft (`PREREGISTRATION_P3.md`). Not yet registered. No confirmatory (cohort) data exist yet.
+**Status:** registered (commit `40077ab`, 2026-10-24) and run. Both cohorts labeled; registered analysis complete: claims A and B SUPPORTED, claim C NOT SUPPORTED. See `docs/RESULTS_P3.md` (with a post hoc diagnosis of claim C, clearly separated).
 
 ## Layout
 
@@ -14,7 +14,10 @@ Code, registration, data and reproduction recipes for Paper 3 of Furqan Nasir's 
 | `cart/` | The `cart` prototype from the Paper 2 replication package ([Quantum-Selection](https://github.com/furqan-nr/Quantum-Selection), DOI [10.5281/zenodo.23475857](https://doi.org/10.5281/zenodo.23475857)), copied unchanged: `src/cart`, `configs`, `pyproject.toml`, `environment/requirements.lock` |
 | `obsaware/` | Paper 3 code: `src/obsaware` (state probe, contract checker v2, determinism runner, invisible-channel fault operators, selection strategies, cost model, reference benchmark), `scripts/` (development checks, Kaggle calibration and labeling drivers, frozen analysis, manifest and packaging tools), `kaggle/` (notebooks and runbook), `results/` (development results) |
 | `data/K1/` | Kaggle session K1 output as downloaded (`out_k1.zip`) and extracted (`out_k1/`): clean-baseline costs of every check on the 116 corpus units, Qiskit 2.4.2 |
-| `docs/` | `K1_REPORT.md`, `OBSERVATIONS.md` (development observations O1 and O2), `o1_repro.py` |
+| `data/C261/`, `data/C252/` | Cohort labeling sessions (Qiskit 2.6.1 and 2.5.2), zip as downloaded and extracted |
+| `results/` | Registered analysis output |
+| `posthoc/` | Post hoc (exploratory) diagnosis of claim C, script and output |
+| `docs/` | `RESULTS_P3.md`, `K1_REPORT.md`, `OBSERVATIONS.md` (development observations O1 and O2), `o1_repro.py` |
 | `REPRODUCE.md` | How to reproduce every result in this repository |
 
 ## Use of AI tools

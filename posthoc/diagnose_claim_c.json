@@ -1,0 +1,64 @@
+{
+ "out_C261": {
+  "speed_factor_applied": 0.414881574940982,
+  "benchmark_ratio_cohort_over_K1": 0.8470652852025844,
+  "cost_ratio_cohort_over_K1": {
+   "compile": {
+    "median": 0.414881574940982,
+    "n_units": 42
+   },
+   "output_check": {
+    "median": 1.1197033586707348,
+    "n_units": 8
+   },
+   "probe": {
+    "median": 0.9855675455028949,
+    "n_units": 44
+   }
+  },
+  "mean_spend_ratio_5pct": {
+   "output_only": 1.4506026865588968,
+   "all_checks": 1.9612817582146544,
+   "observability": 1.7041983411221453,
+   "cheapest_items": 1.664155546978037
+  },
+  "detected_when_cut_at_real_5pct_budget": {
+   "output_only": 9,
+   "all_checks": 15,
+   "observability": 18,
+   "cheapest_items": 16
+  },
+  "n_events": 18
+ },
+ "out_C252": {
+  "speed_factor_applied": 0.4190727533874949,
+  "benchmark_ratio_cohort_over_K1": 0.8728666852737695,
+  "cost_ratio_cohort_over_K1": {
+   "compile": {
+    "median": 0.4190727533874949,
+    "n_units": 42
+   },
+   "output_check": {
+    "median": 1.0664429111719844,
+    "n_units": 8
+   },
+   "probe": {
+    "median": 1.0310177026988836,
+    "n_units": 44
+   }
+  },
+  "mean_spend_ratio_5pct": {
+   "output_only": 1.436382981670162,
+   "all_checks": 1.988065967548722,
+   "observability": 1.703799008972697,
+   "cheapest_items": 1.6948345157908016
+  },
+  "detected_when_cut_at_real_5pct_budget": {
+   "output_only": 9,
+   "all_checks": 15,
+   "observability": 18,
+   "cheapest_items": 16
+  },
+  "n_events": 18
+ }
+}

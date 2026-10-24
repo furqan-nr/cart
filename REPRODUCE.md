@@ -39,11 +39,17 @@ For each cohort (C261: Qiskit 2.6.1, C252: Qiskit 2.5.2): build its wheelhouse, 
 ## Registered analysis
 
 ```bash
-python obsaware/scripts/analyze_p3.py --prev data/K1/out_k1 --cohort data/C261/out_C261 --cohort data/C252/out_C252 --out results_p3.json
+python obsaware/scripts/analyze_p3.py --prev data/K1/out_k1 --cohort data/C261/out_C261 --cohort data/C252/out_C252 --out results/registered_analysis.json
 ```
 
 ## Verifying the frozen files
 
 ```bash
 python obsaware/scripts/freeze_registration.py --verify
+```
+
+## Post hoc diagnosis of claim C (exploratory)
+
+```bash
+PYTHONPATH=cart/src:obsaware/src python posthoc/diagnose_claim_c.py > posthoc/diagnose_claim_c.json
 ```
