@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cart"
+version = "0.0.0"
+description = "Cost-aware regression testing for Qiskit transpilation (research prototype)"
+requires-python = ">=3.11"
+# Python 3.11 or 3.12: the exact pinned environment (environment/requirements.lock) pins numpy 2.4.x,
+# which requires Python >= 3.11. Runtime deps are listed WITHOUT tight pins; use the lock for exact
+# reproduction. Qiskit-under-test is built per event (see METHODOLOGY.md §0.1).
+dependencies = ["qiskit>=2.1", "numpy", "scipy", "pyyaml", "matplotlib"]
+
+[project.scripts]
+cart = "cart.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "obsaware"
+version = "0.1.0"
+description = "Paper 3: observability-aware, cost-aware regression test selection for the Qiskit transpiler (builds on cart)"
+requires-python = ">=3.10"
+dependencies = ["qiskit>=2.1", "numpy"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

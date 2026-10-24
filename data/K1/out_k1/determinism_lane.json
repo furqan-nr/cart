@@ -1,0 +1,954 @@
+{
+ "r": 3,
+ "launch_cpu_s": [
+  65.44,
+  65.24000000000001,
+  64.98999999999998
+ ],
+ "launch_wall_s": [
+  65.49219270999993,
+  65.283344618,
+  65.03121012700012
+ ],
+ "import_s": [
+  0.41896420199999995,
+  0.352803852,
+  0.36366568099999996
+ ],
+ "fixed_cpu_per_launch_s": [
+  2.261180019000051,
+  2.049725510000009,
+  2.045885326999951
+ ],
+ "per_unit": {
+  "ghz-n40-line-opt3": {
+   "compile_s": [
+    0.006027885000000066,
+    0.005828730000000004,
+    0.0059586999999999835
+   ],
+   "deterministic": true
+  },
+  "ghz-n40-heavy_hex-opt3": {
+   "compile_s": [
+    0.060497077000000066,
+    0.06146373399999994,
+    0.06243262300000002
+   ],
+   "deterministic": true
+  },
+  "ghz-n65-heavy_hex-opt3": {
+   "compile_s": [
+    0.09945863700000002,
+    0.10124836999999998,
+    0.10007970099999997
+   ],
+   "deterministic": true
+  },
+  "qft-n18-heavy_hex-opt3": {
+   "compile_s": [
+    0.331031733,
+    0.332301779,
+    0.331081674
+   ],
+   "deterministic": true
+  },
+  "qft-n40-line-opt3": {
+   "compile_s": [
+    1.245615711,
+    1.2345686270000003,
+    1.2400807850000002
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n18-heavy_hex-opt3": {
+   "compile_s": [
+    0.014447644999999731,
+    0.014583004999999982,
+    0.01481548499999974
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n18-line-opt1": {
+   "compile_s": [
+    0.003210567999999636,
+    0.0030367110000000253,
+    0.0034608329999996634
+   ],
+   "deterministic": true
+  },
+  "ghz-n40-heavy_hex-opt1": {
+   "compile_s": [
+    0.003415796000000082,
+    0.003413740000000054,
+    0.0034199379999999557
+   ],
+   "deterministic": true
+  },
+  "qft-n40-heavy_hex-opt1": {
+   "compile_s": [
+    0.2787008660000003,
+    0.27901282299999997,
+    0.27952629699999987
+   ],
+   "deterministic": true
+  },
+  "ghz-n8-heavy_hex-opt3": {
+   "compile_s": [
+    0.0025122500000001047,
+    0.002458980999999749,
+    0.002405943000000299
+   ],
+   "deterministic": true
+  },
+  "qft-n18-heavy_hex-opt1": {
+   "compile_s": [
+    0.048408580999999895,
+    0.048140826000000025,
+    0.047925403000000255
+   ],
+   "deterministic": true
+  },
+  "qft-n8-heavy_hex-opt1": {
+   "compile_s": [
+    0.008830654000000049,
+    0.0089959770000001,
+    0.008972508999999906
+   ],
+   "deterministic": true
+  },
+  "qft-n65-line-opt1": {
+   "compile_s": [
+    0.8521007570000001,
+    0.8499564209999999,
+    0.8446735080000001
+   ],
+   "deterministic": true
+  },
+  "qft-n100-heavy_hex-opt3": {
+   "compile_s": [
+    5.261438167,
+    5.2769323,
+    5.25102631
+   ],
+   "deterministic": true
+  },
+  "random_clifford-n12-heavy_hex-opt1": {
+   "compile_s": [
+    0.01924193400000007,
+    0.018976901999998574,
+    0.018989705999999273
+   ],
+   "deterministic": true
+  },
+  "random_clifford-n18-heavy_hex-opt3": {
+   "compile_s": [
+    0.3834769350000009,
+    0.37606061799999857,
+    0.4076501770000007
+   ],
+   "deterministic": true
+  },
+  "ghz-n65-line-opt1": {
+   "compile_s": [
+    0.002794964000001343,
+    0.002825768999999312,
+    0.004441177000000351
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n5-line-opt3": {
+   "compile_s": [
+    0.0026339329999984784,
+    0.0025969849999984973,
+    0.002889753999999911
+   ],
+   "deterministic": true
+  },
+  "ghz-n18-line-opt3": {
+   "compile_s": [
+    0.0026802759999995374,
+    0.0026656159999998152,
+    0.0027362469999996364
+   ],
+   "deterministic": true
+  },
+  "qft-n100-heavy_hex-opt1": {
+   "compile_s": [
+    2.185068318000001,
+    2.1433201219999987,
+    2.1559007909999988
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n65-heavy_hex-opt3": {
+   "compile_s": [
+    0.10556505099999924,
+    0.10728696500000012,
+    0.10593964600000128
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n65-line-opt3": {
+   "compile_s": [
+    0.01205852899999904,
+    0.012379913000000187,
+    0.012596295999999896
+   ],
+   "deterministic": true
+  },
+  "ghz-n8-line-opt1": {
+   "compile_s": [
+    0.0014154690000012238,
+    0.0014752830000013262,
+    0.0014960539999986366
+   ],
+   "deterministic": true
+  },
+  "ghz-n12-heavy_hex-opt1": {
+   "compile_s": [
+    0.002027392000000461,
+    0.0020971599999999313,
+    0.002309974999999298
+   ],
+   "deterministic": true
+  },
+  "qft-n100-line-opt1": {
+   "compile_s": [
+    2.3626352829999995,
+    2.362441938,
+    2.3411857709999992
+   ],
+   "deterministic": true
+  },
+  "random_clifford-n12-line-opt1": {
+   "compile_s": [
+    0.02000146000000136,
+    0.019817080999999348,
+    0.019700974000000926
+   ],
+   "deterministic": true
+  },
+  "qft-n100-line-opt3": {
+   "compile_s": [
+    4.514394958000002,
+    4.534036995000001,
+    4.506295192000001
+   ],
+   "deterministic": true
+  },
+  "qft-n12-line-opt3": {
+   "compile_s": [
+    0.109109875999998,
+    0.10700087000000025,
+    0.10577774300000087
+   ],
+   "deterministic": true
+  },
+  "qft-n12-heavy_hex-opt3": {
+   "compile_s": [
+    0.12285396600000098,
+    0.1239085330000016,
+    0.12164140099999798
+   ],
+   "deterministic": true
+  },
+  "ghz-n27-line-opt1": {
+   "compile_s": [
+    0.001967641000000242,
+    0.0019131479999998646,
+    0.0018458020000018394
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n65-heavy_hex-opt1": {
+   "compile_s": [
+    0.009803318999999533,
+    0.009422738000001374,
+    0.009212219000001909
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n5-heavy_hex-opt3": {
+   "compile_s": [
+    0.0035089570000010895,
+    0.003133616999999589,
+    0.0030803140000017493
+   ],
+   "deterministic": true
+  },
+  "random_clifford-n40-line-opt1": {
+   "compile_s": [
+    0.48870610400000203,
+    0.4791446730000004,
+    0.5026353700000001
+   ],
+   "deterministic": true
+  },
+  "qft-n65-line-opt3": {
+   "compile_s": [
+    2.5031287209999995,
+    2.487517517999997,
+    2.482101241999999
+   ],
+   "deterministic": true
+  },
+  "qft-n5-heavy_hex-opt3": {
+   "compile_s": [
+    0.00812100099999924,
+    0.00816264999999916,
+    0.008319166999999794
+   ],
+   "deterministic": true
+  },
+  "qft-n65-heavy_hex-opt1": {
+   "compile_s": [
+    0.864177429999998,
+    0.8669685089999994,
+    0.8651323290000015
+   ],
+   "deterministic": true
+  },
+  "qft-n5-line-opt3": {
+   "compile_s": [
+    0.0068984790000001794,
+    0.007271953000000053,
+    0.007041600000000869
+   ],
+   "deterministic": true
+  },
+  "qft-n127-heavy_hex-opt3": {
+   "compile_s": [
+    7.4693409819999985,
+    7.409704425999998,
+    7.431616307000002
+   ],
+   "deterministic": true
+  },
+  "ghz-n12-line-opt1": {
+   "compile_s": [
+    0.0018763879999994515,
+    0.0016947740000006206,
+    0.0017361479999991047
+   ],
+   "deterministic": true
+  },
+  "random_clifford-n8-line-opt3": {
+   "compile_s": [
+    0.037162466000001615,
+    0.03697629699999894,
+    0.03738368400000169
+   ],
+   "deterministic": true
+  },
+  "ghz-n18-heavy_hex-opt3": {
+   "compile_s": [
+    0.01186702299999709,
+    0.011570880000000727,
+    0.01149259799999669
+   ],
+   "deterministic": true
+  },
+  "ghz-n5-line-opt1": {
+   "compile_s": [
+    0.0014176060000004043,
+    0.0013468890000005729,
+    0.001299102000000829
+   ],
+   "deterministic": true
+  },
+  "ghz-n12-heavy_hex-opt3": {
+   "compile_s": [
+    0.0028066350000024443,
+    0.002760135999999136,
+    0.002706566000000521
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n8-heavy_hex-opt3": {
+   "compile_s": [
+    0.0040867620000000215,
+    0.0038322470000018427,
+    0.004800691999999884
+   ],
+   "deterministic": true
+  },
+  "qft-n5-line-opt1": {
+   "compile_s": [
+    0.0033766250000013542,
+    0.0033025659999985635,
+    0.003225734000000813
+   ],
+   "deterministic": true
+  },
+  "qft-n8-line-opt1": {
+   "compile_s": [
+    0.00905337799999728,
+    0.008707822999998172,
+    0.008669319999999203
+   ],
+   "deterministic": true
+  },
+  "qft-n18-line-opt3": {
+   "compile_s": [
+    0.2970180059999983,
+    0.29274873199999973,
+    0.29419545600000063
+   ],
+   "deterministic": true
+  },
+  "qft-n127-line-opt1": {
+   "compile_s": [
+    4.453227379000001,
+    4.490547160000002,
+    4.439425883000002
+   ],
+   "deterministic": true
+  },
+  "qft-n8-heavy_hex-opt3": {
+   "compile_s": [
+    0.03452716199999628,
+    0.03374214299999778,
+    0.033962791999996966
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n40-heavy_hex-opt1": {
+   "compile_s": [
+    0.006280528000004892,
+    0.006470174000000384,
+    0.006322410999999306
+   ],
+   "deterministic": true
+  },
+  "random_clifford-n27-heavy_hex-opt3": {
+   "compile_s": [
+    1.1476645290000036,
+    1.1489314370000017,
+    1.1370596130000052
+   ],
+   "deterministic": true
+  },
+  "ghz-n40-line-opt1": {
+   "compile_s": [
+    0.002108540999998354,
+    0.0023092459999958237,
+    0.0022299769999989394
+   ],
+   "deterministic": true
+  },
+  "qft-n127-heavy_hex-opt1": {
+   "compile_s": [
+    4.034710353999998,
+    3.9436137310000063,
+    3.9552103170000024
+   ],
+   "deterministic": true
+  },
+  "qft-n65-heavy_hex-opt3": {
+   "compile_s": [
+    3.0788542519999993,
+    3.100129017999997,
+    3.0761526539999977
+   ],
+   "deterministic": true
+  },
+  "ghz-n18-line-opt1": {
+   "compile_s": [
+    0.0016842420000031666,
+    0.002016016999995429,
+    0.001962798999997517
+   ],
+   "deterministic": true
+  },
+  "ghz-n18-heavy_hex-opt1": {
+   "compile_s": [
+    0.004302631999998141,
+    0.00462083699999738,
+    0.004350319000003822
+   ],
+   "deterministic": true
+  },
+  "qft-n40-heavy_hex-opt3": {
+   "compile_s": [
+    1.5670893790000022,
+    1.6210594850000035,
+    1.5699691929999986
+   ],
+   "deterministic": true
+  },
+  "qft-n8-line-opt3": {
+   "compile_s": [
+    0.03190121899999809,
+    0.03203544499999822,
+    0.03191309199999637
+   ],
+   "deterministic": true
+  },
+  "random_clifford-n18-line-opt1": {
+   "compile_s": [
+    0.05739768799999467,
+    0.062484339000000944,
+    0.057424943999997424
+   ],
+   "deterministic": true
+  },
+  "random_clifford-n40-line-opt3": {
+   "compile_s": [
+    3.877989708000001,
+    3.8888919779999966,
+    3.8918549950000028
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n40-line-opt3": {
+   "compile_s": [
+    0.008143058000001702,
+    0.008378940000000057,
+    0.008271889000006638
+   ],
+   "deterministic": true
+  },
+  "ghz-n27-line-opt3": {
+   "compile_s": [
+    0.0031631290000007084,
+    0.0035069059999983665,
+    0.0031872999999933427
+   ],
+   "deterministic": true
+  },
+  "ghz-n5-line-opt3": {
+   "compile_s": [
+    0.001885150999996199,
+    0.0026362770000005753,
+    0.0018673099999944043
+   ],
+   "deterministic": true
+  },
+  "random_clifford-n5-heavy_hex-opt1": {
+   "compile_s": [
+    0.003813363999995545,
+    0.003564352999994469,
+    0.0032198440000001938
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n12-heavy_hex-opt1": {
+   "compile_s": [
+    0.0031853130000030205,
+    0.003399033000000884,
+    0.0032068680000065797
+   ],
+   "deterministic": true
+  },
+  "qft-n27-heavy_hex-opt1": {
+   "compile_s": [
+    0.12483950499999708,
+    0.12776992199999881,
+    0.1230443259999987
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n18-line-opt3": {
+   "compile_s": [
+    0.0046040169999983505,
+    0.004883328000005349,
+    0.00466204300000328
+   ],
+   "deterministic": true
+  },
+  "random_clifford-n27-line-opt3": {
+   "compile_s": [
+    1.3798790549999964,
+    1.3614155809999957,
+    1.359745175999997
+   ],
+   "deterministic": true
+  },
+  "qft-n12-line-opt1": {
+   "compile_s": [
+    0.02002997099999959,
+    0.019904537000002165,
+    0.01982688200000382
+   ],
+   "deterministic": true
+  },
+  "qft-n12-heavy_hex-opt1": {
+   "compile_s": [
+    0.020986163000003444,
+    0.020673067000004153,
+    0.020755628999999942
+   ],
+   "deterministic": true
+  },
+  "ghz-n27-heavy_hex-opt3": {
+   "compile_s": [
+    0.048911385000003804,
+    0.04924214399999727,
+    0.04913710799999649
+   ],
+   "deterministic": true
+  },
+  "random_clifford-n40-heavy_hex-opt3": {
+   "compile_s": [
+    2.8781074879999977,
+    2.8926840789999986,
+    2.875296921999997
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n8-heavy_hex-opt1": {
+   "compile_s": [
+    0.002737930000002109,
+    0.003143395000002158,
+    0.0027464980000004857
+   ],
+   "deterministic": true
+  },
+  "ghz-n5-heavy_hex-opt3": {
+   "compile_s": [
+    0.0021804989999978375,
+    0.002387663999996903,
+    0.002282975999996495
+   ],
+   "deterministic": true
+  },
+  "random_clifford-n5-line-opt1": {
+   "compile_s": [
+    0.0026819790000018884,
+    0.0024116410000019073,
+    0.0024086220000043568
+   ],
+   "deterministic": true
+  },
+  "random_clifford-n5-line-opt3": {
+   "compile_s": [
+    0.005629534999997077,
+    0.005662139000001787,
+    0.0055900469999983216
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n18-heavy_hex-opt1": {
+   "compile_s": [
+    0.005455042999997772,
+    0.005536333000002003,
+    0.005401403000000471
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n27-heavy_hex-opt3": {
+   "compile_s": [
+    0.05341990800000218,
+    0.054401467000005255,
+    0.053651729999998565
+   ],
+   "deterministic": true
+  },
+  "random_clifford-n8-line-opt1": {
+   "compile_s": [
+    0.007402386999999067,
+    0.0075440280000051985,
+    0.007270256000005304
+   ],
+   "deterministic": true
+  },
+  "random_clifford-n18-line-opt3": {
+   "compile_s": [
+    0.44987648000000036,
+    0.4770571910000001,
+    0.4514316839999992
+   ],
+   "deterministic": true
+  },
+  "random_clifford-n5-heavy_hex-opt3": {
+   "compile_s": [
+    0.00636140499999982,
+    0.006784982999995748,
+    0.006443205000003616
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n5-line-opt1": {
+   "compile_s": [
+    0.0019868520000017043,
+    0.0021328119999992623,
+    0.0020674659999997402
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n12-line-opt1": {
+   "compile_s": [
+    0.002490940999997804,
+    0.002757260999999289,
+    0.0027732619999980557
+   ],
+   "deterministic": true
+  },
+  "ghz-n8-heavy_hex-opt1": {
+   "compile_s": [
+    0.0018175109999987171,
+    0.001987462999998968,
+    0.0019008489999947642
+   ],
+   "deterministic": true
+  },
+  "random_clifford-n8-heavy_hex-opt1": {
+   "compile_s": [
+    0.007739694999997937,
+    0.008020090999998786,
+    0.007756722999999965
+   ],
+   "deterministic": true
+  },
+  "qft-n127-line-opt3": {
+   "compile_s": [
+    6.982994464000001,
+    7.008115990999997,
+    6.967171860999997
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n40-line-opt1": {
+   "compile_s": [
+    0.005026112000003025,
+    0.005015115999995601,
+    0.005162937999998007
+   ],
+   "deterministic": true
+  },
+  "qft-n40-line-opt1": {
+   "compile_s": [
+    0.2791205219999995,
+    0.2794002930000019,
+    0.2781722249999987
+   ],
+   "deterministic": true
+  },
+  "qft-n5-heavy_hex-opt1": {
+   "compile_s": [
+    0.003653708000001643,
+    0.003653091000003883,
+    0.003643559000003904
+   ],
+   "deterministic": true
+  },
+  "ghz-n27-heavy_hex-opt1": {
+   "compile_s": [
+    0.003292925000003777,
+    0.0036217979999975114,
+    0.0033182860000025016
+   ],
+   "deterministic": true
+  },
+  "random_clifford-n18-heavy_hex-opt1": {
+   "compile_s": [
+    0.05104012600000374,
+    0.050809176000001344,
+    0.051234405000002425
+   ],
+   "deterministic": true
+  },
+  "random_clifford-n12-heavy_hex-opt3": {
+   "compile_s": [
+    0.1291022799999979,
+    0.13141276900000065,
+    0.1308515560000032
+   ],
+   "deterministic": true
+  },
+  "qft-n27-line-opt1": {
+   "compile_s": [
+    0.11314019900000005,
+    0.1151133179999988,
+    0.11330859800000326
+   ],
+   "deterministic": true
+  },
+  "ghz-n8-line-opt3": {
+   "compile_s": [
+    0.0019872279999972875,
+    0.0019966549999992367,
+    0.001994399000004421
+   ],
+   "deterministic": true
+  },
+  "random_clifford-n27-heavy_hex-opt1": {
+   "compile_s": [
+    0.14328434800000167,
+    0.14456690299999764,
+    0.14403888399999687
+   ],
+   "deterministic": true
+  },
+  "random_clifford-n27-line-opt1": {
+   "compile_s": [
+    0.17052735699999744,
+    0.17190111800000096,
+    0.17093708999999535
+   ],
+   "deterministic": true
+  },
+  "random_clifford-n40-heavy_hex-opt1": {
+   "compile_s": [
+    0.356393728999997,
+    0.3569155130000041,
+    0.3535824969999979
+   ],
+   "deterministic": true
+  },
+  "qft-n27-heavy_hex-opt3": {
+   "compile_s": [
+    0.8111072439999987,
+    0.8155731929999988,
+    0.8107258969999975
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n12-line-opt3": {
+   "compile_s": [
+    0.0038086319999877105,
+    0.003801082000002509,
+    0.00393900300000638
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n27-line-opt1": {
+   "compile_s": [
+    0.003810566999987941,
+    0.003914587000004133,
+    0.003915966000000992
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n12-heavy_hex-opt3": {
+   "compile_s": [
+    0.0053803859999987935,
+    0.004341990999996881,
+    0.004506583000001285
+   ],
+   "deterministic": true
+  },
+  "ghz-n65-heavy_hex-opt1": {
+   "compile_s": [
+    0.00544736599999851,
+    0.005492572000001417,
+    0.00563768299999623
+   ],
+   "deterministic": true
+  },
+  "random_clifford-n12-line-opt3": {
+   "compile_s": [
+    0.13224249600000348,
+    0.13133504099999982,
+    0.1322154750000024
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n40-heavy_hex-opt3": {
+   "compile_s": [
+    0.06436434699999438,
+    0.0648704500000008,
+    0.0640740500000021
+   ],
+   "deterministic": true
+  },
+  "ghz-n12-line-opt3": {
+   "compile_s": [
+    0.002375368000002709,
+    0.0023659329999929923,
+    0.0023116539999961105
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n65-line-opt1": {
+   "compile_s": [
+    0.006922481999993124,
+    0.008878078999998706,
+    0.006871052999997573
+   ],
+   "deterministic": true
+  },
+  "ghz-n5-heavy_hex-opt1": {
+   "compile_s": [
+    0.0018532170000042925,
+    0.0018557610000016211,
+    0.0017783340000079306
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n27-heavy_hex-opt1": {
+   "compile_s": [
+    0.005424008999995067,
+    0.0054863170000061245,
+    0.005245927000004258
+   ],
+   "deterministic": true
+  },
+  "qft-n27-line-opt3": {
+   "compile_s": [
+    0.6596202470000065,
+    0.6768350170000019,
+    0.6594686079999974
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n5-heavy_hex-opt1": {
+   "compile_s": [
+    0.002535879999996382,
+    0.002549110000003907,
+    0.002661467999999445
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n27-line-opt3": {
+   "compile_s": [
+    0.00630413999999746,
+    0.005879570000004719,
+    0.005890770000007706
+   ],
+   "deterministic": true
+  },
+  "qft-n18-line-opt1": {
+   "compile_s": [
+    0.05085439500000177,
+    0.049698832000004245,
+    0.05077174599999523
+   ],
+   "deterministic": true
+  },
+  "ghz-n65-line-opt3": {
+   "compile_s": [
+    0.0066992779999992536,
+    0.0061548909999942225,
+    0.00636271999999849
+   ],
+   "deterministic": true
+  },
+  "random_clifford-n8-heavy_hex-opt3": {
+   "compile_s": [
+    0.03414526000000251,
+    0.03376030300000821,
+    0.035254360000010365
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n8-line-opt3": {
+   "compile_s": [
+    0.003126595999987103,
+    0.003082382000002326,
+    0.003146176000001333
+   ],
+   "deterministic": true
+  },
+  "qaoa_linear-n8-line-opt1": {
+   "compile_s": [
+    0.00219750200000135,
+    0.0021296429999893007,
+    0.0022316320000044243
+   ],
+   "deterministic": true
+  }
+ },
+ "clean_nondeterministic": []
+}

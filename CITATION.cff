@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "cart: observability-aware, cost-aware regression testing for the Qiskit transpiler (Paper 3 registration and reproduction package)"
+abstract: >-
+  Pre-registration, code, data and reproduction recipes for a study of observability-aware, cost-aware regression
+  test selection for the Qiskit transpiler, in which the pipeline chooses both which tests to run and which oracle
+  each test gets within a continuous-integration budget.
+license: MIT
+type: software
+repository-code: "https://github.com/furqan-nr/cart"
+keywords:
+  - regression test selection
+  - test oracle
+  - quantum transpiler
+  - Qiskit
+  - pre-registration
+authors:
+  - family-names: Nasir
+    given-names: Furqan
+    orcid: "https://orcid.org/0000-0002-5259-3448"
+    affiliation: "City University of Science and Information Technology (CUSIT), Peshawar, Pakistan"
+  - family-names: Shah
+    given-names: Muhammad Arif
+    orcid: "https://orcid.org/0000-0003-0090-3333"
+    affiliation: "City University of Science and Information Technology (CUSIT), Peshawar, Pakistan"
+  - family-names: Alam
+    given-names: Iftikhar
+    orcid: "https://orcid.org/0000-0002-8087-5485"
+    affiliation: "City University of Science and Information Technology (CUSIT), Peshawar, Pakistan"
+references:
+  - type: software
+    title: "Quantum Selection: reproduction package for 'Cost-Aware Regression Test Prioritization for Quantum Compilers: Pre-Registered Evidence from Qiskit'"
+    doi: "10.5281/zenodo.23475857"
+    url: "https://github.com/furqan-nr/Quantum-Selection"
+    authors:
+      - family-names: Nasir
+        given-names: Furqan
+      - family-names: Shah
+        given-names: Muhammad Arif
+      - family-names: Alam
+        given-names: Iftikhar
