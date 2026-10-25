@@ -1,0 +1,26 @@
+2.1.2 ['UnitarySynthesis', 'HighLevelSynthesis', 'BasisTranslator', 'ElidePermutations', 'RemoveDiagonalGatesBeforeMeasure', 'RemoveIdentityEquivalent', 'InverseCancellation', 'ContractIdleWiresInControlFlow', 'CommutativeCancellation', 'ConsolidateBlocks', 'Split2QUnitaries', 'BarrierBeforeFinalMeasurements', 'SabreLayout', 'FilterOpNodes', 'MinimumPoint', 'Optimize1qGatesDecomposition']
+  without ElidePermutations                   record_ok=True phase_delta=6.889941093213281e-07
+  without RemoveDiagonalGatesBeforeMeasure    record_ok=True phase_delta=-3.141588687020179
+  without RemoveIdentityEquivalent            record_ok=True phase_delta=-3.1415886870202447
+  without InverseCancellation                 record_ok=True phase_delta=-3.141588687020179
+  without ContractIdleWiresInControlFlow      record_ok=True phase_delta=-3.141588687020181
+  without CommutativeCancellation             record_ok=True phase_delta=-3.141588687020153
+  without ConsolidateBlocks                   record_ok=True phase_delta=-2.9753977059954195e-14
+  without Split2QUnitaries                    record_ok=True phase_delta=-3.141588687020179
+  without BarrierBeforeFinalMeasurements      record_ok=True phase_delta=-3.141588687020181
+  without FilterOpNodes                       record_ok=True phase_delta=-3.141588687020179
+   MinimumPoint error TranspilerError
+  without Optimize1qGatesDecomposition        record_ok=True phase_delta=-3.1415886870201732
+2.2.0 ['UnitarySynthesis', 'HighLevelSynthesis', 'BasisTranslator', 'ElidePermutations', 'RemoveDiagonalGatesBeforeMeasure', 'RemoveIdentityEquivalent', 'InverseCancellation', 'ContractIdleWiresInControlFlow', 'CommutativeCancellation', 'ConsolidateBlocks', 'Split2QUnitaries', 'BarrierBeforeFinalMeasurements', 'SabreLayout', 'FilterOpNodes', 'MinimumPoint', 'Optimize1qGatesDecomposition']
+  without ElidePermutations                   record_ok=True phase_delta=6.889944845767104e-07
+  without RemoveDiagonalGatesBeforeMeasure    record_ok=True phase_delta=-2.598708540357819e-06
+  without RemoveIdentityEquivalent            record_ok=True phase_delta=3.966569609215043e-06
+  without InverseCancellation                 record_ok=True phase_delta=6.889944885735133e-07
+  without ContractIdleWiresInControlFlow      record_ok=True phase_delta=-2.598708540357819e-06
+  without CommutativeCancellation             record_ok=True phase_delta=6.889944783594615e-07
+  without ConsolidateBlocks                   record_ok=True phase_delta=-3.1086244689504383e-15
+  without Split2QUnitaries                    record_ok=True phase_delta=6.889944610399823e-07
+  without BarrierBeforeFinalMeasurements      record_ok=True phase_delta=6.889944526022873e-07
+  without FilterOpNodes                       record_ok=True phase_delta=6.889944739185694e-07
+   MinimumPoint error TranspilerError
+  without Optimize1qGatesDecomposition        record_ok=True phase_delta=6.889944716981233e-07

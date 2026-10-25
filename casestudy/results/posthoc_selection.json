@@ -1,0 +1,104 @@
+{
+ "14939 on 2.1.2": {
+  "output_only": {
+   "0%": false,
+   "1%": false,
+   "2%": false,
+   "5%": false,
+   "10%": false,
+   "first_est_s": null
+  },
+  "all_checks": {
+   "0%": false,
+   "1%": false,
+   "2%": true,
+   "5%": true,
+   "10%": true,
+   "first_est_s": 20.35232329399864
+  },
+  "observability": {
+   "0%": true,
+   "1%": true,
+   "2%": true,
+   "5%": true,
+   "10%": true,
+   "first_est_s": 7.259491144999079
+  },
+  "cheapest_items": {
+   "0%": true,
+   "1%": true,
+   "2%": true,
+   "5%": true,
+   "10%": true,
+   "first_est_s": 0.3414898339991681
+  }
+ },
+ "14939 on 2.0.2": {
+  "output_only": {
+   "0%": false,
+   "1%": false,
+   "2%": false,
+   "5%": false,
+   "10%": false,
+   "first_est_s": null
+  },
+  "all_checks": {
+   "0%": false,
+   "1%": false,
+   "2%": true,
+   "5%": true,
+   "10%": true,
+   "first_est_s": 18.50187936799867
+  },
+  "observability": {
+   "0%": true,
+   "1%": true,
+   "2%": true,
+   "5%": true,
+   "10%": true,
+   "first_est_s": 7.191384931999131
+  },
+  "cheapest_items": {
+   "0%": true,
+   "1%": true,
+   "2%": true,
+   "5%": true,
+   "10%": true,
+   "first_est_s": 0.316358622999227
+  }
+ },
+ "QFT18 phase (2.0.2-2.1.2)": {
+  "output_only": {
+   "0%": false,
+   "1%": false,
+   "2%": false,
+   "5%": false,
+   "10%": false,
+   "first_est_s": null
+  },
+  "all_checks": {
+   "0%": false,
+   "1%": false,
+   "2%": false,
+   "5%": true,
+   "10%": true,
+   "first_est_s": 35.29427837799861
+  },
+  "observability": {
+   "0%": false,
+   "1%": false,
+   "2%": false,
+   "5%": true,
+   "10%": true,
+   "first_est_s": 45.72115612199979
+  },
+  "cheapest_items": {
+   "0%": false,
+   "1%": false,
+   "2%": false,
+   "5%": true,
+   "10%": true,
+   "first_est_s": 28.232121207999842
+  }
+ }
+}

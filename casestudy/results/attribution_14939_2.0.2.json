@@ -1,0 +1,23 @@
+{
+ "qiskit": "2.0.2",
+ "units": {
+  "qft-n27-heavy_hex-opt3": {
+   "before": [
+    [
+     "K0",
+     "initial_index_layout raised __error__:IndexError"
+    ]
+   ],
+   "after_fix": []
+  },
+  "random_clifford-n12-heavy_hex-opt1": {
+   "before": [
+    [
+     "K0",
+     "initial_index_layout raised __error__:IndexError"
+    ]
+   ],
+   "after_fix": []
+  }
+ }
+}

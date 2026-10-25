@@ -1,0 +1,761 @@
+{
+ "note": "exploratory case study; costs are the registered study's estimate (N260)",
+ "pairs": [
+  {
+   "pair": "P1",
+   "fix": "#15024",
+   "channel": "contract",
+   "buggy": "2.2.0rc1",
+   "fixed": "2.2.0",
+   "units_changed": 18,
+   "units_detecting": {
+    "crash": [],
+    "output": [],
+    "quality": [
+     "qft-n127-heavy_hex-opt3",
+     "qft-n127-line-opt3",
+     "qft-n27-heavy_hex-opt3",
+     "qft-n40-heavy_hex-opt3"
+    ],
+    "probe": [],
+    "contract": [],
+    "k3prime": [
+     "ghz-n12-heavy_hex-opt1",
+     "ghz-n12-heavy_hex-opt3",
+     "ghz-n12-line-opt1",
+     "ghz-n12-line-opt3",
+     "ghz-n18-heavy_hex-opt3",
+     "ghz-n18-line-opt1",
+     "ghz-n18-line-opt3",
+     "ghz-n27-heavy_hex-opt1",
+     "ghz-n27-heavy_hex-opt3",
+     "ghz-n27-line-opt1",
+     "ghz-n27-line-opt3",
+     "ghz-n40-heavy_hex-opt1",
+     "ghz-n40-heavy_hex-opt3",
+     "ghz-n40-line-opt1",
+     "ghz-n40-line-opt3",
+     "ghz-n5-heavy_hex-opt1",
+     "ghz-n5-heavy_hex-opt3",
+     "ghz-n5-line-opt1",
+     "ghz-n5-line-opt3",
+     "ghz-n65-heavy_hex-opt1",
+     "ghz-n65-heavy_hex-opt3",
+     "ghz-n65-line-opt1",
+     "ghz-n65-line-opt3",
+     "ghz-n8-heavy_hex-opt1",
+     "ghz-n8-heavy_hex-opt3",
+     "ghz-n8-line-opt1",
+     "ghz-n8-line-opt3",
+     "qaoa_linear-n12-heavy_hex-opt1",
+     "qaoa_linear-n12-heavy_hex-opt3",
+     "qaoa_linear-n12-line-opt1",
+     "qaoa_linear-n12-line-opt3",
+     "qaoa_linear-n18-heavy_hex-opt1",
+     "qaoa_linear-n18-heavy_hex-opt3",
+     "qaoa_linear-n18-line-opt1",
+     "qaoa_linear-n18-line-opt3",
+     "qaoa_linear-n27-heavy_hex-opt1",
+     "qaoa_linear-n27-heavy_hex-opt3",
+     "qaoa_linear-n27-line-opt1",
+     "qaoa_linear-n27-line-opt3",
+     "qaoa_linear-n40-heavy_hex-opt1",
+     "qaoa_linear-n40-heavy_hex-opt3",
+     "qaoa_linear-n40-line-opt1",
+     "qaoa_linear-n40-line-opt3",
+     "qaoa_linear-n5-heavy_hex-opt1",
+     "qaoa_linear-n5-heavy_hex-opt3",
+     "qaoa_linear-n5-line-opt1",
+     "qaoa_linear-n5-line-opt3",
+     "qaoa_linear-n65-heavy_hex-opt1",
+     "qaoa_linear-n65-heavy_hex-opt3",
+     "qaoa_linear-n65-line-opt1",
+     "qaoa_linear-n65-line-opt3",
+     "qaoa_linear-n8-heavy_hex-opt1",
+     "qaoa_linear-n8-heavy_hex-opt3",
+     "qaoa_linear-n8-line-opt1",
+     "qaoa_linear-n8-line-opt3",
+     "qft-n12-heavy_hex-opt3",
+     "qft-n27-heavy_hex-opt1",
+     "qft-n27-heavy_hex-opt3",
+     "qft-n5-heavy_hex-opt1",
+     "qft-n5-heavy_hex-opt3",
+     "qft-n8-heavy_hex-opt1",
+     "qft-n8-heavy_hex-opt3",
+     "random_clifford-n12-heavy_hex-opt1",
+     "random_clifford-n12-heavy_hex-opt3",
+     "random_clifford-n5-heavy_hex-opt1",
+     "random_clifford-n5-heavy_hex-opt3",
+     "random_clifford-n8-heavy_hex-opt1",
+     "random_clifford-n8-heavy_hex-opt3"
+    ],
+    "determinism": []
+   },
+   "n_units_detecting": {
+    "crash": 0,
+    "output": 0,
+    "quality": 4,
+    "probe": 0,
+    "contract": 0,
+    "k3prime": 68,
+    "determinism": 0
+   },
+   "matched_checks": [
+    "contract",
+    "k3prime"
+   ],
+   "selection": {
+    "registered": {
+     "output_only": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     },
+     "all_checks": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     },
+     "observability": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     },
+     "cheapest_items": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     }
+    },
+    "with_k3prime": {
+     "output_only": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     },
+     "all_checks": {
+      "2%": true,
+      "5%": true,
+      "10%": true,
+      "first_detection_est_s": 0.2043580509999856
+     },
+     "observability": {
+      "2%": true,
+      "5%": true,
+      "10%": true,
+      "first_detection_est_s": 0.000736836999976731
+     },
+     "cheapest_items": {
+      "2%": true,
+      "5%": true,
+      "10%": true,
+      "first_detection_est_s": 0.000736836999976731
+     }
+    }
+   },
+   "trigger": {
+    "unit": "P1_15024",
+    "detects": {
+     "output": false,
+     "probe": false,
+     "contract": false,
+     "k3prime": true,
+     "quality": false,
+     "determinism": false
+    },
+    "changed": false,
+    "buggy": {
+     "crash": null,
+     "output_alarm": false,
+     "probe_alarm": false,
+     "probe_detail": {
+      "record_ok": true,
+      "phase_ok": true,
+      "phase_delta": 0.0
+     },
+     "contract_alarm": false,
+     "contract_violations": [],
+     "k3prime_alarm": true,
+     "det_distinct": 1,
+     "twoq": 2,
+     "depth": 5
+    },
+    "fixed": {
+     "crash": null,
+     "output_alarm": false,
+     "probe_alarm": false,
+     "probe_detail": {
+      "record_ok": true,
+      "phase_ok": true,
+      "phase_delta": 0.0
+     },
+     "contract_alarm": false,
+     "contract_violations": [],
+     "k3prime_alarm": false,
+     "det_distinct": 1,
+     "twoq": 2,
+     "depth": 5
+    }
+   }
+  },
+  {
+   "pair": "P2",
+   "fix": "#14956",
+   "channel": "global phase",
+   "buggy": "2.1.2",
+   "fixed": "2.2.0",
+   "units_changed": 64,
+   "units_detecting": {
+    "crash": [],
+    "output": [],
+    "quality": [
+     "ghz-n18-heavy_hex-opt1",
+     "qft-n100-heavy_hex-opt1",
+     "qft-n100-heavy_hex-opt3",
+     "qft-n12-heavy_hex-opt3",
+     "qft-n127-heavy_hex-opt3",
+     "qft-n127-line-opt1",
+     "qft-n127-line-opt3",
+     "qft-n18-heavy_hex-opt3",
+     "qft-n18-line-opt3",
+     "qft-n27-line-opt3",
+     "qft-n40-line-opt1",
+     "qft-n40-line-opt3",
+     "qft-n65-heavy_hex-opt1",
+     "qft-n65-line-opt3",
+     "random_clifford-n8-heavy_hex-opt1"
+    ],
+    "probe": [
+     "qft-n18-line-opt3"
+    ],
+    "contract": [
+     "qft-n12-heavy_hex-opt1",
+     "qft-n27-heavy_hex-opt1",
+     "random_clifford-n12-heavy_hex-opt3"
+    ],
+    "k3prime": [],
+    "determinism": []
+   },
+   "n_units_detecting": {
+    "crash": 0,
+    "output": 0,
+    "quality": 15,
+    "probe": 1,
+    "contract": 3,
+    "k3prime": 0,
+    "determinism": 0
+   },
+   "matched_checks": [
+    "probe"
+   ],
+   "selection": {
+    "registered": {
+     "output_only": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     },
+     "all_checks": {
+      "2%": false,
+      "5%": true,
+      "10%": true,
+      "first_detection_est_s": 35.29427837799861
+     },
+     "observability": {
+      "2%": false,
+      "5%": true,
+      "10%": true,
+      "first_detection_est_s": 45.72115612199979
+     },
+     "cheapest_items": {
+      "2%": false,
+      "5%": true,
+      "10%": true,
+      "first_detection_est_s": 28.232121207999842
+     }
+    },
+    "with_k3prime": {
+     "output_only": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     },
+     "all_checks": {
+      "2%": false,
+      "5%": true,
+      "10%": true,
+      "first_detection_est_s": 35.29427837799861
+     },
+     "observability": {
+      "2%": false,
+      "5%": true,
+      "10%": true,
+      "first_detection_est_s": 45.72115612199979
+     },
+     "cheapest_items": {
+      "2%": false,
+      "5%": true,
+      "10%": true,
+      "first_detection_est_s": 28.232121207999842
+     }
+    }
+   },
+   "trigger": {
+    "unit": "P2_14956",
+    "detects": {
+     "output": false,
+     "probe": true,
+     "contract": false,
+     "k3prime": false,
+     "quality": false,
+     "determinism": false
+    },
+    "changed": true,
+    "buggy": {
+     "crash": null,
+     "output_alarm": false,
+     "probe_alarm": true,
+     "probe_detail": {
+      "record_ok": true,
+      "phase_ok": false,
+      "phase_delta": -3.1415926535897927
+     },
+     "contract_alarm": false,
+     "contract_violations": [],
+     "k3prime_alarm": false,
+     "det_distinct": 1,
+     "twoq": 1,
+     "depth": 4
+    },
+    "fixed": {
+     "crash": null,
+     "output_alarm": false,
+     "probe_alarm": false,
+     "probe_detail": {
+      "record_ok": true,
+      "phase_ok": true,
+      "phase_delta": -4.440892098500626e-16
+     },
+     "contract_alarm": false,
+     "contract_violations": [],
+     "k3prime_alarm": false,
+     "det_distinct": 1,
+     "twoq": 1,
+     "depth": 4
+    }
+   }
+  },
+  {
+   "pair": "P3",
+   "fix": "#14730",
+   "channel": "determinism",
+   "buggy": "2.1.1",
+   "fixed": "2.1.2",
+   "units_changed": 0,
+   "units_detecting": {
+    "crash": [],
+    "output": [],
+    "quality": [],
+    "probe": [],
+    "contract": [],
+    "k3prime": [],
+    "determinism": []
+   },
+   "n_units_detecting": {
+    "crash": 0,
+    "output": 0,
+    "quality": 0,
+    "probe": 0,
+    "contract": 0,
+    "k3prime": 0,
+    "determinism": 0
+   },
+   "matched_checks": [
+    "determinism"
+   ],
+   "selection": {
+    "registered": {
+     "output_only": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     },
+     "all_checks": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     },
+     "observability": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     },
+     "cheapest_items": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     }
+    },
+    "with_k3prime": {
+     "output_only": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     },
+     "all_checks": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     },
+     "observability": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     },
+     "cheapest_items": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     }
+    }
+   },
+   "trigger": {
+    "unit": "P3_14730",
+    "detects": {
+     "output": false,
+     "probe": false,
+     "contract": false,
+     "k3prime": false,
+     "quality": false,
+     "determinism": true
+    },
+    "changed": true,
+    "buggy": {
+     "crash": null,
+     "output_alarm": null,
+     "probe_alarm": null,
+     "probe_detail": null,
+     "contract_alarm": false,
+     "contract_violations": [],
+     "k3prime_alarm": false,
+     "det_distinct": 3,
+     "twoq": 0,
+     "depth": 6
+    },
+    "fixed": {
+     "crash": null,
+     "output_alarm": null,
+     "probe_alarm": null,
+     "probe_detail": null,
+     "contract_alarm": false,
+     "contract_violations": [],
+     "k3prime_alarm": false,
+     "det_distinct": 1,
+     "twoq": 0,
+     "depth": 6
+    }
+   }
+  },
+  {
+   "pair": "P4",
+   "fix": "#16237",
+   "channel": "determinism",
+   "buggy": "2.4.2",
+   "fixed": "2.5.0",
+   "units_changed": 67,
+   "units_detecting": {
+    "crash": [],
+    "output": [],
+    "quality": [
+     "ghz-n18-heavy_hex-opt1",
+     "qaoa_linear-n18-heavy_hex-opt1",
+     "qaoa_linear-n18-heavy_hex-opt3",
+     "qft-n100-heavy_hex-opt1",
+     "qft-n100-heavy_hex-opt3",
+     "qft-n100-line-opt1",
+     "qft-n12-heavy_hex-opt1",
+     "qft-n12-heavy_hex-opt3",
+     "qft-n12-line-opt3",
+     "qft-n127-heavy_hex-opt1",
+     "qft-n127-heavy_hex-opt3",
+     "qft-n18-heavy_hex-opt3",
+     "qft-n18-line-opt1",
+     "qft-n18-line-opt3",
+     "qft-n27-heavy_hex-opt3",
+     "qft-n40-heavy_hex-opt1",
+     "qft-n40-heavy_hex-opt3",
+     "qft-n65-heavy_hex-opt1",
+     "qft-n65-heavy_hex-opt3",
+     "qft-n65-line-opt1",
+     "qft-n8-heavy_hex-opt3",
+     "qft-n8-line-opt3",
+     "random_clifford-n12-heavy_hex-opt1",
+     "random_clifford-n12-heavy_hex-opt3",
+     "random_clifford-n12-line-opt1",
+     "random_clifford-n12-line-opt3",
+     "random_clifford-n18-line-opt1",
+     "random_clifford-n5-heavy_hex-opt3",
+     "random_clifford-n8-line-opt1",
+     "random_clifford-n8-line-opt3"
+    ],
+    "probe": [],
+    "contract": [],
+    "k3prime": [],
+    "determinism": []
+   },
+   "n_units_detecting": {
+    "crash": 0,
+    "output": 0,
+    "quality": 30,
+    "probe": 0,
+    "contract": 0,
+    "k3prime": 0,
+    "determinism": 0
+   },
+   "matched_checks": [
+    "determinism"
+   ],
+   "selection": {
+    "registered": {
+     "output_only": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     },
+     "all_checks": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     },
+     "observability": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     },
+     "cheapest_items": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     }
+    },
+    "with_k3prime": {
+     "output_only": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     },
+     "all_checks": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     },
+     "observability": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     },
+     "cheapest_items": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     }
+    }
+   },
+   "trigger": {
+    "unit": "P4_16237",
+    "detects": {
+     "output": false,
+     "probe": false,
+     "contract": false,
+     "k3prime": false,
+     "quality": true,
+     "determinism": false
+    },
+    "changed": true,
+    "buggy": {
+     "crash": null,
+     "output_alarm": false,
+     "probe_alarm": false,
+     "probe_detail": {
+      "record_ok": true,
+      "phase_ok": true,
+      "phase_delta": 2.220446049250313e-15
+     },
+     "contract_alarm": false,
+     "contract_violations": [],
+     "k3prime_alarm": false,
+     "det_distinct": 1,
+     "twoq": 28,
+     "depth": 57
+    },
+    "fixed": {
+     "crash": null,
+     "output_alarm": false,
+     "probe_alarm": false,
+     "probe_detail": {
+      "record_ok": true,
+      "phase_ok": true,
+      "phase_delta": -2.220446049250313e-15
+     },
+     "contract_alarm": false,
+     "contract_violations": [],
+     "k3prime_alarm": false,
+     "det_distinct": 1,
+     "twoq": 28,
+     "depth": 49
+    }
+   }
+  },
+  {
+   "pair": "P5",
+   "fix": "#14603",
+   "channel": "contract",
+   "buggy": "2.0.2",
+   "fixed": "2.0.3",
+   "units_changed": 0,
+   "units_detecting": {
+    "crash": [],
+    "output": [],
+    "quality": [],
+    "probe": [],
+    "contract": [],
+    "k3prime": [],
+    "determinism": []
+   },
+   "n_units_detecting": {
+    "crash": 0,
+    "output": 0,
+    "quality": 0,
+    "probe": 0,
+    "contract": 0,
+    "k3prime": 0,
+    "determinism": 0
+   },
+   "matched_checks": [
+    "contract",
+    "k3prime"
+   ],
+   "selection": {
+    "registered": {
+     "output_only": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     },
+     "all_checks": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     },
+     "observability": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     },
+     "cheapest_items": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     }
+    },
+    "with_k3prime": {
+     "output_only": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     },
+     "all_checks": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     },
+     "observability": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     },
+     "cheapest_items": {
+      "2%": false,
+      "5%": false,
+      "10%": false,
+      "first_detection_est_s": null
+     }
+    }
+   },
+   "trigger": {
+    "unit": "P5_14603",
+    "detects": {
+     "output": false,
+     "probe": false,
+     "contract": false,
+     "k3prime": false,
+     "quality": false,
+     "determinism": false
+    },
+    "changed": false,
+    "buggy": {
+     "crash": null,
+     "output_alarm": false,
+     "probe_alarm": false,
+     "probe_detail": {
+      "record_ok": true,
+      "phase_ok": true,
+      "phase_delta": 8.881784197001252e-16
+     },
+     "contract_alarm": false,
+     "contract_violations": [],
+     "k3prime_alarm": false,
+     "det_distinct": 1,
+     "twoq": 0,
+     "depth": 3
+    },
+    "fixed": {
+     "crash": null,
+     "output_alarm": false,
+     "probe_alarm": false,
+     "probe_detail": {
+      "record_ok": true,
+      "phase_ok": true,
+      "phase_delta": 8.881784197001252e-16
+     },
+     "contract_alarm": false,
+     "contract_violations": [],
+     "k3prime_alarm": false,
+     "det_distinct": 1,
+     "twoq": 0,
+     "depth": 3
+    }
+   }
+  }
+ ]
+}

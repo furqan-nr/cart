@@ -1,0 +1,91 @@
+{
+ "P1_15024": {
+  "physical_qubits": 5,
+  "twoq": 2,
+  "depth": 5,
+  "fp": "f63cc5807aea4e684a2f0a43dd68f02aca250dbf6ec6b64b83b67db48019affa",
+  "output_alarm": false,
+  "output_tier": "structural",
+  "probe_assessable": true,
+  "probe_alarm": false,
+  "probe_detail": {
+   "record_ok": true,
+   "phase_ok": true,
+   "phase_delta": 0.0
+  },
+  "contract_alarm": false,
+  "contract_violations": [],
+  "k3prime_alarm": false,
+  "det_distinct": 1
+ },
+ "P2_14956": {
+  "physical_qubits": 2,
+  "twoq": 1,
+  "depth": 4,
+  "fp": "bd4b6d5ed4f941f820a872009bdb520b640dd1aabc495a495e2e3a5913c225f4",
+  "output_alarm": false,
+  "output_tier": "exact",
+  "probe_assessable": true,
+  "probe_alarm": true,
+  "probe_detail": {
+   "record_ok": true,
+   "phase_ok": false,
+   "phase_delta": -3.1415926535897927
+  },
+  "contract_alarm": false,
+  "contract_violations": [],
+  "k3prime_alarm": false,
+  "det_distinct": 1
+ },
+ "P3_14730": {
+  "physical_qubits": 10,
+  "twoq": 0,
+  "depth": 6,
+  "fp": "7c1b1d9d1ffbdaaeb6c06562ec7cd3e14a124c4df23df2d2236c3336d517f49a",
+  "output_alarm": null,
+  "output_error": "ValueError: no basis/coupling map (target-based compilation)",
+  "probe_alarm": null,
+  "contract_alarm": false,
+  "contract_violations": [],
+  "k3prime_alarm": false,
+  "det_distinct": 3
+ },
+ "P4_16237": {
+  "physical_qubits": 5,
+  "twoq": 30,
+  "depth": 59,
+  "fp": "637531aae983bd5b63fd5896a0ec2596fc8125dfd9ce7fa48bb81c7051f6b414",
+  "output_alarm": false,
+  "output_tier": "exact",
+  "probe_assessable": true,
+  "probe_alarm": false,
+  "probe_detail": {
+   "record_ok": true,
+   "phase_ok": true,
+   "phase_delta": -1.1102230246251565e-14
+  },
+  "contract_alarm": false,
+  "contract_violations": [],
+  "k3prime_alarm": false,
+  "det_distinct": 1
+ },
+ "P5_14603": {
+  "physical_qubits": 5,
+  "twoq": 0,
+  "depth": 3,
+  "fp": "7cf45725fb100b178c5db7b1df4f4dda515fd1ff143ae95cfa6e92bc0ed8dc35",
+  "output_alarm": false,
+  "output_tier": "exact",
+  "probe_assessable": true,
+  "probe_alarm": false,
+  "probe_detail": {
+   "record_ok": true,
+   "phase_ok": true,
+   "phase_delta": 8.881784197001252e-16
+  },
+  "contract_alarm": false,
+  "contract_violations": [],
+  "k3prime_alarm": false,
+  "det_distinct": 3
+ }
+}

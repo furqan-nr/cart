@@ -437,6 +437,47 @@ def fig_grid(ex):
     plt.close(fig)
 
 
+def tab_casestudy(cs, ph):
+    """Case study on historical Qiskit faults (exploratory)."""
+    P = {p["pair"]: p for p in cs["pairs"]}
+    def sel(d):
+        bud = [b for b in ("2%", "5%", "10%")]
+        out = []
+        for s in ("observability", "cheapest_items", "all_checks", "output_only"):
+            hit = [b for b in bud if d[s][b]]
+            out.append(SHORT[s] + " " + (hit[0].replace("%", "\\%") if hit else "--"))
+        return ", ".join(out)
+    rows = []
+    for pid in ("P1", "P2", "P3", "P4", "P5"):
+        p = P[pid]
+        n = p["n_units_detecting"]
+        corpus = []
+        for c in ("contract", "k3prime", "probe", "determinism"):
+            if c in p["matched_checks"] and n.get(c):
+                corpus.append(f"{'K3' + chr(39) if c == 'k3prime' else c} {n[c]}")
+        matched = set(p["matched_checks"])
+        trig = [("K3" + chr(39) if k == "k3prime" else k) for k, v in p["trigger"]["detects"].items() if v and k in matched]
+        other = [k for k, v in p["trigger"]["detects"].items() if v and k not in matched]
+        variant = "with_k3prime" if p["pair"] == "P1" else "registered"
+        any_sel = any(v[b] for v in p["selection"][variant].values() for b in ("2%", "5%", "10%"))
+        if p["pair"] == "P2":   # post hoc diagnosis: the one probe alarm is not this fault (see the unidentified row)
+            corpus, any_sel = [], False
+        rows.append((p["fix"].replace("#", "\\#"), p["channel"], f"{p['buggy']} $\\to$ {p['fixed']}",
+                     ", ".join(corpus) if corpus else "none",
+                     sel(p["selection"][variant]) if any_sel else "--",
+                     (", ".join(trig) if trig else "none") + (f" ({', '.join(other)} differs)" if other else "")))
+    d1 = ph["14939 on 2.1.2"]
+    d2 = ph["QFT18 phase (2.0.2-2.1.2)"]
+    rows.append(("\\#14939$^\\dagger$", "contract", "2.0.2--2.1.2 $\\to$ 2.2.0", "contract (K0) 2--3", sel(d1), "n/a"))
+    rows.append(("unidentified$^\\dagger$", "global phase", "2.0.2--2.1.2 $\\to$ 2.2.0rc1", "probe 1", sel(d2), "n/a"))
+    out = [r"\begin{tabular}{@{}lllp{0.17\textwidth}p{0.22\textwidth}l@{}}", r"\toprule",
+           r"Fix & Channel & Releases & Corpus units detecting (matched check) & First budget with a detection & Trigger detected by \\",
+           r"\midrule"]
+    out += [" & ".join(r) + r" \\" for r in rows]
+    out += [r"\bottomrule", r"\end{tabular}"]
+    return "\n".join(out)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--repo", required=True)
@@ -444,6 +485,10 @@ def main() -> int:
     a = ap.parse_args()
     repo = Path(a.repo)
     ex = json.loads(Path(a.exploratory).read_text())
+    csdir = repo / "casestudy" / "results"
+    if (csdir / "case_study.json").exists():
+        (TAB / "casestudy.tex").write_text(tab_casestudy(json.loads((csdir / "case_study.json").read_text()),
+                                                         json.loads((csdir / "posthoc_selection.json").read_text())))
     TAB.mkdir(exist_ok=True)
     FIG.mkdir(exist_ok=True)
     r1, r2, diag, prev, rean, lab = load(repo)
