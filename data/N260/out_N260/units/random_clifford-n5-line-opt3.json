@@ -1,0 +1,39 @@
+{
+ "test_id": "random_clifford-n5-line-opt3",
+ "family": "random_clifford",
+ "n": 5,
+ "backend": "line",
+ "level": 3,
+ "physical_qubits": 5,
+ "compile_s": 0.0033344669998314203,
+ "compile_samples": [
+  0.0036949039999853994,
+  0.003417723999973532,
+  0.0033344669998314203,
+  0.0033064130000184377,
+  0.0032669780000560422
+ ],
+ "compile_iqr_s": 0.00026961849994222575,
+ "output_tier": "exact",
+ "output_s": 0.007956713000112359,
+ "output_samples": [
+  0.007956713000112359,
+  0.007840291999855253,
+  0.007981067999935476
+ ],
+ "quality_s": 0.0006350880000809411,
+ "probe_applicable": true,
+ "probe_s": 0.009076692000007824,
+ "probe_samples": [
+  0.00978113599990138,
+  0.009076692000007824,
+  0.008934296000006725
+ ],
+ "contract_s": 3.6687999909190694e-05,
+ "clean_verdicts_pass": {
+  "output": true,
+  "quality": true,
+  "probe": true,
+  "contract": true
+ }
+}

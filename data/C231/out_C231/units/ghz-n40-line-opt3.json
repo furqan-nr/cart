@@ -1,0 +1,33 @@
+{
+ "test_id": "ghz-n40-line-opt3",
+ "family": "ghz",
+ "n": 40,
+ "backend": "line",
+ "level": 3,
+ "physical_qubits": 40,
+ "compile_s": 0.0038125849999985917,
+ "compile_samples": [
+  0.0037648810000021626,
+  0.0038125849999985917,
+  0.004125266999999155,
+  0.0038975590000021043,
+  0.003735476999999321
+ ],
+ "compile_iqr_s": 0.00026123399999988806,
+ "output_tier": "structural",
+ "output_s": 0.0002781550000037214,
+ "output_samples": [
+  0.00040433100000569766,
+  0.0002781550000037214,
+  0.00025480999999416554
+ ],
+ "quality_s": 0.00041659299999707855,
+ "probe_applicable": false,
+ "probe_s": null,
+ "contract_s": 0.00010809499999453465,
+ "clean_verdicts_pass": {
+  "output": true,
+  "quality": true,
+  "contract": true
+ }
+}

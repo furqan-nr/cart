@@ -1,0 +1,33 @@
+{
+ "test_id": "qft-n40-line-opt1",
+ "family": "qft",
+ "n": 40,
+ "backend": "line",
+ "level": 1,
+ "physical_qubits": 40,
+ "compile_s": 0.1224703769998996,
+ "compile_samples": [
+  0.1224703769998996,
+  0.12329705399997692,
+  0.12108961400008411,
+  0.12409722000006695,
+  0.12211068200008413
+ ],
+ "compile_iqr_s": 0.002096988999937821,
+ "output_tier": "structural",
+ "output_s": 0.04768949699996483,
+ "output_samples": [
+  0.04790969100008624,
+  0.04712298799995551,
+  0.04768949699996483
+ ],
+ "quality_s": 0.0888871019999442,
+ "probe_applicable": false,
+ "probe_s": null,
+ "contract_s": 0.00014110300003267184,
+ "clean_verdicts_pass": {
+  "output": true,
+  "quality": true,
+  "contract": true
+ }
+}

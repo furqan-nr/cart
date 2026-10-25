@@ -1,0 +1,12 @@
+{
+ "python": "3.13.15",
+ "qiskit": "2.6.0",
+ "cpu": "model name\t: Intel(R) Xeon(R) CPU @ 2.20GHz",
+ "nproc": 4,
+ "kaggle_image": "gcr.io/kaggle-images/python@sha256:17b2fc7f27c25c6c2fd4230ec8e66097ab2b89fc88e1e4d6f338b72e1ee0bc3e",
+ "threads_env": {
+  "RAYON_NUM_THREADS": "1",
+  "OMP_NUM_THREADS": "1"
+ },
+ "started_utc": "2026-10-24T19:40:18Z"
+}

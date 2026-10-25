@@ -22,11 +22,11 @@ Filled in after each step by a commit that changes only this file. Times in UTC.
 
 | Step | Commit | Commit time | Push time | Manifest check | Notes |
 |---|---|---|---|---|---|
-| R2 registration pushed | | | | | |
-| Wheelhouse built, Qiskit 2.6.0 | | | | | |
-| Wheelhouse built, Qiskit 2.3.1 | | | | | |
-| Calibration session N260 (Kaggle, start and end) | | | | | |
-| Labeling session C260 (Kaggle, start and end) | | | | | |
-| Calibration session N231 (Kaggle, start and end) | | | | | |
-| Labeling session C231 (Kaggle, start and end) | | | | | |
-| R2 registered analysis run | | | | | |
+| R2 registration pushed | `504533ecbff05cecc79a67e3862cd23918564beb` | 2026-10-24 18:43:49 | before 19:20 (seen on GitHub by an independent clone) | R2 7/7 and first 85/85 (public clone) | No R2 cohort data existed |
+| Wheelhouse built, Qiskit 2.6.0 | | | | | Kaggle dataset `p3-wheelhouse-qiskit-2-6-0`; Qiskit 2.6.0 confirmed by the sessions' hardware records |
+| Wheelhouse built, Qiskit 2.3.1 | | | | | Kaggle dataset `p3-wheelhouse-qiskit-2-3-1`; Qiskit 2.3.1 confirmed by the sessions' hardware records |
+| Calibration session N260 (Kaggle, start and end) | (data commit) | | | | 2026-10-24 19:40:18 to 20:07:00; drift 1.8%; `data/N260/out_N260.zip` SHA-256 f4cb959b8d2e4bb54a5b1a7df8c246fb5dca395ee1ffc2116e0d68032443e088 |
+| Labeling session C260 (Kaggle, start and end) | (data commit) | | | | 2026-10-24 20:25:25 to 23:36:26 (after N260 ended); drift 10.7%; `data/C260/out_C260.zip` SHA-256 90de32c3b7f59ca9651a29e9d11f053ff3eea5c9a4386295ed2d1109a2a5d1ff |
+| Calibration session N231 (Kaggle, start and end) | (data commit) | | | | 2026-10-24 19:52:34 to 20:23:03; drift 3.7%; `data/N231/out_N231.zip` SHA-256 0b5e54533ef335f109643c6ef0337bc40223457ac6781db1774e46a6a0558d28 |
+| Labeling session C231 (Kaggle, start and end) | (data commit) | | | | 2026-10-24 20:29:07 to 2026-10-25 00:03:23 (after N231 ended); drift 3.2%; `data/C231/out_C231.zip` SHA-256 f12739fcab9b4b1d8640d412a772af46de6ff93c89df432f668394b3a6471700 |
+| R2 registered analysis run | (data commit) | | | R2 7/7, first 85/85 | Run 2026-10-25 with the frozen `r2/analyze_r2.py`, from a clean clone of 504533e and on the authors' machine (identical results). A, B and C SUPPORTED in both cohorts. `results/registered_analysis_r2.json`; summary in `docs/RESULTS_P3_R2.md` |

@@ -2,7 +2,7 @@
 
 Code, registration, data and reproduction recipes for Paper 3 of Furqan Nasir's doctoral research (CUSIT): a pre-registered study of whether a regression-testing pipeline for a quantum compiler, which chooses within a CI budget both **which tests** to run and **which oracle** each test gets, detects more transpiler regressions than output-only and naive all-oracle selection.
 
-**Status:** registered (commit `40077ab`, 2026-10-24) and run. Both cohorts labeled; registered analysis complete: claims A and B SUPPORTED, claim C NOT SUPPORTED. See `docs/RESULTS_P3.md` (with a post hoc diagnosis of claim C, clearly separated). A second registration, `PREREGISTRATION_P3_R2.md` (files in `r2/`), changes only the cost estimate (previous-revision costs from a separate calibration session) and re-tests claims A to C on fresh cohorts (Qiskit 2.6.0 and 2.3.1).
+**Status:** registered (commit `40077ab`, 2026-10-24) and run. Both cohorts labeled; registered analysis complete: claims A and B SUPPORTED, claim C NOT SUPPORTED. See `docs/RESULTS_P3.md` (with a post hoc diagnosis of claim C, clearly separated). A second registration, `PREREGISTRATION_P3_R2.md` (files in `r2/`), changes only the cost estimate (previous-revision costs from a separate calibration session) and re-tests claims A to C on fresh cohorts (Qiskit 2.6.0 and 2.3.1). **R2 result: claims A, B and C all SUPPORTED in both cohorts** (`docs/RESULTS_P3_R2.md`).
 
 ## Layout
 

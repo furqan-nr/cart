@@ -1,0 +1,39 @@
+{
+ "test_id": "qft-n18-heavy_hex-opt3",
+ "family": "qft",
+ "n": 18,
+ "backend": "heavy_hex",
+ "level": 3,
+ "physical_qubits": 19,
+ "compile_s": 0.3226410830000006,
+ "compile_samples": [
+  0.3194293880000032,
+  0.3232188710000017,
+  0.32670882000000034,
+  0.3226410830000006,
+  0.3198165630000034
+ ],
+ "compile_iqr_s": 0.005340869999997722,
+ "output_tier": "structural",
+ "output_s": 0.008995412999993846,
+ "output_samples": [
+  0.009462085000002673,
+  0.00892183199999863,
+  0.008995412999993846
+ ],
+ "quality_s": 0.016221182999998973,
+ "probe_applicable": true,
+ "probe_s": 3.0590512970000034,
+ "probe_samples": [
+  3.0590512970000034,
+  3.130962939,
+  3.053060391999999
+ ],
+ "contract_s": 6.98780000050192e-05,
+ "clean_verdicts_pass": {
+  "output": true,
+  "quality": true,
+  "probe": true,
+  "contract": true
+ }
+}
