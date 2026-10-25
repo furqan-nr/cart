@@ -17,6 +17,7 @@ Code, registration, data and reproduction recipes for Paper 3 of Furqan Nasir's 
 | `data/K1/` | Kaggle session K1 output as downloaded (`out_k1.zip`) and extracted (`out_k1/`): clean-baseline costs of every check on the 116 corpus units, Qiskit 2.4.2 |
 | `data/C261/`, `data/C252/` | Cohort labeling sessions (Qiskit 2.6.1 and 2.5.2), zip as downloaded and extracted |
 | `results/` | Registered analysis output |
+| `reanalysis/` | Separate re-analysis (AI-assisted) of both registrations from the raw data, value-by-value comparison (0 differences) and label-rule checks |
 | `posthoc/` | Post hoc (exploratory) diagnosis of claim C, script and output |
 | `docs/` | `RESULTS_P3.md`, `K1_REPORT.md`, `OBSERVATIONS.md` (development observations O1 and O2), `o1_repro.py` |
 | `REPRODUCE.md` | How to reproduce every result in this repository |

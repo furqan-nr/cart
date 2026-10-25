@@ -42,5 +42,5 @@ Script: `posthoc/diagnose_claim_c.py`; output: `posthoc/diagnose_claim_c.json`. 
 
 ## Not yet done
 
-- An independent re-analysis that does not reuse `analyze_p3.py`.
+- ~~Separate re-analysis~~ done 2026-10-25 (`reanalysis/`): reproduces every value of this analysis (2 x 529 values, 0 differences).
 - The case study on Paper 1B's nine historical faults.

@@ -41,3 +41,7 @@ Mean real spend / budget at 5% for every strategy (exploratory): output-only 1.0
 |---|---|---|---|---|---|
 | First (`40077ab`) | earlier session (K1, Qiskit 2.4.2) x compile-based speed factor | 2.6.1, 2.5.2 | supported | supported | **not supported** (spend 1.6 to 2.2x; cause: the speed rule read a Qiskit compile speed-up as machine speed) |
 | R2 (`504533e`) | previous-revision costs, same Qiskit version, separate session | 2.6.0, 2.3.1 | supported | supported | **supported** (spend 1.02 to 1.14x on average, at most 1.21x) |
+
+## Separate re-analysis
+
+A separately written computation (`reanalysis/`, AI-assisted, reads only the raw data, imports none of the analysis or selection code) reproduces this analysis exactly: 2 x 529 values per cohort compared, 0 differences. The raw labels obey the registered labeling rules (4,212 checks per cohort, 0 problems). Details and limits: `reanalysis/README.md`.
