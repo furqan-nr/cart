@@ -1,0 +1,3555 @@
+{
+ "note": "exploratory, not registered",
+ "cohorts": [
+  {
+   "cohort": "out_C261",
+   "full_suite_estimate_s": 599.1959589612705,
+   "items": 528,
+   "exact8_share": 0.789414670807363,
+   "grid": {
+    "0.0025": {
+     "OO": {
+      "detected": 8,
+      "spend_mean": 1.772298911874929,
+      "spend_max": 1.8236108572793908,
+      "items": 167,
+      "units": 88,
+      "real_s_mean": 2.654885865167286
+     },
+     "AC": {
+      "detected": 13,
+      "spend_mean": 2.0143241094156292,
+      "spend_max": 2.373259124219902,
+      "items": 59,
+      "units": 16,
+      "real_s_mean": 3.0174371660002635
+     },
+     "OA": {
+      "detected": 11,
+      "spend_mean": 2.0482770547950677,
+      "spend_max": 2.5514953576320685,
+      "items": 274,
+      "units": 85,
+      "real_s_mean": 3.068298335165744
+     },
+     "CI": {
+      "detected": 11,
+      "spend_mean": 1.9976506527315014,
+      "spend_max": 2.383189834719364,
+      "items": 276,
+      "units": 86,
+      "real_s_mean": 2.99246049633265
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "spend_mean": 2.0143241094156292,
+      "spend_max": 2.373259124219902,
+      "items": 59,
+      "units": 16,
+      "real_s_mean": 3.0174371660002635
+     },
+     "AC_costaware": {
+      "detected": 14,
+      "spend_mean": 2.3882871645991854,
+      "spend_max": 3.678615584492931,
+      "items": 200,
+      "units": 57,
+      "real_s_mean": 3.577630044667257
+     },
+     "OA_key_channel": {
+      "detected": 11,
+      "spend_mean": 1.9976506527315014,
+      "spend_max": 2.383189834719364,
+      "items": 276,
+      "units": 86,
+      "real_s_mean": 2.99246049633265
+     },
+     "OA_key_target_channel": {
+      "detected": 11,
+      "spend_mean": 1.9976506527315014,
+      "spend_max": 2.383189834719364,
+      "items": 276,
+      "units": 86,
+      "real_s_mean": 2.99246049633265
+     },
+     "CI_lane_first": {
+      "detected": 11,
+      "spend_mean": 1.9976506527315014,
+      "spend_max": 2.383189834719364,
+      "items": 276,
+      "units": 86,
+      "real_s_mean": 2.99246049633265
+     }
+    },
+    "0.005": {
+     "OO": {
+      "detected": 8,
+      "spend_mean": 1.6305400103433452,
+      "spend_max": 1.7096364280820648,
+      "items": 182,
+      "units": 94,
+      "real_s_mean": 4.885064925612004
+     },
+     "AC": {
+      "detected": 13,
+      "spend_mean": 3.3364462261860144,
+      "spend_max": 3.7970241604165422,
+      "items": 50,
+      "units": 10,
+      "real_s_mean": 9.995925480111206
+     },
+     "OA": {
+      "detected": 11,
+      "spend_mean": 3.339760299845734,
+      "spend_max": 3.7970996769469294,
+      "items": 211,
+      "units": 60,
+      "real_s_mean": 10.005854377834225
+     },
+     "CI": {
+      "detected": 14,
+      "spend_mean": 2.075392582383086,
+      "spend_max": 2.7417329319916766,
+      "items": 302,
+      "units": 90,
+      "real_s_mean": 6.217834243110705
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "spend_mean": 2.072159957686238,
+      "spend_max": 2.343903079779216,
+      "items": 97,
+      "units": 27,
+      "real_s_mean": 6.208149364834756
+     },
+     "AC_costaware": {
+      "detected": 11,
+      "spend_mean": 3.284133197130674,
+      "spend_max": 3.7373145114027992,
+      "items": 87,
+      "units": 21,
+      "real_s_mean": 9.83919670205629
+     },
+     "OA_key_channel": {
+      "detected": 12,
+      "spend_mean": 3.340242100472985,
+      "spend_max": 3.801184688141235,
+      "items": 241,
+      "units": 64,
+      "real_s_mean": 10.007297842778595
+     },
+     "OA_key_target_channel": {
+      "detected": 12,
+      "spend_mean": 3.342443395228864,
+      "spend_max": 3.8036864159609176,
+      "items": 238,
+      "units": 63,
+      "real_s_mean": 10.013892877389623
+     },
+     "CI_lane_first": {
+      "detected": 12,
+      "spend_mean": 3.340242100472985,
+      "spend_max": 3.801184688141235,
+      "items": 241,
+      "units": 64,
+      "real_s_mean": 10.007297842778595
+     }
+    },
+    "0.0075": {
+     "OO": {
+      "detected": 9,
+      "spend_mean": 1.5240806160844185,
+      "spend_max": 1.5778862659650195,
+      "items": 189,
+      "units": 98,
+      "real_s_mean": 6.849172097167402
+     },
+     "AC": {
+      "detected": 14,
+      "spend_mean": 2.8817781239543665,
+      "spend_max": 3.176771032912895,
+      "items": 111,
+      "units": 24,
+      "real_s_mean": 12.950623548723357
+     },
+     "OA": {
+      "detected": 13,
+      "spend_mean": 2.866680847422764,
+      "spend_max": 3.1631311476446133,
+      "items": 335,
+      "units": 82,
+      "real_s_mean": 12.882776845555432
+     },
+     "CI": {
+      "detected": 15,
+      "spend_mean": 1.9550179473363845,
+      "spend_max": 2.55290137134004,
+      "items": 320,
+      "units": 94,
+      "real_s_mean": 8.785791403055397
+     },
+     "AC_lane_last": {
+      "detected": 14,
+      "spend_mean": 2.1850450353555955,
+      "spend_max": 2.7899483671944907,
+      "items": 224,
+      "units": 64,
+      "real_s_mean": 9.819526165000944
+     },
+     "AC_costaware": {
+      "detected": 15,
+      "spend_mean": 2.9238033243255197,
+      "spend_max": 3.209097298319597,
+      "items": 238,
+      "units": 53,
+      "real_s_mean": 13.139483525500353
+     },
+     "OA_key_channel": {
+      "detected": 13,
+      "spend_mean": 2.8532679935403547,
+      "spend_max": 3.1515705752423036,
+      "items": 339,
+      "units": 84,
+      "real_s_mean": 12.822499886721847
+     },
+     "OA_key_target_channel": {
+      "detected": 13,
+      "spend_mean": 2.8532679935403547,
+      "spend_max": 3.1515705752423036,
+      "items": 339,
+      "units": 84,
+      "real_s_mean": 12.822499886721847
+     },
+     "CI_lane_first": {
+      "detected": 13,
+      "spend_mean": 2.8532679935403547,
+      "spend_max": 3.1515705752423036,
+      "items": 339,
+      "units": 84,
+      "real_s_mean": 12.822499886721847
+     }
+    },
+    "0.01": {
+     "OO": {
+      "detected": 9,
+      "spend_mean": 1.3653631330326008,
+      "spend_max": 1.4081792104584656,
+      "items": 196,
+      "units": 102,
+      "real_s_mean": 8.18120071827834
+     },
+     "AC": {
+      "detected": 14,
+      "spend_mean": 2.689217034235058,
+      "spend_max": 2.9089472370968616,
+      "items": 123,
+      "units": 27,
+      "real_s_mean": 16.113679796834596
+     },
+     "OA": {
+      "detected": 16,
+      "spend_mean": 2.6331892993025745,
+      "spend_max": 2.8542090837270844,
+      "items": 370,
+      "units": 88,
+      "real_s_mean": 15.777963873221623
+     },
+     "CI": {
+      "detected": 15,
+      "spend_mean": 1.9819177175412155,
+      "spend_max": 2.6390010609240524,
+      "items": 331,
+      "units": 96,
+      "real_s_mean": 11.875570873444412
+     },
+     "AC_lane_last": {
+      "detected": 14,
+      "spend_mean": 2.227537994864795,
+      "spend_max": 2.9480352256757616,
+      "items": 234,
+      "units": 66,
+      "real_s_mean": 13.347317649556766
+     },
+     "AC_costaware": {
+      "detected": 15,
+      "spend_mean": 2.8237176352583657,
+      "spend_max": 3.033219746926648,
+      "items": 286,
+      "units": 64,
+      "real_s_mean": 16.919601962944878
+     },
+     "OA_key_channel": {
+      "detected": 16,
+      "spend_mean": 2.6331892993025745,
+      "spend_max": 2.8542090837270844,
+      "items": 370,
+      "units": 88,
+      "real_s_mean": 15.777963873221623
+     },
+     "OA_key_target_channel": {
+      "detected": 16,
+      "spend_mean": 2.6331892993025745,
+      "spend_max": 2.8542090837270844,
+      "items": 370,
+      "units": 88,
+      "real_s_mean": 15.777963873221623
+     },
+     "CI_lane_first": {
+      "detected": 16,
+      "spend_mean": 2.6331892993025745,
+      "spend_max": 2.8542090837270844,
+      "items": 370,
+      "units": 88,
+      "real_s_mean": 15.777963873221623
+     }
+    },
+    "0.015": {
+     "OO": {
+      "detected": 9,
+      "spend_mean": 1.265668452412615,
+      "spend_max": 1.2934008610641086,
+      "items": 202,
+      "units": 105,
+      "real_s_mean": 11.375751331056058
+     },
+     "AC": {
+      "detected": 15,
+      "spend_mean": 2.566163272991235,
+      "spend_max": 2.7919583369136354,
+      "items": 292,
+      "units": 64,
+      "real_s_mean": 23.064519948167636
+     },
+     "OA": {
+      "detected": 17,
+      "spend_mean": 2.3534782838733084,
+      "spend_max": 2.495589603539376,
+      "items": 404,
+      "units": 94,
+      "real_s_mean": 21.152920157999883
+     },
+     "CI": {
+      "detected": 16,
+      "spend_mean": 1.8850421862154938,
+      "spend_max": 2.423709842410135,
+      "items": 348,
+      "units": 101,
+      "real_s_mean": 16.94264490677764
+     },
+     "AC_lane_last": {
+      "detected": 14,
+      "spend_mean": 2.1955790417617878,
+      "spend_max": 2.7595389618447106,
+      "items": 283,
+      "units": 81,
+      "real_s_mean": 19.733731341055826
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "spend_mean": 2.531169646248923,
+      "spend_max": 2.666148428808933,
+      "items": 353,
+      "units": 78,
+      "real_s_mean": 22.74999935216675
+     },
+     "OA_key_channel": {
+      "detected": 17,
+      "spend_mean": 2.3534782838733084,
+      "spend_max": 2.495589603539376,
+      "items": 404,
+      "units": 94,
+      "real_s_mean": 21.152920157999883
+     },
+     "OA_key_target_channel": {
+      "detected": 17,
+      "spend_mean": 2.3534782838733084,
+      "spend_max": 2.495589603539376,
+      "items": 404,
+      "units": 94,
+      "real_s_mean": 21.152920157999883
+     },
+     "CI_lane_first": {
+      "detected": 17,
+      "spend_mean": 2.3534782838733084,
+      "spend_max": 2.495589603539376,
+      "items": 404,
+      "units": 94,
+      "real_s_mean": 21.152920157999883
+     }
+    },
+    "0.02": {
+     "OO": {
+      "detected": 9,
+      "spend_mean": 1.3472789328979835,
+      "spend_max": 1.3704425904731463,
+      "items": 208,
+      "units": 108,
+      "real_s_mean": 16.14568184372249
+     },
+     "AC": {
+      "detected": 15,
+      "spend_mean": 2.47024446831563,
+      "spend_max": 2.693822838439111,
+      "items": 324,
+      "units": 73,
+      "real_s_mean": 29.60321006122316
+     },
+     "OA": {
+      "detected": 18,
+      "spend_mean": 2.1771038898160713,
+      "spend_max": 2.278679958167364,
+      "items": 425,
+      "units": 98,
+      "real_s_mean": 26.090237060333067
+     },
+     "CI": {
+      "detected": 16,
+      "spend_mean": 1.7648896161985554,
+      "spend_max": 2.2208503688960306,
+      "items": 360,
+      "units": 104,
+      "real_s_mean": 21.150294520777646
+     },
+     "AC_lane_last": {
+      "detected": 15,
+      "spend_mean": 2.1944196889676464,
+      "spend_max": 2.697541169506904,
+      "items": 291,
+      "units": 81,
+      "real_s_mean": 26.29774819788924
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "spend_mean": 2.302984482364543,
+      "spend_max": 2.42525412991641,
+      "items": 373,
+      "units": 84,
+      "real_s_mean": 27.59877990766695
+     },
+     "OA_key_channel": {
+      "detected": 18,
+      "spend_mean": 2.1771038898160713,
+      "spend_max": 2.278679958167364,
+      "items": 425,
+      "units": 98,
+      "real_s_mean": 26.090237060333067
+     },
+     "OA_key_target_channel": {
+      "detected": 18,
+      "spend_mean": 2.1771038898160713,
+      "spend_max": 2.278679958167364,
+      "items": 425,
+      "units": 98,
+      "real_s_mean": 26.090237060333067
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "spend_mean": 2.1771038898160713,
+      "spend_max": 2.278679958167364,
+      "items": 425,
+      "units": 98,
+      "real_s_mean": 26.090237060333067
+     }
+    },
+    "0.03": {
+     "OO": {
+      "detected": 9,
+      "spend_mean": 1.2711453615182329,
+      "spend_max": 1.287294519092716,
+      "items": 214,
+      "units": 111,
+      "real_s_mean": 22.84995491622265
+     },
+     "AC": {
+      "detected": 17,
+      "spend_mean": 2.280098436726436,
+      "spend_max": 2.4270507060626034,
+      "items": 386,
+      "units": 85,
+      "real_s_mean": 40.986773079611716
+     },
+     "OA": {
+      "detected": 18,
+      "spend_mean": 1.8914569822278398,
+      "spend_max": 1.9589152924775157,
+      "items": 447,
+      "units": 102,
+      "real_s_mean": 34.00060140900003
+     },
+     "CI": {
+      "detected": 16,
+      "spend_mean": 1.6680606891467586,
+      "spend_max": 1.972898825145781,
+      "items": 371,
+      "units": 107,
+      "real_s_mean": 29.984856727166694
+     },
+     "AC_lane_last": {
+      "detected": 16,
+      "spend_mean": 2.085801989549569,
+      "spend_max": 2.4719019618686255,
+      "items": 349,
+      "units": 98,
+      "real_s_mean": 37.494123699944396
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "spend_mean": 2.0091655234494117,
+      "spend_max": 2.1118347001654607,
+      "items": 401,
+      "units": 89,
+      "real_s_mean": 36.11651587605579
+     },
+     "OA_key_channel": {
+      "detected": 18,
+      "spend_mean": 1.8914569822278398,
+      "spend_max": 1.9589152924775157,
+      "items": 447,
+      "units": 102,
+      "real_s_mean": 34.00060140900003
+     },
+     "OA_key_target_channel": {
+      "detected": 18,
+      "spend_mean": 1.8914569822278398,
+      "spend_max": 1.9589152924775157,
+      "items": 447,
+      "units": 102,
+      "real_s_mean": 34.00060140900003
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "spend_mean": 1.8914569822278398,
+      "spend_max": 1.9589152924775157,
+      "items": 447,
+      "units": 102,
+      "real_s_mean": 34.00060140900003
+     }
+    },
+    "0.05": {
+     "OO": {
+      "detected": 9,
+      "spend_mean": 1.4506026865588968,
+      "spend_max": 1.4609921318856167,
+      "items": 224,
+      "units": 116,
+      "real_s_mean": 43.459763392222676
+     },
+     "AC": {
+      "detected": 18,
+      "spend_mean": 1.9612817582146544,
+      "spend_max": 2.0293871345661265,
+      "items": 440,
+      "units": 97,
+      "real_s_mean": 58.75960519533383
+     },
+     "OA": {
+      "detected": 18,
+      "spend_mean": 1.7041983411221453,
+      "spend_max": 1.7687566362384481,
+      "items": 471,
+      "units": 107,
+      "real_s_mean": 51.057437963444514
+     },
+     "CI": {
+      "detected": 16,
+      "spend_mean": 1.664155546978037,
+      "spend_max": 1.8774357470137477,
+      "items": 387,
+      "units": 111,
+      "real_s_mean": 49.85776394161113
+     },
+     "AC_lane_last": {
+      "detected": 16,
+      "spend_mean": 1.7994949103003515,
+      "spend_max": 2.0339060216840643,
+      "items": 375,
+      "units": 107,
+      "real_s_mean": 53.91250392116723
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "spend_mean": 1.8638429339588678,
+      "spend_max": 1.9410621318211851,
+      "items": 437,
+      "units": 96,
+      "real_s_mean": 55.84035770833359
+     },
+     "OA_key_channel": {
+      "detected": 18,
+      "spend_mean": 1.7041983411221453,
+      "spend_max": 1.7687566362384481,
+      "items": 471,
+      "units": 107,
+      "real_s_mean": 51.057437963444514
+     },
+     "OA_key_target_channel": {
+      "detected": 18,
+      "spend_mean": 1.7041983411221453,
+      "spend_max": 1.7687566362384481,
+      "items": 471,
+      "units": 107,
+      "real_s_mean": 51.057437963444514
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "spend_mean": 1.7041983411221453,
+      "spend_max": 1.7687566362384481,
+      "items": 471,
+      "units": 107,
+      "real_s_mean": 51.057437963444514
+     }
+    },
+    "0.075": {
+     "OO": {
+      "detected": 10,
+      "spend_mean": 1.5200748431214195,
+      "spend_max": 1.5407421058051358,
+      "items": 225,
+      "units": 116,
+      "real_s_mean": 68.31170274877813
+     },
+     "AC": {
+      "detected": 18,
+      "spend_mean": 1.6956479174189467,
+      "spend_max": 1.7669918028298723,
+      "items": 467,
+      "units": 104,
+      "real_s_mean": 76.20190349538953
+     },
+     "OA": {
+      "detected": 18,
+      "spend_mean": 1.6371800753472838,
+      "spend_max": 1.7034752737587258,
+      "items": 489,
+      "units": 111,
+      "real_s_mean": 73.57437639300007
+     },
+     "CI": {
+      "detected": 18,
+      "spend_mean": 1.8318760170358197,
+      "spend_max": 1.9080352076172113,
+      "items": 488,
+      "units": 114,
+      "real_s_mean": 82.3239530044448
+     },
+     "AC_lane_last": {
+      "detected": 16,
+      "spend_mean": 1.737991554917811,
+      "spend_max": 1.8954933424823297,
+      "items": 399,
+      "units": 115,
+      "real_s_mean": 78.10481373116755
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "spend_mean": 1.6956479174189467,
+      "spend_max": 1.766991802829873,
+      "items": 467,
+      "units": 104,
+      "real_s_mean": 76.20190349538952
+     },
+     "OA_key_channel": {
+      "detected": 18,
+      "spend_mean": 1.6371800753472838,
+      "spend_max": 1.7034752737587258,
+      "items": 489,
+      "units": 111,
+      "real_s_mean": 73.57437639300007
+     },
+     "OA_key_target_channel": {
+      "detected": 18,
+      "spend_mean": 1.6371800753472838,
+      "spend_max": 1.7034752737587258,
+      "items": 489,
+      "units": 111,
+      "real_s_mean": 73.57437639300007
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "spend_mean": 1.6371800753472838,
+      "spend_max": 1.7034752737587258,
+      "items": 489,
+      "units": 111,
+      "real_s_mean": 73.57437639300007
+     }
+    },
+    "0.1": {
+     "OO": {
+      "detected": 10,
+      "spend_mean": 1.5608085449414117,
+      "spend_max": 1.5704779944965532,
+      "items": 226,
+      "units": 116,
+      "real_s_mean": 93.52301728411146
+     },
+     "AC": {
+      "detected": 18,
+      "spend_mean": 1.5797423095801357,
+      "spend_max": 1.6581209682594522,
+      "items": 483,
+      "units": 108,
+      "real_s_mean": 94.65752081005618
+     },
+     "OA": {
+      "detected": 18,
+      "spend_mean": 1.5921589480796219,
+      "spend_max": 1.6457316946186962,
+      "items": 502,
+      "units": 114,
+      "real_s_mean": 95.40152077133368
+     },
+     "CI": {
+      "detected": 18,
+      "spend_mean": 1.592158948079622,
+      "spend_max": 1.6457316946186953,
+      "items": 502,
+      "units": 114,
+      "real_s_mean": 95.4015207713337
+     },
+     "AC_lane_last": {
+      "detected": 18,
+      "spend_mean": 1.9366319381429,
+      "spend_max": 1.9976664203061154,
+      "items": 491,
+      "units": 116,
+      "real_s_mean": 116.04220313305589
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "spend_mean": 1.5797423095801357,
+      "spend_max": 1.6581209682594527,
+      "items": 483,
+      "units": 108,
+      "real_s_mean": 94.65752081005617
+     },
+     "OA_key_channel": {
+      "detected": 18,
+      "spend_mean": 1.5921589480796219,
+      "spend_max": 1.6457316946186962,
+      "items": 502,
+      "units": 114,
+      "real_s_mean": 95.40152077133368
+     },
+     "OA_key_target_channel": {
+      "detected": 18,
+      "spend_mean": 1.5921589480796219,
+      "spend_max": 1.6457316946186962,
+      "items": 502,
+      "units": 114,
+      "real_s_mean": 95.40152077133368
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "spend_mean": 1.5921589480796219,
+      "spend_max": 1.6457316946186962,
+      "items": 502,
+      "units": 114,
+      "real_s_mean": 95.40152077133368
+     }
+    }
+   },
+   "first": {
+    "OA_vs_AC": {
+     "wins": 14,
+     "losses": 4,
+     "ties": 0,
+     "p": 0.01544189453125,
+     "gmean_ratio": 0.08909906029421902,
+     "ci95": [
+      0.015275181801651999,
+      0.5729290315294797
+     ],
+     "total_OA": 138.74019514799656,
+     "total_other": 250.64040092499908
+    },
+    "OA_vs_CI": {
+     "wins": 10,
+     "losses": 7,
+     "ties": 1,
+     "p": 0.3145294189453125,
+     "gmean_ratio": 1.060626694422036,
+     "ci95": [
+      0.43422553933877656,
+      3.0665495251421198
+     ],
+     "total_OA": 138.74019514799656,
+     "total_other": 189.7591074509932
+    },
+    "OA_vs_AC_lane_last": {
+     "wins": 13,
+     "losses": 5,
+     "ties": 0,
+     "p": 0.048126220703125,
+     "gmean_ratio": 0.21706029452068348,
+     "ci95": [
+      0.05503450071525286,
+      0.974973801976047
+     ],
+     "total_OA": 138.74019514799656,
+     "total_other": 2930.6111028229984
+    },
+    "OA_vs_AC_costaware": {
+     "wins": 14,
+     "losses": 4,
+     "ties": 0,
+     "p": 0.01544189453125,
+     "gmean_ratio": 0.06673999149189105,
+     "ci95": [
+      0.01692619728780923,
+      0.2585392420211034
+     ],
+     "total_OA": 138.74019514799656,
+     "total_other": 220.772026784005
+    },
+    "OA_vs_CI_lane_first": {
+     "wins": 9,
+     "losses": 5,
+     "ties": 4,
+     "p": 0.21197509765625,
+     "gmean_ratio": 0.043506107312513684,
+     "ci95": [
+      0.008978159112301168,
+      0.20216307220453328
+     ],
+     "total_OA": 138.74019514799656,
+     "total_other": 209.5072431139945
+    },
+    "OA_vs_OA_key_channel": {
+     "wins": 8,
+     "losses": 5,
+     "ties": 5,
+     "p": 0.29052734375,
+     "gmean_ratio": 0.07314786283129834,
+     "ci95": [
+      0.017947221412438468,
+      0.29742383527906757
+     ],
+     "total_OA": 138.74019514799656,
+     "total_other": 199.5129517859942
+    }
+   },
+   "over_budget": {
+    "0.02": {
+     "over": 18,
+     "n": 18,
+     "over_1_25": 18
+    },
+    "0.05": {
+     "over": 18,
+     "n": 18,
+     "over_1_25": 18
+    },
+    "0.1": {
+     "over": 18,
+     "n": 18,
+     "over_1_25": 18
+    }
+   },
+   "auc_0_10pct": {
+    "OO": 0.5118055555555556,
+    "AC": 0.9305555555555556,
+    "OA": 0.9541666666666668,
+    "CI": 0.90625,
+    "AC_lane_last": 0.8666666666666667,
+    "AC_costaware": 0.9479166666666667,
+    "OA_key_channel": 0.9555555555555556,
+    "OA_key_target_channel": 0.9555555555555556,
+    "CI_lane_first": 0.9555555555555556
+   },
+   "first_totals": {
+    "OO": Infinity,
+    "AC": 250.64040092499908,
+    "OA": 138.74019514799656,
+    "CI": 189.7591074509932,
+    "AC_lane_last": 2930.6111028229984,
+    "AC_costaware": 220.772026784005,
+    "OA_key_channel": 199.5129517859942,
+    "OA_key_target_channel": 185.26564480499192,
+    "CI_lane_first": 209.5072431139945
+   },
+   "registration": "first",
+   "composition": {
+    "coverable_keys": 40,
+    "median_real_over_estimate": {
+     "compile (units >= 0.05 s)": 0.9277336671841493,
+     "output": 2.682104630715357,
+     "quality": 2.736492956041481,
+     "probe": 2.4000849077126913
+    },
+    "budgets_s": {
+     "0.02": 11.983919179225412,
+     "0.05": 29.959797948063528,
+     "0.1": 59.919595896127056
+    }
+   }
+  },
+  {
+   "cohort": "out_C252",
+   "full_suite_estimate_s": 605.2491012074485,
+   "items": 528,
+   "exact8_share": 0.7894146708073632,
+   "grid": {
+    "0.0025": {
+     "OO": {
+      "detected": 8,
+      "spend_mean": 1.7288263363173333,
+      "spend_max": 1.7725291088547412,
+      "items": 167,
+      "units": 88,
+      "real_s_mean": 2.6159264654995797
+     },
+     "AC": {
+      "detected": 13,
+      "spend_mean": 2.07733602302903,
+      "spend_max": 2.4422590365683075,
+      "items": 59,
+      "units": 16,
+      "real_s_mean": 3.1432644021104394
+     },
+     "OA": {
+      "detected": 11,
+      "spend_mean": 2.0305454379642662,
+      "spend_max": 2.536871426546892,
+      "items": 274,
+      "units": 85,
+      "real_s_mean": 3.0724645032218922
+     },
+     "CI": {
+      "detected": 11,
+      "spend_mean": 1.9802609019213882,
+      "spend_max": 2.360939404198553,
+      "items": 276,
+      "units": 86,
+      "real_s_mean": 2.9963778276104285
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "spend_mean": 2.07733602302903,
+      "spend_max": 2.4422590365683075,
+      "items": 59,
+      "units": 16,
+      "real_s_mean": 3.1432644021104394
+     },
+     "AC_costaware": {
+      "detected": 14,
+      "spend_mean": 2.41954160374394,
+      "spend_max": 3.702538510387792,
+      "items": 200,
+      "units": 57,
+      "real_s_mean": 3.66106345250012
+     },
+     "OA_key_channel": {
+      "detected": 11,
+      "spend_mean": 1.9802609019213882,
+      "spend_max": 2.360939404198553,
+      "items": 276,
+      "units": 86,
+      "real_s_mean": 2.9963778276104285
+     },
+     "OA_key_target_channel": {
+      "detected": 11,
+      "spend_mean": 1.9802609019213882,
+      "spend_max": 2.360939404198553,
+      "items": 276,
+      "units": 86,
+      "real_s_mean": 2.9963778276104285
+     },
+     "CI_lane_first": {
+      "detected": 11,
+      "spend_mean": 1.9802609019213882,
+      "spend_max": 2.360939404198553,
+      "items": 276,
+      "units": 86,
+      "real_s_mean": 2.9963778276104285
+     }
+    },
+    "0.005": {
+     "OO": {
+      "detected": 8,
+      "spend_mean": 1.642397809476913,
+      "spend_max": 1.6809347777127868,
+      "items": 182,
+      "units": 94,
+      "real_s_mean": 4.970298990054918
+     },
+     "AC": {
+      "detected": 13,
+      "spend_mean": 3.1688067026110134,
+      "spend_max": 4.137284153589487,
+      "items": 50,
+      "units": 10,
+      "real_s_mean": 9.589587043277271
+     },
+     "OA": {
+      "detected": 11,
+      "spend_mean": 3.164170478992749,
+      "spend_max": 4.140255211615014,
+      "items": 211,
+      "units": 60,
+      "real_s_mean": 9.575556692387513
+     },
+     "CI": {
+      "detected": 14,
+      "spend_mean": 2.0779280332893193,
+      "spend_max": 2.7364303383421444,
+      "items": 302,
+      "units": 90,
+      "real_s_mean": 6.288320372610607
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "spend_mean": 2.1434106176937937,
+      "spend_max": 2.4253409769152188,
+      "items": 97,
+      "units": 27,
+      "real_s_mean": 6.4864867493883525
+     },
+     "AC_costaware": {
+      "detected": 11,
+      "spend_mean": 3.1047569743983385,
+      "spend_max": 4.080749173972324,
+      "items": 87,
+      "units": 21,
+      "real_s_mean": 9.395756841110758
+     },
+     "OA_key_channel": {
+      "detected": 12,
+      "spend_mean": 3.1567021227555836,
+      "spend_max": 4.153391385768918,
+      "items": 241,
+      "units": 64,
+      "real_s_mean": 9.552955612887308
+     },
+     "OA_key_target_channel": {
+      "detected": 12,
+      "spend_mean": 3.161807242053576,
+      "spend_max": 4.156426816629234,
+      "items": 238,
+      "units": 63,
+      "real_s_mean": 9.568404957220642
+     },
+     "CI_lane_first": {
+      "detected": 12,
+      "spend_mean": 3.1567021227555836,
+      "spend_max": 4.153391385768918,
+      "items": 241,
+      "units": 64,
+      "real_s_mean": 9.552955612887308
+     }
+    },
+    "0.0075": {
+     "OO": {
+      "detected": 9,
+      "spend_mean": 1.5295744780205651,
+      "spend_max": 1.5564880696558716,
+      "items": 189,
+      "units": 98,
+      "real_s_mean": 6.943301835388493
+     },
+     "AC": {
+      "detected": 14,
+      "spend_mean": 2.787519144879737,
+      "spend_max": 3.4265623495006863,
+      "items": 111,
+      "units": 24,
+      "real_s_mean": 12.653575927777622
+     },
+     "OA": {
+      "detected": 13,
+      "spend_mean": 2.735400841529287,
+      "spend_max": 3.4140651100689956,
+      "items": 335,
+      "units": 82,
+      "real_s_mean": 12.416991755832743
+     },
+     "CI": {
+      "detected": 15,
+      "spend_mean": 1.991027042418641,
+      "spend_max": 2.5987812688374854,
+      "items": 320,
+      "units": 94,
+      "real_s_mean": 9.038004959277051
+     },
+     "AC_lane_last": {
+      "detected": 14,
+      "spend_mean": 2.2544391996310313,
+      "spend_max": 2.872068774544528,
+      "items": 224,
+      "units": 64,
+      "real_s_mean": 10.233729744776408
+     },
+     "AC_costaware": {
+      "detected": 15,
+      "spend_mean": 2.8082787860187755,
+      "spend_max": 3.4696450964466456,
+      "items": 238,
+      "units": 53,
+      "real_s_mean": 12.747811583833563
+     },
+     "OA_key_channel": {
+      "detected": 13,
+      "spend_mean": 2.720183424625533,
+      "spend_max": 3.401245017562914,
+      "items": 339,
+      "units": 84,
+      "real_s_mean": 12.347914296555023
+     },
+     "OA_key_target_channel": {
+      "detected": 13,
+      "spend_mean": 2.720183424625533,
+      "spend_max": 3.401245017562914,
+      "items": 339,
+      "units": 84,
+      "real_s_mean": 12.347914296555023
+     },
+     "CI_lane_first": {
+      "detected": 13,
+      "spend_mean": 2.720183424625533,
+      "spend_max": 3.401245017562914,
+      "items": 339,
+      "units": 84,
+      "real_s_mean": 12.347914296555023
+     }
+    },
+    "0.01": {
+     "OO": {
+      "detected": 9,
+      "spend_mean": 1.3670704994933207,
+      "spend_max": 1.3873924435810785,
+      "items": 196,
+      "units": 102,
+      "real_s_mean": 8.2741819110555
+     },
+     "AC": {
+      "detected": 14,
+      "spend_mean": 2.640602831426338,
+      "spend_max": 3.121727281759849,
+      "items": 123,
+      "units": 27,
+      "real_s_mean": 15.982224903666344
+     },
+     "OA": {
+      "detected": 16,
+      "spend_mean": 2.5350265030641035,
+      "spend_max": 3.0602883685486826,
+      "items": 370,
+      "units": 88,
+      "real_s_mean": 15.343225125166098
+     },
+     "CI": {
+      "detected": 15,
+      "spend_mean": 2.024468011554465,
+      "spend_max": 2.7054104441169216,
+      "items": 331,
+      "units": 96,
+      "real_s_mean": 12.253074444165703
+     },
+     "AC_lane_last": {
+      "detected": 14,
+      "spend_mean": 2.3049298042190713,
+      "spend_max": 3.0534779929657363,
+      "items": 234,
+      "units": 66,
+      "real_s_mean": 13.95056692349853
+     },
+     "AC_costaware": {
+      "detected": 15,
+      "spend_mean": 2.749236250518547,
+      "spend_max": 3.2634359629107754,
+      "items": 286,
+      "units": 64,
+      "real_s_mean": 16.639727696332862
+     },
+     "OA_key_channel": {
+      "detected": 16,
+      "spend_mean": 2.5350265030641035,
+      "spend_max": 3.0602883685486826,
+      "items": 370,
+      "units": 88,
+      "real_s_mean": 15.343225125166096
+     },
+     "OA_key_target_channel": {
+      "detected": 16,
+      "spend_mean": 2.5350265030641035,
+      "spend_max": 3.0602883685486826,
+      "items": 370,
+      "units": 88,
+      "real_s_mean": 15.343225125166096
+     },
+     "CI_lane_first": {
+      "detected": 16,
+      "spend_mean": 2.5350265030641035,
+      "spend_max": 3.0602883685486826,
+      "items": 370,
+      "units": 88,
+      "real_s_mean": 15.343225125166096
+     }
+    },
+    "0.015": {
+     "OO": {
+      "detected": 9,
+      "spend_mean": 1.2567666690689947,
+      "spend_max": 1.274370297773654,
+      "items": 202,
+      "units": 105,
+      "real_s_mean": 11.409853453222318
+     },
+     "AC": {
+      "detected": 15,
+      "spend_mean": 2.5513475961918024,
+      "spend_max": 2.8723416106387174,
+      "items": 292,
+      "units": 64,
+      "real_s_mean": 23.16301259194309
+     },
+     "OA": {
+      "detected": 17,
+      "spend_mean": 2.3036321808777904,
+      "spend_max": 2.6790502424510687,
+      "items": 404,
+      "units": 94,
+      "real_s_mean": 20.91406960483255
+     },
+     "CI": {
+      "detected": 16,
+      "spend_mean": 1.9224591496554464,
+      "spend_max": 2.4814478494939256,
+      "items": 348,
+      "units": 101,
+      "real_s_mean": 17.453500086554918
+     },
+     "AC_lane_last": {
+      "detected": 14,
+      "spend_mean": 2.26398811969349,
+      "spend_max": 2.8580595917975518,
+      "items": 283,
+      "units": 81,
+      "real_s_mean": 20.554151618832393
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "spend_mean": 2.498961301206361,
+      "spend_max": 2.8663251221228023,
+      "items": 353,
+      "units": 78,
+      "real_s_mean": 22.687411222610187
+     },
+     "OA_key_channel": {
+      "detected": 17,
+      "spend_mean": 2.30363218087779,
+      "spend_max": 2.6790502424510687,
+      "items": 404,
+      "units": 94,
+      "real_s_mean": 20.91406960483255
+     },
+     "OA_key_target_channel": {
+      "detected": 17,
+      "spend_mean": 2.30363218087779,
+      "spend_max": 2.6790502424510687,
+      "items": 404,
+      "units": 94,
+      "real_s_mean": 20.91406960483255
+     },
+     "CI_lane_first": {
+      "detected": 17,
+      "spend_mean": 2.30363218087779,
+      "spend_max": 2.6790502424510687,
+      "items": 404,
+      "units": 94,
+      "real_s_mean": 20.91406960483255
+     }
+    },
+    "0.02": {
+     "OO": {
+      "detected": 9,
+      "spend_mean": 1.350250206159661,
+      "spend_max": 1.3643677429711727,
+      "items": 208,
+      "units": 108,
+      "real_s_mean": 16.344754473666136
+     },
+     "AC": {
+      "detected": 15,
+      "spend_mean": 2.4748957224672976,
+      "spend_max": 2.7167758798311556,
+      "items": 324,
+      "units": 73,
+      "real_s_mean": 29.958568232109812
+     },
+     "OA": {
+      "detected": 18,
+      "spend_mean": 2.1475059777476617,
+      "spend_max": 2.4295481195531816,
+      "items": 425,
+      "units": 98,
+      "real_s_mean": 25.9955212573879
+     },
+     "CI": {
+      "detected": 16,
+      "spend_mean": 1.799616224697723,
+      "spend_max": 2.275443525652605,
+      "items": 360,
+      "units": 104,
+      "real_s_mean": 21.78432205033277
+     },
+     "AC_lane_last": {
+      "detected": 15,
+      "spend_mean": 2.26303244601775,
+      "spend_max": 2.791097190197371,
+      "items": 291,
+      "units": 81,
+      "real_s_mean": 27.393967079110737
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "spend_mean": 2.2867621687728543,
+      "spend_max": 2.569643732055351,
+      "items": 373,
+      "units": 84,
+      "real_s_mean": 27.681214946499313
+     },
+     "OA_key_channel": {
+      "detected": 18,
+      "spend_mean": 2.1475059777476617,
+      "spend_max": 2.4295481195531816,
+      "items": 425,
+      "units": 98,
+      "real_s_mean": 25.9955212573879
+     },
+     "OA_key_target_channel": {
+      "detected": 18,
+      "spend_mean": 2.1475059777476617,
+      "spend_max": 2.4295481195531816,
+      "items": 425,
+      "units": 98,
+      "real_s_mean": 25.9955212573879
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "spend_mean": 2.1475059777476617,
+      "spend_max": 2.4295481195531816,
+      "items": 425,
+      "units": 98,
+      "real_s_mean": 25.9955212573879
+     }
+    },
+    "0.03": {
+     "OO": {
+      "detected": 9,
+      "spend_mean": 1.2653650597223642,
+      "spend_max": 1.283565315531638,
+      "items": 214,
+      "units": 111,
+      "real_s_mean": 22.975831952888107
+     },
+     "AC": {
+      "detected": 17,
+      "spend_mean": 2.2959561283419956,
+      "spend_max": 2.4734778791850287,
+      "items": 386,
+      "units": 85,
+      "real_s_mean": 41.68876149272178
+     },
+     "OA": {
+      "detected": 18,
+      "spend_mean": 1.8789107291768234,
+      "spend_max": 2.0754438896765257,
+      "items": 447,
+      "units": 102,
+      "real_s_mean": 34.116270902499124
+     },
+     "CI": {
+      "detected": 16,
+      "spend_mean": 1.7022672372449157,
+      "spend_max": 2.020894895219521,
+      "items": 371,
+      "units": 107,
+      "real_s_mean": 30.90887146072115
+     },
+     "AC_lane_last": {
+      "detected": 16,
+      "spend_mean": 2.157073866851539,
+      "spend_max": 2.565481195541853,
+      "items": 349,
+      "units": 98,
+      "real_s_mean": 39.16701057449909
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "spend_mean": 2.006029730412809,
+      "spend_max": 2.1975454358871724,
+      "items": 401,
+      "units": 89,
+      "real_s_mean": 36.42443073983319
+     },
+     "OA_key_channel": {
+      "detected": 18,
+      "spend_mean": 1.8789107291768234,
+      "spend_max": 2.0754438896765257,
+      "items": 447,
+      "units": 102,
+      "real_s_mean": 34.116270902499124
+     },
+     "OA_key_target_channel": {
+      "detected": 18,
+      "spend_mean": 1.8789107291768234,
+      "spend_max": 2.0754438896765257,
+      "items": 447,
+      "units": 102,
+      "real_s_mean": 34.116270902499124
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "spend_mean": 1.8789107291768234,
+      "spend_max": 2.0754438896765257,
+      "items": 447,
+      "units": 102,
+      "real_s_mean": 34.116270902499124
+     }
+    },
+    "0.05": {
+     "OO": {
+      "detected": 9,
+      "spend_mean": 1.436382981670162,
+      "spend_max": 1.4488169114016318,
+      "items": 224,
+      "units": 116,
+      "real_s_mean": 43.468475432277025
+     },
+     "AC": {
+      "detected": 18,
+      "spend_mean": 1.988065967548722,
+      "spend_max": 2.10919127607655,
+      "items": 440,
+      "units": 97,
+      "real_s_mean": 60.16375699999902
+     },
+     "OA": {
+      "detected": 18,
+      "spend_mean": 1.703799008972697,
+      "spend_max": 1.8423696302486958,
+      "items": 471,
+      "units": 107,
+      "real_s_mean": 51.56114094094332
+     },
+     "CI": {
+      "detected": 16,
+      "spend_mean": 1.6948345157908016,
+      "spend_max": 1.9179696581522159,
+      "items": 387,
+      "units": 111,
+      "real_s_mean": 51.289853368887194
+     },
+     "AC_lane_last": {
+      "detected": 16,
+      "spend_mean": 1.847522672608431,
+      "spend_max": 2.094699111540272,
+      "items": 375,
+      "units": 107,
+      "real_s_mean": 55.9105718528318
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "spend_mean": 1.8792014362642038,
+      "spend_max": 2.0133314215402254,
+      "items": 437,
+      "units": 96,
+      "real_s_mean": 56.86924901433278
+     },
+     "OA_key_channel": {
+      "detected": 18,
+      "spend_mean": 1.703799008972697,
+      "spend_max": 1.8423696302486958,
+      "items": 471,
+      "units": 107,
+      "real_s_mean": 51.56114094094332
+     },
+     "OA_key_target_channel": {
+      "detected": 18,
+      "spend_mean": 1.703799008972697,
+      "spend_max": 1.8423696302486958,
+      "items": 471,
+      "units": 107,
+      "real_s_mean": 51.56114094094332
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "spend_mean": 1.703799008972697,
+      "spend_max": 1.8423696302486958,
+      "items": 471,
+      "units": 107,
+      "real_s_mean": 51.56114094094332
+     }
+    },
+    "0.075": {
+     "OO": {
+      "detected": 10,
+      "spend_mean": 1.5474873607350972,
+      "spend_max": 1.557452618036852,
+      "items": 225,
+      "units": 116,
+      "real_s_mean": 70.2461500661103
+     },
+     "AC": {
+      "detected": 18,
+      "spend_mean": 1.716270515431993,
+      "spend_max": 1.8240636924711147,
+      "items": 467,
+      "units": 104,
+      "real_s_mean": 77.90783901705436
+     },
+     "OA": {
+      "detected": 18,
+      "spend_mean": 1.6449972164867899,
+      "spend_max": 1.7415171138910417,
+      "items": 489,
+      "units": 111,
+      "real_s_mean": 74.67248150755381
+     },
+     "CI": {
+      "detected": 18,
+      "spend_mean": 1.8393879630211474,
+      "spend_max": 1.9192836468418586,
+      "items": 488,
+      "units": 114,
+      "real_s_mean": 83.49659335427617
+     },
+     "AC_lane_last": {
+      "detected": 16,
+      "spend_mean": 1.7586220589142836,
+      "spend_max": 1.9247076526494589,
+      "items": 399,
+      "units": 115,
+      "real_s_mean": 79.8303315391097
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "spend_mean": 1.716270515431993,
+      "spend_max": 1.824063692471114,
+      "items": 467,
+      "units": 104,
+      "real_s_mean": 77.90783901705436
+     },
+     "OA_key_channel": {
+      "detected": 18,
+      "spend_mean": 1.6449972164867899,
+      "spend_max": 1.7415171138910417,
+      "items": 489,
+      "units": 111,
+      "real_s_mean": 74.67248150755381
+     },
+     "OA_key_target_channel": {
+      "detected": 18,
+      "spend_mean": 1.6449972164867899,
+      "spend_max": 1.7415171138910417,
+      "items": 489,
+      "units": 111,
+      "real_s_mean": 74.67248150755381
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "spend_mean": 1.6449972164867899,
+      "spend_max": 1.7415171138910417,
+      "items": 489,
+      "units": 111,
+      "real_s_mean": 74.67248150755381
+     }
+    },
+    "0.1": {
+     "OO": {
+      "detected": 10,
+      "spend_mean": 1.5918952006492952,
+      "spend_max": 1.5999080784889863,
+      "items": 226,
+      "units": 116,
+      "real_s_mean": 96.34931394094369
+     },
+     "AC": {
+      "detected": 18,
+      "spend_mean": 1.5945798003089435,
+      "spend_max": 1.6988364847443818,
+      "items": 483,
+      "units": 108,
+      "real_s_mean": 96.51179909405407
+     },
+     "OA": {
+      "detected": 18,
+      "spend_mean": 1.6002088109838353,
+      "spend_max": 1.6814709848716305,
+      "items": 502,
+      "units": 114,
+      "real_s_mean": 96.85249445922061
+     },
+     "CI": {
+      "detected": 18,
+      "spend_mean": 1.6002088109838353,
+      "spend_max": 1.681470984871631,
+      "items": 502,
+      "units": 114,
+      "real_s_mean": 96.85249445922061
+     },
+     "AC_lane_last": {
+      "detected": 18,
+      "spend_mean": 1.969394049225791,
+      "spend_max": 2.0354795235418837,
+      "items": 491,
+      "units": 116,
+      "real_s_mean": 119.19739782172076
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "spend_mean": 1.5945798003089433,
+      "spend_max": 1.6988364847443813,
+      "items": 483,
+      "units": 108,
+      "real_s_mean": 96.51179909405407
+     },
+     "OA_key_channel": {
+      "detected": 18,
+      "spend_mean": 1.6002088109838353,
+      "spend_max": 1.6814709848716305,
+      "items": 502,
+      "units": 114,
+      "real_s_mean": 96.85249445922061
+     },
+     "OA_key_target_channel": {
+      "detected": 18,
+      "spend_mean": 1.6002088109838353,
+      "spend_max": 1.6814709848716305,
+      "items": 502,
+      "units": 114,
+      "real_s_mean": 96.85249445922061
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "spend_mean": 1.6002088109838353,
+      "spend_max": 1.6814709848716305,
+      "items": 502,
+      "units": 114,
+      "real_s_mean": 96.85249445922061
+     }
+    }
+   },
+   "first": {
+    "OA_vs_AC": {
+     "wins": 14,
+     "losses": 4,
+     "ties": 0,
+     "p": 0.01544189453125,
+     "gmean_ratio": 0.08987781085397548,
+     "ci95": [
+      0.015895080614250986,
+      0.5602664575721015
+     ],
+     "total_OA": 135.95401692698934,
+     "total_other": 249.61202147799057
+    },
+    "OA_vs_CI": {
+     "wins": 10,
+     "losses": 7,
+     "ties": 1,
+     "p": 0.3145294189453125,
+     "gmean_ratio": 1.0430488060972052,
+     "ci95": [
+      0.4318276875725107,
+      2.9665531990259497
+     ],
+     "total_OA": 135.95401692698934,
+     "total_other": 194.93180518297638
+    },
+    "OA_vs_AC_lane_last": {
+     "wins": 13,
+     "losses": 5,
+     "ties": 0,
+     "p": 0.048126220703125,
+     "gmean_ratio": 0.21187311888379354,
+     "ci95": [
+      0.054894103712255164,
+      0.9312379252435977
+     ],
+     "total_OA": 135.95401692698934,
+     "total_other": 2641.753150711987
+    },
+    "OA_vs_AC_costaware": {
+     "wins": 14,
+     "losses": 4,
+     "ties": 0,
+     "p": 0.01544189453125,
+     "gmean_ratio": 0.06911009770989565,
+     "ci95": [
+      0.018046451457708054,
+      0.26155516874314466
+     ],
+     "total_OA": 135.95401692698934,
+     "total_other": 215.41382607299428
+    },
+    "OA_vs_CI_lane_first": {
+     "wins": 9,
+     "losses": 5,
+     "ties": 4,
+     "p": 0.21197509765625,
+     "gmean_ratio": 0.04533521972627862,
+     "ci95": [
+      0.009575712125837455,
+      0.20596846072529745
+     ],
+     "total_OA": 135.95401692698934,
+     "total_other": 202.19270827097816
+    },
+    "OA_vs_OA_key_channel": {
+     "wins": 8,
+     "losses": 5,
+     "ties": 5,
+     "p": 0.29052734375,
+     "gmean_ratio": 0.07604451759901953,
+     "ci95": [
+      0.019070853226629315,
+      0.3026108302104221
+     ],
+     "total_OA": 135.95401692698934,
+     "total_other": 192.64776601197903
+    }
+   },
+   "over_budget": {
+    "0.02": {
+     "over": 18,
+     "n": 18,
+     "over_1_25": 18
+    },
+    "0.05": {
+     "over": 18,
+     "n": 18,
+     "over_1_25": 18
+    },
+    "0.1": {
+     "over": 18,
+     "n": 18,
+     "over_1_25": 18
+    }
+   },
+   "auc_0_10pct": {
+    "OO": 0.5118055555555556,
+    "AC": 0.9305555555555556,
+    "OA": 0.9541666666666668,
+    "CI": 0.90625,
+    "AC_lane_last": 0.8666666666666667,
+    "AC_costaware": 0.9479166666666667,
+    "OA_key_channel": 0.9555555555555556,
+    "OA_key_target_channel": 0.9555555555555556,
+    "CI_lane_first": 0.9555555555555556
+   },
+   "first_totals": {
+    "OO": Infinity,
+    "AC": 249.61202147799057,
+    "OA": 135.95401692698934,
+    "CI": 194.93180518297638,
+    "AC_lane_last": 2641.753150711987,
+    "AC_costaware": 215.41382607299428,
+    "OA_key_channel": 192.64776601197903,
+    "OA_key_target_channel": 179.88705666998055,
+    "CI_lane_first": 202.19270827097816
+   },
+   "registration": "first",
+   "composition": {
+    "coverable_keys": 40,
+    "median_real_over_estimate": {
+     "compile (units >= 0.05 s)": 0.9392742611875058,
+     "output": 2.5348496995760144,
+     "quality": 2.485984482752564,
+     "probe": 2.4623324752516096
+    },
+    "budgets_s": {
+     "0.02": 12.104982024148969,
+     "0.05": 30.262455060372424,
+     "0.1": 60.52491012074485
+    }
+   }
+  },
+  {
+   "cohort": "out_C260",
+   "full_suite_estimate_s": 1310.1608298829997,
+   "items": 528,
+   "exact8_share": 0.862672815013049,
+   "grid": {
+    "0.0025": {
+     "OO": {
+      "detected": 8,
+      "spend_mean": 1.064729765387973,
+      "spend_max": 1.0976250444978541,
+      "items": 170,
+      "units": 87,
+      "real_s_mean": 3.487418082554596
+     },
+     "AC": {
+      "detected": 13,
+      "spend_mean": 1.0783037532145974,
+      "spend_max": 1.3436524785721309,
+      "items": 122,
+      "units": 36,
+      "real_s_mean": 3.531878350443976
+     },
+     "OA": {
+      "detected": 13,
+      "spend_mean": 1.0673769828466033,
+      "spend_max": 1.398409656747604,
+      "items": 282,
+      "units": 87,
+      "real_s_mean": 3.4960887841107953
+     },
+     "CI": {
+      "detected": 13,
+      "spend_mean": 1.0673769828466033,
+      "spend_max": 1.398409656747604,
+      "items": 282,
+      "units": 87,
+      "real_s_mean": 3.4960887841107953
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "spend_mean": 1.0783037532145974,
+      "spend_max": 1.3436524785721309,
+      "items": 122,
+      "units": 36,
+      "real_s_mean": 3.531878350443976
+     },
+     "AC_costaware": {
+      "detected": 14,
+      "spend_mean": 1.0916635354820712,
+      "spend_max": 1.6444339009832891,
+      "items": 205,
+      "units": 60,
+      "real_s_mean": 3.5756370090005
+     },
+     "OA_key_channel": {
+      "detected": 13,
+      "spend_mean": 1.0673769828466033,
+      "spend_max": 1.398409656747604,
+      "items": 282,
+      "units": 87,
+      "real_s_mean": 3.4960887841107953
+     },
+     "OA_key_target_channel": {
+      "detected": 13,
+      "spend_mean": 1.0673769828466033,
+      "spend_max": 1.398409656747604,
+      "items": 282,
+      "units": 87,
+      "real_s_mean": 3.4960887841107953
+     },
+     "CI_lane_first": {
+      "detected": 13,
+      "spend_mean": 1.0673769828466033,
+      "spend_max": 1.398409656747604,
+      "items": 282,
+      "units": 87,
+      "real_s_mean": 3.4960887841107953
+     }
+    },
+    "0.005": {
+     "OO": {
+      "detected": 9,
+      "spend_mean": 1.0384618861972237,
+      "spend_max": 1.0559910490709055,
+      "items": 192,
+      "units": 100,
+      "real_s_mean": 6.802760433110099
+     },
+     "AC": {
+      "detected": 13,
+      "spend_mean": 1.0561899346960524,
+      "spend_max": 1.2074558284127261,
+      "items": 126,
+      "units": 37,
+      "real_s_mean": 6.918893406777256
+     },
+     "OA": {
+      "detected": 16,
+      "spend_mean": 1.0395509947596215,
+      "spend_max": 1.3035141689841139,
+      "items": 319,
+      "units": 97,
+      "real_s_mean": 6.809894969999819
+     },
+     "CI": {
+      "detected": 16,
+      "spend_mean": 1.0395509947596215,
+      "spend_max": 1.3035141689841139,
+      "items": 319,
+      "units": 97,
+      "real_s_mean": 6.809894969999819
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "spend_mean": 1.0561899346960524,
+      "spend_max": 1.2074558284127261,
+      "items": 126,
+      "units": 37,
+      "real_s_mean": 6.918893406777256
+     },
+     "AC_costaware": {
+      "detected": 10,
+      "spend_mean": 1.3651711136052835,
+      "spend_max": 1.6326736878487798,
+      "items": 44,
+      "units": 11,
+      "real_s_mean": 8.942968595666986
+     },
+     "OA_key_channel": {
+      "detected": 6,
+      "spend_mean": 1.3666958849149258,
+      "spend_max": 1.6320273423156453,
+      "items": 133,
+      "units": 50,
+      "real_s_mean": 8.952957073889099
+     },
+     "OA_key_target_channel": {
+      "detected": 7,
+      "spend_mean": 1.3664220414102237,
+      "spend_max": 1.6314055091929918,
+      "items": 109,
+      "units": 40,
+      "real_s_mean": 8.951163178722208
+     },
+     "CI_lane_first": {
+      "detected": 6,
+      "spend_mean": 1.3661699814313724,
+      "spend_max": 1.6314294583138194,
+      "items": 133,
+      "units": 50,
+      "real_s_mean": 8.949511983166845
+     }
+    },
+    "0.0075": {
+     "OO": {
+      "detected": 9,
+      "spend_mean": 0.9849645687677018,
+      "spend_max": 1.0003976450103507,
+      "items": 200,
+      "units": 104,
+      "real_s_mean": 9.678464976165323
+     },
+     "AC": {
+      "detected": 14,
+      "spend_mean": 1.26941994886429,
+      "spend_max": 1.443828652422466,
+      "items": 94,
+      "units": 20,
+      "real_s_mean": 12.47358220255555
+     },
+     "OA": {
+      "detected": 13,
+      "spend_mean": 1.274756965598899,
+      "spend_max": 1.4567197927171298,
+      "items": 343,
+      "units": 86,
+      "real_s_mean": 12.526024829611412
+     },
+     "CI": {
+      "detected": 16,
+      "spend_mean": 1.0544788209995215,
+      "spend_max": 1.301888592526767,
+      "items": 334,
+      "units": 99,
+      "real_s_mean": 10.36152635411085
+     },
+     "AC_lane_last": {
+      "detected": 14,
+      "spend_mean": 1.0644389587103205,
+      "spend_max": 1.3967545779070238,
+      "items": 196,
+      "units": 55,
+      "real_s_mean": 10.45939672127782
+     },
+     "AC_costaware": {
+      "detected": 13,
+      "spend_mean": 1.275044590552699,
+      "spend_max": 1.4477339076272335,
+      "items": 218,
+      "units": 48,
+      "real_s_mean": 12.528851091722652
+     },
+     "OA_key_channel": {
+      "detected": 14,
+      "spend_mean": 1.267166985383514,
+      "spend_max": 1.452020081358837,
+      "items": 345,
+      "units": 87,
+      "real_s_mean": 12.451444118778026
+     },
+     "OA_key_target_channel": {
+      "detected": 14,
+      "spend_mean": 1.267166985383514,
+      "spend_max": 1.452020081358837,
+      "items": 345,
+      "units": 87,
+      "real_s_mean": 12.451444118778026
+     },
+     "CI_lane_first": {
+      "detected": 14,
+      "spend_mean": 1.267166985383514,
+      "spend_max": 1.452020081358837,
+      "items": 345,
+      "units": 87,
+      "real_s_mean": 12.451444118778026
+     }
+    },
+    "0.01": {
+     "OO": {
+      "detected": 9,
+      "spend_mean": 0.9688192814735992,
+      "spend_max": 0.9919334022647845,
+      "items": 204,
+      "units": 106,
+      "real_s_mean": 12.693090738221024
+     },
+     "AC": {
+      "detected": 14,
+      "spend_mean": 1.2105326909940988,
+      "spend_max": 1.3411219645124912,
+      "items": 100,
+      "units": 21,
+      "real_s_mean": 15.859925150333295
+     },
+     "OA": {
+      "detected": 15,
+      "spend_mean": 1.2220536335931866,
+      "spend_max": 1.3529331778741789,
+      "items": 387,
+      "units": 95,
+      "real_s_mean": 16.010868027499846
+     },
+     "CI": {
+      "detected": 16,
+      "spend_mean": 1.0380119210031824,
+      "spend_max": 1.3170953756526507,
+      "items": 344,
+      "units": 101,
+      "real_s_mean": 13.599625598499763
+     },
+     "AC_lane_last": {
+      "detected": 14,
+      "spend_mean": 1.064732484011236,
+      "spend_max": 1.4142058309481176,
+      "items": 228,
+      "units": 64,
+      "real_s_mean": 13.949707948555488
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "spend_mean": 1.2187474234054954,
+      "spend_max": 1.3525832374016693,
+      "items": 296,
+      "units": 68,
+      "real_s_mean": 15.967551356667114
+     },
+     "OA_key_channel": {
+      "detected": 15,
+      "spend_mean": 1.2220536335931866,
+      "spend_max": 1.3529331778741789,
+      "items": 387,
+      "units": 95,
+      "real_s_mean": 16.010868027499846
+     },
+     "OA_key_target_channel": {
+      "detected": 15,
+      "spend_mean": 1.2220536335931866,
+      "spend_max": 1.3529331778741789,
+      "items": 387,
+      "units": 95,
+      "real_s_mean": 16.010868027499846
+     },
+     "CI_lane_first": {
+      "detected": 15,
+      "spend_mean": 1.2220536335931866,
+      "spend_max": 1.3529331778741789,
+      "items": 387,
+      "units": 95,
+      "real_s_mean": 16.010868027499846
+     }
+    },
+    "0.015": {
+     "OO": {
+      "detected": 9,
+      "spend_mean": 1.0116204996527869,
+      "spend_max": 1.0278218085537396,
+      "items": 212,
+      "units": 110,
+      "real_s_mean": 19.88078330027625
+     },
+     "AC": {
+      "detected": 15,
+      "spend_mean": 1.1645513143201796,
+      "spend_max": 1.2650930920810786,
+      "items": 280,
+      "units": 61,
+      "real_s_mean": 22.886242746165966
+     },
+     "OA": {
+      "detected": 18,
+      "spend_mean": 1.1530205523145376,
+      "spend_max": 1.2452275078413695,
+      "items": 421,
+      "units": 99,
+      "real_s_mean": 22.659635455388536
+     },
+     "CI": {
+      "detected": 16,
+      "spend_mean": 1.0517595435754041,
+      "spend_max": 1.3136107952643095,
+      "items": 361,
+      "units": 105,
+      "real_s_mean": 20.669612346721745
+     },
+     "AC_lane_last": {
+      "detected": 14,
+      "spend_mean": 1.058201650916352,
+      "spend_max": 1.3552610294611587,
+      "items": 241,
+      "units": 67,
+      "real_s_mean": 20.796215297221924
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "spend_mean": 1.1665546869761525,
+      "spend_max": 1.2568322723760719,
+      "items": 349,
+      "units": 78,
+      "real_s_mean": 22.92561385188868
+     },
+     "OA_key_channel": {
+      "detected": 18,
+      "spend_mean": 1.1530205523145376,
+      "spend_max": 1.2452275078413695,
+      "items": 421,
+      "units": 99,
+      "real_s_mean": 22.659635455388536
+     },
+     "OA_key_target_channel": {
+      "detected": 18,
+      "spend_mean": 1.1530205523145376,
+      "spend_max": 1.2452275078413695,
+      "items": 421,
+      "units": 99,
+      "real_s_mean": 22.659635455388536
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "spend_mean": 1.1530205523145376,
+      "spend_max": 1.2452275078413695,
+      "items": 421,
+      "units": 99,
+      "real_s_mean": 22.659635455388536
+     }
+    },
+    "0.02": {
+     "OO": {
+      "detected": 9,
+      "spend_mean": 0.9883519892842341,
+      "spend_max": 1.0050371877379023,
+      "items": 216,
+      "units": 112,
+      "real_s_mean": 25.898001249942915
+     },
+     "AC": {
+      "detected": 15,
+      "spend_mean": 1.1367772721309537,
+      "spend_max": 1.2607122188561382,
+      "items": 312,
+      "units": 69,
+      "real_s_mean": 29.787221084944456
+     },
+     "OA": {
+      "detected": 18,
+      "spend_mean": 1.1361177612337034,
+      "spend_max": 1.2072652595568745,
+      "items": 442,
+      "units": 102,
+      "real_s_mean": 29.769939778055296
+     },
+     "CI": {
+      "detected": 16,
+      "spend_mean": 1.0253867072652567,
+      "spend_max": 1.2583285275726708,
+      "items": 369,
+      "units": 107,
+      "real_s_mean": 26.868429986832908
+     },
+     "AC_lane_last": {
+      "detected": 15,
+      "spend_mean": 1.053175232882074,
+      "spend_max": 1.3100182169263757,
+      "items": 303,
+      "units": 87,
+      "real_s_mean": 27.596578742499997
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "spend_mean": 1.1411639964017404,
+      "spend_max": 1.21085741728492,
+      "items": 375,
+      "units": 83,
+      "real_s_mean": 29.902167371166097
+     },
+     "OA_key_channel": {
+      "detected": 18,
+      "spend_mean": 1.1361177612337034,
+      "spend_max": 1.2072652595568745,
+      "items": 442,
+      "units": 102,
+      "real_s_mean": 29.769939778055296
+     },
+     "OA_key_target_channel": {
+      "detected": 18,
+      "spend_mean": 1.1361177612337034,
+      "spend_max": 1.2072652595568745,
+      "items": 442,
+      "units": 102,
+      "real_s_mean": 29.769939778055296
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "spend_mean": 1.1361177612337034,
+      "spend_max": 1.2072652595568745,
+      "items": 442,
+      "units": 102,
+      "real_s_mean": 29.769939778055296
+     }
+    },
+    "0.03": {
+     "OO": {
+      "detected": 9,
+      "spend_mean": 0.9605670881355373,
+      "spend_max": 0.9735988516111265,
+      "items": 222,
+      "units": 115,
+      "real_s_mean": 37.75492120049856
+     },
+     "AC": {
+      "detected": 17,
+      "spend_mean": 1.1049020904397528,
+      "spend_max": 1.1630857870603324,
+      "items": 384,
+      "units": 85,
+      "real_s_mean": 43.42798319250023
+     },
+     "OA": {
+      "detected": 18,
+      "spend_mean": 1.0869966600527792,
+      "spend_max": 1.1481490460228343,
+      "items": 464,
+      "units": 106,
+      "real_s_mean": 42.72421338644394
+     },
+     "CI": {
+      "detected": 16,
+      "spend_mean": 1.0539681089870667,
+      "spend_max": 1.2119625489606332,
+      "items": 385,
+      "units": 112,
+      "real_s_mean": 41.42603197022134
+     },
+     "AC_lane_last": {
+      "detected": 16,
+      "spend_mean": 1.0498668897960302,
+      "spend_max": 1.247428025519092,
+      "items": 340,
+      "units": 96,
+      "real_s_mean": 41.26483426805552
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "spend_mean": 1.1123446360105365,
+      "spend_max": 1.1876841448330433,
+      "items": 410,
+      "units": 92,
+      "real_s_mean": 43.72051114294403
+     },
+     "OA_key_channel": {
+      "detected": 18,
+      "spend_mean": 1.0869966600527792,
+      "spend_max": 1.1481490460228343,
+      "items": 464,
+      "units": 106,
+      "real_s_mean": 42.72421338644394
+     },
+     "OA_key_target_channel": {
+      "detected": 18,
+      "spend_mean": 1.0869966600527792,
+      "spend_max": 1.1481490460228343,
+      "items": 464,
+      "units": 106,
+      "real_s_mean": 42.72421338644394
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "spend_mean": 1.0869966600527792,
+      "spend_max": 1.1481490460228343,
+      "items": 464,
+      "units": 106,
+      "real_s_mean": 42.72421338644394
+     }
+    },
+    "0.05": {
+     "OO": {
+      "detected": 10,
+      "spend_mean": 1.0750110679271563,
+      "spend_max": 1.082165372434917,
+      "items": 225,
+      "units": 116,
+      "real_s_mean": 70.42186964444265
+     },
+     "AC": {
+      "detected": 18,
+      "spend_mean": 1.0847172512249759,
+      "spend_max": 1.1451141473020272,
+      "items": 462,
+      "units": 103,
+      "real_s_mean": 71.05770270266603
+     },
+     "OA": {
+      "detected": 18,
+      "spend_mean": 1.0580831449944128,
+      "spend_max": 1.1199190924453353,
+      "items": 490,
+      "units": 112,
+      "real_s_mean": 69.31295456655472
+     },
+     "CI": {
+      "detected": 16,
+      "spend_mean": 1.0082857150142233,
+      "spend_max": 1.1192539197122902,
+      "items": 399,
+      "units": 115,
+      "real_s_mean": 66.05082245711043
+     },
+     "AC_lane_last": {
+      "detected": 16,
+      "spend_mean": 1.0526906784488552,
+      "spend_max": 1.1758009163330154,
+      "items": 389,
+      "units": 112,
+      "real_s_mean": 68.95970464433252
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "spend_mean": 1.084826390493363,
+      "spend_max": 1.1514710735587397,
+      "items": 453,
+      "units": 101,
+      "real_s_mean": 71.0648522023882
+     },
+     "OA_key_channel": {
+      "detected": 18,
+      "spend_mean": 1.0580831449944128,
+      "spend_max": 1.1199190924453353,
+      "items": 490,
+      "units": 112,
+      "real_s_mean": 69.31295456655472
+     },
+     "OA_key_target_channel": {
+      "detected": 18,
+      "spend_mean": 1.0580831449944128,
+      "spend_max": 1.1199190924453353,
+      "items": 490,
+      "units": 112,
+      "real_s_mean": 69.31295456655472
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "spend_mean": 1.0580831449944128,
+      "spend_max": 1.1199190924453353,
+      "items": 490,
+      "units": 112,
+      "real_s_mean": 69.31295456655472
+     }
+    },
+    "0.075": {
+     "OO": {
+      "detected": 10,
+      "spend_mean": 0.981931131579198,
+      "spend_max": 0.9867888185367082,
+      "items": 226,
+      "units": 116,
+      "real_s_mean": 96.48657796783162
+     },
+     "AC": {
+      "detected": 18,
+      "spend_mean": 1.0742415552044509,
+      "spend_max": 1.1376806602792728,
+      "items": 488,
+      "units": 110,
+      "real_s_mean": 105.55719055961006
+     },
+     "OA": {
+      "detected": 18,
+      "spend_mean": 1.0630887774096731,
+      "spend_max": 1.1092770924185777,
+      "items": 506,
+      "units": 115,
+      "real_s_mean": 104.46129561377707
+     },
+     "CI": {
+      "detected": 18,
+      "spend_mean": 1.076995132318614,
+      "spend_max": 1.117217425139101,
+      "items": 507,
+      "units": 116,
+      "real_s_mean": 105.82776272538797
+     },
+     "AC_lane_last": {
+      "detected": 18,
+      "spend_mean": 1.076995132318614,
+      "spend_max": 1.1172174251391003,
+      "items": 507,
+      "units": 116,
+      "real_s_mean": 105.82776272538796
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "spend_mean": 1.0742415552044509,
+      "spend_max": 1.1376806602792728,
+      "items": 488,
+      "units": 110,
+      "real_s_mean": 105.55719055961006
+     },
+     "OA_key_channel": {
+      "detected": 18,
+      "spend_mean": 1.0630887774096731,
+      "spend_max": 1.1092770924185777,
+      "items": 506,
+      "units": 115,
+      "real_s_mean": 104.46129561377707
+     },
+     "OA_key_target_channel": {
+      "detected": 18,
+      "spend_mean": 1.0630887774096731,
+      "spend_max": 1.1092770924185777,
+      "items": 506,
+      "units": 115,
+      "real_s_mean": 104.46129561377707
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "spend_mean": 1.0630887774096731,
+      "spend_max": 1.1092770924185777,
+      "items": 506,
+      "units": 115,
+      "real_s_mean": 104.46129561377707
+     }
+    },
+    "0.1": {
+     "OO": {
+      "detected": 10,
+      "spend_mean": 0.7364483486843983,
+      "spend_max": 0.740091613902531,
+      "items": 226,
+      "units": 116,
+      "real_s_mean": 96.48657796783162
+     },
+     "AC": {
+      "detected": 18,
+      "spend_mean": 1.0667456934668595,
+      "spend_max": 1.1450106817679355,
+      "items": 508,
+      "units": 113,
+      "real_s_mean": 139.76084230266568
+     },
+     "OA": {
+      "detected": 18,
+      "spend_mean": 1.0658958040116941,
+      "spend_max": 1.1175616458177515,
+      "items": 515,
+      "units": 116,
+      "real_s_mean": 139.64949311527687
+     },
+     "CI": {
+      "detected": 18,
+      "spend_mean": 1.0658958040116941,
+      "spend_max": 1.117561645817752,
+      "items": 515,
+      "units": 116,
+      "real_s_mean": 139.64949311527687
+     },
+     "AC_lane_last": {
+      "detected": 18,
+      "spend_mean": 1.0948402778359476,
+      "spend_max": 1.1391515977342281,
+      "items": 478,
+      "units": 116,
+      "real_s_mean": 143.44168469988793
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "spend_mean": 1.0667456934668595,
+      "spend_max": 1.145010681767935,
+      "items": 508,
+      "units": 113,
+      "real_s_mean": 139.76084230266568
+     },
+     "OA_key_channel": {
+      "detected": 18,
+      "spend_mean": 1.0658958040116941,
+      "spend_max": 1.1175616458177515,
+      "items": 515,
+      "units": 116,
+      "real_s_mean": 139.64949311527687
+     },
+     "OA_key_target_channel": {
+      "detected": 18,
+      "spend_mean": 1.0658958040116941,
+      "spend_max": 1.1175616458177515,
+      "items": 515,
+      "units": 116,
+      "real_s_mean": 139.64949311527687
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "spend_mean": 1.0658958040116941,
+      "spend_max": 1.1175616458177515,
+      "items": 515,
+      "units": 116,
+      "real_s_mean": 139.64949311527687
+     }
+    }
+   },
+   "first": {
+    "OA_vs_AC": {
+     "wins": 14,
+     "losses": 4,
+     "ties": 0,
+     "p": 0.01544189453125,
+     "gmean_ratio": 0.08912123875232089,
+     "ci95": [
+      0.015685620634695478,
+      0.5643634779560127
+     ],
+     "total_OA": 133.29188475499134,
+     "total_other": 248.0736930949982
+    },
+    "OA_vs_CI": {
+     "wins": 10,
+     "losses": 7,
+     "ties": 1,
+     "p": 0.3145294189453125,
+     "gmean_ratio": 0.9879251291591715,
+     "ci95": [
+      0.39881051827265007,
+      2.843445948287313
+     ],
+     "total_OA": 133.29188475499134,
+     "total_other": 208.51160104498797
+    },
+    "OA_vs_AC_lane_last": {
+     "wins": 13,
+     "losses": 5,
+     "ties": 0,
+     "p": 0.048126220703125,
+     "gmean_ratio": 0.2085993057077234,
+     "ci95": [
+      0.05333650435986332,
+      0.9362084011285267
+     ],
+     "total_OA": 133.29188475499134,
+     "total_other": 2677.3364905809967
+    },
+    "OA_vs_AC_costaware": {
+     "wins": 14,
+     "losses": 4,
+     "ties": 0,
+     "p": 0.01544189453125,
+     "gmean_ratio": 0.0702868352573369,
+     "ci95": [
+      0.018054623086803265,
+      0.2696835366399662
+     ],
+     "total_OA": 133.29188475499134,
+     "total_other": 203.78324444400178
+    },
+    "OA_vs_CI_lane_first": {
+     "wins": 9,
+     "losses": 6,
+     "ties": 3,
+     "p": 0.303619384765625,
+     "gmean_ratio": 0.04503307394121171,
+     "ci95": [
+      0.00945378670881449,
+      0.20584526990288948
+     ],
+     "total_OA": 133.29188475499134,
+     "total_other": 201.08436460098952
+    },
+    "OA_vs_OA_key_channel": {
+     "wins": 8,
+     "losses": 6,
+     "ties": 4,
+     "p": 0.395263671875,
+     "gmean_ratio": 0.07571568528378948,
+     "ci95": [
+      0.0188979673394395,
+      0.3024104105728863
+     ],
+     "total_OA": 133.29188475499134,
+     "total_other": 191.505821712989
+    }
+   },
+   "over_budget": {
+    "0.02": {
+     "over": 18,
+     "n": 18,
+     "over_1_25": 0
+    },
+    "0.05": {
+     "over": 18,
+     "n": 18,
+     "over_1_25": 0
+    },
+    "0.1": {
+     "over": 17,
+     "n": 18,
+     "over_1_25": 0
+    }
+   },
+   "auc_0_10pct": {
+    "OO": 0.5256944444444445,
+    "AC": 0.9305555555555556,
+    "OA": 0.9645833333333333,
+    "CI": 0.9152777777777779,
+    "AC_lane_last": 0.8944444444444445,
+    "AC_costaware": 0.9541666666666668,
+    "OA_key_channel": 0.9520833333333334,
+    "OA_key_target_channel": 0.9534722222222223,
+    "CI_lane_first": 0.9520833333333334
+   },
+   "first_totals": {
+    "OO": Infinity,
+    "AC": 248.0736930949982,
+    "OA": 133.29188475499134,
+    "CI": 208.51160104498797,
+    "AC_lane_last": 2677.3364905809967,
+    "AC_costaware": 203.78324444400178,
+    "OA_key_channel": 191.505821712989,
+    "OA_key_target_channel": 178.23169881298762,
+    "CI_lane_first": 201.08436460098952
+   },
+   "composition": {
+    "coverable_keys": 40,
+    "median_real_over_estimate": {
+     "compile (units >= 0.05 s)": 1.0498362190780934,
+     "output": 1.05145542993654,
+     "quality": 1.0469792510876283,
+     "probe": 1.0394784351767246
+    },
+    "budgets_s": {
+     "0.02": 26.203216597659996,
+     "0.05": 65.50804149414999,
+     "0.1": 131.01608298829998
+    }
+   },
+   "registration": "R2"
+  },
+  {
+   "cohort": "out_C231",
+   "full_suite_estimate_s": 1396.1713788609986,
+   "items": 528,
+   "exact8_share": 0.7910690436320424,
+   "grid": {
+    "0.0025": {
+     "OO": {
+      "detected": 7,
+      "spend_mean": 1.0418891351349442,
+      "spend_max": 1.0635514304925684,
+      "items": 162,
+      "units": 83,
+      "real_s_mean": 3.6366394760541207
+     },
+     "AC": {
+      "detected": 13,
+      "spend_mean": 1.0743836891372134,
+      "spend_max": 1.2254201616669784,
+      "items": 96,
+      "units": 28,
+      "real_s_mean": 3.7500593917211744
+     },
+     "OA": {
+      "detected": 11,
+      "spend_mean": 1.0332248736771563,
+      "spend_max": 1.2886097449352112,
+      "items": 271,
+      "units": 83,
+      "real_s_mean": 3.606397491388291
+     },
+     "CI": {
+      "detected": 11,
+      "spend_mean": 1.0332248736771563,
+      "spend_max": 1.2886097449352112,
+      "items": 271,
+      "units": 83,
+      "real_s_mean": 3.606397491388291
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "spend_mean": 1.0743836891372134,
+      "spend_max": 1.2254201616669784,
+      "items": 96,
+      "units": 28,
+      "real_s_mean": 3.7500593917211744
+     },
+     "AC_costaware": {
+      "detected": 13,
+      "spend_mean": 1.082934653822993,
+      "spend_max": 1.5475819123013388,
+      "items": 205,
+      "units": 59,
+      "real_s_mean": 3.7799059221110154
+     },
+     "OA_key_channel": {
+      "detected": 11,
+      "spend_mean": 1.0332248736771563,
+      "spend_max": 1.2886097449352112,
+      "items": 271,
+      "units": 83,
+      "real_s_mean": 3.606397491388291
+     },
+     "OA_key_target_channel": {
+      "detected": 11,
+      "spend_mean": 1.0332248736771563,
+      "spend_max": 1.2886097449352112,
+      "items": 271,
+      "units": 83,
+      "real_s_mean": 3.606397491388291
+     },
+     "CI_lane_first": {
+      "detected": 11,
+      "spend_mean": 1.0332248736771563,
+      "spend_max": 1.2886097449352112,
+      "items": 271,
+      "units": 83,
+      "real_s_mean": 3.606397491388291
+     }
+    },
+    "0.005": {
+     "OO": {
+      "detected": 8,
+      "spend_mean": 1.0371797383681893,
+      "spend_max": 1.049997500733905,
+      "items": 181,
+      "units": 93,
+      "real_s_mean": 7.240403327221023
+     },
+     "AC": {
+      "detected": 13,
+      "spend_mean": 1.3758144574869466,
+      "spend_max": 1.620351770457703,
+      "items": 59,
+      "units": 13,
+      "real_s_mean": 9.604363840832235
+     },
+     "OA": {
+      "detected": 12,
+      "spend_mean": 1.37972943292495,
+      "spend_max": 1.6253579785105348,
+      "items": 229,
+      "units": 61,
+      "real_s_mean": 9.631693724109656
+     },
+     "CI": {
+      "detected": 13,
+      "spend_mean": 1.0565419270080825,
+      "spend_max": 1.2972155649526005,
+      "items": 302,
+      "units": 90,
+      "real_s_mean": 7.375567995276655
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "spend_mean": 1.067272754019152,
+      "spend_max": 1.1835097646445363,
+      "items": 139,
+      "units": 41,
+      "real_s_mean": 7.450478362998474
+     },
+     "AC_costaware": {
+      "detected": 11,
+      "spend_mean": 1.3685062158921977,
+      "spend_max": 1.6126010566386342,
+      "items": 71,
+      "units": 18,
+      "real_s_mean": 9.553346052110285
+     },
+     "OA_key_channel": {
+      "detected": 12,
+      "spend_mean": 1.3793241742393931,
+      "spend_max": 1.6291515688105485,
+      "items": 252,
+      "units": 66,
+      "real_s_mean": 9.628864671220608
+     },
+     "OA_key_target_channel": {
+      "detected": 12,
+      "spend_mean": 1.3788501610845247,
+      "spend_max": 1.6277048246424315,
+      "items": 250,
+      "units": 66,
+      "real_s_mean": 9.625555653220454
+     },
+     "CI_lane_first": {
+      "detected": 12,
+      "spend_mean": 1.3793241742393931,
+      "spend_max": 1.6291515688105485,
+      "items": 252,
+      "units": 66,
+      "real_s_mean": 9.628864671220608
+     }
+    },
+    "0.0075": {
+     "OO": {
+      "detected": 9,
+      "spend_mean": 1.0377160247813064,
+      "spend_max": 1.046027447426723,
+      "items": 189,
+      "units": 98,
+      "real_s_mean": 10.866220598888031
+     },
+     "AC": {
+      "detected": 14,
+      "spend_mean": 1.2739881799434596,
+      "spend_max": 1.435197941316691,
+      "items": 110,
+      "units": 24,
+      "real_s_mean": 13.340293753832054
+     },
+     "OA": {
+      "detected": 13,
+      "spend_mean": 1.2647002261202012,
+      "spend_max": 1.4313146730574873,
+      "items": 337,
+      "units": 82,
+      "real_s_mean": 13.243036939110434
+     },
+     "CI": {
+      "detected": 14,
+      "spend_mean": 1.0333119699890403,
+      "spend_max": 1.2346737004494102,
+      "items": 320,
+      "units": 94,
+      "real_s_mean": 10.820104484498799
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "spend_mean": 1.0701726705644292,
+      "spend_max": 1.286209371133536,
+      "items": 184,
+      "units": 52,
+      "real_s_mean": 11.206083398109723
+     },
+     "AC_costaware": {
+      "detected": 14,
+      "spend_mean": 1.2746569253368143,
+      "spend_max": 1.4416437487605405,
+      "items": 241,
+      "units": 54,
+      "real_s_mean": 13.347296377666657
+     },
+     "OA_key_channel": {
+      "detected": 13,
+      "spend_mean": 1.2647002261202012,
+      "spend_max": 1.4313146730574873,
+      "items": 337,
+      "units": 82,
+      "real_s_mean": 13.243036939110434
+     },
+     "OA_key_target_channel": {
+      "detected": 13,
+      "spend_mean": 1.2647002261202012,
+      "spend_max": 1.4313146730574873,
+      "items": 337,
+      "units": 82,
+      "real_s_mean": 13.243036939110434
+     },
+     "CI_lane_first": {
+      "detected": 13,
+      "spend_mean": 1.2647002261202012,
+      "spend_max": 1.4313146730574873,
+      "items": 337,
+      "units": 82,
+      "real_s_mean": 13.243036939110434
+     }
+    },
+    "0.01": {
+     "OO": {
+      "detected": 9,
+      "spend_mean": 0.9917156212716396,
+      "spend_max": 0.9980901155107413,
+      "items": 196,
+      "units": 102,
+      "real_s_mean": 13.846049663888168
+     },
+     "AC": {
+      "detected": 14,
+      "spend_mean": 1.2204939270071105,
+      "spend_max": 1.3424223610922061,
+      "items": 163,
+      "units": 36,
+      "real_s_mean": 17.040186889609924
+     },
+     "OA": {
+      "detected": 15,
+      "spend_mean": 1.2013024297731318,
+      "spend_max": 1.3314505046769234,
+      "items": 370,
+      "units": 88,
+      "real_s_mean": 16.772240698054215
+     },
+     "CI": {
+      "detected": 15,
+      "spend_mean": 1.0285661926915017,
+      "spend_max": 1.2252100439098235,
+      "items": 331,
+      "units": 96,
+      "real_s_mean": 14.360546794999014
+     },
+     "AC_lane_last": {
+      "detected": 14,
+      "spend_mean": 1.069094550039191,
+      "spend_max": 1.2790208210374376,
+      "items": 242,
+      "units": 68,
+      "real_s_mean": 14.926392120609963
+     },
+     "AC_costaware": {
+      "detected": 14,
+      "spend_mean": 1.2197493650818085,
+      "spend_max": 1.3478763777805385,
+      "items": 290,
+      "units": 65,
+      "real_s_mean": 17.029791529110963
+     },
+     "OA_key_channel": {
+      "detected": 15,
+      "spend_mean": 1.2013024297731318,
+      "spend_max": 1.3314505046769234,
+      "items": 370,
+      "units": 88,
+      "real_s_mean": 16.772240698054215
+     },
+     "OA_key_target_channel": {
+      "detected": 15,
+      "spend_mean": 1.2013024297731318,
+      "spend_max": 1.3314505046769234,
+      "items": 370,
+      "units": 88,
+      "real_s_mean": 16.772240698054215
+     },
+     "CI_lane_first": {
+      "detected": 15,
+      "spend_mean": 1.2013024297731318,
+      "spend_max": 1.3314505046769234,
+      "items": 370,
+      "units": 88,
+      "real_s_mean": 16.772240698054215
+     }
+    },
+    "0.015": {
+     "OO": {
+      "detected": 9,
+      "spend_mean": 1.0492029230698325,
+      "spend_max": 1.0620298404504787,
+      "items": 200,
+      "units": 103,
+      "real_s_mean": 21.973006377110977
+     },
+     "AC": {
+      "detected": 15,
+      "spend_mean": 1.1699611363129696,
+      "spend_max": 1.2505169886505065,
+      "items": 268,
+      "units": 58,
+      "real_s_mean": 24.501993793497892
+     },
+     "OA": {
+      "detected": 16,
+      "spend_mean": 1.151023053832615,
+      "spend_max": 1.2417851128570074,
+      "items": 404,
+      "units": 94,
+      "real_s_mean": 24.105381662554194
+     },
+     "CI": {
+      "detected": 16,
+      "spend_mean": 1.0542592700193818,
+      "spend_max": 1.2099771363155523,
+      "items": 348,
+      "units": 101,
+      "real_s_mean": 22.07889928049925
+     },
+     "AC_lane_last": {
+      "detected": 14,
+      "spend_mean": 1.0576031924194438,
+      "spend_max": 1.2167227768646438,
+      "items": 279,
+      "units": 79,
+      "real_s_mean": 22.14892961172073
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "spend_mean": 1.1648289476765183,
+      "spend_max": 1.256017448777635,
+      "items": 351,
+      "units": 79,
+      "real_s_mean": 24.39451257022096
+     },
+     "OA_key_channel": {
+      "detected": 16,
+      "spend_mean": 1.151023053832615,
+      "spend_max": 1.2417851128570074,
+      "items": 404,
+      "units": 94,
+      "real_s_mean": 24.105381662554194
+     },
+     "OA_key_target_channel": {
+      "detected": 16,
+      "spend_mean": 1.151023053832615,
+      "spend_max": 1.2417851128570074,
+      "items": 404,
+      "units": 94,
+      "real_s_mean": 24.105381662554194
+     },
+     "CI_lane_first": {
+      "detected": 16,
+      "spend_mean": 1.151023053832615,
+      "spend_max": 1.2417851128570074,
+      "items": 404,
+      "units": 94,
+      "real_s_mean": 24.105381662554194
+     }
+    },
+    "0.02": {
+     "OO": {
+      "detected": 9,
+      "spend_mean": 1.013092671731637,
+      "spend_max": 1.0233598238960766,
+      "items": 208,
+      "units": 108,
+      "real_s_mean": 28.289019848110655
+     },
+     "AC": {
+      "detected": 15,
+      "spend_mean": 1.1361461299393028,
+      "spend_max": 1.198989844044546,
+      "items": 320,
+      "units": 70,
+      "real_s_mean": 31.72509417649887
+     },
+     "OA": {
+      "detected": 18,
+      "spend_mean": 1.130545244380201,
+      "spend_max": 1.202647503395899,
+      "items": 425,
+      "units": 98,
+      "real_s_mean": 31.568698254221
+     },
+     "CI": {
+      "detected": 16,
+      "spend_mean": 1.0456836795346405,
+      "spend_max": 1.1728612278141906,
+      "items": 360,
+      "units": 104,
+      "real_s_mean": 29.19907249416643
+     },
+     "AC_lane_last": {
+      "detected": 15,
+      "spend_mean": 1.0564093696405397,
+      "spend_max": 1.2011430602581354,
+      "items": 293,
+      "units": 83,
+      "real_s_mean": 29.498570525054213
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "spend_mean": 1.1316910914539233,
+      "spend_max": 1.203411352387631,
+      "items": 372,
+      "units": 82,
+      "real_s_mean": 31.600694231998652
+     },
+     "OA_key_channel": {
+      "detected": 18,
+      "spend_mean": 1.130545244380201,
+      "spend_max": 1.202647503395899,
+      "items": 425,
+      "units": 98,
+      "real_s_mean": 31.568698254221
+     },
+     "OA_key_target_channel": {
+      "detected": 18,
+      "spend_mean": 1.130545244380201,
+      "spend_max": 1.202647503395899,
+      "items": 425,
+      "units": 98,
+      "real_s_mean": 31.568698254221
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "spend_mean": 1.130545244380201,
+      "spend_max": 1.202647503395899,
+      "items": 425,
+      "units": 98,
+      "real_s_mean": 31.568698254221
+     }
+    },
+    "0.03": {
+     "OO": {
+      "detected": 9,
+      "spend_mean": 0.9602260107361936,
+      "spend_max": 0.9720683795808944,
+      "items": 214,
+      "units": 111,
+      "real_s_mean": 40.21920220283243
+     },
+     "AC": {
+      "detected": 17,
+      "spend_mean": 1.103753048359378,
+      "spend_max": 1.1521127234959563,
+      "items": 371,
+      "units": 81,
+      "real_s_mean": 46.2308524634983
+     },
+     "OA": {
+      "detected": 18,
+      "spend_mean": 1.0833949112445667,
+      "spend_max": 1.1376333837056876,
+      "items": 447,
+      "units": 102,
+      "real_s_mean": 45.37814901249948
+     },
+     "CI": {
+      "detected": 16,
+      "spend_mean": 0.9954457447332553,
+      "spend_max": 1.0811630572397177,
+      "items": 371,
+      "units": 107,
+      "real_s_mean": 41.69438574016628
+     },
+     "AC_lane_last": {
+      "detected": 16,
+      "spend_mean": 1.051753675339108,
+      "spend_max": 1.169121352254716,
+      "items": 349,
+      "units": 98,
+      "real_s_mean": 44.052851373609755
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "spend_mean": 1.1012284413906752,
+      "spend_max": 1.1640556840229737,
+      "items": 420,
+      "units": 94,
+      "real_s_mean": 46.125108943721024
+     },
+     "OA_key_channel": {
+      "detected": 18,
+      "spend_mean": 1.0833949112445667,
+      "spend_max": 1.1376333837056876,
+      "items": 447,
+      "units": 102,
+      "real_s_mean": 45.37814901249948
+     },
+     "OA_key_target_channel": {
+      "detected": 18,
+      "spend_mean": 1.0833949112445667,
+      "spend_max": 1.1376333837056876,
+      "items": 447,
+      "units": 102,
+      "real_s_mean": 45.37814901249948
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "spend_mean": 1.0833949112445667,
+      "spend_max": 1.1376333837056876,
+      "items": 447,
+      "units": 102,
+      "real_s_mean": 45.37814901249948
+     }
+    },
+    "0.05": {
+     "OO": {
+      "detected": 9,
+      "spend_mean": 1.0254128823410842,
+      "spend_max": 1.0342000469440398,
+      "items": 224,
+      "units": 116,
+      "real_s_mean": 71.58260589199912
+     },
+     "AC": {
+      "detected": 18,
+      "spend_mean": 1.0770472933185675,
+      "spend_max": 1.1300764750722532,
+      "items": 441,
+      "units": 97,
+      "real_s_mean": 75.18713023055454
+     },
+     "OA": {
+      "detected": 18,
+      "spend_mean": 1.0705938558133945,
+      "spend_max": 1.1217345120465578,
+      "items": 471,
+      "units": 107,
+      "real_s_mean": 74.73662499355501
+     },
+     "CI": {
+      "detected": 16,
+      "spend_mean": 1.0038744844443082,
+      "spend_max": 1.0694167926848879,
+      "items": 387,
+      "units": 111,
+      "real_s_mean": 70.07904115749919
+     },
+     "AC_lane_last": {
+      "detected": 16,
+      "spend_mean": 1.0513276867109693,
+      "spend_max": 1.122638452192506,
+      "items": 377,
+      "units": 107,
+      "real_s_mean": 73.39168129949991
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "spend_mean": 1.0745472711137465,
+      "spend_max": 1.1296082634114966,
+      "items": 441,
+      "units": 98,
+      "real_s_mean": 75.01260725811014
+     },
+     "OA_key_channel": {
+      "detected": 18,
+      "spend_mean": 1.0705938558133945,
+      "spend_max": 1.1217345120465578,
+      "items": 471,
+      "units": 107,
+      "real_s_mean": 74.73662499355501
+     },
+     "OA_key_target_channel": {
+      "detected": 18,
+      "spend_mean": 1.0705938558133945,
+      "spend_max": 1.1217345120465578,
+      "items": 471,
+      "units": 107,
+      "real_s_mean": 74.73662499355501
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "spend_mean": 1.0705938558133945,
+      "spend_max": 1.1217345120465578,
+      "items": 471,
+      "units": 107,
+      "real_s_mean": 74.73662499355501
+     }
+    },
+    "0.075": {
+     "OO": {
+      "detected": 10,
+      "spend_mean": 0.930564827062394,
+      "spend_max": 0.9369553331390982,
+      "items": 225,
+      "units": 116,
+      "real_s_mean": 97.44209832894369
+     },
+     "AC": {
+      "detected": 18,
+      "spend_mean": 1.0631708030888605,
+      "spend_max": 1.119767718102124,
+      "items": 475,
+      "units": 106,
+      "real_s_mean": 111.32764845849971
+     },
+     "OA": {
+      "detected": 18,
+      "spend_mean": 1.052733561040453,
+      "spend_max": 1.10443213896704,
+      "items": 489,
+      "units": 111,
+      "real_s_mean": 110.23473506183237
+     },
+     "CI": {
+      "detected": 18,
+      "spend_mean": 1.0688018863120095,
+      "spend_max": 1.0914446666973736,
+      "items": 489,
+      "units": 114,
+      "real_s_mean": 111.9172952506106
+     },
+     "AC_lane_last": {
+      "detected": 16,
+      "spend_mean": 1.0496382570109937,
+      "spend_max": 1.0975246536926313,
+      "items": 404,
+      "units": 116,
+      "real_s_mean": 109.91061694472208
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "spend_mean": 1.0631708030888605,
+      "spend_max": 1.1197677181021242,
+      "items": 475,
+      "units": 106,
+      "real_s_mean": 111.32764845849971
+     },
+     "OA_key_channel": {
+      "detected": 18,
+      "spend_mean": 1.052733561040453,
+      "spend_max": 1.10443213896704,
+      "items": 489,
+      "units": 111,
+      "real_s_mean": 110.23473506183237
+     },
+     "OA_key_target_channel": {
+      "detected": 18,
+      "spend_mean": 1.052733561040453,
+      "spend_max": 1.10443213896704,
+      "items": 489,
+      "units": 111,
+      "real_s_mean": 110.23473506183237
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "spend_mean": 1.052733561040453,
+      "spend_max": 1.10443213896704,
+      "items": 489,
+      "units": 111,
+      "real_s_mean": 110.23473506183237
+     }
+    },
+    "0.1": {
+     "OO": {
+      "detected": 10,
+      "spend_mean": 0.8825314405589171,
+      "spend_max": 0.8875547462310197,
+      "items": 226,
+      "units": 116,
+      "real_s_mean": 123.21651382533267
+     },
+     "AC": {
+      "detected": 18,
+      "spend_mean": 1.0573801542260988,
+      "spend_max": 1.1282923963497513,
+      "items": 490,
+      "units": 109,
+      "real_s_mean": 147.62839079061078
+     },
+     "OA": {
+      "detected": 18,
+      "spend_mean": 1.0243505401830941,
+      "spend_max": 1.067360549351571,
+      "items": 502,
+      "units": 114,
+      "real_s_mean": 143.01689061244392
+     },
+     "CI": {
+      "detected": 18,
+      "spend_mean": 1.0243505401830941,
+      "spend_max": 1.0673605493515714,
+      "items": 502,
+      "units": 114,
+      "real_s_mean": 143.01689061244392
+     },
+     "AC_lane_last": {
+      "detected": 18,
+      "spend_mean": 1.0785816585915866,
+      "spend_max": 1.0951139051477794,
+      "items": 486,
+      "units": 116,
+      "real_s_mean": 150.58848414899984
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "spend_mean": 1.0573801542260988,
+      "spend_max": 1.1282923963497513,
+      "items": 490,
+      "units": 109,
+      "real_s_mean": 147.62839079061078
+     },
+     "OA_key_channel": {
+      "detected": 18,
+      "spend_mean": 1.0243505401830941,
+      "spend_max": 1.067360549351571,
+      "items": 502,
+      "units": 114,
+      "real_s_mean": 143.01689061244392
+     },
+     "OA_key_target_channel": {
+      "detected": 18,
+      "spend_mean": 1.0243505401830941,
+      "spend_max": 1.067360549351571,
+      "items": 502,
+      "units": 114,
+      "real_s_mean": 143.01689061244392
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "spend_mean": 1.0243505401830941,
+      "spend_max": 1.067360549351571,
+      "items": 502,
+      "units": 114,
+      "real_s_mean": 143.01689061244392
+     }
+    }
+   },
+   "first": {
+    "OA_vs_AC": {
+     "wins": 13,
+     "losses": 5,
+     "ties": 0,
+     "p": 0.048126220703125,
+     "gmean_ratio": 0.09817869780778238,
+     "ci95": [
+      0.01750897261282332,
+      0.6085817895329586
+     ],
+     "total_OA": 160.23094941599487,
+     "total_other": 276.32597388699156
+    },
+    "OA_vs_CI": {
+     "wins": 10,
+     "losses": 7,
+     "ties": 1,
+     "p": 0.3145294189453125,
+     "gmean_ratio": 0.8944903111640834,
+     "ci95": [
+      0.3687735925440842,
+      2.587522956163085
+     ],
+     "total_OA": 160.23094941599487,
+     "total_other": 257.86963561699434
+    },
+    "OA_vs_AC_lane_last": {
+     "wins": 13,
+     "losses": 5,
+     "ties": 0,
+     "p": 0.048126220703125,
+     "gmean_ratio": 0.22509535454487758,
+     "ci95": [
+      0.05802905978141841,
+      1.0024407866025955
+     ],
+     "total_OA": 160.23094941599487,
+     "total_other": 2730.7761170509966
+    },
+    "OA_vs_AC_costaware": {
+     "wins": 14,
+     "losses": 4,
+     "ties": 0,
+     "p": 0.01544189453125,
+     "gmean_ratio": 0.0737012843194476,
+     "ci95": [
+      0.019364265375255933,
+      0.2745636880669329
+     ],
+     "total_OA": 160.23094941599487,
+     "total_other": 237.35072573299527
+    },
+    "OA_vs_CI_lane_first": {
+     "wins": 9,
+     "losses": 4,
+     "ties": 5,
+     "p": 0.1334228515625,
+     "gmean_ratio": 0.04789299872746057,
+     "ci95": [
+      0.01033948278415214,
+      0.2122409667677129
+     ],
+     "total_OA": 160.23094941599487,
+     "total_other": 224.8473519919891
+    },
+    "OA_vs_OA_key_channel": {
+     "wins": 8,
+     "losses": 4,
+     "ties": 6,
+     "p": 0.19384765625,
+     "gmean_ratio": 0.07943923150424176,
+     "ci95": [
+      0.020271483443291327,
+      0.307341358859826
+     ],
+     "total_OA": 160.23094941599487,
+     "total_other": 215.5092245379899
+    }
+   },
+   "over_budget": {
+    "0.02": {
+     "over": 18,
+     "n": 18,
+     "over_1_25": 0
+    },
+    "0.05": {
+     "over": 17,
+     "n": 18,
+     "over_1_25": 0
+    },
+    "0.1": {
+     "over": 17,
+     "n": 18,
+     "over_1_25": 0
+    }
+   },
+   "auc_0_10pct": {
+    "OO": 0.5104166666666667,
+    "AC": 0.9305555555555556,
+    "OA": 0.9506944444444445,
+    "CI": 0.9034722222222223,
+    "AC_lane_last": 0.8652777777777778,
+    "AC_costaware": 0.9430555555555556,
+    "OA_key_channel": 0.9506944444444445,
+    "OA_key_target_channel": 0.9506944444444445,
+    "CI_lane_first": 0.9506944444444445
+   },
+   "first_totals": {
+    "OO": Infinity,
+    "AC": 276.32597388699156,
+    "OA": 160.23094941599487,
+    "CI": 257.86963561699434,
+    "AC_lane_last": 2730.7761170509966,
+    "AC_costaware": 237.35072573299527,
+    "OA_key_channel": 215.5092245379899,
+    "OA_key_target_channel": 203.06049979499048,
+    "CI_lane_first": 224.8473519919891
+   },
+   "composition": {
+    "coverable_keys": 40,
+    "median_real_over_estimate": {
+     "compile (units >= 0.05 s)": 1.0361036630443516,
+     "output": 1.0469086311891358,
+     "quality": 1.0106541520417536,
+     "probe": 1.0536133415321873
+    },
+    "budgets_s": {
+     "0.02": 27.92342757721997,
+     "0.05": 69.80856894304993,
+     "0.1": 139.61713788609987
+    }
+   },
+   "registration": "R2"
+  }
+ ],
+ "sign_test_power_n18": {
+  "0.65": {
+   "critical_wins": 13,
+   "power": 0.35499660066460287
+  },
+  "0.70": {
+   "critical_wins": 13,
+   "power": 0.5343800977746012
+  },
+  "0.75": {
+   "critical_wins": 13,
+   "power": 0.717450812982861
+  },
+  "0.80": {
+   "critical_wins": 13,
+   "power": 0.867083665757176
+  },
+  "0.85": {
+   "critical_wins": 13,
+   "power": 0.9581036443442669
+  }
+ }
+}
