@@ -130,7 +130,7 @@ def tab_claims(r1, r2):
     out = [r"\begin{tabular}{@{}llllll@{}}", r"\toprule",
            r"Registration & Cohort & A: detected at 5\% (OA/OO/AC/CH) & B: earlier/later, $p$ & "
            r"C: mean spend 2/5/10\% & C: max spend \\", r"\midrule"]
-    for reg, d in (("R2 (registered)", r2), ("Earlier", r1)):
+    for reg, d in (("R2", r2), ("R1", r1)):
         for c in d["cohorts"]:
             a = c["claim_A"]["detected_at_5pct"]
             b = c["claim_B"]
@@ -387,6 +387,7 @@ def tab_grid(ex):
 def tab_effects(ex):
     cs = ex["cohorts"]
     comps = [("OA_vs_AC", "AC (registered, claim B)"), ("OA_vs_AC_costaware", "AC-cost"),
+             ("OA_vs_AC_lane_last", "AC-lane-last"),
              ("OA_vs_CI", "CH"), ("OA_vs_CI_lane_first", "CH, lane first"), ("OA_vs_OA_key_channel", "OA, key (channel)")]
     out = [r"\begin{tabular}{@{}l" + "l" * len(cs) + r"@{}}", r"\toprule",
            "OA against & " + " & ".join(COHORT_LABEL[c["cohort"]] for c in cs) + r" \\", r"\midrule"]
@@ -402,7 +403,7 @@ def tab_effects(ex):
             cells.append(f"{v['gmean_ratio']:.2f} [{v['ci95'][0]:.3f}, {v['ci95'][1]:.2f}]")
         out.append(r"\quad geometric-mean ratio [95\% CI] & " + " & ".join(cells) + r" \\")
     out.append(r"\midrule")
-    for k in ("OA", "AC", "AC_costaware", "CI", "OA_key_channel"):
+    for k in ("OA", "AC", "AC_costaware", "AC_lane_last", "CI", "OA_key_channel"):
         out.append(f"Total first-detection cost, {EXPL_NAMES[k]} (s) & " +
                    " & ".join(f"{c['first_totals'][k]:.0f}" for c in cs) + r" \\")
     out += [r"\bottomrule", r"\end{tabular}"]

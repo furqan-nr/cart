@@ -1,0 +1,1541 @@
+{
+ "note": "exploratory, not registered",
+ "cohorts": [
+  {
+   "cohort": "out_C260",
+   "grid": {
+    "0.0025": {
+     "output_only": {
+      "detected": 8,
+      "items": 170
+     },
+     "all_checks": {
+      "detected": 13,
+      "items": 122
+     },
+     "observability": {
+      "detected": 13,
+      "items": 282
+     },
+     "cheapest_items": {
+      "detected": 13,
+      "items": 282
+     },
+     "ratio_greedy": {
+      "detected": 13,
+      "items": 282
+     },
+     "AC_costaware": {
+      "detected": 14,
+      "items": 205
+     },
+     "hindsight_bound": 16
+    },
+    "0.005": {
+     "output_only": {
+      "detected": 9,
+      "items": 192
+     },
+     "all_checks": {
+      "detected": 13,
+      "items": 126
+     },
+     "observability": {
+      "detected": 16,
+      "items": 319
+     },
+     "cheapest_items": {
+      "detected": 16,
+      "items": 319
+     },
+     "ratio_greedy": {
+      "detected": 16,
+      "items": 319
+     },
+     "AC_costaware": {
+      "detected": 10,
+      "items": 44
+     },
+     "hindsight_bound": 16
+    },
+    "0.0075": {
+     "output_only": {
+      "detected": 9,
+      "items": 200
+     },
+     "all_checks": {
+      "detected": 14,
+      "items": 94
+     },
+     "observability": {
+      "detected": 13,
+      "items": 343
+     },
+     "cheapest_items": {
+      "detected": 16,
+      "items": 334
+     },
+     "ratio_greedy": {
+      "detected": 13,
+      "items": 343
+     },
+     "AC_costaware": {
+      "detected": 13,
+      "items": 218
+     },
+     "hindsight_bound": 16
+    },
+    "0.01": {
+     "output_only": {
+      "detected": 9,
+      "items": 204
+     },
+     "all_checks": {
+      "detected": 14,
+      "items": 100
+     },
+     "observability": {
+      "detected": 15,
+      "items": 387
+     },
+     "cheapest_items": {
+      "detected": 16,
+      "items": 344
+     },
+     "ratio_greedy": {
+      "detected": 15,
+      "items": 387
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "items": 296
+     },
+     "hindsight_bound": 18
+    },
+    "0.015": {
+     "output_only": {
+      "detected": 9,
+      "items": 212
+     },
+     "all_checks": {
+      "detected": 15,
+      "items": 280
+     },
+     "observability": {
+      "detected": 18,
+      "items": 421
+     },
+     "cheapest_items": {
+      "detected": 16,
+      "items": 361
+     },
+     "ratio_greedy": {
+      "detected": 18,
+      "items": 421
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "items": 349
+     },
+     "hindsight_bound": 18
+    },
+    "0.02": {
+     "output_only": {
+      "detected": 9,
+      "items": 216
+     },
+     "all_checks": {
+      "detected": 15,
+      "items": 312
+     },
+     "observability": {
+      "detected": 18,
+      "items": 442
+     },
+     "cheapest_items": {
+      "detected": 16,
+      "items": 369
+     },
+     "ratio_greedy": {
+      "detected": 18,
+      "items": 442
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 375
+     },
+     "hindsight_bound": 18
+    },
+    "0.03": {
+     "output_only": {
+      "detected": 9,
+      "items": 222
+     },
+     "all_checks": {
+      "detected": 17,
+      "items": 384
+     },
+     "observability": {
+      "detected": 18,
+      "items": 464
+     },
+     "cheapest_items": {
+      "detected": 16,
+      "items": 385
+     },
+     "ratio_greedy": {
+      "detected": 18,
+      "items": 464
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 410
+     },
+     "hindsight_bound": 18
+    },
+    "0.05": {
+     "output_only": {
+      "detected": 10,
+      "items": 225
+     },
+     "all_checks": {
+      "detected": 18,
+      "items": 462
+     },
+     "observability": {
+      "detected": 18,
+      "items": 490
+     },
+     "cheapest_items": {
+      "detected": 16,
+      "items": 399
+     },
+     "ratio_greedy": {
+      "detected": 18,
+      "items": 490
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 453
+     },
+     "hindsight_bound": 18
+    },
+    "0.075": {
+     "output_only": {
+      "detected": 10,
+      "items": 226
+     },
+     "all_checks": {
+      "detected": 18,
+      "items": 488
+     },
+     "observability": {
+      "detected": 18,
+      "items": 506
+     },
+     "cheapest_items": {
+      "detected": 18,
+      "items": 507
+     },
+     "ratio_greedy": {
+      "detected": 18,
+      "items": 506
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 488
+     },
+     "hindsight_bound": 18
+    },
+    "0.1": {
+     "output_only": {
+      "detected": 10,
+      "items": 226
+     },
+     "all_checks": {
+      "detected": 18,
+      "items": 508
+     },
+     "observability": {
+      "detected": 18,
+      "items": 515
+     },
+     "cheapest_items": {
+      "detected": 18,
+      "items": 515
+     },
+     "ratio_greedy": {
+      "detected": 18,
+      "items": 515
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 508
+     },
+     "hindsight_bound": 18
+    }
+   },
+   "hindsight": {},
+   "hard_cut": {
+    "0.02": {
+     "output_only": 9,
+     "all_checks": 15,
+     "observability": 18,
+     "cheapest_items": 16
+    },
+    "0.05": {
+     "output_only": 9,
+     "all_checks": 18,
+     "observability": 18,
+     "cheapest_items": 16
+    },
+    "0.1": {
+     "output_only": 10,
+     "all_checks": 18,
+     "observability": 18,
+     "cheapest_items": 18
+    }
+   },
+   "decomposition": {
+    "0.02": {
+     "mean_overspend_s": 3.7597239880554127,
+     "components_s": {
+      "compile": 0.2836909989994041,
+      "checks": 0.7240312805004283,
+      "det_per_unit": 0.37524243622220094,
+      "det_fixed": 2.3767592723333792
+     },
+     "share": {
+      "compile": 0.07545527275424636,
+      "checks": 0.19257564725513493,
+      "det_per_unit": 0.09980584676277848,
+      "det_fixed": 0.6321632332278402
+     }
+    },
+    "0.05": {
+     "mean_overspend_s": 5.768358425554966,
+     "components_s": {
+      "compile": 0.9151709199993991,
+      "checks": 1.4901809941111095,
+      "det_per_unit": 0.9862472391110779,
+      "det_fixed": 2.3767592723333792
+     },
+     "share": {
+      "compile": 0.15865361554944496,
+      "checks": 0.2583371011602389,
+      "det_per_unit": 0.1709753739888645,
+      "det_fixed": 0.4120339093014517
+     }
+    },
+    "0.1": {
+     "mean_overspend_s": 9.361898458277008,
+     "components_s": {
+      "compile": 1.9250978929993412,
+      "checks": 2.354723879277653,
+      "det_per_unit": 2.7053174136666334,
+      "det_fixed": 2.3767592723333792
+     },
+     "share": {
+      "compile": 0.20563114432173002,
+      "checks": 0.2515220486284812,
+      "det_per_unit": 0.2889710271611436,
+      "det_fixed": 0.25387577988864507
+     }
+    }
+   },
+   "clean_lane_sensitivity": {
+    "0.02": {
+     "mean_registered": 1.1361177612337034,
+     "max_registered": 1.2072652595568745,
+     "mean_clean_lane": 1.093114651934748,
+     "max_clean_lane": 1.1371021650701554
+    },
+    "0.05": {
+     "mean_registered": 1.0580831449944128,
+     "max_registered": 1.1199190924453353,
+     "mean_clean_lane": 1.0408819012748307,
+     "max_clean_lane": 1.0824422037458123
+    },
+    "0.1": {
+     "mean_registered": 1.0658958040116941,
+     "max_registered": 1.1175616458177515,
+     "mean_clean_lane": 1.0572951821519032,
+     "max_clean_lane": 1.1219821375680037
+    }
+   },
+   "equal_weight_mean_detected": {
+    "output_only": 9.2,
+    "all_checks": 15.5,
+    "observability": 16.5,
+    "cheapest_items": 16.1,
+    "ratio_greedy": 16.5,
+    "AC_costaware": 15.9,
+    "hindsight_bound": 17.4
+   },
+   "ratio_greedy_equals_OA_items": {
+    "0.0025": true,
+    "0.005": true,
+    "0.0075": true,
+    "0.01": true,
+    "0.015": true,
+    "0.02": true,
+    "0.03": true,
+    "0.05": true,
+    "0.075": true,
+    "0.1": true
+   }
+  },
+  {
+   "cohort": "out_C231",
+   "grid": {
+    "0.0025": {
+     "output_only": {
+      "detected": 7,
+      "items": 162
+     },
+     "all_checks": {
+      "detected": 13,
+      "items": 96
+     },
+     "observability": {
+      "detected": 11,
+      "items": 271
+     },
+     "cheapest_items": {
+      "detected": 11,
+      "items": 271
+     },
+     "ratio_greedy": {
+      "detected": 11,
+      "items": 271
+     },
+     "AC_costaware": {
+      "detected": 13,
+      "items": 205
+     },
+     "hindsight_bound": 16
+    },
+    "0.005": {
+     "output_only": {
+      "detected": 8,
+      "items": 181
+     },
+     "all_checks": {
+      "detected": 13,
+      "items": 59
+     },
+     "observability": {
+      "detected": 12,
+      "items": 229
+     },
+     "cheapest_items": {
+      "detected": 13,
+      "items": 302
+     },
+     "ratio_greedy": {
+      "detected": 12,
+      "items": 229
+     },
+     "AC_costaware": {
+      "detected": 11,
+      "items": 71
+     },
+     "hindsight_bound": 16
+    },
+    "0.0075": {
+     "output_only": {
+      "detected": 9,
+      "items": 189
+     },
+     "all_checks": {
+      "detected": 14,
+      "items": 110
+     },
+     "observability": {
+      "detected": 13,
+      "items": 337
+     },
+     "cheapest_items": {
+      "detected": 14,
+      "items": 320
+     },
+     "ratio_greedy": {
+      "detected": 13,
+      "items": 337
+     },
+     "AC_costaware": {
+      "detected": 14,
+      "items": 241
+     },
+     "hindsight_bound": 18
+    },
+    "0.01": {
+     "output_only": {
+      "detected": 9,
+      "items": 196
+     },
+     "all_checks": {
+      "detected": 14,
+      "items": 163
+     },
+     "observability": {
+      "detected": 15,
+      "items": 370
+     },
+     "cheapest_items": {
+      "detected": 15,
+      "items": 331
+     },
+     "ratio_greedy": {
+      "detected": 15,
+      "items": 370
+     },
+     "AC_costaware": {
+      "detected": 14,
+      "items": 290
+     },
+     "hindsight_bound": 18
+    },
+    "0.015": {
+     "output_only": {
+      "detected": 9,
+      "items": 200
+     },
+     "all_checks": {
+      "detected": 15,
+      "items": 268
+     },
+     "observability": {
+      "detected": 16,
+      "items": 404
+     },
+     "cheapest_items": {
+      "detected": 16,
+      "items": 348
+     },
+     "ratio_greedy": {
+      "detected": 16,
+      "items": 404
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "items": 351
+     },
+     "hindsight_bound": 18
+    },
+    "0.02": {
+     "output_only": {
+      "detected": 9,
+      "items": 208
+     },
+     "all_checks": {
+      "detected": 15,
+      "items": 320
+     },
+     "observability": {
+      "detected": 18,
+      "items": 425
+     },
+     "cheapest_items": {
+      "detected": 16,
+      "items": 360
+     },
+     "ratio_greedy": {
+      "detected": 18,
+      "items": 425
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "items": 372
+     },
+     "hindsight_bound": 18
+    },
+    "0.03": {
+     "output_only": {
+      "detected": 9,
+      "items": 214
+     },
+     "all_checks": {
+      "detected": 17,
+      "items": 371
+     },
+     "observability": {
+      "detected": 18,
+      "items": 447
+     },
+     "cheapest_items": {
+      "detected": 16,
+      "items": 371
+     },
+     "ratio_greedy": {
+      "detected": 18,
+      "items": 447
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 420
+     },
+     "hindsight_bound": 18
+    },
+    "0.05": {
+     "output_only": {
+      "detected": 9,
+      "items": 224
+     },
+     "all_checks": {
+      "detected": 18,
+      "items": 441
+     },
+     "observability": {
+      "detected": 18,
+      "items": 471
+     },
+     "cheapest_items": {
+      "detected": 16,
+      "items": 387
+     },
+     "ratio_greedy": {
+      "detected": 18,
+      "items": 471
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 441
+     },
+     "hindsight_bound": 18
+    },
+    "0.075": {
+     "output_only": {
+      "detected": 10,
+      "items": 225
+     },
+     "all_checks": {
+      "detected": 18,
+      "items": 475
+     },
+     "observability": {
+      "detected": 18,
+      "items": 489
+     },
+     "cheapest_items": {
+      "detected": 18,
+      "items": 489
+     },
+     "ratio_greedy": {
+      "detected": 18,
+      "items": 489
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 475
+     },
+     "hindsight_bound": 18
+    },
+    "0.1": {
+     "output_only": {
+      "detected": 10,
+      "items": 226
+     },
+     "all_checks": {
+      "detected": 18,
+      "items": 490
+     },
+     "observability": {
+      "detected": 18,
+      "items": 502
+     },
+     "cheapest_items": {
+      "detected": 18,
+      "items": 502
+     },
+     "ratio_greedy": {
+      "detected": 18,
+      "items": 502
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 490
+     },
+     "hindsight_bound": 18
+    }
+   },
+   "hindsight": {},
+   "hard_cut": {
+    "0.02": {
+     "output_only": 9,
+     "all_checks": 15,
+     "observability": 16,
+     "cheapest_items": 16
+    },
+    "0.05": {
+     "output_only": 9,
+     "all_checks": 18,
+     "observability": 18,
+     "cheapest_items": 16
+    },
+    "0.1": {
+     "output_only": 10,
+     "all_checks": 18,
+     "observability": 18,
+     "cheapest_items": 18
+    }
+   },
+   "decomposition": {
+    "0.02": {
+     "mean_overspend_s": 3.6496773852231414,
+     "components_s": {
+      "compile": 0.265277018998892,
+      "checks": 0.6927918417800291,
+      "det_per_unit": 0.20008004261110218,
+      "det_fixed": 2.491528481833118
+     },
+     "share": {
+      "compile": 0.07268505980088784,
+      "checks": 0.18982276202960108,
+      "det_per_unit": 0.05482129555373544,
+      "det_fixed": 0.6826708826157756
+     }
+    },
+    "0.05": {
+     "mean_overspend_s": 5.376764628556587,
+     "components_s": {
+      "compile": 1.0960641979990497,
+      "checks": 1.0534857501688868,
+      "det_per_unit": 0.7356861985555325,
+      "det_fixed": 2.491528481833118
+     },
+     "share": {
+      "compile": 0.2038519953389316,
+      "checks": 0.1959330234717191,
+      "det_per_unit": 0.13682693020412728,
+      "det_fixed": 0.463388050985222
+     }
+    },
+    "0.1": {
+     "mean_overspend_s": 7.998124971445549,
+     "components_s": {
+      "compile": 2.4810487109991555,
+      "checks": 2.0913998342244207,
+      "det_per_unit": 0.9341479443888546,
+      "det_fixed": 2.491528481833118
+     },
+     "share": {
+      "compile": 0.3102037939963247,
+      "checks": 0.2614862660549838,
+      "det_per_unit": 0.11679586749693166,
+      "det_fixed": 0.3115140724517598
+     }
+    }
+   },
+   "clean_lane_sensitivity": {
+    "0.02": {
+     "mean_registered": 1.130545244380201,
+     "max_registered": 1.202647503395899,
+     "mean_clean_lane": 1.0715264539657432,
+     "max_clean_lane": 1.0868275117040722
+    },
+    "0.05": {
+     "mean_registered": 1.0705938558133945,
+     "max_registered": 1.1217345120465578,
+     "mean_clean_lane": 1.0469863396476113,
+     "max_clean_lane": 1.085865599591919
+    },
+    "0.1": {
+     "mean_registered": 1.0243505401830941,
+     "max_registered": 1.067360549351571,
+     "mean_clean_lane": 1.0125467821002023,
+     "max_clean_lane": 1.0454972375245521
+    }
+   },
+   "equal_weight_mean_detected": {
+    "output_only": 8.9,
+    "all_checks": 15.5,
+    "observability": 15.7,
+    "cheapest_items": 15.3,
+    "ratio_greedy": 15.7,
+    "AC_costaware": 15.6,
+    "hindsight_bound": 17.6
+   },
+   "ratio_greedy_equals_OA_items": {
+    "0.0025": true,
+    "0.005": true,
+    "0.0075": true,
+    "0.01": true,
+    "0.015": true,
+    "0.02": true,
+    "0.03": true,
+    "0.05": true,
+    "0.075": true,
+    "0.1": true
+   }
+  },
+  {
+   "cohort": "out_C261",
+   "grid": {
+    "0.0025": {
+     "output_only": {
+      "detected": 8,
+      "items": 167
+     },
+     "all_checks": {
+      "detected": 13,
+      "items": 59
+     },
+     "observability": {
+      "detected": 11,
+      "items": 274
+     },
+     "cheapest_items": {
+      "detected": 11,
+      "items": 276
+     },
+     "ratio_greedy": {
+      "detected": 11,
+      "items": 274
+     },
+     "AC_costaware": {
+      "detected": 14,
+      "items": 200
+     },
+     "hindsight_bound": 16
+    },
+    "0.005": {
+     "output_only": {
+      "detected": 8,
+      "items": 182
+     },
+     "all_checks": {
+      "detected": 13,
+      "items": 50
+     },
+     "observability": {
+      "detected": 11,
+      "items": 211
+     },
+     "cheapest_items": {
+      "detected": 14,
+      "items": 302
+     },
+     "ratio_greedy": {
+      "detected": 11,
+      "items": 211
+     },
+     "AC_costaware": {
+      "detected": 11,
+      "items": 87
+     },
+     "hindsight_bound": 16
+    },
+    "0.0075": {
+     "output_only": {
+      "detected": 9,
+      "items": 189
+     },
+     "all_checks": {
+      "detected": 14,
+      "items": 111
+     },
+     "observability": {
+      "detected": 13,
+      "items": 335
+     },
+     "cheapest_items": {
+      "detected": 15,
+      "items": 320
+     },
+     "ratio_greedy": {
+      "detected": 13,
+      "items": 335
+     },
+     "AC_costaware": {
+      "detected": 15,
+      "items": 238
+     },
+     "hindsight_bound": 16
+    },
+    "0.01": {
+     "output_only": {
+      "detected": 9,
+      "items": 196
+     },
+     "all_checks": {
+      "detected": 14,
+      "items": 123
+     },
+     "observability": {
+      "detected": 16,
+      "items": 370
+     },
+     "cheapest_items": {
+      "detected": 15,
+      "items": 331
+     },
+     "ratio_greedy": {
+      "detected": 16,
+      "items": 370
+     },
+     "AC_costaware": {
+      "detected": 15,
+      "items": 286
+     },
+     "hindsight_bound": 16
+    },
+    "0.015": {
+     "output_only": {
+      "detected": 9,
+      "items": 202
+     },
+     "all_checks": {
+      "detected": 15,
+      "items": 292
+     },
+     "observability": {
+      "detected": 17,
+      "items": 404
+     },
+     "cheapest_items": {
+      "detected": 16,
+      "items": 348
+     },
+     "ratio_greedy": {
+      "detected": 17,
+      "items": 404
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "items": 353
+     },
+     "hindsight_bound": 16
+    },
+    "0.02": {
+     "output_only": {
+      "detected": 9,
+      "items": 208
+     },
+     "all_checks": {
+      "detected": 15,
+      "items": 324
+     },
+     "observability": {
+      "detected": 18,
+      "items": 425
+     },
+     "cheapest_items": {
+      "detected": 16,
+      "items": 360
+     },
+     "ratio_greedy": {
+      "detected": 18,
+      "items": 425
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "items": 373
+     },
+     "hindsight_bound": 18
+    },
+    "0.03": {
+     "output_only": {
+      "detected": 9,
+      "items": 214
+     },
+     "all_checks": {
+      "detected": 17,
+      "items": 386
+     },
+     "observability": {
+      "detected": 18,
+      "items": 447
+     },
+     "cheapest_items": {
+      "detected": 16,
+      "items": 371
+     },
+     "ratio_greedy": {
+      "detected": 18,
+      "items": 447
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 401
+     },
+     "hindsight_bound": 18
+    },
+    "0.05": {
+     "output_only": {
+      "detected": 9,
+      "items": 224
+     },
+     "all_checks": {
+      "detected": 18,
+      "items": 440
+     },
+     "observability": {
+      "detected": 18,
+      "items": 471
+     },
+     "cheapest_items": {
+      "detected": 16,
+      "items": 387
+     },
+     "ratio_greedy": {
+      "detected": 18,
+      "items": 471
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 437
+     },
+     "hindsight_bound": 18
+    },
+    "0.075": {
+     "output_only": {
+      "detected": 10,
+      "items": 225
+     },
+     "all_checks": {
+      "detected": 18,
+      "items": 467
+     },
+     "observability": {
+      "detected": 18,
+      "items": 489
+     },
+     "cheapest_items": {
+      "detected": 18,
+      "items": 488
+     },
+     "ratio_greedy": {
+      "detected": 18,
+      "items": 489
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 467
+     },
+     "hindsight_bound": 18
+    },
+    "0.1": {
+     "output_only": {
+      "detected": 10,
+      "items": 226
+     },
+     "all_checks": {
+      "detected": 18,
+      "items": 483
+     },
+     "observability": {
+      "detected": 18,
+      "items": 502
+     },
+     "cheapest_items": {
+      "detected": 18,
+      "items": 502
+     },
+     "ratio_greedy": {
+      "detected": 18,
+      "items": 502
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 483
+     },
+     "hindsight_bound": 18
+    }
+   },
+   "hindsight": {},
+   "hard_cut": {
+    "0.02": {
+     "output_only": 9,
+     "all_checks": 13,
+     "observability": 12,
+     "cheapest_items": 15
+    },
+    "0.05": {
+     "output_only": 9,
+     "all_checks": 15,
+     "observability": 18,
+     "cheapest_items": 16
+    },
+    "0.1": {
+     "output_only": 9,
+     "all_checks": 18,
+     "observability": 18,
+     "cheapest_items": 16
+    }
+   },
+   "decomposition": {
+    "0.02": {
+     "mean_overspend_s": 14.108112162594193,
+     "components_s": {
+      "compile": 0.1674548424609282,
+      "checks": 6.243206786432532,
+      "det_per_unit": 1.30031867822389,
+      "det_fixed": 6.397131855476841
+     },
+     "share": {
+      "compile": 0.011869401131138773,
+      "checks": 0.4425260243525406,
+      "det_per_unit": 0.09216815568503306,
+      "det_fixed": 0.4534364188312875
+     }
+    },
+    "0.05": {
+     "mean_overspend_s": 21.15658656564495,
+     "components_s": {
+      "compile": 0.8542562939485864,
+      "checks": 12.064626473072945,
+      "det_per_unit": 1.8405719431465775,
+      "det_fixed": 6.397131855476841
+     },
+     "share": {
+      "compile": 0.040377793993279024,
+      "checks": 0.570253922372527,
+      "det_per_unit": 0.08699758524068263,
+      "det_fixed": 0.3023706983935113
+     }
+    },
+    "0.1": {
+     "mean_overspend_s": 37.18294126328191,
+     "components_s": {
+      "compile": 3.975313929582,
+      "checks": 25.719680868266664,
+      "det_per_unit": 1.0908146099564076,
+      "det_fixed": 6.397131855476841
+     },
+     "share": {
+      "compile": 0.1069123042589322,
+      "checks": 0.6917064652350352,
+      "det_per_unit": 0.029336426137799514,
+      "det_fixed": 0.17204480436823316
+     }
+    }
+   },
+   "clean_lane_sensitivity": {
+    "0.02": {
+     "mean_registered": 2.1771038898160713,
+     "max_registered": 2.278679958167364,
+     "mean_clean_lane": 2.0436629701204936,
+     "max_clean_lane": 2.2636966609411826
+    },
+    "0.05": {
+     "mean_registered": 1.7041983411221453,
+     "max_registered": 1.7687566362384481,
+     "mean_clean_lane": 1.6508219732439142,
+     "max_clean_lane": 1.7246337908075744
+    },
+    "0.1": {
+     "mean_registered": 1.5921589480796219,
+     "max_registered": 1.6457316946186962,
+     "mean_clean_lane": 1.5654707641405063,
+     "max_clean_lane": 1.6056100960990627
+    }
+   },
+   "equal_weight_mean_detected": {
+    "output_only": 9,
+    "all_checks": 15.5,
+    "observability": 15.8,
+    "cheapest_items": 15.5,
+    "ratio_greedy": 15.8,
+    "AC_costaware": 15.9,
+    "hindsight_bound": 17
+   },
+   "ratio_greedy_equals_OA_items": {
+    "0.0025": true,
+    "0.005": true,
+    "0.0075": true,
+    "0.01": true,
+    "0.015": true,
+    "0.02": true,
+    "0.03": true,
+    "0.05": true,
+    "0.075": true,
+    "0.1": true
+   }
+  },
+  {
+   "cohort": "out_C252",
+   "grid": {
+    "0.0025": {
+     "output_only": {
+      "detected": 8,
+      "items": 167
+     },
+     "all_checks": {
+      "detected": 13,
+      "items": 59
+     },
+     "observability": {
+      "detected": 11,
+      "items": 274
+     },
+     "cheapest_items": {
+      "detected": 11,
+      "items": 276
+     },
+     "ratio_greedy": {
+      "detected": 11,
+      "items": 274
+     },
+     "AC_costaware": {
+      "detected": 14,
+      "items": 200
+     },
+     "hindsight_bound": 16
+    },
+    "0.005": {
+     "output_only": {
+      "detected": 8,
+      "items": 182
+     },
+     "all_checks": {
+      "detected": 13,
+      "items": 50
+     },
+     "observability": {
+      "detected": 11,
+      "items": 211
+     },
+     "cheapest_items": {
+      "detected": 14,
+      "items": 302
+     },
+     "ratio_greedy": {
+      "detected": 11,
+      "items": 211
+     },
+     "AC_costaware": {
+      "detected": 11,
+      "items": 87
+     },
+     "hindsight_bound": 16
+    },
+    "0.0075": {
+     "output_only": {
+      "detected": 9,
+      "items": 189
+     },
+     "all_checks": {
+      "detected": 14,
+      "items": 111
+     },
+     "observability": {
+      "detected": 13,
+      "items": 335
+     },
+     "cheapest_items": {
+      "detected": 15,
+      "items": 320
+     },
+     "ratio_greedy": {
+      "detected": 13,
+      "items": 335
+     },
+     "AC_costaware": {
+      "detected": 15,
+      "items": 238
+     },
+     "hindsight_bound": 16
+    },
+    "0.01": {
+     "output_only": {
+      "detected": 9,
+      "items": 196
+     },
+     "all_checks": {
+      "detected": 14,
+      "items": 123
+     },
+     "observability": {
+      "detected": 16,
+      "items": 370
+     },
+     "cheapest_items": {
+      "detected": 15,
+      "items": 331
+     },
+     "ratio_greedy": {
+      "detected": 16,
+      "items": 370
+     },
+     "AC_costaware": {
+      "detected": 15,
+      "items": 286
+     },
+     "hindsight_bound": 16
+    },
+    "0.015": {
+     "output_only": {
+      "detected": 9,
+      "items": 202
+     },
+     "all_checks": {
+      "detected": 15,
+      "items": 292
+     },
+     "observability": {
+      "detected": 17,
+      "items": 404
+     },
+     "cheapest_items": {
+      "detected": 16,
+      "items": 348
+     },
+     "ratio_greedy": {
+      "detected": 17,
+      "items": 404
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "items": 353
+     },
+     "hindsight_bound": 16
+    },
+    "0.02": {
+     "output_only": {
+      "detected": 9,
+      "items": 208
+     },
+     "all_checks": {
+      "detected": 15,
+      "items": 324
+     },
+     "observability": {
+      "detected": 18,
+      "items": 425
+     },
+     "cheapest_items": {
+      "detected": 16,
+      "items": 360
+     },
+     "ratio_greedy": {
+      "detected": 18,
+      "items": 425
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "items": 373
+     },
+     "hindsight_bound": 18
+    },
+    "0.03": {
+     "output_only": {
+      "detected": 9,
+      "items": 214
+     },
+     "all_checks": {
+      "detected": 17,
+      "items": 386
+     },
+     "observability": {
+      "detected": 18,
+      "items": 447
+     },
+     "cheapest_items": {
+      "detected": 16,
+      "items": 371
+     },
+     "ratio_greedy": {
+      "detected": 18,
+      "items": 447
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 401
+     },
+     "hindsight_bound": 18
+    },
+    "0.05": {
+     "output_only": {
+      "detected": 9,
+      "items": 224
+     },
+     "all_checks": {
+      "detected": 18,
+      "items": 440
+     },
+     "observability": {
+      "detected": 18,
+      "items": 471
+     },
+     "cheapest_items": {
+      "detected": 16,
+      "items": 387
+     },
+     "ratio_greedy": {
+      "detected": 18,
+      "items": 471
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 437
+     },
+     "hindsight_bound": 18
+    },
+    "0.075": {
+     "output_only": {
+      "detected": 10,
+      "items": 225
+     },
+     "all_checks": {
+      "detected": 18,
+      "items": 467
+     },
+     "observability": {
+      "detected": 18,
+      "items": 489
+     },
+     "cheapest_items": {
+      "detected": 18,
+      "items": 488
+     },
+     "ratio_greedy": {
+      "detected": 18,
+      "items": 489
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 467
+     },
+     "hindsight_bound": 18
+    },
+    "0.1": {
+     "output_only": {
+      "detected": 10,
+      "items": 226
+     },
+     "all_checks": {
+      "detected": 18,
+      "items": 483
+     },
+     "observability": {
+      "detected": 18,
+      "items": 502
+     },
+     "cheapest_items": {
+      "detected": 18,
+      "items": 502
+     },
+     "ratio_greedy": {
+      "detected": 18,
+      "items": 502
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 483
+     },
+     "hindsight_bound": 18
+    }
+   },
+   "hindsight": {},
+   "hard_cut": {
+    "0.02": {
+     "output_only": 9,
+     "all_checks": 13,
+     "observability": 12,
+     "cheapest_items": 15
+    },
+    "0.05": {
+     "output_only": 9,
+     "all_checks": 15,
+     "observability": 18,
+     "cheapest_items": 16
+    },
+    "0.1": {
+     "output_only": 9,
+     "all_checks": 18,
+     "observability": 18,
+     "cheapest_items": 16
+    }
+   },
+   "decomposition": {
+    "0.02": {
+     "mean_overspend_s": 13.892351640750693,
+     "components_s": {
+      "compile": 0.19162740595587874,
+      "checks": 6.544346426694531,
+      "det_per_unit": 1.203181308759876,
+      "det_fixed": 5.953196499340407
+     },
+     "share": {
+      "compile": 0.013793734200750758,
+      "checks": 0.4710754950585816,
+      "det_per_unit": 0.08660746142003503,
+      "det_fixed": 0.42852330932063265
+     }
+    },
+    "0.05": {
+     "mean_overspend_s": 21.35822791524748,
+     "components_s": {
+      "compile": 1.1656109726489736,
+      "checks": 12.504884217121374,
+      "det_per_unit": 1.7345362261367248,
+      "det_fixed": 5.953196499340407
+     },
+     "share": {
+      "compile": 0.054574329727835366,
+      "checks": 0.5854832276695685,
+      "det_per_unit": 0.08121161704143312,
+      "det_fixed": 0.278730825561163
+     }
+    },
+    "0.1": {
+     "mean_overspend_s": 38.045784577687066,
+     "components_s": {
+      "compile": 4.229103107117175,
+      "checks": 26.734101759274246,
+      "det_per_unit": 1.129383211955239,
+      "det_fixed": 5.953196499340407
+     },
+     "share": {
+      "compile": 0.11115825719092784,
+      "checks": 0.7026823616867439,
+      "det_per_unit": 0.029684844838699816,
+      "det_fixed": 0.15647453628362848
+     }
+    }
+   },
+   "clean_lane_sensitivity": {
+    "0.02": {
+     "mean_registered": 2.1475059777476617,
+     "max_registered": 2.4295481195531816,
+     "mean_clean_lane": 2.000876198844041,
+     "max_clean_lane": 2.2328346079382473
+    },
+    "0.05": {
+     "mean_registered": 1.703799008972697,
+     "max_registered": 1.8423696302486958,
+     "mean_clean_lane": 1.6451470974112488,
+     "max_clean_lane": 1.7353795150863447
+    },
+    "0.1": {
+     "mean_registered": 1.6002088109838353,
+     "max_registered": 1.6814709848716305,
+     "mean_clean_lane": 1.570882855203111,
+     "max_clean_lane": 1.6203761456289456
+    }
+   },
+   "equal_weight_mean_detected": {
+    "output_only": 9,
+    "all_checks": 15.5,
+    "observability": 15.8,
+    "cheapest_items": 15.5,
+    "ratio_greedy": 15.8,
+    "AC_costaware": 15.9,
+    "hindsight_bound": 17
+   },
+   "ratio_greedy_equals_OA_items": {
+    "0.0025": true,
+    "0.005": true,
+    "0.0075": true,
+    "0.01": true,
+    "0.015": true,
+    "0.02": true,
+    "0.03": true,
+    "0.05": true,
+    "0.075": true,
+    "0.1": true
+   }
+  }
+ ]
+}
