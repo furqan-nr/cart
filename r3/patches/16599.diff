@@ -1,0 +1,13 @@
+diff --git a/crates/transpiler/src/passes/commutation_cancellation.rs b/crates/transpiler/src/passes/commutation_cancellation.rs
+index 99a4b3b10..fd7673e02 100644
+--- a/crates/transpiler/src/passes/commutation_cancellation.rs
++++ b/crates/transpiler/src/passes/commutation_cancellation.rs
+@@ -338,7 +338,7 @@ pub fn cancel_commutations(
+                     } else if sx_supported && is_multiple_of_pi(total_angle, 0.5) {
+                         let num_sx = (total_angle / FRAC_PI_2).round();
+                         total_phase -= FRAC_PI_4 * num_sx;
+-                        for _ in 0..(num_sx as i64) % 4 {
++                        for _ in 0..(num_sx as i64).rem_euclid(4) {
+                             dag.insert_1q_on_incoming_qubit((StandardGate::SX, &[]), cancel_set[0]);
+                         }
+                     } else {

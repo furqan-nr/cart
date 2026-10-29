@@ -1,0 +1,1695 @@
+[
+ {
+  "id": "17318",
+  "commit": "46e61a1c3",
+  "date": "2026-10-28",
+  "title": "Fixed control-flow handling for Clifford+T compilation (#17318)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "17321",
+  "commit": "20a4faa84",
+  "date": "2026-10-28",
+  "title": "Fix `CommutativeCancellation` bug with small angles approximation (#17321)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "17297",
+  "commit": "9b3633993",
+  "date": "2026-10-22",
+  "title": "Fix two qubit decomposer python wrappers (#17297)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "17269",
+  "commit": "1d9cc60f1",
+  "date": "2026-10-21",
+  "title": "Fix ctrl_state preservation in CPhaseGate, CSGate, and CSdgGate power() (#17269)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "17161",
+  "commit": "e2fb48b06",
+  "date": "2026-10-16",
+  "title": "Make SparsePauliOp.equiv() actually respect atol, fixes #17025 (#17161)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "17163",
+  "commit": "9aa371715",
+  "date": "2026-10-15",
+  "title": "Fix correctness bugs `TwoQubitBasisDecomposer`  (#17163)",
+  "rust": true,
+  "eligible": true,
+  "reason": null,
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": true
+  }
+ },
+ {
+  "id": "17133",
+  "commit": "5d0333570",
+  "date": "2026-10-14",
+  "title": "Fix `qk_transpile_state_layout_set` behavior when `layout` is `NULL` (#17133)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "17046",
+  "commit": "2d904815b",
+  "date": "2026-10-13",
+  "title": "fix: usize underflow in qs_decomposition for 0-qubit (1x1) unitaries (#17046)",
+  "rust": true,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "17137",
+  "commit": "2b33c3521",
+  "date": "2026-10-13",
+  "title": "Fix panic in Rust circuit drawer for empty circuits (#17137)",
+  "rust": true,
+  "eligible": false,
+  "reason": "changes no compilation-related source file",
+  "evidence": {}
+ },
+ {
+  "id": "17165",
+  "commit": "73ef434bb",
+  "date": "2026-10-12",
+  "title": "Bugfix in parameter expression replay generation (#17165)",
+  "rust": true,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "17117",
+  "commit": "32c1f79e6",
+  "date": "2026-10-02",
+  "title": "Fix divide by zero in `QDrift.expand` (#17117)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "17008",
+  "commit": "b2050a595",
+  "date": "2026-09-18",
+  "title": "Fix star-import of `qiskit.visualization` (#17008)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changes no compilation-related source file",
+  "evidence": {}
+ },
+ {
+  "id": "16973",
+  "commit": "e665ada17",
+  "date": "2026-09-16",
+  "title": "Fix potential panics in QPY deserialization on malformed payloads (#16973)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "16988",
+  "commit": "0131cbbcc",
+  "date": "2026-09-14",
+  "title": "Fix: `CouplingMap` storing parallel edges (#16988)",
+  "rust": false,
+  "eligible": true,
+  "reason": null,
+  "evidence": {
+   "python_functions_run": 4,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16963",
+  "commit": "a58029e23",
+  "date": "2026-09-09",
+  "title": "Fix GIL deadlock in `CommutationAnalysis` with Python-defined gates (#16963)",
+  "rust": true,
+  "eligible": true,
+  "reason": null,
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": true
+  }
+ },
+ {
+  "id": "16950",
+  "commit": "6d7432d03",
+  "date": "2026-09-08",
+  "title": "Fix Litinski transformation on PPR with 32+ qubits (#16950)",
+  "rust": true,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16896",
+  "commit": "66f6f9ca4",
+  "date": "2026-09-08",
+  "title": "Fixed `HighLevelSynthesis` qubit tracking for if-then-else instructions (#16896)",
+  "rust": true,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16538",
+  "commit": "3f5f34377",
+  "date": "2026-09-07",
+  "title": "Fix BlueprintCircuit.compose to respect inline_captures (#16538)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16920",
+  "commit": "65bd52bbb",
+  "date": "2026-09-07",
+  "title": "fix(transpiler): preserve layout in OptimizeSwapBeforeMeasure (#16920)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16834",
+  "commit": "5f0a8617e",
+  "date": "2026-09-07",
+  "title": "Fix identity one-qubit gates in the U and U3 Euler bases (#16834)",
+  "rust": true,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16884",
+  "commit": "b7b4701cf",
+  "date": "2026-09-07",
+  "title": "Fix non-identity removal in ConsolidateBlocks for gates wider than 2 qubits (#16884)",
+  "rust": true,
+  "eligible": true,
+  "reason": null,
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": true
+  }
+ },
+ {
+  "id": "10151",
+  "commit": "a31be5924",
+  "date": "2026-09-06",
+  "title": "fix template optimization bug (#10151)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16900",
+  "commit": "4cb9d8734",
+  "date": "2026-09-06",
+  "title": "Bug-Fix: BarrierBeforeFinalMeasurements can reorder measurements sharing the same Clbit and change circuit semantics (#16900)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "16883",
+  "commit": "095d4bd26",
+  "date": "2026-09-03",
+  "title": "Fix ParameterExpression equality for inverse vs negative power (#16840) (#16883)",
+  "rust": true,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16826",
+  "commit": "8d016d2d9",
+  "date": "2026-08-31",
+  "title": "Fix `DAGCircuit.__eq__` with `Unitary`, `PPR`s and `PPM`s (#16826)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "16880",
+  "commit": "9f1a177f2",
+  "date": "2026-08-31",
+  "title": "Fixed Litinski transformation on PPMs with negative phases (#16880)",
+  "rust": true,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16828",
+  "commit": "da7fd7f38",
+  "date": "2026-08-25",
+  "title": "Fix spurious clone on `SparsePauliOp.to_matrix(sparse=False)` (#16828)",
+  "rust": true,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16788",
+  "commit": "d0b4c6624",
+  "date": "2026-08-24",
+  "title": "QPY: Bug fix in Rust implementation of `SparsePauliObservableElemPack` (#16788)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "16765",
+  "commit": "2268a179d",
+  "date": "2026-08-19",
+  "title": "QPY 18: give the register/clbit payload a tag byte instead of a \"\\x00\"-prefixed string (#16765)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "16752",
+  "commit": "4b0b834dc",
+  "date": "2026-08-13",
+  "title": "Fix add/sub optimizations including the same symbols (#16752)",
+  "rust": true,
+  "eligible": true,
+  "reason": null,
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": true
+  }
+ },
+ {
+  "id": "16687",
+  "commit": "fbb33ad55",
+  "date": "2026-08-11",
+  "title": "Fix memory leak in Suzuki-Trotter synthesis (#16687)",
+  "rust": true,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16729",
+  "commit": "9499a6a21",
+  "date": "2026-08-11",
+  "title": "Fix OptimizeCliffordT producing non-unitarily-equivalent output when basis excludes sx/sxdg (#16729)",
+  "rust": true,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16283",
+  "commit": "b4073b7ac",
+  "date": "2026-08-06",
+  "title": "Parameter expression bugfixes (#16283)",
+  "rust": true,
+  "eligible": true,
+  "reason": null,
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": true
+  }
+ },
+ {
+  "id": "16639",
+  "commit": "35da74cf0",
+  "date": "2026-07-24",
+  "title": "Fix circuit drawing layer overlaps inside of ControlFlowOps (#16639)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changes no compilation-related source file",
+  "evidence": {}
+ },
+ {
+  "id": "16656",
+  "commit": "0b02e7ddd",
+  "date": "2026-07-24",
+  "title": "Fix non-determinism in `DAGCircuit::remove_qubits` (#16656)",
+  "rust": true,
+  "eligible": true,
+  "reason": null,
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": true
+  }
+ },
+ {
+  "id": "16362",
+  "commit": "5eaacce9f",
+  "date": "2026-07-23",
+  "title": "Fix serial_layers global phase copying (#16362)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "16592",
+  "commit": "2440bbb99",
+  "date": "2026-07-23",
+  "title": "Fix deadlock in Optimize1qGatesDecomposition (#16592)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "16637",
+  "commit": "712dc5ad8",
+  "date": "2026-07-23",
+  "title": "Fix transpiler error message with routing_pass when layout_trials or swap_trials is set (#16637)",
+  "rust": false,
+  "eligible": true,
+  "reason": null,
+  "evidence": {
+   "python_functions_run": 3,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16599",
+  "commit": "33d90a986",
+  "date": "2026-07-20",
+  "title": "Fix `sx` resynthesis of negative angles in `CommutativeCancellation` (#16599)",
+  "rust": true,
+  "eligible": true,
+  "reason": null,
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": true
+  }
+ },
+ {
+  "id": "16459",
+  "commit": "5647a6109",
+  "date": "2026-07-07",
+  "title": "Fix commuting2q block parameter preservation (#16459)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16530",
+  "commit": "705667a13",
+  "date": "2026-07-07",
+  "title": "Fix tautological boolean oracle synthesis (#16530)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16443",
+  "commit": "2cf97b58e",
+  "date": "2026-07-06",
+  "title": "fixes #11393 sampled_expectation_value returning incorrect results for complex coefficients (gave 0.0 rather than 1j) (#16443)",
+  "rust": true,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16432",
+  "commit": "dc24fc3ac",
+  "date": "2026-07-02",
+  "title": "Fix OverflowError in QuantumCircuit.for_loop for negative integers in list indexset   (#16432)",
+  "rust": true,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16492",
+  "commit": "df3079520",
+  "date": "2026-07-02",
+  "title": "Fix `Initialize.gates_to_uncompute` for integer inputs  (#16492)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16402",
+  "commit": "63a7f763d",
+  "date": "2026-07-01",
+  "title": "Fix incorrect global phase shift for P and U1 gates in CommutativeCancellation (#16402)",
+  "rust": true,
+  "eligible": true,
+  "reason": null,
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": true
+  }
+ },
+ {
+  "id": "16476",
+  "commit": "9da141ae1",
+  "date": "2026-06-23",
+  "title": "Fix cache and prediction misses in `Target::qargs` (#16476)",
+  "rust": true,
+  "eligible": true,
+  "reason": null,
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": true
+  }
+ },
+ {
+  "id": "16233",
+  "commit": "13dde517a",
+  "date": "2026-06-23",
+  "title": "Fix qasm3 experimental exporter delay units for ms and ps (#16233)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "16323",
+  "commit": "21df110bc",
+  "date": "2026-06-18",
+  "title": "Fixes #16166: Preserve global_phase in dagdependency_to_circuit (#16323)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16421",
+  "commit": "4d4c7a697",
+  "date": "2026-06-12",
+  "title": "Fix stack-overflow segfault in OpenQASM 2 expression parsers (#16421)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "16394",
+  "commit": "d89a84bd7",
+  "date": "2026-06-09",
+  "title": "Fix MultiplierGate truncated result decomposition (#16394)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16337",
+  "commit": "592c1de00",
+  "date": "2026-06-08",
+  "title": "Fix `CommutationChecker` for controlled rotation gates (#16337)",
+  "rust": true,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16309",
+  "commit": "d208387eb",
+  "date": "2026-06-05",
+  "title": "Fix BitArray bitcount padding handling (#16309)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changes no compilation-related source file",
+  "evidence": {}
+ },
+ {
+  "id": "16237",
+  "commit": "3b9a64fdd",
+  "date": "2026-06-03",
+  "title": "Fix determinism in `ConsolidateBlocks` (#16237)",
+  "rust": false,
+  "eligible": false,
+  "reason": "contacted in earlier work (operators, case study)",
+  "evidence": {}
+ },
+ {
+  "id": "16175",
+  "commit": "34cb82b45",
+  "date": "2026-06-02",
+  "title": "Fix redundant unit numerator in pi_check pi fractions (#16175)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "13945",
+  "commit": "3e919ae66",
+  "date": "2026-06-02",
+  "title": "Fix composing virtual permutation layouts for `ElidePermutations` and `StarPreRouting` (#13945)",
+  "rust": false,
+  "eligible": true,
+  "reason": null,
+  "evidence": {
+   "python_functions_run": 1,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16294",
+  "commit": "19fc5b6db",
+  "date": "2026-06-02",
+  "title": "QPY: Pauli Product Measurement/Rotation parameter fix (#16294)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "16249",
+  "commit": "59bc96eea",
+  "date": "2026-05-29",
+  "title": "fix: Ensure there is no subtraction panic via underflow (#16249)",
+  "rust": true,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16285",
+  "commit": "0b2cdf2b6",
+  "date": "2026-05-27",
+  "title": "Fix panic on `1.0` error in `VF2Layout` (#16285)",
+  "rust": true,
+  "eligible": false,
+  "reason": "contacted in earlier work (operators, case study)",
+  "evidence": {}
+ },
+ {
+  "id": "16151",
+  "commit": "c9c5673e0",
+  "date": "2026-05-27",
+  "title": "Fix ConstrainedReschedule barrier handling (#16151)",
+  "rust": true,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16201",
+  "commit": "2b4c81d4a",
+  "date": "2026-05-21",
+  "title": "Fix UnrollForLoops global phase accumulation (#16201)",
+  "rust": false,
+  "eligible": false,
+  "reason": "contacted in earlier work (operators, case study)",
+  "evidence": {}
+ },
+ {
+  "id": "15905",
+  "commit": "a8d3aefae",
+  "date": "2026-05-21",
+  "title": "Fix Statevector.evolve modifying input state in-place (Fixes 15750) (#15905)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changes no compilation-related source file",
+  "evidence": {}
+ },
+ {
+  "id": "16215",
+  "commit": "be4c248ef",
+  "date": "2026-05-21",
+  "title": "Fix Commuting2qGateRouter global phase handling (#16215)",
+  "rust": false,
+  "eligible": false,
+  "reason": "contacted in earlier work (operators, case study)",
+  "evidence": {}
+ },
+ {
+  "id": "16153",
+  "commit": "26d7f00c1",
+  "date": "2026-05-19",
+  "title": "Fix `InverseCancellation` for symmetric pairs (#16153)",
+  "rust": true,
+  "eligible": true,
+  "reason": null,
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": true
+  }
+ },
+ {
+  "id": "16163",
+  "commit": "1e13f2430",
+  "date": "2026-05-18",
+  "title": "Fix invalid simplification of XXPlusYY gates in CommutativeOptimization (#16163)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "15944",
+  "commit": "4dbf157eb",
+  "date": "2026-05-07",
+  "title": "fix(library): clifford_6_4 template missing global_phase causes silent rejection (#15944)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "16006",
+  "commit": "ac20c3327",
+  "date": "2026-04-28",
+  "title": "Fixing python passes and docstrings related to approximation_degree (#16006)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "16076",
+  "commit": "f047aafb2",
+  "date": "2026-04-24",
+  "title": "Fix QPY loading delay integers durations incorrectly (#16076)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "16075",
+  "commit": "56beeb8b4",
+  "date": "2026-04-23",
+  "title": "Fix forced block consolidation for incomplete basis sets (#16075)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "16054",
+  "commit": "16c808857",
+  "date": "2026-04-17",
+  "title": "Fix panic in `RemoveIdentityEquivalent` with `ParameterVector` global phase (#16054)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "16023",
+  "commit": "89ff976e0",
+  "date": "2026-04-15",
+  "title": "Fixed commutation checking between two Pauli product measurements (#16023)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "15967",
+  "commit": "858acb4aa",
+  "date": "2026-04-13",
+  "title": "Fix C transpiler level 3 optimisation loop (#15967)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "15943",
+  "commit": "f8e543ff6",
+  "date": "2026-04-10",
+  "title": "Fix `TemplateOptimization` dropping the `global_phase` on substitution (#15943)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "15875",
+  "commit": "9c8f4fc53",
+  "date": "2026-03-26",
+  "title": "Fix: `BasisTranslator` processing of nested `ControlFlowOp` (#15875)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "15782",
+  "commit": "1aeb988c2",
+  "date": "2026-03-22",
+  "title": "Fix: Initialize.inverse() now raises CircuitError immediately (#15782)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "15816",
+  "commit": "6d0f976c6",
+  "date": "2026-03-17",
+  "title": "Fix `PauliEvolutionGate` trace and dim calculation (#15816)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "15623",
+  "commit": "90ab6e55c",
+  "date": "2026-03-12",
+  "title": "Fix QPY bug with user-defined register named 'ancilla' (#15623)",
+  "rust": false,
+  "eligible": true,
+  "reason": null,
+  "evidence": {
+   "python_functions_run": 7,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "15781",
+  "commit": "16a21a740",
+  "date": "2026-03-09",
+  "title": "Fix synth_clifford_depth_lnn for single-qubit Cliffords (#15781)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "15696",
+  "commit": "2df6c20d2",
+  "date": "2026-02-23",
+  "title": "Fix linear dependency on base bit count in `QuantumCircuit.compose` (#15696)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "15685",
+  "commit": "8f4e195fc",
+  "date": "2026-02-15",
+  "title": "Fix HighLevelSynthesis qubit tracking mechanism (#15685)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "15642",
+  "commit": "245bc460a",
+  "date": "2026-02-11",
+  "title": "Fix ParameterExpression.sympify() for RPOW operations (#15642)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "15672",
+  "commit": "9043fbb76",
+  "date": "2026-02-11",
+  "title": "Fix MCX synthesis methods when the number of control qubits is 0 (#15672)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "15673",
+  "commit": "3f856ec78",
+  "date": "2026-02-11",
+  "title": "Fix defining and appending multi-controlled gates with 0 control qubits. (#15673)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "15674",
+  "commit": "d358f3452",
+  "date": "2026-02-11",
+  "title": "Fix misprint in `SubstitutePi4Rotations` docs (#15674)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "15646",
+  "commit": "4337b296f",
+  "date": "2026-02-11",
+  "title": "Fixing `QuantumCircuit.repeat` with parameterized gates (#15646)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "15305",
+  "commit": "cc675b6d3",
+  "date": "2026-02-05",
+  "title": "Fix digit escaping in OpenQASM 3 identifier (#15305)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changes no compilation-related source file",
+  "evidence": {}
+ },
+ {
+  "id": "15581",
+  "commit": "aedc6f0aa",
+  "date": "2026-01-21",
+  "title": "Fix \"`BreakLoopOp' object has no attribute 'blocks\" bug (#15581)",
+  "rust": true,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "15494",
+  "commit": "ee0540594",
+  "date": "2026-01-09",
+  "title": "Fix plot_state_qsphere phase anchor bias due to solver noise (#15494)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changes no compilation-related source file",
+  "evidence": {}
+ },
+ {
+  "id": "15463",
+  "commit": "2e3eeb386",
+  "date": "2026-01-08",
+  "title": "Represent non-fixed params as `NaN` for `QkTargetOp` (#15463)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "15436",
+  "commit": "b1557f68d",
+  "date": "2026-01-08",
+  "title": "Fix param extraction for arrays with a single element (#15436)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "15421",
+  "commit": "9ef5a83b2",
+  "date": "2025-12-05",
+  "title": "Fix timeline drawer for gates without unitary in target (#15421)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "15401",
+  "commit": "f5b843e0b",
+  "date": "2025-12-01",
+  "title": "Bug fix for Clifford+T transpilation: passing incorrect argument to `generate_unroll_3q` (#15401)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "15173",
+  "commit": "5243ecc23",
+  "date": "2025-11-15",
+  "title": "fix: preserve identity 'I' characters in PauliEvolutionGate labels (#15173)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14963",
+  "commit": "76370cc06",
+  "date": "2025-11-10",
+  "title": "Fix operator @ quantumstate multiplication (#14963)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changes no compilation-related source file",
+  "evidence": {}
+ },
+ {
+  "id": "15262",
+  "commit": "562b45a77",
+  "date": "2025-11-09",
+  "title": "Fix text drawer layering for classical wires (#15262)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changes no compilation-related source file",
+  "evidence": {}
+ },
+ {
+  "id": "15286",
+  "commit": "52af4781c",
+  "date": "2025-11-05",
+  "title": "Unitary synthesis bug fix (#15286)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "15258",
+  "commit": "4019fd9d9",
+  "date": "2025-10-28",
+  "title": "Fix reuse of `ConsolidateBlocks` instances (#15258)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "15158",
+  "commit": "c9a00aa61",
+  "date": "2025-10-21",
+  "title": "Fix qpy.dump failure with gzip write streams in QPY v16 (backward seek unsupported) (#15158)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "15147",
+  "commit": "cd49fb74b",
+  "date": "2025-10-20",
+  "title": "Fix schedule analysis passes with empty circuits (#15147)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "15083",
+  "commit": "cb103d954",
+  "date": "2025-10-20",
+  "title": "Fix qubit mapping in `ConsolidateBlocks` control-flow blocks (#15083)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "15181",
+  "commit": "738193f2b",
+  "date": "2025-10-19",
+  "title": "Fixing inverse methods for MCPhase and MCU1 gates (#15181)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "15155",
+  "commit": "7f641edc8",
+  "date": "2025-10-10",
+  "title": "Fix textdrawer for controlflow with different regs (#15155)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changes no compilation-related source file",
+  "evidence": {}
+ },
+ {
+  "id": "15143",
+  "commit": "21a8dec17",
+  "date": "2025-10-09",
+  "title": "Fix incorrect mapping of ControlFlow block qargs in `BasisTranslator` (#15143)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14943",
+  "commit": "31ed99876",
+  "date": "2025-10-02",
+  "title": "Fix passmanager to preserve falsy pass outputs instead of reverting to input (#14943)",
+  "rust": false,
+  "eligible": true,
+  "reason": null,
+  "evidence": {
+   "python_functions_run": 1,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "15074",
+  "commit": "a816e64bb",
+  "date": "2025-09-25",
+  "title": "Fix pickling of SabreSwap (#15074)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "15040",
+  "commit": "25c3206f0",
+  "date": "2025-09-23",
+  "title": "Fix edge-order non-determinism when adding DAG nodes (#15040)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14676",
+  "commit": "ce27a54d5",
+  "date": "2025-09-19",
+  "title": "Fix SparsePauliOp.is_unitary() to respect input tolerance values (#14676)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changes no compilation-related source file",
+  "evidence": {}
+ },
+ {
+  "id": "15020",
+  "commit": "650270f39",
+  "date": "2025-09-17",
+  "title": "Fix variable remapping of `Delay` expressions in `QuantumCircuit.compose` (#15020)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "12113",
+  "commit": "98019fe72",
+  "date": "2025-09-16",
+  "title": "fix: `Statevector.to_dict(decimals= 3)` does not round results and ignores the `decimals` keyword (#12113)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changes no compilation-related source file",
+  "evidence": {}
+ },
+ {
+  "id": "14869",
+  "commit": "b4094ddc4",
+  "date": "2025-09-04",
+  "title": "Fix calls to `VF2PostLayout` after optimization loop at O3 (#14869)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14956",
+  "commit": "106492115",
+  "date": "2025-08-28",
+  "title": "Fix global phase handling in `CommutativeCancellation` (#14956)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14930",
+  "commit": "28aa4bdaa",
+  "date": "2025-08-28",
+  "title": "Fix: Memory leakage in `QkCountOps` creation. (#14930)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14934",
+  "commit": "951147794",
+  "date": "2025-08-25",
+  "title": "Fix PauliEvolutionGate.to_matrix to return exact matrix (#14934)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14939",
+  "commit": "6fb956f1d",
+  "date": "2025-08-22",
+  "title": "Fix `TranspileLayout.initial_index_layout` with unordered virtuals (#14939)",
+  "rust": false,
+  "eligible": false,
+  "reason": "contacted in earlier work (operators, case study)",
+  "evidence": {}
+ },
+ {
+  "id": "14938",
+  "commit": "2577bc182",
+  "date": "2025-08-22",
+  "title": "Fix VF2 layout allocation with idle qubits (#14938)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14919",
+  "commit": "dfcc5c6ce",
+  "date": "2025-08-15",
+  "title": "Fix composition of `final_layout` (#14919)",
+  "rust": false,
+  "eligible": false,
+  "reason": "contacted in earlier work (operators, case study)",
+  "evidence": {}
+ },
+ {
+  "id": "14763",
+  "commit": "14df5941a",
+  "date": "2025-08-15",
+  "title": "Fix non-determinism in `CommutativeCancellation` (#14763)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14884",
+  "commit": "f2d4a3578",
+  "date": "2025-08-14",
+  "title": "Fix memory leaks in `qk_circuit_get_instruction`. (#14884)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14895",
+  "commit": "1e7a3fe35",
+  "date": "2025-08-13",
+  "title": "Fix QASM3 export of Delay with 'ps' units. (#14895)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changes no compilation-related source file",
+  "evidence": {}
+ },
+ {
+  "id": "14728",
+  "commit": "f65ba34ce",
+  "date": "2025-08-13",
+  "title": "Fix/improve ``control`` method for the gates in the MCX family (#14728)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14714",
+  "commit": "7182d2452",
+  "date": "2025-07-29",
+  "title": "ObservablesArray fixes: stop over-identification as non-Hermitian, raise for empty observables (#14714)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changes no compilation-related source file",
+  "evidence": {}
+ },
+ {
+  "id": "14765",
+  "commit": "132636541",
+  "date": "2025-07-21",
+  "title": "Fix a bug in `Target::py_instruction_supported` and remove the `py` token parameter (#14765)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14767",
+  "commit": "d6e990161",
+  "date": "2025-07-21",
+  "title": "Fix IQFT drawing (#14767)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14425",
+  "commit": "42f999905",
+  "date": "2025-07-21",
+  "title": "Fix simplify to sum duplicates before applying tolerance (#14194) (#14425)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changes no compilation-related source file",
+  "evidence": {}
+ },
+ {
+  "id": "14730",
+  "commit": "d33ef5335",
+  "date": "2025-07-15",
+  "title": "Fix non-determinism VF2Layout with only 1q gates (#14730)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14716",
+  "commit": "925f1441b",
+  "date": "2025-07-10",
+  "title": "Fixed a bug where nonequal boxes were considered equal (#14716)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14655",
+  "commit": "4b54dc97c",
+  "date": "2025-07-09",
+  "title": "Fixing problems in `CommutativeInverseCancellation` transpiler pass (#14655)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14670",
+  "commit": "835325167",
+  "date": "2025-06-26",
+  "title": "fixing MCXSynthesis1DirtyKG24 and MCXSynthesis2DirtyKG24 plugins (#14670)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "14636",
+  "commit": "4add7fd36",
+  "date": "2025-06-18",
+  "title": "Fixes for dimacs-related boolean expression code (#14636)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14597",
+  "commit": "9ec464af4",
+  "date": "2025-06-16",
+  "title": "Fix classical bit mapping in HLS pass (#14597)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14603",
+  "commit": "96fda1888",
+  "date": "2025-06-16",
+  "title": "Fix `ElidePermutations` pass in the presence of `PermutationGate`s (#14603)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14606",
+  "commit": "d0630fd19",
+  "date": "2025-06-16",
+  "title": "Fix `ApplyLayout` with empty layout (#14606)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14586",
+  "commit": "ba74b5c47",
+  "date": "2025-06-12",
+  "title": "Fix random number generator seed argument for quantum_volume (#14586)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "14539",
+  "commit": "29820048d",
+  "date": "2025-06-05",
+  "title": "Fix HLS preserve order (#14539)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "13727",
+  "commit": "1dd1983ff",
+  "date": "2025-06-04",
+  "title": "Fix parameter deserialization bugs in `QPY` (#13727)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14529",
+  "commit": "545fe59b8",
+  "date": "2025-06-03",
+  "title": "Reduce space inside BoxOps and fix layering issues with boxes (#14529)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changes no compilation-related source file",
+  "evidence": {}
+ },
+ {
+  "id": "14488",
+  "commit": "985bd7a8a",
+  "date": "2025-05-28",
+  "title": "Fix Sabre rebuild with nested `Var` and `Stretch` (#14488)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14436",
+  "commit": "c61d79732",
+  "date": "2025-05-25",
+  "title": "Fixed AND terms for OR in `quantum_or.py` (#14436)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changed code not run when compiling the corpus",
+  "evidence": {
+   "python_functions_run": 0,
+   "rust_probe_hit": false
+  }
+ },
+ {
+  "id": "14417",
+  "commit": "4e9231df9",
+  "date": "2025-05-21",
+  "title": "Fix ConsolidateBlocks pass for collecting non-CX KAK gate (#14417)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14363",
+  "commit": "6ca3d22bc",
+  "date": "2025-05-15",
+  "title": "Fix construction of IQP circuits (#14363)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14349",
+  "commit": "de41d1a50",
+  "date": "2025-05-13",
+  "title": "Bug fix in HighLevelSynthesis fast-return mechanism (#14349)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14345",
+  "commit": "0c2ce6488",
+  "date": "2025-05-13",
+  "title": "Fix UnitarySynthesis to respect synth_gates (#14345)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14273",
+  "commit": "7c04a4730",
+  "date": "2025-05-09",
+  "title": "C-API: Add fix for Windows and C++ (#14273)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14330",
+  "commit": "bf828a77b",
+  "date": "2025-05-08",
+  "title": "Fix alignment checks of `stretch` variables (#14330)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14218",
+  "commit": "45778dd3c",
+  "date": "2025-05-07",
+  "title": "Fix incorrect error estimation in VF2 fallback (#14218)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14304",
+  "commit": "6d4c92890",
+  "date": "2025-05-07",
+  "title": "Fix caching logic in `SolovayKitaevSynthesis` plugin (#14304)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14217",
+  "commit": "68926088b",
+  "date": "2025-05-05",
+  "title": "Bug fixes in Solovay Kitaev Decomposition (#14217)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14278",
+  "commit": "3e96ade54",
+  "date": "2025-05-02",
+  "title": "Fix display of Box End after transpile in text drawer (#14278)",
+  "rust": false,
+  "eligible": false,
+  "reason": "changes no compilation-related source file",
+  "evidence": {}
+ },
+ {
+  "id": "14174",
+  "commit": "b0bc6d8cb",
+  "date": "2025-04-07",
+  "title": "Fix pickle and repr for Duration. (#14174)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14186",
+  "commit": "2504bde2f",
+  "date": "2025-04-07",
+  "title": "Fix circuit-metadata propagation in `SabreLayout` (#14186)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14096",
+  "commit": "0f7c6f64f",
+  "date": "2025-03-28",
+  "title": "Fix qpy for `MCMTGate` (#14096)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14093",
+  "commit": "0bf91a610",
+  "date": "2025-03-27",
+  "title": "Minor fixes/improvements to some MCX synthesis methods (#14093)",
+  "rust": false,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14065",
+  "commit": "6ce778870",
+  "date": "2025-03-25",
+  "title": "Fix ignored errors/durations  in `generate_preset_pass_manager` if `dt` is set (#14065)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14078",
+  "commit": "d67c8182b",
+  "date": "2025-03-25",
+  "title": "Fix global phase update in `BasisTranslator` Pass (#14078)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ },
+ {
+  "id": "14041",
+  "commit": "ddd04013f",
+  "date": "2025-03-18",
+  "title": "Fix deepcopy/pickle of `DAGCircuit` variable IO nodes (#14041)",
+  "rust": true,
+  "eligible": false,
+  "reason": "not present in 2.6.1 or does not revert cleanly",
+  "evidence": {}
+ }
+]

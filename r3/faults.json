@@ -1,0 +1,234 @@
+{
+ "qiskit": "2.6.1",
+ "rule": "r3/SELECTION.md",
+ "faults": [
+  {
+   "id": "17163",
+   "commit": "9aa371715",
+   "date": "2026-10-15",
+   "title": "Fix correctness bugs `TwoQubitBasisDecomposer`  (#17163)",
+   "rust": true,
+   "files": [
+    "crates/synthesis/src/two_qubit_decompose/basis_decomposer.rs"
+   ],
+   "patch": "patches/17163.diff",
+   "evidence": {
+    "python_functions_run": 0,
+    "rust_probe_hit": true
+   }
+  },
+  {
+   "id": "16988",
+   "commit": "0131cbbcc",
+   "date": "2026-09-14",
+   "title": "Fix: `CouplingMap` storing parallel edges (#16988)",
+   "rust": false,
+   "files": [
+    "qiskit/transpiler/coupling.py"
+   ],
+   "patch": "patches/16988.diff",
+   "evidence": {
+    "python_functions_run": 4,
+    "rust_probe_hit": false
+   }
+  },
+  {
+   "id": "16963",
+   "commit": "a58029e23",
+   "date": "2026-09-09",
+   "title": "Fix GIL deadlock in `CommutationAnalysis` with Python-defined gates (#16963)",
+   "rust": true,
+   "files": [
+    "crates/transpiler/src/passes/commutation_analysis.rs",
+    "crates/transpiler/src/passes/commutation_cancellation.rs"
+   ],
+   "patch": "patches/16963.diff",
+   "evidence": {
+    "python_functions_run": 0,
+    "rust_probe_hit": true
+   }
+  },
+  {
+   "id": "16884",
+   "commit": "b7b4701cf",
+   "date": "2026-09-07",
+   "title": "Fix non-identity removal in ConsolidateBlocks for gates wider than 2 qubits (#16884)",
+   "rust": true,
+   "files": [
+    "crates/transpiler/src/passes/consolidate_blocks.rs"
+   ],
+   "patch": "patches/16884.diff",
+   "evidence": {
+    "python_functions_run": 0,
+    "rust_probe_hit": true
+   }
+  },
+  {
+   "id": "16752",
+   "commit": "4b0b834dc",
+   "date": "2026-08-13",
+   "title": "Fix add/sub optimizations including the same symbols (#16752)",
+   "rust": true,
+   "files": [
+    "crates/circuit/src/parameter/symbol_expr.rs"
+   ],
+   "patch": "patches/16752.diff",
+   "evidence": {
+    "python_functions_run": 0,
+    "rust_probe_hit": true
+   }
+  },
+  {
+   "id": "16283",
+   "commit": "b4073b7ac",
+   "date": "2026-08-06",
+   "title": "Parameter expression bugfixes (#16283)",
+   "rust": true,
+   "files": [
+    "crates/circuit/src/parameter/symbol_expr.rs"
+   ],
+   "patch": "patches/16283.diff",
+   "evidence": {
+    "python_functions_run": 0,
+    "rust_probe_hit": true
+   }
+  },
+  {
+   "id": "16656",
+   "commit": "0b02e7ddd",
+   "date": "2026-07-24",
+   "title": "Fix non-determinism in `DAGCircuit::remove_qubits` (#16656)",
+   "rust": true,
+   "files": [
+    "crates/circuit/src/dag_circuit.rs"
+   ],
+   "patch": "patches/16656.diff",
+   "evidence": {
+    "python_functions_run": 0,
+    "rust_probe_hit": true
+   }
+  },
+  {
+   "id": "16637",
+   "commit": "712dc5ad8",
+   "date": "2026-07-23",
+   "title": "Fix transpiler error message with routing_pass when layout_trials or swap_trials is set (#16637)",
+   "rust": false,
+   "files": [
+    "qiskit/transpiler/passes/layout/sabre_layout.py"
+   ],
+   "patch": "patches/16637.diff",
+   "evidence": {
+    "python_functions_run": 3,
+    "rust_probe_hit": false
+   }
+  },
+  {
+   "id": "16599",
+   "commit": "33d90a986",
+   "date": "2026-07-20",
+   "title": "Fix `sx` resynthesis of negative angles in `CommutativeCancellation` (#16599)",
+   "rust": true,
+   "files": [
+    "crates/transpiler/src/passes/commutation_cancellation.rs"
+   ],
+   "patch": "patches/16599.diff",
+   "evidence": {
+    "python_functions_run": 0,
+    "rust_probe_hit": true
+   }
+  },
+  {
+   "id": "16402",
+   "commit": "63a7f763d",
+   "date": "2026-07-01",
+   "title": "Fix incorrect global phase shift for P and U1 gates in CommutativeCancellation (#16402)",
+   "rust": true,
+   "files": [
+    "crates/transpiler/src/passes/commutation_cancellation.rs"
+   ],
+   "patch": "patches/16402.diff",
+   "evidence": {
+    "python_functions_run": 0,
+    "rust_probe_hit": true
+   }
+  },
+  {
+   "id": "16476",
+   "commit": "9da141ae1",
+   "date": "2026-06-23",
+   "title": "Fix cache and prediction misses in `Target::qargs` (#16476)",
+   "rust": true,
+   "files": [
+    "crates/transpiler/src/target/mod.rs"
+   ],
+   "patch": "patches/16476.diff",
+   "evidence": {
+    "python_functions_run": 0,
+    "rust_probe_hit": true
+   }
+  },
+  {
+   "id": "13945",
+   "commit": "3e919ae66",
+   "date": "2026-06-02",
+   "title": "Fix composing virtual permutation layouts for `ElidePermutations` and `StarPreRouting` (#13945)",
+   "rust": false,
+   "files": [
+    "qiskit/transpiler/passes/optimization/elide_permutations.py",
+    "qiskit/transpiler/passes/routing/star_prerouting.py"
+   ],
+   "patch": "patches/13945.diff",
+   "evidence": {
+    "python_functions_run": 1,
+    "rust_probe_hit": false
+   }
+  },
+  {
+   "id": "16153",
+   "commit": "26d7f00c1",
+   "date": "2026-05-19",
+   "title": "Fix `InverseCancellation` for symmetric pairs (#16153)",
+   "rust": true,
+   "files": [
+    "crates/transpiler/src/passes/inverse_cancellation.rs"
+   ],
+   "patch": "patches/16153.diff",
+   "evidence": {
+    "python_functions_run": 0,
+    "rust_probe_hit": true
+   }
+  },
+  {
+   "id": "15623",
+   "commit": "90ab6e55c",
+   "date": "2026-03-12",
+   "title": "Fix QPY bug with user-defined register named 'ancilla' (#15623)",
+   "rust": false,
+   "files": [
+    "qiskit/circuit/quantumcircuit.py",
+    "qiskit/transpiler/passes/layout/sabre_layout.py"
+   ],
+   "patch": "patches/15623.diff",
+   "evidence": {
+    "python_functions_run": 7,
+    "rust_probe_hit": false
+   }
+  },
+  {
+   "id": "14943",
+   "commit": "31ed99876",
+   "date": "2025-10-02",
+   "title": "Fix passmanager to preserve falsy pass outputs instead of reverting to input (#14943)",
+   "rust": false,
+   "files": [
+    "qiskit/passmanager/base_tasks.py"
+   ],
+   "patch": "patches/14943.diff",
+   "evidence": {
+    "python_functions_run": 1,
+    "rust_probe_hit": false
+   }
+  }
+ ]
+}
