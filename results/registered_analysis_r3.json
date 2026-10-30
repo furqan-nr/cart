@@ -1,0 +1,4524 @@
+{
+ "cohort": "out_R3",
+ "calibration_session": "out_NR3",
+ "qiskit": "2.6.1",
+ "machine_factor_raw": 1.0051996221761421,
+ "machine_factor_applied": 1.0,
+ "full_suite_estimate_s": 1420.6359414629997,
+ "excluded_faults": [],
+ "n_events": 15,
+ "n_detectable": 0,
+ "claim_A3": {
+  "supported": true,
+  "detected_at_5pct": {
+   "output_only": 0,
+   "all_checks": 0,
+   "observability": 0,
+   "cheapest_items": 0,
+   "ac_costaware": 0,
+   "ch_lane_first": 0
+  }
+ },
+ "claim_B3": {
+  "supported": false,
+  "inconclusive": true,
+  "wins": 0,
+  "losses": 0,
+  "ties": 0,
+  "p": 1.0
+ },
+ "claim_C3": {
+  "supported": true,
+  "spend_ratio": {
+   "0.02": {
+    "mean": 0.9613513345815877,
+    "max": 0.9937028512359286
+   },
+   "0.05": {
+    "mean": 0.9845875943564353,
+    "max": 1.0049411153358407
+   },
+   "0.1": {
+    "mean": 0.95679654801793,
+    "max": 0.9760483528820483
+   }
+  }
+ },
+ "claim_D3": {
+  "supported": false,
+  "equal_weight_mean_detected": {
+   "output_only": 0,
+   "all_checks": 0,
+   "observability": 0,
+   "cheapest_items": 0,
+   "ac_costaware": 0,
+   "ch_lane_first": 0
+  }
+ },
+ "reported_first_detection": {
+  "OA_vs_output_only": {
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "p": 1.0
+  },
+  "OA_vs_all_checks": {
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "p": 1.0
+  },
+  "OA_vs_cheapest_items": {
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "p": 1.0
+  },
+  "OA_vs_ac_costaware": {
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "p": 1.0
+  },
+  "OA_vs_ch_lane_first": {
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "p": 1.0
+  }
+ },
+ "detection_by_budget": {
+  "0.0025": {
+   "output_only": 0,
+   "all_checks": 0,
+   "observability": 0,
+   "cheapest_items": 0,
+   "ac_costaware": 0,
+   "ch_lane_first": 0
+  },
+  "0.005": {
+   "output_only": 0,
+   "all_checks": 0,
+   "observability": 0,
+   "cheapest_items": 0,
+   "ac_costaware": 0,
+   "ch_lane_first": 0
+  },
+  "0.0075": {
+   "output_only": 0,
+   "all_checks": 0,
+   "observability": 0,
+   "cheapest_items": 0,
+   "ac_costaware": 0,
+   "ch_lane_first": 0
+  },
+  "0.01": {
+   "output_only": 0,
+   "all_checks": 0,
+   "observability": 0,
+   "cheapest_items": 0,
+   "ac_costaware": 0,
+   "ch_lane_first": 0
+  },
+  "0.015": {
+   "output_only": 0,
+   "all_checks": 0,
+   "observability": 0,
+   "cheapest_items": 0,
+   "ac_costaware": 0,
+   "ch_lane_first": 0
+  },
+  "0.02": {
+   "output_only": 0,
+   "all_checks": 0,
+   "observability": 0,
+   "cheapest_items": 0,
+   "ac_costaware": 0,
+   "ch_lane_first": 0
+  },
+  "0.03": {
+   "output_only": 0,
+   "all_checks": 0,
+   "observability": 0,
+   "cheapest_items": 0,
+   "ac_costaware": 0,
+   "ch_lane_first": 0
+  },
+  "0.05": {
+   "output_only": 0,
+   "all_checks": 0,
+   "observability": 0,
+   "cheapest_items": 0,
+   "ac_costaware": 0,
+   "ch_lane_first": 0
+  },
+  "0.075": {
+   "output_only": 0,
+   "all_checks": 0,
+   "observability": 0,
+   "cheapest_items": 0,
+   "ac_costaware": 0,
+   "ch_lane_first": 0
+  },
+  "0.1": {
+   "output_only": 0,
+   "all_checks": 0,
+   "observability": 0,
+   "cheapest_items": 0,
+   "ac_costaware": 0,
+   "ch_lane_first": 0
+  }
+ },
+ "events": [
+  {
+   "event": "13945",
+   "title": "Fix composing virtual permutation layouts for `ElidePermutations` and `StarPreRouting` (#13945)",
+   "detectable": false,
+   "units_detecting": 0,
+   "checks_detecting": [],
+   "crashes": 0,
+   "budgets": {
+    "0.0025": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9849570733508742
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 1.0007610001305187
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.959777192597349
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9919709142013012
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     }
+    },
+    "0.005": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9973409284162338
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9837767245003228
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 1.0035050900740734
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     }
+    },
+    "0.0075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9499521043679046
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.944865522467538
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9352101648916907
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9698550194695644
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9401178495394874
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9356079241276992
+     }
+    },
+    "0.01": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9332520730362005
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9510886904695169
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9474213228154659
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9930012716328243
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9539820949514028
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9474213228154659
+     }
+    },
+    "0.015": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9746896924021782
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9627677087052399
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9632326049164787
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9716484130657554
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9664629163092641
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9632326049164787
+     }
+    },
+    "0.02": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9688546912888861
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9700259401299318
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9522576070452488
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9496259532619805
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9714016620816539
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9522576070452488
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.962078275015337
+     }
+    },
+    "0.03": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9300247442513162
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9767267501372854
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9686823990830777
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9822896587633848
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.977763936036694
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9686823990830777
+     }
+    },
+    "0.05": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6482815062749808
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9801622786947439
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9779258242962013
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9353132365858943
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9790028968630302
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9779258242962013
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9638607288696865
+     }
+    },
+    "0.075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.8814060624735719
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9796881875826614
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9452602357906636
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9669934631190297
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9796881875826616
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9452602357906636
+     }
+    },
+    "0.1": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6610545468551788
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9759243212249206
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9502533976014861
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9502533976014862
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9759243212249207
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9502533976014861
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.963637082735779
+     }
+    }
+   },
+   "first_cost": {
+    "output_only": Infinity,
+    "all_checks": Infinity,
+    "observability": Infinity,
+    "cheapest_items": Infinity,
+    "ac_costaware": Infinity,
+    "ch_lane_first": Infinity
+   }
+  },
+  {
+   "event": "14943",
+   "title": "Fix passmanager to preserve falsy pass outputs instead of reverting to input (#14943)",
+   "detectable": false,
+   "units_detecting": 0,
+   "checks_detecting": [],
+   "crashes": 0,
+   "budgets": {
+    "0.0025": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9849570733508742
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 1.0007610001305187
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.959777192597349
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9919709142013012
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     }
+    },
+    "0.005": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9973409284162338
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9837767245003228
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 1.0035050900740734
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     }
+    },
+    "0.0075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9499521043679046
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9599539582220546
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9514098930990631
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9698550194695644
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9554000243503219
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9520019410982549
+     }
+    },
+    "0.01": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9332520730362005
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9621492511954477
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9601223383067498
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9930012716328243
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.969144631369996
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9601223383067498
+     }
+    },
+    "0.015": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9746896924021782
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9707705863847618
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9749551350740042
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9716484130657554
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9775746544207696
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9749551350740042
+     }
+    },
+    "0.02": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9688546912888861
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9763386562440697
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.961935669065726
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9496259532619805
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9802615174342032
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.961935669065726
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9709598243635832
+     }
+    },
+    "0.03": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9300247442513162
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9829987281108652
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9768373714175569
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9822896587633848
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9841821457510042
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9768373714175569
+     }
+    },
+    "0.05": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6482815062749808
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9849453853033243
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9836506860448228
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9353132365858943
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9846735052749935
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9836506860448228
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9714730317203812
+     }
+    },
+    "0.075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.8814060624735719
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9867914776976554
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9514999795335517
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9703318733395827
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9867914776976551
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9514999795335517
+     }
+    },
+    "0.1": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6610545468551788
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9847565450155403
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9569183880988043
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.956918388098804
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9847565450155403
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9569183880988043
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9696137884041256
+     }
+    }
+   },
+   "first_cost": {
+    "output_only": Infinity,
+    "all_checks": Infinity,
+    "observability": Infinity,
+    "cheapest_items": Infinity,
+    "ac_costaware": Infinity,
+    "ch_lane_first": Infinity
+   }
+  },
+  {
+   "event": "15623",
+   "title": "Fix QPY bug with user-defined register named 'ancilla' (#15623)",
+   "detectable": false,
+   "units_detecting": 0,
+   "checks_detecting": [],
+   "crashes": 0,
+   "budgets": {
+    "0.0025": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9849570733508742
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 1.0007610001305187
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.959777192597349
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9919709142013012
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     }
+    },
+    "0.005": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9973409284162338
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9837767245003228
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 1.0035050900740734
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     }
+    },
+    "0.0075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9499521043679046
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9668488849099995
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9600071794575954
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9698550194695644
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9641274897795564
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.960544953641038
+     }
+    },
+    "0.01": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9332520730362005
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9674203400658836
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.966742576416662
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9930012716328243
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9736092277629681
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9667425764166616
+     }
+    },
+    "0.015": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9746896924021782
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9749430289463321
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9784023007109277
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9716484130657554
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9818772285156468
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9784023007109277
+     }
+    },
+    "0.02": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9688546912888861
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.979559857726048
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9671305786724708
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9496259532619805
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9847927181536256
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9671305786724708
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9735984131167535
+     }
+    },
+    "0.03": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9300247442513162
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.985146656615465
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9802859463998406
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9822896587633848
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9893632855151318
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9802859463998406
+     }
+    },
+    "0.05": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6482815062749808
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9895049873174239
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9875011713383063
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9353132365858943
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9885323869631141
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9875011713383063
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9726674492298031
+     }
+    },
+    "0.075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.8814060624735719
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9900353679856803
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9540816997333714
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9729352287234094
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9900353679856805
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9540816997333714
+     }
+    },
+    "0.1": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6610545468551788
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9857599992703518
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9586339448567789
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9586339448567791
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9857599992703518
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9586339448567789
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9699705013481027
+     }
+    }
+   },
+   "first_cost": {
+    "output_only": Infinity,
+    "all_checks": Infinity,
+    "observability": Infinity,
+    "cheapest_items": Infinity,
+    "ac_costaware": Infinity,
+    "ch_lane_first": Infinity
+   }
+  },
+  {
+   "event": "16153",
+   "title": "Fix `InverseCancellation` for symmetric pairs (#16153)",
+   "detectable": false,
+   "units_detecting": 0,
+   "checks_detecting": [],
+   "crashes": 0,
+   "budgets": {
+    "0.0025": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9849570733508742
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 1.0007610001305187
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.959777192597349
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9919709142013012
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     }
+    },
+    "0.005": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9973409284162338
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9837767245003228
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 1.0035050900740734
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     }
+    },
+    "0.0075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9499521043679046
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9546473992508469
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9460208529446654
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9698550194695644
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9513113142425469
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9465102897147971
+     }
+    },
+    "0.01": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9332520730362005
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9585409278732088
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9558579028358624
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9930012716328243
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9652721310062989
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9558579028358621
+     }
+    },
+    "0.015": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9746896924021782
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9681605101798456
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9742192161547735
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9716484130657554
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9770739316252706
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9742192161547731
+     }
+    },
+    "0.02": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9688546912888861
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9741113500020939
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9621395480410148
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9496259532619805
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9826841803765893
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9621395480410145
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9715748287214928
+     }
+    },
+    "0.03": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9300247442513162
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.982460156068819
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9784036550105075
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9822896587633848
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9879028395701586
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9784036550105075
+     }
+    },
+    "0.05": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6482815062749808
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9877517721358974
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9861978733251017
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9353132365858943
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9872246321148996
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9861978733251017
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9732634085085272
+     }
+    },
+    "0.075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.8814060624735719
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9894318085503329
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9534333444723359
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9716325210561483
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9894318085503329
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9534333444723359
+     }
+    },
+    "0.1": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6610545468551788
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9891188057461955
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9599554967584357
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9599554967584358
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9891188057461955
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9599554967584357
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9722914690529646
+     }
+    }
+   },
+   "first_cost": {
+    "output_only": Infinity,
+    "all_checks": Infinity,
+    "observability": Infinity,
+    "cheapest_items": Infinity,
+    "ac_costaware": Infinity,
+    "ch_lane_first": Infinity
+   }
+  },
+  {
+   "event": "16283",
+   "title": "Parameter expression bugfixes (#16283)",
+   "detectable": false,
+   "units_detecting": 0,
+   "checks_detecting": [],
+   "crashes": 0,
+   "budgets": {
+    "0.0025": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9849570733508742
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 1.0007610001305187
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.959777192597349
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9919709142013012
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     }
+    },
+    "0.005": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9973409284162338
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9837767245003228
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 1.0035050900740734
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     }
+    },
+    "0.0075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9499521043679046
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.94220905910265
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9324776374697293
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9698550194695644
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9378007927642321
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9329437111817889
+     }
+    },
+    "0.01": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9332520730362005
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9491575379342808
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9451854071193364
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9930012716328243
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9548876757990004
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9451854071193362
+     }
+    },
+    "0.015": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9746896924021782
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9615834277193561
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9643231755227683
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9716484130657554
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9689731539401137
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9643231755227681
+     }
+    },
+    "0.02": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9688546912888861
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9690099146600168
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9538726640299646
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9496259532619805
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9740433012521599
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9538726640299646
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9642320460630041
+     }
+    },
+    "0.03": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9300247442513162
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9777455743303253
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9709825863006181
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9822896587633848
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9796507286261475
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9709825863006181
+     }
+    },
+    "0.05": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6482815062749808
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9814447467407954
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9798103060989366
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9353132365858943
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9809143838532872
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9798103060989366
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9678145878542865
+     }
+    },
+    "0.075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.8814060624735719
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9828628824370573
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9481542262353693
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9680194447826808
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9828628824370576
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9481542262353693
+     }
+    },
+    "0.1": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6610545468551788
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9822040140509459
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9536693530749215
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9536693530749212
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9822040140509464
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9536693530749215
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9669058008108807
+     }
+    }
+   },
+   "first_cost": {
+    "output_only": Infinity,
+    "all_checks": Infinity,
+    "observability": Infinity,
+    "cheapest_items": Infinity,
+    "ac_costaware": Infinity,
+    "ch_lane_first": Infinity
+   }
+  },
+  {
+   "event": "16402",
+   "title": "Fix incorrect global phase shift for P and U1 gates in CommutativeCancellation (#16402)",
+   "detectable": false,
+   "units_detecting": 0,
+   "checks_detecting": [],
+   "crashes": 0,
+   "budgets": {
+    "0.0025": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9849570733508742
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 1.0007610001305187
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.959777192597349
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9919709142013012
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     }
+    },
+    "0.005": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9973409284162338
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9837767245003228
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 1.0035050900740734
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     }
+    },
+    "0.0075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9499521043679046
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9481246459803926
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9394082783979734
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9698550194695644
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9442846661699352
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9400730675292528
+     }
+    },
+    "0.01": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9332520730362005
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9533996846547281
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9514990315591014
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9930012716328243
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9575812549830435
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9514990315591014
+     }
+    },
+    "0.015": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9746896924021782
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9648954186355562
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9668687644578408
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9716484130657554
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9689758548432138
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9668687644578408
+     }
+    },
+    "0.02": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9688546912888861
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9719778019117449
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.954887972285879
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9496259532619805
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9741904081526086
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.954887972285879
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9647348546831888
+     }
+    },
+    "0.03": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9300247442513162
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9784499214029797
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9716922896364623
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9822896587633848
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9800867394636874
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9716922896364623
+     }
+    },
+    "0.05": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6482815062749808
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9821491212330917
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9802094176823181
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9353132365858943
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9812500035754763
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9802094176823181
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9663304100079739
+     }
+    },
+    "0.075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.8814060624735719
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9814412942916456
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9472399387846436
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9682667293236515
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9814412942916458
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9472399387846436
+     }
+    },
+    "0.1": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6610545468551788
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9789513001816643
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9521442160382182
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9521442160382182
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9789513001816645
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9521442160382182
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9649691870320092
+     }
+    }
+   },
+   "first_cost": {
+    "output_only": Infinity,
+    "all_checks": Infinity,
+    "observability": Infinity,
+    "cheapest_items": Infinity,
+    "ac_costaware": Infinity,
+    "ch_lane_first": Infinity
+   }
+  },
+  {
+   "event": "16476",
+   "title": "Fix cache and prediction misses in `Target::qargs` (#16476)",
+   "detectable": false,
+   "units_detecting": 0,
+   "checks_detecting": [],
+   "crashes": 0,
+   "budgets": {
+    "0.0025": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9849570733508742
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 1.0007610001305187
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.959777192597349
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9919709142013012
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     }
+    },
+    "0.005": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9973409284162338
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9837767245003228
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 1.0035050900740734
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     }
+    },
+    "0.0075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9499521043679046
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9400322380210754
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9287904522354696
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9698550194695644
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9345192051334934
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9293723926486284
+     }
+    },
+    "0.01": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9332520730362005
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9475959301815726
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9436421358026146
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9930012716328243
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9539325514350707
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9436421358026146
+     }
+    },
+    "0.015": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9746896924021782
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9602163603776863
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.964000964283926
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9716484130657554
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9691976501609365
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.964000964283926
+     }
+    },
+    "0.02": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9688546912888861
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.968181496966481
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9543225573005515
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9496259532619805
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9745352392847131
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9543225573005515
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9617836757673723
+     }
+    },
+    "0.03": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9300247442513162
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9778299396462482
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9714723117207902
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9822896587633848
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9798022095653508
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9714723117207902
+     }
+    },
+    "0.05": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6482815062749808
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9819781811400596
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9800963451242398
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9353132365858943
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9811508892732903
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9800963451242398
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9653957198644658
+     }
+    },
+    "0.075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.8814060624735719
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9818179153604583
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.947485392399106
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.968662660861716
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9818179153604585
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.947485392399106
+     }
+    },
+    "0.1": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6610545468551788
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9803166196723163
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9528377740154897
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9528377740154894
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9803166196723168
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9528377740154897
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9650188865886935
+     }
+    }
+   },
+   "first_cost": {
+    "output_only": Infinity,
+    "all_checks": Infinity,
+    "observability": Infinity,
+    "cheapest_items": Infinity,
+    "ac_costaware": Infinity,
+    "ch_lane_first": Infinity
+   }
+  },
+  {
+   "event": "16599",
+   "title": "Fix `sx` resynthesis of negative angles in `CommutativeCancellation` (#16599)",
+   "detectable": false,
+   "units_detecting": 0,
+   "checks_detecting": [],
+   "crashes": 0,
+   "budgets": {
+    "0.0025": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9849570733508742
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 1.0007610001305187
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.959777192597349
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9919709142013012
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     }
+    },
+    "0.005": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9973409284162338
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9837767245003228
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 1.0035050900740734
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     }
+    },
+    "0.0075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9499521043679046
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9592918385994523
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9503655229757154
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9698550194695644
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9551322836934902
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.950866129673016
+     }
+    },
+    "0.01": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9332520730362005
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9617617442459221
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9599488519877905
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9930012716328243
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9673710315851906
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9599488519877905
+     }
+    },
+    "0.015": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9746896924021782
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9703174102299245
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9733450506979726
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9716484130657554
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9758156094791528
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9733450506979726
+     }
+    },
+    "0.02": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9688546912888861
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9760611207836993
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9595220572810612
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9496259532619805
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9801482055044309
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9595220572810612
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9668535176087912
+     }
+    },
+    "0.03": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9300247442513162
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9817208713095283
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9747910389863017
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9822896587633848
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9830212484712106
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9747910389863017
+     }
+    },
+    "0.05": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6482815062749808
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9827569044200297
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9805586334423173
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9353132365858943
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9815588965628866
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9805586334423173
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.965327940192553
+     }
+    },
+    "0.075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.8814060624735719
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9797229823567579
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.946834251174474
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9692857334079509
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9797229823567581
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.946834251174474
+     }
+    },
+    "0.1": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6610545468551788
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9765397323759946
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9509870442801133
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9509870442801128
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9765397323759946
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9509870442801133
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9632217642866343
+     }
+    }
+   },
+   "first_cost": {
+    "output_only": Infinity,
+    "all_checks": Infinity,
+    "observability": Infinity,
+    "cheapest_items": Infinity,
+    "ac_costaware": Infinity,
+    "ch_lane_first": Infinity
+   }
+  },
+  {
+   "event": "16637",
+   "title": "Fix transpiler error message with routing_pass when layout_trials or swap_trials is set (#16637)",
+   "detectable": false,
+   "units_detecting": 0,
+   "checks_detecting": [],
+   "crashes": 0,
+   "budgets": {
+    "0.0025": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9849570733508742
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 1.0007610001305187
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.959777192597349
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9919709142013012
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     }
+    },
+    "0.005": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9973409284162338
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9837767245003228
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 1.0035050900740734
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     }
+    },
+    "0.0075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9499521043679046
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 1.0165733911950205
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 1.0128980906852043
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9698550194695644
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 1.0181230648793058
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 1.0139442919133617
+     }
+    },
+    "0.01": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9332520730362005
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 1.0034929213686121
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 1.0086891301823186
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9930012716328243
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 1.0181787456471894
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 1.0086891301823186
+     }
+    },
+    "0.015": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9746896924021782
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 1.0012752867107515
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 1.0132750692746886
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9716484130657554
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 1.0128695379326014
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 1.0132750692746886
+     }
+    },
+    "0.02": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9688546912888861
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9999751304947587
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9937028512359286
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9496259532619805
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 1.0127095974838485
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9937028512359286
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9999918747406279
+     }
+    },
+    "0.03": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9300247442513162
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 1.0018604493663006
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 1.004097856929498
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9822896587633848
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 1.012663868866963
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 1.004097856929498
+     }
+    },
+    "0.05": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6482815062749808
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 1.0039802389000512
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 1.0049411153358407
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9353132365858943
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 1.0058967014225915
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 1.0049411153358407
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9928683338114267
+     }
+    },
+    "0.075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.8814060624735719
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 1.0083919270347288
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9666916287450819
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.981675033640551
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 1.008391927034729
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9666916287450819
+     }
+    },
+    "0.1": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6610545468551788
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 1.0109415766793808
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9760483528820483
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9760483528820485
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 1.0109415766793812
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9760483528820483
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9884091521498161
+     }
+    }
+   },
+   "first_cost": {
+    "output_only": Infinity,
+    "all_checks": Infinity,
+    "observability": Infinity,
+    "cheapest_items": Infinity,
+    "ac_costaware": Infinity,
+    "ch_lane_first": Infinity
+   }
+  },
+  {
+   "event": "16656",
+   "title": "Fix non-determinism in `DAGCircuit::remove_qubits` (#16656)",
+   "detectable": false,
+   "units_detecting": 0,
+   "checks_detecting": [],
+   "crashes": 0,
+   "budgets": {
+    "0.0025": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9849570733508742
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 1.0007610001305187
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.959777192597349
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9919709142013012
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     }
+    },
+    "0.005": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9973409284162338
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9837767245003228
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 1.0035050900740734
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     }
+    },
+    "0.0075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9499521043679046
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.953758550745401
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9460671853404076
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9698550194695644
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9508603913978395
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9464998594563554
+     }
+    },
+    "0.01": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9332520730362005
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9576965489123485
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9557960197048985
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9930012716328243
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9658948662716579
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9557960197048982
+     }
+    },
+    "0.015": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9746896924021782
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9682255850738584
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9726676157747292
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9716484130657554
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9772588818476702
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9726676157747288
+     }
+    },
+    "0.02": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9688546912888861
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9742725262706281
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9622129362307319
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9496259532619805
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9819509611403258
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9622129362307317
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9719207708489938
+     }
+    },
+    "0.03": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9300247442513162
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9820060924476061
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9795824066886254
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9822896587633848
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9895595452500833
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9795824066886251
+     }
+    },
+    "0.05": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6482815062749808
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9904941534781461
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9893067708906864
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9353132365858943
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9903797539368782
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9893067708906863
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9749775538943531
+     }
+    },
+    "0.075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.8814060624735719
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9917325217060422
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9555993036859931
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9734367074245133
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9917325217060425
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9555993036859928
+     }
+    },
+    "0.1": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6610545468551788
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9911278598442207
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9607753859615755
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9607753859615753
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9911278598442209
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9607753859615753
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.974317891730638
+     }
+    }
+   },
+   "first_cost": {
+    "output_only": Infinity,
+    "all_checks": Infinity,
+    "observability": Infinity,
+    "cheapest_items": Infinity,
+    "ac_costaware": Infinity,
+    "ch_lane_first": Infinity
+   }
+  },
+  {
+   "event": "16752",
+   "title": "Fix add/sub optimizations including the same symbols (#16752)",
+   "detectable": false,
+   "units_detecting": 0,
+   "checks_detecting": [],
+   "crashes": 0,
+   "budgets": {
+    "0.0025": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9849570733508742
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 1.0007610001305187
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.959777192597349
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9919709142013012
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     }
+    },
+    "0.005": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9973409284162338
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9837767245003228
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 1.0035050900740734
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     }
+    },
+    "0.0075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9499521043679046
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9558597578031214
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.947070299010655
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9698550194695644
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9528375121491965
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9477317436303713
+     }
+    },
+    "0.01": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9332520730362005
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9592060496488855
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9576583781901198
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9930012716328243
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.966858822243786
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9576583781901198
+     }
+    },
+    "0.015": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9746896924021782
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9688557688109675
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9743057854132263
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9716484130657554
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9784493221408536
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9743057854132263
+     }
+    },
+    "0.02": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9688546912888861
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9751673656963347
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9634570145680553
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9496259532619805
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9848557733652978
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9634570145680553
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9704278672763018
+     }
+    },
+    "0.03": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9300247442513162
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9829983747010589
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9804711337226354
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9822896587633848
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9891545891433059
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9804711337226354
+     }
+    },
+    "0.05": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6482815062749808
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9877679154413884
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9863430256431421
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9353132365858943
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9873837535994388
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9863430256431421
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9715888866387266
+     }
+    },
+    "0.075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.8814060624735719
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9868306437159904
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9521893633403012
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9719612745106386
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9868306437159905
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9521893633403012
+     }
+    },
+    "0.1": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6610545468551788
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9863280162312408
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9573490573520178
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9573490573520175
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9863280162312408
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9573490573520178
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9701644142686893
+     }
+    }
+   },
+   "first_cost": {
+    "output_only": Infinity,
+    "all_checks": Infinity,
+    "observability": Infinity,
+    "cheapest_items": Infinity,
+    "ac_costaware": Infinity,
+    "ch_lane_first": Infinity
+   }
+  },
+  {
+   "event": "16884",
+   "title": "Fix non-identity removal in ConsolidateBlocks for gates wider than 2 qubits (#16884)",
+   "detectable": false,
+   "units_detecting": 0,
+   "checks_detecting": [],
+   "crashes": 0,
+   "budgets": {
+    "0.0025": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9849570733508742
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 1.0007610001305187
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.959777192597349
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9919709142013012
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     }
+    },
+    "0.005": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9973409284162338
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9837767245003228
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 1.0035050900740734
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     }
+    },
+    "0.0075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9499521043679046
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9428640246520801
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9332834758269462
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9698550194695644
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9392916195633119
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9341710340182615
+     }
+    },
+    "0.01": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9332520730362005
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.949502647040453
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9469747454894021
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9930012716328243
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9556220389595412
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9469747454894019
+     }
+    },
+    "0.015": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9746896924021782
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9618762129346466
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9658713075499692
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9716484130657554
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.969909955899334
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9658713075499692
+     }
+    },
+    "0.02": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9688546912888861
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9695435821731709
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9558195771125172
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9496259532619805
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9775929260735507
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9558195771125172
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9646117280837347
+     }
+    },
+    "0.03": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9300247442513162
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9783042633020415
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9742101233959162
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9822896587633848
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9833192379989881
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9742101233959162
+     }
+    },
+    "0.05": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6482815062749808
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9839258905561213
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9826742657392943
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9353132365858943
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9837285277470946
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9826742657392943
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9688763906511645
+     }
+    },
+    "0.075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.8814060624735719
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9862113077216956
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9503566788520748
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9696026604968669
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9862113077216956
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9503566788520748
+     }
+    },
+    "0.1": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6610545468551788
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9843546821995004
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9561296072315189
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9561296072315186
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9843546821995004
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9561296072315189
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9687500224365826
+     }
+    }
+   },
+   "first_cost": {
+    "output_only": Infinity,
+    "all_checks": Infinity,
+    "observability": Infinity,
+    "cheapest_items": Infinity,
+    "ac_costaware": Infinity,
+    "ch_lane_first": Infinity
+   }
+  },
+  {
+   "event": "16963",
+   "title": "Fix GIL deadlock in `CommutationAnalysis` with Python-defined gates (#16963)",
+   "detectable": false,
+   "units_detecting": 0,
+   "checks_detecting": [],
+   "crashes": 0,
+   "budgets": {
+    "0.0025": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9849570733508742
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 1.0007610001305187
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.959777192597349
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9919709142013012
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     }
+    },
+    "0.005": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9973409284162338
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9837767245003228
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 1.0035050900740734
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     }
+    },
+    "0.0075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9499521043679046
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9479753038485655
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9379956482219535
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9698550194695644
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.944802699053524
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9384978632130709
+     }
+    },
+    "0.01": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9332520730362005
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9535610508381905
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9499040122906862
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9930012716328243
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9599788619283227
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9499040122906862
+     }
+    },
+    "0.015": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9746896924021782
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9646538332136042
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9676131341464047
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9716484130657554
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9728316054781512
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9676131341464047
+     }
+    },
+    "0.02": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9688546912888861
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9713913767934558
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9571837561350636
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9496259532619805
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9777441149487234
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9571837561350636
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9658734578680533
+     }
+    },
+    "0.03": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9300247442513162
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.979412826812731
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9739046094679726
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9822896587633848
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9827828681866523
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9739046094679726
+     }
+    },
+    "0.05": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6482815062749808
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9834077187441131
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9822507546887621
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9353132365858943
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9833492617266689
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9822507546887621
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9685132656147379
+     }
+    },
+    "0.075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.8814060624735719
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9851844038888771
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.949783990633428
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9693309260700083
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9851844038888773
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.949783990633428
+     }
+    },
+    "0.1": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6610545468551788
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.983532298254467
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9555602812090027
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9555602812090027
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9835322982544674
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9555602812090027
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9679919017083493
+     }
+    }
+   },
+   "first_cost": {
+    "output_only": Infinity,
+    "all_checks": Infinity,
+    "observability": Infinity,
+    "cheapest_items": Infinity,
+    "ac_costaware": Infinity,
+    "ch_lane_first": Infinity
+   }
+  },
+  {
+   "event": "16988",
+   "title": "Fix: `CouplingMap` storing parallel edges (#16988)",
+   "detectable": false,
+   "units_detecting": 0,
+   "checks_detecting": [],
+   "crashes": 0,
+   "budgets": {
+    "0.0025": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9849570733508742
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 1.0007610001305187
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.959777192597349
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9919709142013012
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     }
+    },
+    "0.005": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9973409284162338
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9837767245003228
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 1.0035050900740734
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     }
+    },
+    "0.0075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9499521043679046
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9710959266448012
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9627170754187331
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9698550194695644
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9680339828071088
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9632251008593068
+     }
+    },
+    "0.01": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9332520730362005
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9706938030019437
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9682843988048502
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9930012716328243
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.977886188258391
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9682843988048502
+     }
+    },
+    "0.015": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9746896924021782
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9764588356381292
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9796701791406531
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9716484130657554
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9825257931758699
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9796701791406531
+     }
+    },
+    "0.02": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9688546912888861
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9802588180092743
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.964570249425662
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9496259532619805
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9840798513519091
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.964570249425662
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9728187154421658
+     }
+    },
+    "0.03": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9300247442513162
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9852794268965995
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9781137552165835
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9822896587633848
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9868625988182019
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9781137552165835
+     }
+    },
+    "0.05": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6482815062749808
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9862694992617973
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.984226625929292
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9353132365858943
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9852865955358964
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.984226625929292
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9695900996665535
+     }
+    },
+    "0.075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.8814060624735719
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.983130783726115
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9504974445431066
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9709136722855404
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.983130783726115
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9504974445431066
+     }
+    },
+    "0.1": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6610545468551788
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9800161891485297
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.953384050867529
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9533840508675288
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9800161891485297
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.953384050867529
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9661254130097954
+     }
+    }
+   },
+   "first_cost": {
+    "output_only": Infinity,
+    "all_checks": Infinity,
+    "observability": Infinity,
+    "cheapest_items": Infinity,
+    "ac_costaware": Infinity,
+    "ch_lane_first": Infinity
+   }
+  },
+  {
+   "event": "17163",
+   "title": "Fix correctness bugs `TwoQubitBasisDecomposer`  (#17163)",
+   "detectable": false,
+   "units_detecting": 0,
+   "checks_detecting": [],
+   "crashes": 0,
+   "budgets": {
+    "0.0025": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9849570733508742
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 1.0007610001305187
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.959777192597349
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9919709142013012
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9603434927848541
+     }
+    },
+    "0.005": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9973409284162338
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9837767245003228
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 1.0035050900740734
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9619675647461807
+     }
+    },
+    "0.0075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9499521043679046
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9462132093337585
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9360215290371552
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9698550194695644
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.941749775213757
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.936765315841278
+     }
+    },
+    "0.01": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9332520730362005
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.952130949120575
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9482925272978204
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9930012716328243
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9576719057234707
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9482925272978204
+     }
+    },
+    "0.015": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9746896924021782
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9633117276506334
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9663664500277137
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9716484130657554
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9712067817876054
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9663664500277137
+     }
+    },
+    "0.02": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9688546912888861
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9703689424683746
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9572549802939414
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9496259532619805
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9767593302764757
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9572549802939414
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9680836774136534
+     }
+    },
+    "0.03": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.9300247442513162
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9793875455526863
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9736544736499488
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9822896587633848
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9836712549739823
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9736544736499488
+     }
+    },
+    "0.05": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6482815062749808
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9845918498159125
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9831210997672678
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9353132365858943
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.984195099287813
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9831210997672678
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.971458883410872
+     }
+    },
+    "0.075": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.8814060624735719
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9877968778274937
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9512935089771111
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.9697968140717707
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9877968778274937
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9512935089771111
+     }
+    },
+    "0.1": {
+     "output_only": {
+      "detected": false,
+      "spend_ratio": 0.6610545468551788
+     },
+     "all_checks": {
+      "detected": false,
+      "spend_ratio": 0.9871203220973324
+     },
+     "observability": {
+      "detected": false,
+      "spend_ratio": 0.9573018700410102
+     },
+     "cheapest_items": {
+      "detected": false,
+      "spend_ratio": 0.95730187004101
+     },
+     "ac_costaware": {
+      "detected": false,
+      "spend_ratio": 0.9871203220973324
+     },
+     "ch_lane_first": {
+      "detected": false,
+      "spend_ratio": 0.9573018700410102
+     },
+     "random_items": {
+      "detected": 0,
+      "spend_ratio": 0.9715557448635397
+     }
+    }
+   },
+   "first_cost": {
+    "output_only": Infinity,
+    "all_checks": Infinity,
+    "observability": Infinity,
+    "cheapest_items": Infinity,
+    "ac_costaware": Infinity,
+    "ch_lane_first": Infinity
+   }
+  }
+ ]
+}

@@ -1,0 +1,3501 @@
+{
+ "note": "exploratory, not registered: suite without the eight exact 12-qubit output checks",
+ "cohorts": [
+  {
+   "cohort": "out_C260",
+   "full_suite_estimate_s": 1310.1608298829997,
+   "reduced_suite_estimate_s": 179.92069864799987,
+   "reduced_share_of_full": 0.13732718498695096,
+   "dropped_items": [
+    [
+     "ghz-n12-line-opt1",
+     "output"
+    ],
+    [
+     "ghz-n12-line-opt3",
+     "output"
+    ],
+    [
+     "qaoa_linear-n12-line-opt1",
+     "output"
+    ],
+    [
+     "qaoa_linear-n12-line-opt3",
+     "output"
+    ],
+    [
+     "qft-n12-line-opt1",
+     "output"
+    ],
+    [
+     "qft-n12-line-opt3",
+     "output"
+    ],
+    [
+     "random_clifford-n12-line-opt1",
+     "output"
+    ],
+    [
+     "random_clifford-n12-line-opt3",
+     "output"
+    ]
+   ],
+   "dropped_s": 1130.2401312349998,
+   "events": 18,
+   "detectable_by_reduced_suite": 18,
+   "events_detected_only_by_the_eight": [],
+   "registered_budgets_as_reduced_fractions": {
+    "0.02": 0.14563758808498428,
+    "0.05": 0.36409397021246076,
+    "0.1": 0.7281879404249215
+   },
+   "grid": {
+    "0.0025": {
+     "OO": {
+      "detected": 7,
+      "items": 117,
+      "spend_mean": 1.0986123136877572,
+      "spend_max": 1.1733747522447053
+     },
+     "AC": {
+      "detected": 9,
+      "items": 38,
+      "spend_mean": 1.095430419641085,
+      "spend_max": 1.3271355624682308
+     },
+     "OA": {
+      "detected": 9,
+      "items": 59,
+      "spend_mean": 1.128731772965184,
+      "spend_max": 2.0098104638153083
+     },
+     "CI": {
+      "detected": 8,
+      "items": 191,
+      "spend_mean": 1.119899892334683,
+      "spend_max": 1.1988406671468896
+     },
+     "AC_costaware": {
+      "detected": 11,
+      "items": 63,
+      "spend_mean": 1.113869890676477,
+      "spend_max": 1.7772749327936734
+     },
+     "AC_lane_last": {
+      "detected": 9,
+      "items": 38,
+      "spend_mean": 1.095430419641085,
+      "spend_max": 1.3271355624682308
+     },
+     "CI_lane_first": {
+      "detected": 8,
+      "items": 191,
+      "spend_mean": 1.119899892334683,
+      "spend_max": 1.1988406671468896
+     }
+    },
+    "0.005": {
+     "OO": {
+      "detected": 7,
+      "items": 143,
+      "spend_mean": 1.0961584558806756,
+      "spend_max": 1.1469923691427817
+     },
+     "AC": {
+      "detected": 12,
+      "items": 35,
+      "spend_mean": 1.0924366988045386,
+      "spend_max": 1.574909941597223
+     },
+     "OA": {
+      "detected": 11,
+      "items": 204,
+      "spend_mean": 1.1156755987356826,
+      "spend_max": 1.5948775774903352
+     },
+     "CI": {
+      "detected": 11,
+      "items": 227,
+      "spend_mean": 1.0870472715219432,
+      "spend_max": 1.1352733217219864
+     },
+     "AC_costaware": {
+      "detected": 11,
+      "items": 150,
+      "spend_mean": 1.1164149402653034,
+      "spend_max": 1.4724947612490438
+     },
+     "AC_lane_last": {
+      "detected": 12,
+      "items": 35,
+      "spend_mean": 1.0924366988045386,
+      "spend_max": 1.574909941597223
+     },
+     "CI_lane_first": {
+      "detected": 11,
+      "items": 227,
+      "spend_mean": 1.0870472715219432,
+      "spend_max": 1.1352733217219864
+     }
+    },
+    "0.0075": {
+     "OO": {
+      "detected": 7,
+      "items": 153,
+      "spend_mean": 1.0772980527536693,
+      "spend_max": 1.1248130703546113
+     },
+     "AC": {
+      "detected": 13,
+      "items": 94,
+      "spend_mean": 1.095181991016074,
+      "spend_max": 1.5536685415711302
+     },
+     "OA": {
+      "detected": 11,
+      "items": 235,
+      "spend_mean": 1.1066065608031828,
+      "spend_max": 1.4315150711896747
+     },
+     "CI": {
+      "detected": 11,
+      "items": 246,
+      "spend_mean": 1.0756706504725388,
+      "spend_max": 1.11711584665199
+     },
+     "AC_costaware": {
+      "detected": 11,
+      "items": 151,
+      "spend_mean": 1.1117754972641085,
+      "spend_max": 1.622838548651866
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 94,
+      "spend_mean": 1.095181991016074,
+      "spend_max": 1.5536685415711302
+     },
+     "CI_lane_first": {
+      "detected": 11,
+      "items": 246,
+      "spend_mean": 1.0756706504725388,
+      "spend_max": 1.11711584665199
+     }
+    },
+    "0.01": {
+     "OO": {
+      "detected": 8,
+      "items": 158,
+      "spend_mean": 1.0725792383967048,
+      "spend_max": 1.1128376496112216
+     },
+     "AC": {
+      "detected": 13,
+      "items": 88,
+      "spend_mean": 1.0922966985151428,
+      "spend_max": 1.624655542117951
+     },
+     "OA": {
+      "detected": 11,
+      "items": 253,
+      "spend_mean": 1.0908027223927503,
+      "spend_max": 1.3414377990626414
+     },
+     "CI": {
+      "detected": 11,
+      "items": 260,
+      "spend_mean": 1.0750227013784932,
+      "spend_max": 1.1903404489295093
+     },
+     "AC_costaware": {
+      "detected": 11,
+      "items": 167,
+      "spend_mean": 1.1033322730058477,
+      "spend_max": 1.6061006680803243
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 88,
+      "spend_mean": 1.0922966985151428,
+      "spend_max": 1.624655542117951
+     },
+     "CI_lane_first": {
+      "detected": 11,
+      "items": 260,
+      "spend_mean": 1.0750227013784932,
+      "spend_max": 1.1903404489295093
+     }
+    },
+    "0.015": {
+     "OO": {
+      "detected": 8,
+      "items": 171,
+      "spend_mean": 1.0662053360214636,
+      "spend_max": 1.1014421636261256
+     },
+     "AC": {
+      "detected": 13,
+      "items": 157,
+      "spend_mean": 1.0875016799886408,
+      "spend_max": 1.657562006156415
+     },
+     "OA": {
+      "detected": 12,
+      "items": 276,
+      "spend_mean": 1.0480030019514674,
+      "spend_max": 1.2466160526209515
+     },
+     "CI": {
+      "detected": 12,
+      "items": 277,
+      "spend_mean": 1.0817786939199021,
+      "spend_max": 1.2965456208561137
+     },
+     "AC_costaware": {
+      "detected": 12,
+      "items": 194,
+      "spend_mean": 1.0967734160697202,
+      "spend_max": 1.706551029651644
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 157,
+      "spend_mean": 1.0875016799886408,
+      "spend_max": 1.657562006156415
+     },
+     "CI_lane_first": {
+      "detected": 12,
+      "items": 277,
+      "spend_mean": 1.0817786939199021,
+      "spend_max": 1.2965456208561137
+     }
+    },
+    "0.02": {
+     "OO": {
+      "detected": 8,
+      "items": 180,
+      "spend_mean": 1.0575414236617136,
+      "spend_max": 1.087766233238481
+     },
+     "AC": {
+      "detected": 13,
+      "items": 85,
+      "spend_mean": 1.0765432788810259,
+      "spend_max": 1.4140031661827492
+     },
+     "OA": {
+      "detected": 13,
+      "items": 291,
+      "spend_mean": 1.0781339586419367,
+      "spend_max": 1.383712245288495
+     },
+     "CI": {
+      "detected": 13,
+      "items": 291,
+      "spend_mean": 1.0781339586419367,
+      "spend_max": 1.383712245288495
+     },
+     "AC_costaware": {
+      "detected": 14,
+      "items": 223,
+      "spend_mean": 1.0864182747947566,
+      "spend_max": 1.5481241452099663
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 85,
+      "spend_mean": 1.0765432788810259,
+      "spend_max": 1.4140031661827492
+     },
+     "CI_lane_first": {
+      "detected": 13,
+      "items": 291,
+      "spend_mean": 1.0781339586419367,
+      "spend_max": 1.383712245288495
+     }
+    },
+    "0.03": {
+     "OO": {
+      "detected": 9,
+      "items": 187,
+      "spend_mean": 1.0127320189595972,
+      "spend_max": 1.0333979484505393
+     },
+     "AC": {
+      "detected": 13,
+      "items": 136,
+      "spend_mean": 1.056166394314903,
+      "spend_max": 1.311731529725078
+     },
+     "OA": {
+      "detected": 13,
+      "items": 311,
+      "spend_mean": 1.0584061558449054,
+      "spend_max": 1.3777037922599755
+     },
+     "CI": {
+      "detected": 13,
+      "items": 311,
+      "spend_mean": 1.0584061558449054,
+      "spend_max": 1.3777037922599755
+     },
+     "AC_costaware": {
+      "detected": 14,
+      "items": 242,
+      "spend_mean": 1.081018118437329,
+      "spend_max": 1.519766420361993
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 136,
+      "spend_mean": 1.056166394314903,
+      "spend_max": 1.311731529725078
+     },
+     "CI_lane_first": {
+      "detected": 13,
+      "items": 311,
+      "spend_mean": 1.0584061558449054,
+      "spend_max": 1.3777037922599755
+     }
+    },
+    "0.05": {
+     "OO": {
+      "detected": 9,
+      "items": 198,
+      "spend_mean": 0.9967597966946179,
+      "spend_max": 1.0137428070842425
+     },
+     "AC": {
+      "detected": 14,
+      "items": 144,
+      "spend_mean": 1.2903488297596877,
+      "spend_max": 1.475924418454536
+     },
+     "OA": {
+      "detected": 13,
+      "items": 318,
+      "spend_mean": 1.290642384379196,
+      "spend_max": 1.4880428717308363
+     },
+     "CI": {
+      "detected": 16,
+      "items": 330,
+      "spend_mean": 1.0652176567735545,
+      "spend_max": 1.2901736119542209
+     },
+     "AC_costaware": {
+      "detected": 12,
+      "items": 218,
+      "spend_mean": 1.2946504931545997,
+      "spend_max": 1.486440419194017
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 154,
+      "spend_mean": 1.0611661353290478,
+      "spend_max": 1.334867396718326
+     },
+     "CI_lane_first": {
+      "detected": 13,
+      "items": 325,
+      "spend_mean": 1.2881698468544382,
+      "spend_max": 1.4890819132718918
+     }
+    },
+    "0.075": {
+     "OO": {
+      "detected": 9,
+      "items": 205,
+      "spend_mean": 1.0517521997217152,
+      "spend_max": 1.0747250251898806
+     },
+     "AC": {
+      "detected": 14,
+      "items": 117,
+      "spend_mean": 1.2069440955969701,
+      "spend_max": 1.3321631251309234
+     },
+     "OA": {
+      "detected": 15,
+      "items": 389,
+      "spend_mean": 1.2100413026181756,
+      "spend_max": 1.3365427495946205
+     },
+     "CI": {
+      "detected": 16,
+      "items": 347,
+      "spend_mean": 1.0508734687417551,
+      "spend_max": 1.321737353254381
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "items": 310,
+      "spend_mean": 1.2154520217557392,
+      "spend_max": 1.3444739173298668
+     },
+     "AC_lane_last": {
+      "detected": 14,
+      "items": 220,
+      "spend_mean": 1.0606571801083526,
+      "spend_max": 1.391454384225523
+     },
+     "CI_lane_first": {
+      "detected": 15,
+      "items": 389,
+      "spend_mean": 1.2100413026181756,
+      "spend_max": 1.3365427495946205
+     }
+    },
+    "0.1": {
+     "OO": {
+      "detected": 9,
+      "items": 210,
+      "spend_mean": 1.0029009759288239,
+      "spend_max": 1.0208928730281677
+     },
+     "AC": {
+      "detected": 15,
+      "items": 287,
+      "spend_mean": 1.1749821024096632,
+      "spend_max": 1.2664731698590346
+     },
+     "OA": {
+      "detected": 18,
+      "items": 413,
+      "spend_mean": 1.174797271655985,
+      "spend_max": 1.2743125851158696
+     },
+     "CI": {
+      "detected": 16,
+      "items": 359,
+      "spend_mean": 1.0268015695242312,
+      "spend_max": 1.2717786174101315
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "items": 362,
+      "spend_mean": 1.1787793310382229,
+      "spend_max": 1.276644463121925
+     },
+     "AC_lane_last": {
+      "detected": 14,
+      "items": 249,
+      "spend_mean": 1.0573490397441339,
+      "spend_max": 1.355444626063572
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "items": 413,
+      "spend_mean": 1.174797271655985,
+      "spend_max": 1.2743125851158696
+     }
+    },
+    "0.15": {
+     "OO": {
+      "detected": 9,
+      "items": 216,
+      "spend_mean": 0.9596079993223472,
+      "spend_max": 0.9758079463857576
+     },
+     "AC": {
+      "detected": 16,
+      "items": 342,
+      "spend_mean": 1.1348689182835827,
+      "spend_max": 1.255167021269247
+     },
+     "OA": {
+      "detected": 18,
+      "items": 445,
+      "spend_mean": 1.1270257383002344,
+      "spend_max": 1.1960481694271452
+     },
+     "CI": {
+      "detected": 16,
+      "items": 372,
+      "spend_mean": 1.0586520634481489,
+      "spend_max": 1.2852028211925373
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 402,
+      "spend_mean": 1.1388279267089685,
+      "spend_max": 1.2067838201583931
+     },
+     "AC_lane_last": {
+      "detected": 15,
+      "items": 307,
+      "spend_mean": 1.0536387670362515,
+      "spend_max": 1.3006620701889184
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "items": 445,
+      "spend_mean": 1.1270257383002344,
+      "spend_max": 1.1960481694271452
+     }
+    },
+    "0.2": {
+     "OO": {
+      "detected": 9,
+      "items": 222,
+      "spend_mean": 1.0492100543240712,
+      "spend_max": 1.0634444138321624
+     },
+     "AC": {
+      "detected": 17,
+      "items": 392,
+      "spend_mean": 1.1108318973251472,
+      "spend_max": 1.2078845075528757
+     },
+     "OA": {
+      "detected": 18,
+      "items": 460,
+      "spend_mean": 1.1028689154828193,
+      "spend_max": 1.1708078645921782
+     },
+     "CI": {
+      "detected": 16,
+      "items": 382,
+      "spend_mean": 1.0597872700463467,
+      "spend_max": 1.231121047686482
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 428,
+      "spend_mean": 1.1177582171175489,
+      "spend_max": 1.1981262261366783
+     },
+     "AC_lane_last": {
+      "detected": 16,
+      "items": 343,
+      "spend_mean": 1.0490273213403098,
+      "spend_max": 1.2647796942485912
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "items": 460,
+      "spend_mean": 1.1028689154828193,
+      "spend_max": 1.1708078645921782
+     }
+    },
+    "0.3": {
+     "OO": {
+      "detected": 9,
+      "items": 224,
+      "spend_mean": 0.8147766195180058,
+      "spend_max": 0.8231622736548861
+     },
+     "AC": {
+      "detected": 18,
+      "items": 442,
+      "spend_mean": 1.090970220344352,
+      "spend_max": 1.1515407890451395
+     },
+     "OA": {
+      "detected": 18,
+      "items": 482,
+      "spend_mean": 1.0912520394468417,
+      "spend_max": 1.1613051272037278
+     },
+     "CI": {
+      "detected": 16,
+      "items": 392,
+      "spend_mean": 1.0009327221356659,
+      "spend_max": 1.128475583330348
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 470,
+      "spend_mean": 1.0948357188947653,
+      "spend_max": 1.1775716827769587
+     },
+     "AC_lane_last": {
+      "detected": 16,
+      "items": 386,
+      "spend_mean": 1.0454229924827652,
+      "spend_max": 1.193073065632284
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "items": 482,
+      "spend_mean": 1.0912520394468417,
+      "spend_max": 1.1613051272037278
+     }
+    },
+    "0.5": {
+     "OO": {
+      "detected": 9,
+      "items": 224,
+      "spend_mean": 0.48886597171080354,
+      "spend_max": 0.4938973641929317
+     },
+     "AC": {
+      "detected": 18,
+      "items": 488,
+      "spend_mean": 1.0630615488739212,
+      "spend_max": 1.1305655361974691
+     },
+     "OA": {
+      "detected": 18,
+      "items": 504,
+      "spend_mean": 1.0700212007938352,
+      "spend_max": 1.1212574106144477
+     },
+     "CI": {
+      "detected": 18,
+      "items": 500,
+      "spend_mean": 1.0754065585854284,
+      "spend_max": 1.1158127227527654
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 488,
+      "spend_mean": 1.0630615488739215,
+      "spend_max": 1.1305655361974691
+     },
+     "AC_lane_last": {
+      "detected": 18,
+      "items": 500,
+      "spend_mean": 1.0754065585854287,
+      "spend_max": 1.115812722752766
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "items": 504,
+      "spend_mean": 1.0700212007938352,
+      "spend_max": 1.1212574106144477
+     }
+    },
+    "1": {
+     "OO": {
+      "detected": 9,
+      "items": 224,
+      "spend_mean": 0.24443298585540177,
+      "spend_max": 0.24694868209646584
+     },
+     "AC": {
+      "detected": 18,
+      "items": 520,
+      "spend_mean": 1.0710494636405699,
+      "spend_max": 1.2081633333654016
+     },
+     "OA": {
+      "detected": 18,
+      "items": 520,
+      "spend_mean": 1.0710494636405699,
+      "spend_max": 1.2081633333654012
+     },
+     "CI": {
+      "detected": 18,
+      "items": 520,
+      "spend_mean": 1.0710494636405699,
+      "spend_max": 1.2081633333654016
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 520,
+      "spend_mean": 1.0710494636405699,
+      "spend_max": 1.2081633333654012
+     },
+     "AC_lane_last": {
+      "detected": 18,
+      "items": 520,
+      "spend_mean": 1.0710494636405699,
+      "spend_max": 1.208163333365401
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "items": 520,
+      "spend_mean": 1.0710494636405699,
+      "spend_max": 1.2081633333654012
+     }
+    }
+   },
+   "first": {
+    "OA_vs_OO": {
+     "wins": 14,
+     "losses": 4,
+     "ties": 0,
+     "p": 0.01544189453125,
+     "gmean_ratio": 1.0978327928921692,
+     "ci95": [
+      0.3040038820232178,
+      4.663454820397218
+     ]
+    },
+    "OA_vs_AC": {
+     "wins": 14,
+     "losses": 4,
+     "ties": 0,
+     "p": 0.01544189453125,
+     "gmean_ratio": 0.0784920961424286,
+     "ci95": [
+      0.01632846878082762,
+      0.4313832541978036
+     ]
+    },
+    "OA_vs_CI": {
+     "wins": 10,
+     "losses": 7,
+     "ties": 1,
+     "p": 0.3145294189453125,
+     "gmean_ratio": 0.9879251291591715,
+     "ci95": [
+      0.39881051827265007,
+      2.843445948287313
+     ]
+    },
+    "OA_vs_AC_costaware": {
+     "wins": 13,
+     "losses": 5,
+     "ties": 0,
+     "p": 0.048126220703125,
+     "gmean_ratio": 0.07102366757270624,
+     "ci95": [
+      0.018212679860698047,
+      0.2729999245016463
+     ]
+    },
+    "OA_vs_AC_lane_last": {
+     "wins": 13,
+     "losses": 5,
+     "ties": 0,
+     "p": 0.048126220703125,
+     "gmean_ratio": 0.36997159787609774,
+     "ci95": [
+      0.09829669366313681,
+      1.6820259478279438
+     ]
+    },
+    "OA_vs_CI_lane_first": {
+     "wins": 9,
+     "losses": 6,
+     "ties": 3,
+     "p": 0.303619384765625,
+     "gmean_ratio": 0.04503307394121171,
+     "ci95": [
+      0.00945378670881449,
+      0.20584526990288948
+     ]
+    }
+   },
+   "equal_weight_mean_detected_0.25-10pct": {
+    "OO": 8.1,
+    "AC": 12.9,
+    "OA": 12.6,
+    "CI": 12.7,
+    "AC_costaware": 12.8,
+    "AC_lane_last": 12.7,
+    "CI_lane_first": 12.5
+   },
+   "equal_weight_mean_detected_0.25-50pct": {
+    "OO": 8.357142857142858,
+    "AC": 14.142857142857142,
+    "OA": 14.142857142857142,
+    "CI": 13.785714285714286,
+    "AC_costaware": 14.285714285714286,
+    "AC_lane_last": 13.714285714285714,
+    "CI_lane_first": 14.071428571428571
+   },
+   "band_OA_strictly_ahead_of": {
+    "OO": [
+     "0.0025",
+     "0.005",
+     "0.0075",
+     "0.01",
+     "0.015",
+     "0.02",
+     "0.03",
+     "0.05",
+     "0.075",
+     "0.1",
+     "0.15",
+     "0.2",
+     "0.3",
+     "0.5",
+     "1"
+    ],
+    "AC": [
+     "0.075",
+     "0.1",
+     "0.15",
+     "0.2"
+    ],
+    "CI": [
+     "0.0025",
+     "0.1",
+     "0.15",
+     "0.2",
+     "0.3"
+    ],
+    "AC_costaware": [
+     "0.05",
+     "0.1"
+    ],
+    "AC_lane_last": [
+     "0.075",
+     "0.1",
+     "0.15",
+     "0.2",
+     "0.3"
+    ],
+    "CI_lane_first": [
+     "0.0025"
+    ]
+   },
+   "band_OA_behind": {
+    "OO": [],
+    "AC": [
+     "0.005",
+     "0.0075",
+     "0.01",
+     "0.015",
+     "0.05"
+    ],
+    "CI": [
+     "0.05",
+     "0.075"
+    ],
+    "AC_costaware": [
+     "0.0025",
+     "0.02",
+     "0.03",
+     "0.075"
+    ],
+    "AC_lane_last": [
+     "0.005",
+     "0.0075",
+     "0.01",
+     "0.015"
+    ],
+    "CI_lane_first": []
+   }
+  },
+  {
+   "cohort": "out_C231",
+   "full_suite_estimate_s": 1396.1713788609986,
+   "reduced_suite_estimate_s": 291.7034214389984,
+   "reduced_share_of_full": 0.20893095636795753,
+   "dropped_items": [
+    [
+     "ghz-n12-line-opt1",
+     "output"
+    ],
+    [
+     "ghz-n12-line-opt3",
+     "output"
+    ],
+    [
+     "qaoa_linear-n12-line-opt1",
+     "output"
+    ],
+    [
+     "qaoa_linear-n12-line-opt3",
+     "output"
+    ],
+    [
+     "qft-n12-line-opt1",
+     "output"
+    ],
+    [
+     "qft-n12-line-opt3",
+     "output"
+    ],
+    [
+     "random_clifford-n12-line-opt1",
+     "output"
+    ],
+    [
+     "random_clifford-n12-line-opt3",
+     "output"
+    ]
+   ],
+   "dropped_s": 1104.4679574220002,
+   "events": 18,
+   "detectable_by_reduced_suite": 18,
+   "events_detected_only_by_the_eight": [],
+   "registered_budgets_as_reduced_fractions": {
+    "0.02": 0.09572540301197452,
+    "0.05": 0.23931350752993633,
+    "0.1": 0.47862701505987265
+   },
+   "grid": {
+    "0.0025": {
+     "OO": {
+      "detected": 7,
+      "items": 126,
+      "spend_mean": 1.0821333083139042,
+      "spend_max": 1.1277053782117754
+     },
+     "AC": {
+      "detected": 12,
+      "items": 47,
+      "spend_mean": 1.1301373326224216,
+      "spend_max": 1.2900600196722942
+     },
+     "OA": {
+      "detected": 10,
+      "items": 177,
+      "spend_mean": 1.1269221313136109,
+      "spend_max": 1.5826344652431652
+     },
+     "CI": {
+      "detected": 11,
+      "items": 204,
+      "spend_mean": 1.0737377576051865,
+      "spend_max": 1.1197048028674108
+     },
+     "AC_costaware": {
+      "detected": 11,
+      "items": 73,
+      "spend_mean": 1.066583491999184,
+      "spend_max": 1.3578783095726765
+     },
+     "AC_lane_last": {
+      "detected": 12,
+      "items": 47,
+      "spend_mean": 1.1301373326224216,
+      "spend_max": 1.2900600196722942
+     },
+     "CI_lane_first": {
+      "detected": 11,
+      "items": 204,
+      "spend_mean": 1.0737377576051865,
+      "spend_max": 1.1197048028674108
+     }
+    },
+    "0.005": {
+     "OO": {
+      "detected": 7,
+      "items": 147,
+      "spend_mean": 1.034332509826608,
+      "spend_max": 1.0766821535738371
+     },
+     "AC": {
+      "detected": 13,
+      "items": 72,
+      "spend_mean": 1.1228757069068032,
+      "spend_max": 1.6586410910536256
+     },
+     "OA": {
+      "detected": 11,
+      "items": 228,
+      "spend_mean": 1.0687772114016636,
+      "spend_max": 1.3063082624121736
+     },
+     "CI": {
+      "detected": 11,
+      "items": 238,
+      "spend_mean": 1.0615948499829082,
+      "spend_max": 1.1944163982749005
+     },
+     "AC_costaware": {
+      "detected": 11,
+      "items": 176,
+      "spend_mean": 1.0882061882527883,
+      "spend_max": 1.4901650088808756
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 72,
+      "spend_mean": 1.1228757069068032,
+      "spend_max": 1.6586410910536256
+     },
+     "CI_lane_first": {
+      "detected": 11,
+      "items": 238,
+      "spend_mean": 1.0615948499829082,
+      "spend_max": 1.1944163982749005
+     }
+    },
+    "0.0075": {
+     "OO": {
+      "detected": 7,
+      "items": 156,
+      "spend_mean": 1.042684472402976,
+      "spend_max": 1.0763206430169796
+     },
+     "AC": {
+      "detected": 13,
+      "items": 155,
+      "spend_mean": 1.1178186167417474,
+      "spend_max": 1.613815182364942
+     },
+     "OA": {
+      "detected": 11,
+      "items": 251,
+      "spend_mean": 1.0597722736258328,
+      "spend_max": 1.2596604018349558
+     },
+     "CI": {
+      "detected": 11,
+      "items": 251,
+      "spend_mean": 1.0520758626742341,
+      "spend_max": 1.2852218810125347
+     },
+     "AC_costaware": {
+      "detected": 11,
+      "items": 181,
+      "spend_mean": 1.0872337987262783,
+      "spend_max": 1.5483708968444998
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 155,
+      "spend_mean": 1.1178186167417474,
+      "spend_max": 1.613815182364942
+     },
+     "CI_lane_first": {
+      "detected": 11,
+      "items": 251,
+      "spend_mean": 1.0520758626742341,
+      "spend_max": 1.2852218810125347
+     }
+    },
+    "0.01": {
+     "OO": {
+      "detected": 7,
+      "items": 164,
+      "spend_mean": 1.0022547193532079,
+      "spend_max": 1.0278153866729822
+     },
+     "AC": {
+      "detected": 13,
+      "items": 174,
+      "spend_mean": 1.1099022932358655,
+      "spend_max": 1.6330044411186742
+     },
+     "OA": {
+      "detected": 11,
+      "items": 261,
+      "spend_mean": 1.03215698485505,
+      "spend_max": 1.3026474092258995
+     },
+     "CI": {
+      "detected": 11,
+      "items": 261,
+      "spend_mean": 1.031022316889428,
+      "spend_max": 1.295667921327035
+     },
+     "AC_costaware": {
+      "detected": 11,
+      "items": 212,
+      "spend_mean": 1.0789850019495106,
+      "spend_max": 1.5517358842301854
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 174,
+      "spend_mean": 1.1099022932358655,
+      "spend_max": 1.6330044411186742
+     },
+     "CI_lane_first": {
+      "detected": 11,
+      "items": 261,
+      "spend_mean": 1.031022316889428,
+      "spend_max": 1.295667921327035
+     }
+    },
+    "0.015": {
+     "OO": {
+      "detected": 8,
+      "items": 171,
+      "spend_mean": 1.0440493134903872,
+      "spend_max": 1.0631707620596447
+     },
+     "AC": {
+      "detected": 13,
+      "items": 129,
+      "spend_mean": 1.0819153635773426,
+      "spend_max": 1.3308057225318288
+     },
+     "OA": {
+      "detected": 11,
+      "items": 285,
+      "spend_mean": 1.0465300440143939,
+      "spend_max": 1.330765347963462
+     },
+     "CI": {
+      "detected": 11,
+      "items": 285,
+      "spend_mean": 1.0465300440143939,
+      "spend_max": 1.330765347963462
+     },
+     "AC_costaware": {
+      "detected": 13,
+      "items": 229,
+      "spend_mean": 1.0822263161002488,
+      "spend_max": 1.457355398058924
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 129,
+      "spend_mean": 1.0819153635773426,
+      "spend_max": 1.3308057225318288
+     },
+     "CI_lane_first": {
+      "detected": 11,
+      "items": 285,
+      "spend_mean": 1.0465300440143939,
+      "spend_max": 1.330765347963462
+     }
+    },
+    "0.02": {
+     "OO": {
+      "detected": 8,
+      "items": 178,
+      "spend_mean": 1.0328032867246542,
+      "spend_max": 1.0484606685149476
+     },
+     "AC": {
+      "detected": 13,
+      "items": 191,
+      "spend_mean": 1.082907464388091,
+      "spend_max": 1.3845092519227007
+     },
+     "OA": {
+      "detected": 13,
+      "items": 294,
+      "spend_mean": 1.0305382180937863,
+      "spend_max": 1.3158030704836494
+     },
+     "CI": {
+      "detected": 13,
+      "items": 294,
+      "spend_mean": 1.0305382180937863,
+      "spend_max": 1.3158030704836494
+     },
+     "AC_costaware": {
+      "detected": 13,
+      "items": 241,
+      "spend_mean": 1.0805038862879355,
+      "spend_max": 1.4338152551881873
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 191,
+      "spend_mean": 1.082907464388091,
+      "spend_max": 1.3845092519227007
+     },
+     "CI_lane_first": {
+      "detected": 13,
+      "items": 294,
+      "spend_mean": 1.0305382180937863,
+      "spend_max": 1.3158030704836494
+     }
+    },
+    "0.03": {
+     "OO": {
+      "detected": 9,
+      "items": 188,
+      "spend_mean": 1.0372788633955767,
+      "spend_max": 1.04749081216134
+     },
+     "AC": {
+      "detected": 14,
+      "items": 157,
+      "spend_mean": 1.3225321970558672,
+      "spend_max": 1.5144568567418275
+     },
+     "OA": {
+      "detected": 12,
+      "items": 313,
+      "spend_mean": 1.3146849407956183,
+      "spend_max": 1.5145096346622886
+     },
+     "CI": {
+      "detected": 14,
+      "items": 311,
+      "spend_mean": 1.0602228096512003,
+      "spend_max": 1.2534326410352188
+     },
+     "AC_costaware": {
+      "detected": 12,
+      "items": 200,
+      "spend_mean": 1.3140957741133108,
+      "spend_max": 1.5129159220104702
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 141,
+      "spend_mean": 1.0698474399649702,
+      "spend_max": 1.2589768116360165
+     },
+     "CI_lane_first": {
+      "detected": 12,
+      "items": 313,
+      "spend_mean": 1.3035798393756446,
+      "spend_max": 1.504478052177224
+     }
+    },
+    "0.05": {
+     "OO": {
+      "detected": 9,
+      "items": 196,
+      "spend_mean": 0.9493237751949838,
+      "spend_max": 0.9554257854953391
+     },
+     "AC": {
+      "detected": 14,
+      "items": 169,
+      "spend_mean": 1.2143397915454213,
+      "spend_max": 1.3295387135563976
+     },
+     "OA": {
+      "detected": 15,
+      "items": 374,
+      "spend_mean": 1.2031594009794302,
+      "spend_max": 1.3266181450700483
+     },
+     "CI": {
+      "detected": 15,
+      "items": 332,
+      "spend_mean": 1.0256139147909928,
+      "spend_max": 1.2197635285343653
+     },
+     "AC_costaware": {
+      "detected": 14,
+      "items": 313,
+      "spend_mean": 1.2130859437640897,
+      "spend_max": 1.3364895329536703
+     },
+     "AC_lane_last": {
+      "detected": 14,
+      "items": 249,
+      "spend_mean": 1.0660189581191566,
+      "spend_max": 1.2618157747488297
+     },
+     "CI_lane_first": {
+      "detected": 15,
+      "items": 374,
+      "spend_mean": 1.2031594009794302,
+      "spend_max": 1.3266181450700483
+     }
+    },
+    "0.075": {
+     "OO": {
+      "detected": 9,
+      "items": 204,
+      "spend_mean": 1.0334810942650081,
+      "spend_max": 1.0477100588867438
+     },
+     "AC": {
+      "detected": 15,
+      "items": 315,
+      "spend_mean": 1.1649151985512243,
+      "spend_max": 1.2430692609108052
+     },
+     "OA": {
+      "detected": 16,
+      "items": 406,
+      "spend_mean": 1.1376127437574286,
+      "spend_max": 1.2268469109980327
+     },
+     "CI": {
+      "detected": 16,
+      "items": 349,
+      "spend_mean": 1.010962729715007,
+      "spend_max": 1.1601112986057163
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "items": 374,
+      "spend_mean": 1.1592043968418924,
+      "spend_max": 1.2481325953278284
+     },
+     "AC_lane_last": {
+      "detected": 14,
+      "items": 290,
+      "spend_mean": 1.0573875137106772,
+      "spend_max": 1.2179658248573102
+     },
+     "CI_lane_first": {
+      "detected": 16,
+      "items": 406,
+      "spend_mean": 1.1376127437574286,
+      "spend_max": 1.2268469109980327
+     }
+    },
+    "0.1": {
+     "OO": {
+      "detected": 9,
+      "items": 208,
+      "spend_mean": 0.9697870428998896,
+      "spend_max": 0.9796153156871519
+     },
+     "AC": {
+      "detected": 15,
+      "items": 356,
+      "spend_mean": 1.1307140164014093,
+      "spend_max": 1.1919083704087121
+     },
+     "OA": {
+      "detected": 18,
+      "items": 428,
+      "spend_mean": 1.1211175195589373,
+      "spend_max": 1.1900182348138568
+     },
+     "CI": {
+      "detected": 16,
+      "items": 360,
+      "spend_mean": 1.0009849164649784,
+      "spend_max": 1.1227261370963264
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "items": 395,
+      "spend_mean": 1.127935655141332,
+      "spend_max": 1.1976236604857917
+     },
+     "AC_lane_last": {
+      "detected": 15,
+      "items": 323,
+      "spend_mean": 1.0491736797398998,
+      "spend_max": 1.1880794574514764
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "items": 428,
+      "spend_mean": 1.1211175195589373,
+      "spend_max": 1.1900182348138568
+     }
+    },
+    "0.15": {
+     "OO": {
+      "detected": 9,
+      "items": 216,
+      "spend_mean": 1.0386143531770615,
+      "spend_max": 1.0539856219374313
+     },
+     "AC": {
+      "detected": 17,
+      "items": 414,
+      "spend_mean": 1.1011250533640968,
+      "spend_max": 1.148337083903722
+     },
+     "OA": {
+      "detected": 18,
+      "items": 450,
+      "spend_mean": 1.069246889715294,
+      "spend_max": 1.1211675015670934
+     },
+     "CI": {
+      "detected": 16,
+      "items": 374,
+      "spend_mean": 1.020021262110459,
+      "spend_max": 1.1021853447608325
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 421,
+      "spend_mean": 1.0967782858949073,
+      "spend_max": 1.1682048433952241
+     },
+     "AC_lane_last": {
+      "detected": 15,
+      "items": 344,
+      "spend_mean": 1.0477125337660071,
+      "spend_max": 1.1605038661414977
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "items": 450,
+      "spend_mean": 1.069246889715294,
+      "spend_max": 1.1211675015670934
+     }
+    },
+    "0.2": {
+     "OO": {
+      "detected": 9,
+      "items": 220,
+      "spend_mean": 0.9601296934077553,
+      "spend_max": 0.9713903743472232
+     },
+     "AC": {
+      "detected": 17,
+      "items": 437,
+      "spend_mean": 1.082424796520866,
+      "spend_max": 1.128211182685176
+     },
+     "OA": {
+      "detected": 18,
+      "items": 464,
+      "spend_mean": 1.0640144220693009,
+      "spend_max": 1.1151339893626475
+     },
+     "CI": {
+      "detected": 16,
+      "items": 381,
+      "spend_mean": 1.0520802524870814,
+      "spend_max": 1.1247820378192146
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 441,
+      "spend_mean": 1.0850019666952593,
+      "spend_max": 1.1410720815786102
+     },
+     "AC_lane_last": {
+      "detected": 16,
+      "items": 374,
+      "spend_mean": 1.0444680249361182,
+      "spend_max": 1.1294585174034164
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "items": 464,
+      "spend_mean": 1.0640144220693009,
+      "spend_max": 1.1151339893626475
+     }
+    },
+    "0.3": {
+     "OO": {
+      "detected": 9,
+      "items": 224,
+      "spend_mean": 0.8179838451314225,
+      "spend_max": 0.8249934690726765
+     },
+     "AC": {
+      "detected": 18,
+      "items": 464,
+      "spend_mean": 1.055014973404545,
+      "spend_max": 1.1165973626108068
+     },
+     "OA": {
+      "detected": 18,
+      "items": 480,
+      "spend_mean": 1.0364192367487761,
+      "spend_max": 1.0803464791352817
+     },
+     "CI": {
+      "detected": 16,
+      "items": 395,
+      "spend_mean": 1.013865708821052,
+      "spend_max": 1.0711750635465431
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 466,
+      "spend_mean": 1.0567297800295803,
+      "spend_max": 1.1176172470715366
+     },
+     "AC_lane_last": {
+      "detected": 16,
+      "items": 395,
+      "spend_mean": 1.013865708821052,
+      "spend_max": 1.0711750635465431
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "items": 480,
+      "spend_mean": 1.0364192367487761,
+      "spend_max": 1.0803464791352817
+     }
+    },
+    "0.5": {
+     "OO": {
+      "detected": 9,
+      "items": 224,
+      "spend_mean": 0.49079030707885346,
+      "spend_max": 0.49499608144360585
+     },
+     "AC": {
+      "detected": 18,
+      "items": 494,
+      "spend_mean": 1.0419602835356143,
+      "spend_max": 1.1099803882132826
+     },
+     "OA": {
+      "detected": 18,
+      "items": 503,
+      "spend_mean": 1.0245377463822738,
+      "spend_max": 1.0669594600867216
+     },
+     "CI": {
+      "detected": 18,
+      "items": 503,
+      "spend_mean": 1.0245377463822738,
+      "spend_max": 1.066959460086722
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 494,
+      "spend_mean": 1.0419602835356145,
+      "spend_max": 1.1099803882132828
+     },
+     "AC_lane_last": {
+      "detected": 18,
+      "items": 507,
+      "spend_mean": 1.0564293050661575,
+      "spend_max": 1.0948043359264823
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "items": 503,
+      "spend_mean": 1.0245377463822738,
+      "spend_max": 1.0669594600867216
+     }
+    },
+    "1": {
+     "OO": {
+      "detected": 9,
+      "items": 224,
+      "spend_mean": 0.24539515353942673,
+      "spend_max": 0.24749804072180293
+     },
+     "AC": {
+      "detected": 18,
+      "items": 520,
+      "spend_mean": 1.0498296504622433,
+      "spend_max": 1.168699634417196
+     },
+     "OA": {
+      "detected": 18,
+      "items": 520,
+      "spend_mean": 1.0498296504622433,
+      "spend_max": 1.168699634417196
+     },
+     "CI": {
+      "detected": 18,
+      "items": 520,
+      "spend_mean": 1.0498296504622433,
+      "spend_max": 1.1686996344171963
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 520,
+      "spend_mean": 1.0498296504622433,
+      "spend_max": 1.1686996344171963
+     },
+     "AC_lane_last": {
+      "detected": 18,
+      "items": 520,
+      "spend_mean": 1.0498296504622433,
+      "spend_max": 1.1686996344171963
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "items": 520,
+      "spend_mean": 1.0498296504622433,
+      "spend_max": 1.168699634417196
+     }
+    }
+   },
+   "first": {
+    "OA_vs_OO": {
+     "wins": 12,
+     "losses": 6,
+     "ties": 0,
+     "p": 0.1189422607421875,
+     "gmean_ratio": 1.6697593272731646,
+     "ci95": [
+      0.6173871838820821,
+      4.894822776609551
+     ]
+    },
+    "OA_vs_AC": {
+     "wins": 13,
+     "losses": 5,
+     "ties": 0,
+     "p": 0.048126220703125,
+     "gmean_ratio": 0.0883964542973678,
+     "ci95": [
+      0.01814232792774241,
+      0.49399047535356816
+     ]
+    },
+    "OA_vs_CI": {
+     "wins": 10,
+     "losses": 7,
+     "ties": 1,
+     "p": 0.3145294189453125,
+     "gmean_ratio": 0.8944903111640834,
+     "ci95": [
+      0.3687735925440842,
+      2.587522956163085
+     ]
+    },
+    "OA_vs_AC_costaware": {
+     "wins": 14,
+     "losses": 4,
+     "ties": 0,
+     "p": 0.01544189453125,
+     "gmean_ratio": 0.07347514469500024,
+     "ci95": [
+      0.01938570122855563,
+      0.27468447811004654
+     ]
+    },
+    "OA_vs_AC_lane_last": {
+     "wins": 13,
+     "losses": 5,
+     "ties": 0,
+     "p": 0.048126220703125,
+     "gmean_ratio": 0.3940835752693919,
+     "ci95": [
+      0.10455085970503239,
+      1.8055781171897716
+     ]
+    },
+    "OA_vs_CI_lane_first": {
+     "wins": 9,
+     "losses": 4,
+     "ties": 5,
+     "p": 0.1334228515625,
+     "gmean_ratio": 0.04789299872746057,
+     "ci95": [
+      0.01033948278415214,
+      0.2122409667677129
+     ]
+    }
+   },
+   "equal_weight_mean_detected_0.25-10pct": {
+    "OO": 8,
+    "AC": 13.5,
+    "OA": 12.8,
+    "CI": 12.9,
+    "AC_costaware": 12.8,
+    "AC_lane_last": 13.3,
+    "CI_lane_first": 12.9
+   },
+   "equal_weight_mean_detected_0.25-50pct": {
+    "OO": 8.285714285714286,
+    "AC": 14.642857142857142,
+    "OA": 14.285714285714286,
+    "CI": 13.928571428571429,
+    "AC_costaware": 14.285714285714286,
+    "AC_lane_last": 14.142857142857142,
+    "CI_lane_first": 14.357142857142858
+   },
+   "band_OA_strictly_ahead_of": {
+    "OO": [
+     "0.0025",
+     "0.005",
+     "0.0075",
+     "0.01",
+     "0.015",
+     "0.02",
+     "0.03",
+     "0.05",
+     "0.075",
+     "0.1",
+     "0.15",
+     "0.2",
+     "0.3",
+     "0.5",
+     "1"
+    ],
+    "AC": [
+     "0.05",
+     "0.075",
+     "0.1",
+     "0.15",
+     "0.2"
+    ],
+    "CI": [
+     "0.1",
+     "0.15",
+     "0.2",
+     "0.3"
+    ],
+    "AC_costaware": [
+     "0.05",
+     "0.1"
+    ],
+    "AC_lane_last": [
+     "0.05",
+     "0.075",
+     "0.1",
+     "0.15",
+     "0.2",
+     "0.3"
+    ],
+    "CI_lane_first": []
+   },
+   "band_OA_behind": {
+    "OO": [],
+    "AC": [
+     "0.0025",
+     "0.005",
+     "0.0075",
+     "0.01",
+     "0.015",
+     "0.03"
+    ],
+    "CI": [
+     "0.0025",
+     "0.03"
+    ],
+    "AC_costaware": [
+     "0.0025",
+     "0.015"
+    ],
+    "AC_lane_last": [
+     "0.0025",
+     "0.005",
+     "0.0075",
+     "0.01",
+     "0.015",
+     "0.03"
+    ],
+    "CI_lane_first": [
+     "0.0025"
+    ]
+   }
+  },
+  {
+   "cohort": "out_C261",
+   "full_suite_estimate_s": 599.1959589612705,
+   "reduced_suite_estimate_s": 126.18187826875683,
+   "reduced_share_of_full": 0.21058532919263678,
+   "dropped_items": [
+    [
+     "ghz-n12-line-opt1",
+     "output"
+    ],
+    [
+     "ghz-n12-line-opt3",
+     "output"
+    ],
+    [
+     "qaoa_linear-n12-line-opt1",
+     "output"
+    ],
+    [
+     "qaoa_linear-n12-line-opt3",
+     "output"
+    ],
+    [
+     "qft-n12-line-opt1",
+     "output"
+    ],
+    [
+     "qft-n12-line-opt3",
+     "output"
+    ],
+    [
+     "random_clifford-n12-line-opt1",
+     "output"
+    ],
+    [
+     "random_clifford-n12-line-opt3",
+     "output"
+    ]
+   ],
+   "dropped_s": 473.01408069251363,
+   "events": 18,
+   "detectable_by_reduced_suite": 18,
+   "events_detected_only_by_the_eight": [],
+   "registered_budgets_as_reduced_fractions": {
+    "0.02": 0.09497337766442712,
+    "0.05": 0.2374334441610678,
+    "0.1": 0.4748668883221356
+   },
+   "grid": {
+    "0.0025": {
+     "OO": {
+      "detected": 7,
+      "items": 128,
+      "spend_mean": 1.945317959470507,
+      "spend_max": 2.0509349832979518
+     },
+     "AC": {
+      "detected": 13,
+      "items": 48,
+      "spend_mean": 2.441271546929554,
+      "spend_max": 2.791274779173477
+     },
+     "OA": {
+      "detected": 10,
+      "items": 166,
+      "spend_mean": 2.299931775060541,
+      "spend_max": 3.6359992218823245
+     },
+     "CI": {
+      "detected": 11,
+      "items": 204,
+      "spend_mean": 2.1915688446888444,
+      "spend_max": 2.296620630288003
+     },
+     "AC_costaware": {
+      "detected": 11,
+      "items": 68,
+      "spend_mean": 1.9277854276174464,
+      "spend_max": 2.863342211715556
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 48,
+      "spend_mean": 2.441271546929554,
+      "spend_max": 2.791274779173477
+     },
+     "CI_lane_first": {
+      "detected": 11,
+      "items": 204,
+      "spend_mean": 2.1915688446888444,
+      "spend_max": 2.296620630288003
+     }
+    },
+    "0.005": {
+     "OO": {
+      "detected": 7,
+      "items": 145,
+      "spend_mean": 2.221619804432435,
+      "spend_max": 2.3213599291666362
+     },
+     "AC": {
+      "detected": 13,
+      "items": 90,
+      "spend_mean": 2.3290260182719495,
+      "spend_max": 3.6601897826945615
+     },
+     "OA": {
+      "detected": 11,
+      "items": 225,
+      "spend_mean": 2.057892532558161,
+      "spend_max": 2.73873256240864
+     },
+     "CI": {
+      "detected": 11,
+      "items": 238,
+      "spend_mean": 2.0267995790249804,
+      "spend_max": 2.3166291214861974
+     },
+     "AC_costaware": {
+      "detected": 11,
+      "items": 159,
+      "spend_mean": 2.2680156239017326,
+      "spend_max": 3.3282918844006435
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 90,
+      "spend_mean": 2.3290260182719495,
+      "spend_max": 3.6601897826945615
+     },
+     "CI_lane_first": {
+      "detected": 11,
+      "items": 238,
+      "spend_mean": 2.0267995790249804,
+      "spend_max": 2.3166291214861974
+     }
+    },
+    "0.0075": {
+     "OO": {
+      "detected": 7,
+      "items": 157,
+      "spend_mean": 1.8376510317221195,
+      "spend_max": 1.9109967166056003
+     },
+     "AC": {
+      "detected": 13,
+      "items": 127,
+      "spend_mean": 2.373377877600353,
+      "spend_max": 3.7171262205141953
+     },
+     "OA": {
+      "detected": 11,
+      "items": 250,
+      "spend_mean": 2.0978694790532852,
+      "spend_max": 2.647331803245165
+     },
+     "CI": {
+      "detected": 11,
+      "items": 251,
+      "spend_mean": 2.196508377481803,
+      "spend_max": 2.747361743411358
+     },
+     "AC_costaware": {
+      "detected": 11,
+      "items": 176,
+      "spend_mean": 2.2914189773233127,
+      "spend_max": 3.542097285805503
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 127,
+      "spend_mean": 2.373377877600353,
+      "spend_max": 3.7171262205141953
+     },
+     "CI_lane_first": {
+      "detected": 11,
+      "items": 251,
+      "spend_mean": 2.196508377481803,
+      "spend_max": 2.747361743411358
+     }
+    },
+    "0.01": {
+     "OO": {
+      "detected": 7,
+      "items": 164,
+      "spend_mean": 1.6488120331986238,
+      "spend_max": 1.7099123951885353
+     },
+     "AC": {
+      "detected": 13,
+      "items": 169,
+      "spend_mean": 2.4438486646143756,
+      "spend_max": 3.8439943782335146
+     },
+     "OA": {
+      "detected": 11,
+      "items": 264,
+      "spend_mean": 2.1366491457422176,
+      "spend_max": 2.728331746395176
+     },
+     "CI": {
+      "detected": 11,
+      "items": 266,
+      "spend_mean": 2.117487984489421,
+      "spend_max": 2.5432594323637514
+     },
+     "AC_costaware": {
+      "detected": 12,
+      "items": 211,
+      "spend_mean": 2.3186224268554967,
+      "spend_max": 3.612097529798498
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 169,
+      "spend_mean": 2.4438486646143756,
+      "spend_max": 3.8439943782335146
+     },
+     "CI_lane_first": {
+      "detected": 11,
+      "items": 266,
+      "spend_mean": 2.117487984489421,
+      "spend_max": 2.5432594323637514
+     }
+    },
+    "0.015": {
+     "OO": {
+      "detected": 8,
+      "items": 172,
+      "spend_mean": 1.73600973600142,
+      "spend_max": 1.8008259726698375
+     },
+     "AC": {
+      "detected": 13,
+      "items": 146,
+      "spend_mean": 2.140056837777599,
+      "spend_max": 2.7876195210662416
+     },
+     "OA": {
+      "detected": 12,
+      "items": 284,
+      "spend_mean": 1.9487160481973476,
+      "spend_max": 2.5727180351676098
+     },
+     "CI": {
+      "detected": 12,
+      "items": 284,
+      "spend_mean": 1.9487160481973476,
+      "spend_max": 2.5727180351676098
+     },
+     "AC_costaware": {
+      "detected": 14,
+      "items": 233,
+      "spend_mean": 2.39763158339197,
+      "spend_max": 3.4253186416057173
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 146,
+      "spend_mean": 2.140056837777599,
+      "spend_max": 2.7876195210662416
+     },
+     "CI_lane_first": {
+      "detected": 12,
+      "items": 284,
+      "spend_mean": 1.9487160481973476,
+      "spend_max": 2.5727180351676098
+     }
+    },
+    "0.02": {
+     "OO": {
+      "detected": 8,
+      "items": 178,
+      "spend_mean": 1.69757173710098,
+      "spend_max": 1.793173494913371
+     },
+     "AC": {
+      "detected": 13,
+      "items": 188,
+      "spend_mean": 2.236377467453151,
+      "spend_max": 3.0710505689633183
+     },
+     "OA": {
+      "detected": 14,
+      "items": 294,
+      "spend_mean": 2.043845498476146,
+      "spend_max": 2.8275181408394907
+     },
+     "CI": {
+      "detected": 14,
+      "items": 294,
+      "spend_mean": 2.043845498476146,
+      "spend_max": 2.8275181408394907
+     },
+     "AC_costaware": {
+      "detected": 14,
+      "items": 242,
+      "spend_mean": 2.4370231456737956,
+      "spend_max": 3.4864135986552087
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 188,
+      "spend_mean": 2.236377467453151,
+      "spend_max": 3.0710505689633183
+     },
+     "CI_lane_first": {
+      "detected": 14,
+      "items": 294,
+      "spend_mean": 2.043845498476146,
+      "spend_max": 2.8275181408394907
+     }
+    },
+    "0.03": {
+     "OO": {
+      "detected": 9,
+      "items": 188,
+      "spend_mean": 1.4892130315475616,
+      "spend_max": 1.5519164097623817
+     },
+     "AC": {
+      "detected": 14,
+      "items": 130,
+      "spend_mean": 3.104613073361356,
+      "spend_max": 3.4577211137827364
+     },
+     "OA": {
+      "detected": 12,
+      "items": 309,
+      "spend_mean": 3.0494001175394474,
+      "spend_max": 3.401745568031518
+     },
+     "CI": {
+      "detected": 15,
+      "items": 312,
+      "spend_mean": 2.0281221151508175,
+      "spend_max": 2.551593399021708
+     },
+     "AC_costaware": {
+      "detected": 12,
+      "items": 199,
+      "spend_mean": 3.02261540652686,
+      "spend_max": 3.370339285652803
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 177,
+      "spend_mean": 2.1764020805856674,
+      "spend_max": 2.7281430161745917
+     },
+     "CI_lane_first": {
+      "detected": 12,
+      "items": 313,
+      "spend_mean": 3.0600023190908843,
+      "spend_max": 3.418580968083679
+     }
+    },
+    "0.05": {
+     "OO": {
+      "detected": 9,
+      "items": 198,
+      "spend_mean": 1.3860414625532622,
+      "spend_max": 1.4267025215503824
+     },
+     "AC": {
+      "detected": 14,
+      "items": 181,
+      "spend_mean": 2.6799919691389236,
+      "spend_max": 2.8848686501928826
+     },
+     "OA": {
+      "detected": 16,
+      "items": 374,
+      "spend_mean": 2.6040483277208697,
+      "spend_max": 2.810813996955542
+     },
+     "CI": {
+      "detected": 15,
+      "items": 333,
+      "spend_mean": 1.9781892263528276,
+      "spend_max": 2.6385777351554096
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "items": 324,
+      "spend_mean": 2.7762499227810356,
+      "spend_max": 2.974655581846143
+     },
+     "AC_lane_last": {
+      "detected": 14,
+      "items": 250,
+      "spend_mean": 2.2091272032094094,
+      "spend_max": 2.8744649269489346
+     },
+     "CI_lane_first": {
+      "detected": 16,
+      "items": 374,
+      "spend_mean": 2.6040483277208697,
+      "spend_max": 2.810813996955542
+     }
+    },
+    "0.075": {
+     "OO": {
+      "detected": 9,
+      "items": 204,
+      "spend_mean": 1.4133243194148033,
+      "spend_max": 1.4430556072837009
+     },
+     "AC": {
+      "detected": 15,
+      "items": 311,
+      "spend_mean": 2.5330603435954298,
+      "spend_max": 2.775077274943902
+     },
+     "OA": {
+      "detected": 17,
+      "items": 407,
+      "spend_mean": 2.2778825986966305,
+      "spend_max": 2.415974134130426
+     },
+     "CI": {
+      "detected": 16,
+      "items": 349,
+      "spend_mean": 1.7946863556267585,
+      "spend_max": 2.306539422035448
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "items": 381,
+      "spend_mean": 2.4664736740540665,
+      "spend_max": 2.59431389513321
+     },
+     "AC_lane_last": {
+      "detected": 14,
+      "items": 288,
+      "spend_mean": 2.2066380770848437,
+      "spend_max": 2.783152473913466
+     },
+     "CI_lane_first": {
+      "detected": 17,
+      "items": 407,
+      "spend_mean": 2.2778825986966305,
+      "spend_max": 2.415974134130426
+     }
+    },
+    "0.1": {
+     "OO": {
+      "detected": 9,
+      "items": 208,
+      "spend_mean": 1.2795563091344655,
+      "spend_max": 1.3015556171242195
+     },
+     "AC": {
+      "detected": 15,
+      "items": 355,
+      "spend_mean": 2.4575026788939214,
+      "spend_max": 2.638402484396079
+     },
+     "OA": {
+      "detected": 18,
+      "items": 429,
+      "spend_mean": 2.143954719454112,
+      "spend_max": 2.2392361117669743
+     },
+     "CI": {
+      "detected": 16,
+      "items": 361,
+      "spend_mean": 1.7878277922810621,
+      "spend_max": 2.2186683433555094
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "items": 399,
+      "spend_mean": 2.2512649671184803,
+      "spend_max": 2.366794866802579
+     },
+     "AC_lane_last": {
+      "detected": 15,
+      "items": 324,
+      "spend_mean": 2.1865657352080947,
+      "spend_max": 2.663476393529371
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "items": 429,
+      "spend_mean": 2.143954719454112,
+      "spend_max": 2.2392361117669743
+     }
+    },
+    "0.15": {
+     "OO": {
+      "detected": 9,
+      "items": 216,
+      "spend_mean": 1.3903316493764342,
+      "spend_max": 1.4157954518067337
+     },
+     "AC": {
+      "detected": 17,
+      "items": 406,
+      "spend_mean": 2.217447461262933,
+      "spend_max": 2.3556881323871
+     },
+     "OA": {
+      "detected": 18,
+      "items": 451,
+      "spend_mean": 1.8516563486162554,
+      "spend_max": 1.9157601263348862
+     },
+     "CI": {
+      "detected": 16,
+      "items": 374,
+      "spend_mean": 1.6443210797606633,
+      "spend_max": 1.9342365999142794
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 422,
+      "spend_mean": 1.9451440537946176,
+      "spend_max": 2.050451307877908
+     },
+     "AC_lane_last": {
+      "detected": 15,
+      "items": 344,
+      "spend_mean": 2.106689958953959,
+      "spend_max": 2.4737262666343596
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "items": 451,
+      "spend_mean": 1.8516563486162554,
+      "spend_max": 1.9157601263348862
+     }
+    },
+    "0.2": {
+     "OO": {
+      "detected": 9,
+      "items": 220,
+      "spend_mean": 1.3286495555920839,
+      "spend_max": 1.3436007637237806
+     },
+     "AC": {
+      "detected": 17,
+      "items": 437,
+      "spend_mean": 2.0648202100477246,
+      "spend_max": 2.169380567286997
+     },
+     "OA": {
+      "detected": 18,
+      "items": 464,
+      "spend_mean": 1.728541691186148,
+      "spend_max": 1.8020332145927684
+     },
+     "CI": {
+      "detected": 16,
+      "items": 381,
+      "spend_mean": 1.775476028219942,
+      "spend_max": 2.0265927545107374
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 443,
+      "spend_mean": 1.9043830617976327,
+      "spend_max": 1.9797559007476802
+     },
+     "AC_lane_last": {
+      "detected": 16,
+      "items": 374,
+      "spend_mean": 1.9129936269126577,
+      "spend_max": 2.1906629486942912
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "items": 464,
+      "spend_mean": 1.728541691186148,
+      "spend_max": 1.8020332145927684
+     }
+    },
+    "0.3": {
+     "OO": {
+      "detected": 9,
+      "items": 224,
+      "spend_mean": 1.1480719732632558,
+      "spend_max": 1.1562946458860766
+     },
+     "AC": {
+      "detected": 18,
+      "items": 467,
+      "spend_mean": 1.7794952560908819,
+      "spend_max": 1.8565866705864469
+     },
+     "OA": {
+      "detected": 18,
+      "items": 480,
+      "spend_mean": 1.6489379801343114,
+      "spend_max": 1.7031982956294462
+     },
+     "CI": {
+      "detected": 16,
+      "items": 395,
+      "spend_mean": 1.7334917255404143,
+      "spend_max": 1.9192980702362705
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 467,
+      "spend_mean": 1.717075669292629,
+      "spend_max": 1.796793699623817
+     },
+     "AC_lane_last": {
+      "detected": 16,
+      "items": 395,
+      "spend_mean": 1.7334917255404143,
+      "spend_max": 1.91929807023627
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "items": 480,
+      "spend_mean": 1.6489379801343114,
+      "spend_max": 1.7031982956294462
+     }
+    },
+    "0.5": {
+     "OO": {
+      "detected": 9,
+      "items": 224,
+      "spend_mean": 0.6888431839579535,
+      "spend_max": 0.693776787531646
+     },
+     "AC": {
+      "detected": 18,
+      "items": 494,
+      "spend_mean": 1.5363389278220985,
+      "spend_max": 1.6107850784333086
+     },
+     "OA": {
+      "detected": 18,
+      "items": 503,
+      "spend_mean": 1.5753606193509428,
+      "spend_max": 1.6265148723405776
+     },
+     "CI": {
+      "detected": 18,
+      "items": 503,
+      "spend_mean": 1.575360619350943,
+      "spend_max": 1.6265148723405767
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 494,
+      "spend_mean": 1.5363389278220982,
+      "spend_max": 1.610785078433309
+     },
+     "AC_lane_last": {
+      "detected": 18,
+      "items": 507,
+      "spend_mean": 1.641937502402921,
+      "spend_max": 1.6883110323992478
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "items": 503,
+      "spend_mean": 1.5753606193509428,
+      "spend_max": 1.6265148723405776
+     }
+    },
+    "1": {
+     "OO": {
+      "detected": 9,
+      "items": 224,
+      "spend_mean": 0.34442159197897676,
+      "spend_max": 0.346888393765823
+     },
+     "AC": {
+      "detected": 18,
+      "items": 520,
+      "spend_mean": 1.4997496192267907,
+      "spend_max": 1.6784977325182366
+     },
+     "OA": {
+      "detected": 18,
+      "items": 520,
+      "spend_mean": 1.499749619226791,
+      "spend_max": 1.6784977325182366
+     },
+     "CI": {
+      "detected": 18,
+      "items": 520,
+      "spend_mean": 1.499749619226791,
+      "spend_max": 1.6784977325182362
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 520,
+      "spend_mean": 1.4997496192267907,
+      "spend_max": 1.678497732518237
+     },
+     "AC_lane_last": {
+      "detected": 18,
+      "items": 520,
+      "spend_mean": 1.4997496192267907,
+      "spend_max": 1.6784977325182366
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "items": 520,
+      "spend_mean": 1.499749619226791,
+      "spend_max": 1.6784977325182366
+     }
+    }
+   },
+   "first": {
+    "OA_vs_OO": {
+     "wins": 12,
+     "losses": 6,
+     "ties": 0,
+     "p": 0.1189422607421875,
+     "gmean_ratio": 1.9138440031312833,
+     "ci95": [
+      0.6877699335010199,
+      6.123860640710759
+     ]
+    },
+    "OA_vs_AC": {
+     "wins": 14,
+     "losses": 4,
+     "ties": 0,
+     "p": 0.01544189453125,
+     "gmean_ratio": 0.07827848667909429,
+     "ci95": [
+      0.01575134952330033,
+      0.4494003087629273
+     ]
+    },
+    "OA_vs_CI": {
+     "wins": 10,
+     "losses": 7,
+     "ties": 1,
+     "p": 0.3145294189453125,
+     "gmean_ratio": 1.060626694422036,
+     "ci95": [
+      0.43422553933877656,
+      3.0665495251421198
+     ]
+    },
+    "OA_vs_AC_costaware": {
+     "wins": 14,
+     "losses": 4,
+     "ties": 0,
+     "p": 0.01544189453125,
+     "gmean_ratio": 0.06681446987669125,
+     "ci95": [
+      0.017015268230618857,
+      0.2598271042287425
+     ]
+    },
+    "OA_vs_AC_lane_last": {
+     "wins": 13,
+     "losses": 5,
+     "ties": 0,
+     "p": 0.048126220703125,
+     "gmean_ratio": 0.39268461498970614,
+     "ci95": [
+      0.10393328593577392,
+      1.79225131068538
+     ]
+    },
+    "OA_vs_CI_lane_first": {
+     "wins": 9,
+     "losses": 5,
+     "ties": 4,
+     "p": 0.21197509765625,
+     "gmean_ratio": 0.043506107312513684,
+     "ci95": [
+      0.008978159112301168,
+      0.20216307220453328
+     ]
+    }
+   },
+   "equal_weight_mean_detected_0.25-10pct": {
+    "OO": 8,
+    "AC": 13.6,
+    "OA": 13.2,
+    "CI": 13.2,
+    "AC_costaware": 13.3,
+    "AC_lane_last": 13.4,
+    "CI_lane_first": 13.3
+   },
+   "equal_weight_mean_detected_0.25-50pct": {
+    "OO": 8.285714285714286,
+    "AC": 14.714285714285714,
+    "OA": 14.571428571428571,
+    "CI": 14.142857142857142,
+    "AC_costaware": 14.642857142857142,
+    "AC_lane_last": 14.214285714285714,
+    "CI_lane_first": 14.642857142857142
+   },
+   "band_OA_strictly_ahead_of": {
+    "OO": [
+     "0.0025",
+     "0.005",
+     "0.0075",
+     "0.01",
+     "0.015",
+     "0.02",
+     "0.03",
+     "0.05",
+     "0.075",
+     "0.1",
+     "0.15",
+     "0.2",
+     "0.3",
+     "0.5",
+     "1"
+    ],
+    "AC": [
+     "0.02",
+     "0.05",
+     "0.075",
+     "0.1",
+     "0.15",
+     "0.2"
+    ],
+    "CI": [
+     "0.05",
+     "0.075",
+     "0.1",
+     "0.15",
+     "0.2",
+     "0.3"
+    ],
+    "AC_costaware": [
+     "0.075",
+     "0.1"
+    ],
+    "AC_lane_last": [
+     "0.02",
+     "0.05",
+     "0.075",
+     "0.1",
+     "0.15",
+     "0.2",
+     "0.3"
+    ],
+    "CI_lane_first": []
+   },
+   "band_OA_behind": {
+    "OO": [],
+    "AC": [
+     "0.0025",
+     "0.005",
+     "0.0075",
+     "0.01",
+     "0.015",
+     "0.03"
+    ],
+    "CI": [
+     "0.0025",
+     "0.03"
+    ],
+    "AC_costaware": [
+     "0.0025",
+     "0.01",
+     "0.015"
+    ],
+    "AC_lane_last": [
+     "0.0025",
+     "0.005",
+     "0.0075",
+     "0.01",
+     "0.015",
+     "0.03"
+    ],
+    "CI_lane_first": [
+     "0.0025"
+    ]
+   }
+  },
+  {
+   "cohort": "out_C252",
+   "full_suite_estimate_s": 605.2491012074485,
+   "reduced_suite_estimate_s": 127.45658122131807,
+   "reduced_share_of_full": 0.21058532919263678,
+   "dropped_items": [
+    [
+     "ghz-n12-line-opt1",
+     "output"
+    ],
+    [
+     "ghz-n12-line-opt3",
+     "output"
+    ],
+    [
+     "qaoa_linear-n12-line-opt1",
+     "output"
+    ],
+    [
+     "qaoa_linear-n12-line-opt3",
+     "output"
+    ],
+    [
+     "qft-n12-line-opt1",
+     "output"
+    ],
+    [
+     "qft-n12-line-opt3",
+     "output"
+    ],
+    [
+     "random_clifford-n12-line-opt1",
+     "output"
+    ],
+    [
+     "random_clifford-n12-line-opt3",
+     "output"
+    ]
+   ],
+   "dropped_s": 477.79251998613034,
+   "events": 18,
+   "detectable_by_reduced_suite": 18,
+   "events_detected_only_by_the_eight": [],
+   "registered_budgets_as_reduced_fractions": {
+    "0.02": 0.0949733776644271,
+    "0.05": 0.23743344416106776,
+    "0.1": 0.4748668883221355
+   },
+   "grid": {
+    "0.0025": {
+     "OO": {
+      "detected": 7,
+      "items": 128,
+      "spend_mean": 1.9104625399114685,
+      "spend_max": 2.0017358503917015
+     },
+     "AC": {
+      "detected": 13,
+      "items": 48,
+      "spend_mean": 2.472814134311977,
+      "spend_max": 2.817726947932022
+     },
+     "OA": {
+      "detected": 10,
+      "items": 166,
+      "spend_mean": 2.294966841752936,
+      "spend_max": 3.6506360608409087
+     },
+     "CI": {
+      "detected": 11,
+      "items": 204,
+      "spend_mean": 2.195128620155406,
+      "spend_max": 2.283938338907113
+     },
+     "AC_costaware": {
+      "detected": 11,
+      "items": 68,
+      "spend_mean": 1.8888691809475555,
+      "spend_max": 2.849554407619362
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 48,
+      "spend_mean": 2.472814134311977,
+      "spend_max": 2.817726947932022
+     },
+     "CI_lane_first": {
+      "detected": 11,
+      "items": 204,
+      "spend_mean": 2.195128620155406,
+      "spend_max": 2.283938338907113
+     }
+    },
+    "0.005": {
+     "OO": {
+      "detected": 7,
+      "items": 145,
+      "spend_mean": 2.1875787602450276,
+      "spend_max": 2.277477420291653
+     },
+     "AC": {
+      "detected": 13,
+      "items": 90,
+      "spend_mean": 2.3499890371102157,
+      "spend_max": 3.6998660852266267
+     },
+     "OA": {
+      "detected": 11,
+      "items": 225,
+      "spend_mean": 2.080200604988365,
+      "spend_max": 2.774816962841118
+     },
+     "CI": {
+      "detected": 11,
+      "items": 238,
+      "spend_mean": 2.0151511434514213,
+      "spend_max": 2.3108326739701592
+     },
+     "AC_costaware": {
+      "detected": 11,
+      "items": 159,
+      "spend_mean": 2.2500816417166942,
+      "spend_max": 3.3211391623983206
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 90,
+      "spend_mean": 2.3499890371102157,
+      "spend_max": 3.6998660852266267
+     },
+     "CI_lane_first": {
+      "detected": 11,
+      "items": 238,
+      "spend_mean": 2.0151511434514213,
+      "spend_max": 2.3108326739701592
+     }
+    },
+    "0.0075": {
+     "OO": {
+      "detected": 7,
+      "items": 157,
+      "spend_mean": 1.8005770776923216,
+      "spend_max": 1.8667486960628497
+     },
+     "AC": {
+      "detected": 13,
+      "items": 127,
+      "spend_mean": 2.4185101578052275,
+      "spend_max": 3.7817367947103393
+     },
+     "OA": {
+      "detected": 11,
+      "items": 250,
+      "spend_mean": 2.0883449397927984,
+      "spend_max": 2.6480254444162736
+     },
+     "CI": {
+      "detected": 11,
+      "items": 251,
+      "spend_mean": 2.193069594331106,
+      "spend_max": 2.736077662348525
+     },
+     "AC_costaware": {
+      "detected": 11,
+      "items": 176,
+      "spend_mean": 2.3085981078220854,
+      "spend_max": 3.568809776952196
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 127,
+      "spend_mean": 2.4185101578052275,
+      "spend_max": 3.7817367947103393
+     },
+     "CI_lane_first": {
+      "detected": 11,
+      "items": 251,
+      "spend_mean": 2.193069594331106,
+      "spend_max": 2.736077662348525
+     }
+    },
+    "0.01": {
+     "OO": {
+      "detected": 7,
+      "items": 164,
+      "spend_mean": 1.6043710108656746,
+      "spend_max": 1.659398530644221
+     },
+     "AC": {
+      "detected": 13,
+      "items": 169,
+      "spend_mean": 2.4903765377939333,
+      "spend_max": 3.8977509685173164
+     },
+     "OA": {
+      "detected": 11,
+      "items": 264,
+      "spend_mean": 2.124707022444637,
+      "spend_max": 2.7205313187957696
+     },
+     "CI": {
+      "detected": 11,
+      "items": 266,
+      "spend_mean": 2.099007710292454,
+      "spend_max": 2.520104681306008
+     },
+     "AC_costaware": {
+      "detected": 12,
+      "items": 211,
+      "spend_mean": 2.329973676298177,
+      "spend_max": 3.6092829910499207
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 169,
+      "spend_mean": 2.4903765377939333,
+      "spend_max": 3.8977509685173164
+     },
+     "CI_lane_first": {
+      "detected": 11,
+      "items": 266,
+      "spend_mean": 2.099007710292454,
+      "spend_max": 2.520104681306008
+     }
+    },
+    "0.015": {
+     "OO": {
+      "detected": 8,
+      "items": 172,
+      "spend_mean": 1.7005859393295186,
+      "spend_max": 1.7388605176449372
+     },
+     "AC": {
+      "detected": 13,
+      "items": 146,
+      "spend_mean": 2.200578871624727,
+      "spend_max": 2.8642883511245616
+     },
+     "OA": {
+      "detected": 12,
+      "items": 284,
+      "spend_mean": 1.9423398718006237,
+      "spend_max": 2.5475828700879255
+     },
+     "CI": {
+      "detected": 12,
+      "items": 284,
+      "spend_mean": 1.9423398718006237,
+      "spend_max": 2.5475828700879255
+     },
+     "AC_costaware": {
+      "detected": 14,
+      "items": 233,
+      "spend_mean": 2.4264967782765927,
+      "spend_max": 3.446970092792965
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 146,
+      "spend_mean": 2.200578871624727,
+      "spend_max": 2.8642883511245616
+     },
+     "CI_lane_first": {
+      "detected": 12,
+      "items": 284,
+      "spend_mean": 1.9423398718006237,
+      "spend_max": 2.5475828700879255
+     }
+    },
+    "0.02": {
+     "OO": {
+      "detected": 8,
+      "items": 178,
+      "spend_mean": 1.7104343906537445,
+      "spend_max": 1.7524876158564584
+     },
+     "AC": {
+      "detected": 13,
+      "items": 188,
+      "spend_mean": 2.3044785660811287,
+      "spend_max": 3.1576184206675393
+     },
+     "OA": {
+      "detected": 14,
+      "items": 294,
+      "spend_mean": 2.051760861378129,
+      "spend_max": 2.8304181439101628
+     },
+     "CI": {
+      "detected": 14,
+      "items": 294,
+      "spend_mean": 2.051760861378129,
+      "spend_max": 2.8304181439101628
+     },
+     "AC_costaware": {
+      "detected": 14,
+      "items": 242,
+      "spend_mean": 2.489947521327387,
+      "spend_max": 3.5510750544433765
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 188,
+      "spend_mean": 2.3044785660811287,
+      "spend_max": 3.1576184206675393
+     },
+     "CI_lane_first": {
+      "detected": 14,
+      "items": 294,
+      "spend_mean": 2.051760861378129,
+      "spend_max": 2.8304181439101628
+     }
+    },
+    "0.03": {
+     "OO": {
+      "detected": 9,
+      "items": 188,
+      "spend_mean": 1.496958231982688,
+      "spend_max": 1.5265376598743776
+     },
+     "AC": {
+      "detected": 14,
+      "items": 130,
+      "spend_mean": 2.977995041875305,
+      "spend_max": 3.7394500592508284
+     },
+     "OA": {
+      "detected": 12,
+      "items": 309,
+      "spend_mean": 2.897041188724487,
+      "spend_max": 3.693188999914053
+     },
+     "CI": {
+      "detected": 15,
+      "items": 312,
+      "spend_mean": 2.065010695698921,
+      "spend_max": 2.591430980924936
+     },
+     "AC_costaware": {
+      "detected": 12,
+      "items": 199,
+      "spend_mean": 2.873946255608583,
+      "spend_max": 3.660484921447852
+     },
+     "AC_lane_last": {
+      "detected": 13,
+      "items": 177,
+      "spend_mean": 2.2484829293190827,
+      "spend_max": 2.81545861025394
+     },
+     "CI_lane_first": {
+      "detected": 12,
+      "items": 313,
+      "spend_mean": 2.9052033430602267,
+      "spend_max": 3.708031772895043
+     }
+    },
+    "0.05": {
+     "OO": {
+      "detected": 9,
+      "items": 198,
+      "spend_mean": 1.3873454749762089,
+      "spend_max": 1.4065095314976663
+     },
+     "AC": {
+      "detected": 14,
+      "items": 181,
+      "spend_mean": 2.6343360459726037,
+      "spend_max": 3.0928277284910632
+     },
+     "OA": {
+      "detected": 16,
+      "items": 374,
+      "spend_mean": 2.5119140044043085,
+      "spend_max": 3.0077822331846598
+     },
+     "CI": {
+      "detected": 15,
+      "items": 333,
+      "spend_mean": 2.0217048574829675,
+      "spend_max": 2.7067609097465444
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "items": 324,
+      "spend_mean": 2.705243753584503,
+      "spend_max": 3.196370015547011
+     },
+     "AC_lane_last": {
+      "detected": 14,
+      "items": 250,
+      "spend_mean": 2.2818951421796423,
+      "spend_max": 2.9666350237598484
+     },
+     "CI_lane_first": {
+      "detected": 16,
+      "items": 374,
+      "spend_mean": 2.5119140044043085,
+      "spend_max": 3.0077822331846598
+     }
+    },
+    "0.075": {
+     "OO": {
+      "detected": 9,
+      "items": 204,
+      "spend_mean": 1.3936707959865888,
+      "spend_max": 1.4140757547885774
+     },
+     "AC": {
+      "detected": 15,
+      "items": 311,
+      "spend_mean": 2.521196193634613,
+      "spend_max": 2.822921124817137
+     },
+     "OA": {
+      "detected": 17,
+      "items": 407,
+      "spend_mean": 2.230400414156133,
+      "spend_max": 2.593159998117645
+     },
+     "CI": {
+      "detected": 16,
+      "items": 349,
+      "spend_mean": 1.8297633020920308,
+      "spend_max": 2.3608180273618267
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "items": 381,
+      "spend_mean": 2.433834540562928,
+      "spend_max": 2.7859018990165607
+     },
+     "AC_lane_last": {
+      "detected": 14,
+      "items": 288,
+      "spend_mean": 2.2801067124808196,
+      "spend_max": 2.8845582879826175
+     },
+     "CI_lane_first": {
+      "detected": 17,
+      "items": 407,
+      "spend_mean": 2.2304004141561324,
+      "spend_max": 2.593159998117645
+     }
+    },
+    "0.1": {
+     "OO": {
+      "detected": 9,
+      "items": 208,
+      "spend_mean": 1.2823782277107205,
+      "spend_max": 1.295786129263632
+     },
+     "AC": {
+      "detected": 15,
+      "items": 355,
+      "spend_mean": 2.4601652695966694,
+      "spend_max": 2.696027704864427
+     },
+     "OA": {
+      "detected": 18,
+      "items": 429,
+      "spend_mean": 2.114012165165053,
+      "spend_max": 2.3813678045617976
+     },
+     "CI": {
+      "detected": 16,
+      "items": 361,
+      "spend_mean": 1.8264521132511187,
+      "spend_max": 2.2771911518317425
+     },
+     "AC_costaware": {
+      "detected": 16,
+      "items": 399,
+      "spend_mean": 2.2353979122133687,
+      "spend_max": 2.50688538558199
+     },
+     "AC_lane_last": {
+      "detected": 15,
+      "items": 324,
+      "spend_mean": 2.255815373953052,
+      "spend_max": 2.7585339372895903
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "items": 429,
+      "spend_mean": 2.114012165165053,
+      "spend_max": 2.3813678045617976
+     }
+    },
+    "0.15": {
+     "OO": {
+      "detected": 9,
+      "items": 216,
+      "spend_mean": 1.3775770258718796,
+      "spend_max": 1.4054642374953445
+     },
+     "AC": {
+      "detected": 17,
+      "items": 406,
+      "spend_mean": 2.231735905112003,
+      "spend_max": 2.4018833666585406
+     },
+     "OA": {
+      "detected": 18,
+      "items": 451,
+      "spend_mean": 1.8401303502557207,
+      "spend_max": 2.0315765055998485
+     },
+     "CI": {
+      "detected": 16,
+      "items": 374,
+      "spend_mean": 1.6761535279693798,
+      "spend_max": 1.9791330649448136
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 422,
+      "spend_mean": 1.9449288696777738,
+      "spend_max": 2.133465503946558
+     },
+     "AC_lane_last": {
+      "detected": 15,
+      "items": 344,
+      "spend_mean": 2.1794792503833245,
+      "spend_max": 2.5672643378982927
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "items": 451,
+      "spend_mean": 1.8401303502557207,
+      "spend_max": 2.0315765055998485
+     }
+    },
+    "0.2": {
+     "OO": {
+      "detected": 9,
+      "items": 220,
+      "spend_mean": 1.313361542457289,
+      "spend_max": 1.3305403397374664
+     },
+     "AC": {
+      "detected": 17,
+      "items": 437,
+      "spend_mean": 2.0915920900905656,
+      "spend_max": 2.227058651777993
+     },
+     "OA": {
+      "detected": 18,
+      "items": 464,
+      "spend_mean": 1.716462022045164,
+      "spend_max": 1.8610272640853485
+     },
+     "CI": {
+      "detected": 16,
+      "items": 381,
+      "spend_mean": 1.819692022426279,
+      "spend_max": 2.083138991927875
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 443,
+      "spend_mean": 1.9110385302404782,
+      "spend_max": 2.06903253333831
+     },
+     "AC_lane_last": {
+      "detected": 16,
+      "items": 374,
+      "spend_mean": 1.9589153249834694,
+      "spend_max": 2.2512676396183924
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "items": 464,
+      "spend_mean": 1.716462022045164,
+      "spend_max": 1.8610272640853485
+     }
+    },
+    "0.3": {
+     "OO": {
+      "detected": 9,
+      "items": 224,
+      "spend_mean": 1.1368178615743014,
+      "spend_max": 1.1466586307763003
+     },
+     "AC": {
+      "detected": 18,
+      "items": 467,
+      "spend_mean": 1.8002439404740769,
+      "spend_max": 1.9139257113217882
+     },
+     "OA": {
+      "detected": 18,
+      "items": 480,
+      "spend_mean": 1.6581859193103419,
+      "spend_max": 1.7664444992895774
+     },
+     "CI": {
+      "detected": 16,
+      "items": 395,
+      "spend_mean": 1.7600922373560863,
+      "spend_max": 1.9562748943004429
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 467,
+      "spend_mean": 1.73417487547364,
+      "spend_max": 1.8532969864183493
+     },
+     "AC_lane_last": {
+      "detected": 16,
+      "items": 395,
+      "spend_mean": 1.7600922373560863,
+      "spend_max": 1.9562748943004429
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "items": 480,
+      "spend_mean": 1.6581859193103419,
+      "spend_max": 1.7664444992895774
+     }
+    },
+    "0.5": {
+     "OO": {
+      "detected": 9,
+      "items": 224,
+      "spend_mean": 0.6820907169445809,
+      "spend_max": 0.6879951784657801
+     },
+     "AC": {
+      "detected": 18,
+      "items": 494,
+      "spend_mean": 1.5498500031393998,
+      "spend_max": 1.6493607513366324
+     },
+     "OA": {
+      "detected": 18,
+      "items": 503,
+      "spend_mean": 1.5814288933761005,
+      "spend_max": 1.6671243783875447
+     },
+     "CI": {
+      "detected": 18,
+      "items": 503,
+      "spend_mean": 1.5814288933761005,
+      "spend_max": 1.6671243783875451
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 494,
+      "spend_mean": 1.5498500031393998,
+      "spend_max": 1.649360751336632
+     },
+     "AC_lane_last": {
+      "detected": 18,
+      "items": 507,
+      "spend_mean": 1.6480810483455917,
+      "spend_max": 1.7195627343826314
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "items": 503,
+      "spend_mean": 1.5814288933761005,
+      "spend_max": 1.6671243783875447
+     }
+    },
+    "1": {
+     "OO": {
+      "detected": 9,
+      "items": 224,
+      "spend_mean": 0.34104535847229045,
+      "spend_max": 0.34399758923289003
+     },
+     "AC": {
+      "detected": 18,
+      "items": 520,
+      "spend_mean": 1.5021632517140915,
+      "spend_max": 1.664079756452165
+     },
+     "OA": {
+      "detected": 18,
+      "items": 520,
+      "spend_mean": 1.5021632517140913,
+      "spend_max": 1.664079756452165
+     },
+     "CI": {
+      "detected": 18,
+      "items": 520,
+      "spend_mean": 1.5021632517140915,
+      "spend_max": 1.664079756452165
+     },
+     "AC_costaware": {
+      "detected": 18,
+      "items": 520,
+      "spend_mean": 1.5021632517140915,
+      "spend_max": 1.664079756452165
+     },
+     "AC_lane_last": {
+      "detected": 18,
+      "items": 520,
+      "spend_mean": 1.5021632517140915,
+      "spend_max": 1.6640797564521645
+     },
+     "CI_lane_first": {
+      "detected": 18,
+      "items": 520,
+      "spend_mean": 1.5021632517140913,
+      "spend_max": 1.664079756452165
+     }
+    }
+   },
+   "first": {
+    "OA_vs_OO": {
+     "wins": 12,
+     "losses": 6,
+     "ties": 0,
+     "p": 0.1189422607421875,
+     "gmean_ratio": 1.9516289200298005,
+     "ci95": [
+      0.715918882923414,
+      6.091986724439293
+     ]
+    },
+    "OA_vs_AC": {
+     "wins": 14,
+     "losses": 4,
+     "ties": 0,
+     "p": 0.01544189453125,
+     "gmean_ratio": 0.08069056124645567,
+     "ci95": [
+      0.016575449981119567,
+      0.459075298175928
+     ]
+    },
+    "OA_vs_CI": {
+     "wins": 10,
+     "losses": 7,
+     "ties": 1,
+     "p": 0.3145294189453125,
+     "gmean_ratio": 1.0430488060972052,
+     "ci95": [
+      0.4318276875725107,
+      2.9665531990259497
+     ]
+    },
+    "OA_vs_AC_costaware": {
+     "wins": 14,
+     "losses": 4,
+     "ties": 0,
+     "p": 0.01544189453125,
+     "gmean_ratio": 0.06920351604949111,
+     "ci95": [
+      0.018082549857322484,
+      0.2630816907667727
+     ]
+    },
+    "OA_vs_AC_lane_last": {
+     "wins": 13,
+     "losses": 5,
+     "ties": 0,
+     "p": 0.048126220703125,
+     "gmean_ratio": 0.3805832305350735,
+     "ci95": [
+      0.1014847093022424,
+      1.7228427704105411
+     ]
+    },
+    "OA_vs_CI_lane_first": {
+     "wins": 9,
+     "losses": 5,
+     "ties": 4,
+     "p": 0.21197509765625,
+     "gmean_ratio": 0.04533521972627862,
+     "ci95": [
+      0.009575712125837455,
+      0.20596846072529745
+     ]
+    }
+   },
+   "equal_weight_mean_detected_0.25-10pct": {
+    "OO": 8,
+    "AC": 13.6,
+    "OA": 13.2,
+    "CI": 13.2,
+    "AC_costaware": 13.3,
+    "AC_lane_last": 13.4,
+    "CI_lane_first": 13.3
+   },
+   "equal_weight_mean_detected_0.25-50pct": {
+    "OO": 8.285714285714286,
+    "AC": 14.714285714285714,
+    "OA": 14.571428571428571,
+    "CI": 14.142857142857142,
+    "AC_costaware": 14.642857142857142,
+    "AC_lane_last": 14.214285714285714,
+    "CI_lane_first": 14.642857142857142
+   },
+   "band_OA_strictly_ahead_of": {
+    "OO": [
+     "0.0025",
+     "0.005",
+     "0.0075",
+     "0.01",
+     "0.015",
+     "0.02",
+     "0.03",
+     "0.05",
+     "0.075",
+     "0.1",
+     "0.15",
+     "0.2",
+     "0.3",
+     "0.5",
+     "1"
+    ],
+    "AC": [
+     "0.02",
+     "0.05",
+     "0.075",
+     "0.1",
+     "0.15",
+     "0.2"
+    ],
+    "CI": [
+     "0.05",
+     "0.075",
+     "0.1",
+     "0.15",
+     "0.2",
+     "0.3"
+    ],
+    "AC_costaware": [
+     "0.075",
+     "0.1"
+    ],
+    "AC_lane_last": [
+     "0.02",
+     "0.05",
+     "0.075",
+     "0.1",
+     "0.15",
+     "0.2",
+     "0.3"
+    ],
+    "CI_lane_first": []
+   },
+   "band_OA_behind": {
+    "OO": [],
+    "AC": [
+     "0.0025",
+     "0.005",
+     "0.0075",
+     "0.01",
+     "0.015",
+     "0.03"
+    ],
+    "CI": [
+     "0.0025",
+     "0.03"
+    ],
+    "AC_costaware": [
+     "0.0025",
+     "0.01",
+     "0.015"
+    ],
+    "AC_lane_last": [
+     "0.0025",
+     "0.005",
+     "0.0075",
+     "0.01",
+     "0.015",
+     "0.03"
+    ],
+    "CI_lane_first": [
+     "0.0025"
+    ]
+   }
+  }
+ ]
+}

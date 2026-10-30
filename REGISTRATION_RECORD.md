@@ -30,3 +30,12 @@ Filled in after each step by a commit that changes only this file. Times in UTC.
 | Calibration session N231 (Kaggle, start and end) | (data commit) | | | | 2026-10-24 19:52:34 to 20:23:03; drift 3.7%; `data/N231/out_N231.zip` SHA-256 0b5e54533ef335f109643c6ef0337bc40223457ac6781db1774e46a6a0558d28 |
 | Labeling session C231 (Kaggle, start and end) | (data commit) | | | | 2026-10-24 20:29:07 to 2026-10-25 00:03:23 (after N231 ended); drift 3.2%; `data/C231/out_C231.zip` SHA-256 f12739fcab9b4b1d8640d412a772af46de6ff93c89df432f668394b3a6471700 |
 | R2 registered analysis run | (data commit) | | | R2 7/7, first 85/85 | Run 2026-10-25 with the frozen `r2/analyze_r2.py`, from a clean clone of 504533e and on the authors' machine (identical results). A, B and C SUPPORTED in both cohorts. `results/registered_analysis_r2.json`; summary in `docs/RESULTS_P3_R2.md` |
+
+## Registration R3
+
+**Where R3 is reported.** R3 was registered during the Paper 3 work, which is why its frozen file is titled "(Paper 3)". It asks a different question (how far a fixed corpus reveals real faults) and is reported in Paper 4 (in preparation), together with its post hoc diagnosis (`docs/R3_DIAGNOSIS.md`). Paper 3 reports R1 and R2 and refers to R3 as a separately reported follow-up.
+
+- Registration commit `198c867a6dc243743fe2f71d1782365263e7983e`, committed and pushed 2026-10-29 18:26:14 +0500 (13:26:14 UTC); the pushed manifest equals the frozen one.
+- Kaggle datasets made from: `p3-code-r3.zip` (sha256 `96cdd564f95eb33ed32517ac751d2705f1b722c94e0f1ecb453dc08f8354d66a`), `p3-wheelhouse-r3.zip`, `p3-r3-faults.zip` (hashes of their contents in `r3/wheelhouse.sha256` and `r3/fault_overlays.sha256`).
+- Calibration session N_R3: started 2026-10-29 13:41:49 UTC (hardware.json), Kaggle run time 1836 s; output `data/NR3/out_NR3.zip` (sha256 `b9dd5ce39ba0238769eecfcc526de8e38f56d91d00c2e5e27147a582df546bcf`).
+- Labeling session R3: started 2026-10-29 14:50:43 UTC, after N_R3 had finished; Kaggle run time 4337 s; output `data/R3/out_R3.zip` (sha256 `696c0fb4b15b386cb4d2c30ca91082cbde28417ec5f697096606317f1d53cdfb`).

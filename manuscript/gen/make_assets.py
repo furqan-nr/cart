@@ -479,6 +479,35 @@ def tab_casestudy(cs, ph):
     return "\n".join(out)
 
 
+def tab_denominator(dn):
+    """Detection over reduced-suite fractions (suite without the eight exact 12-qubit checks), R2 cohorts."""
+    cs = [c for c in dn["cohorts"] if c["cohort"] in ("out_C260", "out_C231")]
+    cols = ["OO", "AC", "AC_costaware", "CI", "OA"]
+    out = [r"\begin{tabular}{@{}l" + "rrrrrr" * len(cs) + r"@{}}", r"\toprule",
+           " & " + " & ".join(r"\multicolumn{6}{c}{" + COHORT_LABEL[c["cohort"]] + f", reduced suite {c['reduced_suite_estimate_s']:.0f}\\,s" + "}" for c in cs) + r" \\",
+           " ".join(fr"\cmidrule(l){{{2 + 6 * i}-{7 + 6 * i}}}" for i in range(len(cs))),
+           "Budget & " + " & ".join([" & ".join(EXPL_NAMES[x] for x in cols) + " & s"] * len(cs)) + r" \\",
+           r"\midrule"]
+    for f in cs[0]["grid"]:
+        cells = []
+        for c in cs:
+            g = c["grid"][f]
+            best = max(g[x]["detected"] for x in cols)
+            cells += [r"\textbf{" + str(g[x]["detected"]) + "}" if g[x]["detected"] == best else str(g[x]["detected"])
+                      for x in cols]
+            cells.append(f"{float(f) * c['reduced_suite_estimate_s']:.1f}")
+        out.append(f"{float(f) * 100:g}\\% & " + " & ".join(cells) + r" \\")
+    out += [r"\midrule"]
+    for lab, key in (("Mean, 0.25--10\\%", "equal_weight_mean_detected_0.25-10pct"),
+                     ("Mean, 0.25--50\\%", "equal_weight_mean_detected_0.25-50pct")):
+        cells = []
+        for c in cs:
+            cells += [f"{c[key][x]:.1f}" for x in cols] + [""]
+        out.append(lab + " & " + " & ".join(cells) + r" \\")
+    out += [r"\bottomrule", r"\end{tabular}"]
+    return "\n".join(out)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--repo", required=True)
@@ -504,6 +533,9 @@ def main() -> int:
     (TAB / "diagnosis.tex").write_text(tab_diag(diag))
     (TAB / "grid.tex").write_text(tab_grid(ex))
     (TAB / "effects.tex").write_text(tab_effects(ex))
+    dn = repo / "posthoc" / "exploratory_p3_denominator.json"
+    if dn.exists():
+        (TAB / "denominator.tex").write_text(tab_denominator(json.loads(dn.read_text())))
     fig_grid(ex)
     fig_spend(r1, r2)
     fig_first(r2)

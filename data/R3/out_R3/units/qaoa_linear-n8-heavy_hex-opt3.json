@@ -1,0 +1,39 @@
+{
+ "test_id": "qaoa_linear-n8-heavy_hex-opt3",
+ "family": "qaoa_linear",
+ "n": 8,
+ "backend": "heavy_hex",
+ "level": 3,
+ "physical_qubits": 19,
+ "compile_s": 0.0033315670000320097,
+ "compile_samples": [
+  0.0033315670000320097,
+  0.00326582699995015,
+  0.004488054000034936,
+  0.0035511020000740245,
+  0.0032041669999216538
+ ],
+ "compile_iqr_s": 0.0007845810001185782,
+ "output_tier": "structural",
+ "output_s": 0.00047600200002761994,
+ "output_samples": [
+  0.0006193460000076811,
+  0.0004492960000561652,
+  0.00047600200002761994
+ ],
+ "quality_s": 0.0010837059999175835,
+ "probe_applicable": true,
+ "probe_s": 0.1534736559999601,
+ "probe_samples": [
+  0.1534736559999601,
+  0.15490501199997198,
+  0.15323871399994005
+ ],
+ "contract_s": 3.901799993855093e-05,
+ "clean_verdicts_pass": {
+  "output": true,
+  "quality": true,
+  "probe": true,
+  "contract": true
+ }
+}

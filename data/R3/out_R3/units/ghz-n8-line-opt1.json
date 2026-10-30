@@ -1,0 +1,39 @@
+{
+ "test_id": "ghz-n8-line-opt1",
+ "family": "ghz",
+ "n": 8,
+ "backend": "line",
+ "level": 1,
+ "physical_qubits": 8,
+ "compile_s": 0.0010287869999956456,
+ "compile_samples": [
+  0.0011621149999996305,
+  0.001084171000002243,
+  0.0010287869999956456,
+  0.0009932880000036448,
+  0.0010026169999974854
+ ],
+ "compile_iqr_s": 0.00012519050000037169,
+ "output_tier": "exact",
+ "output_s": 0.027317471999992904,
+ "output_samples": [
+  0.02883054899999138,
+  0.0272542900000019,
+  0.027317471999992904
+ ],
+ "quality_s": 0.0001456149999938816,
+ "probe_applicable": true,
+ "probe_s": 0.007356133000001819,
+ "probe_samples": [
+  0.008012985999997113,
+  0.007322064999996769,
+  0.007356133000001819
+ ],
+ "contract_s": 3.751900000281694e-05,
+ "clean_verdicts_pass": {
+  "output": true,
+  "quality": true,
+  "probe": true,
+  "contract": true
+ }
+}

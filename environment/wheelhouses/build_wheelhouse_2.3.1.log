@@ -1,0 +1,213 @@
+9.8s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+9.8s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+9.8s 3 0.00s - to python to disable frozen modules.
+9.8s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+10.6s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+10.6s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+10.6s 7 0.00s - to python to disable frozen modules.
+10.6s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+13.6s 9 code dataset: /kaggle/input/datasets/furqannr91/p3-code/p3-code
+14.9s 10 Collecting qiskit==2.3.1
+15.0s 11 Downloading qiskit-2.3.1-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (12 kB)
+15.1s 12 Collecting qiskit==2.3.1
+15.1s 13 Downloading qiskit-2.3.1-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (12 kB)
+15.3s 14 Collecting qiskit-aer==0.18.0
+15.3s 15 Downloading qiskit_aer-0.18.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (8.7 kB)
+15.5s 16 Collecting qiskit-aer==0.18.0
+15.5s 17 Downloading qiskit_aer-0.18.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (8.7 kB)
+15.9s 18 Collecting numpy
+15.9s 19 Downloading numpy-2.5.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+16.1s 20 Collecting numpy
+16.1s 21 Downloading numpy-2.5.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+16.2s 22 Collecting scipy
+16.3s 23 Downloading scipy-1.18.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+16.4s 24 Collecting pyyaml
+16.4s 25 Collecting scipy
+16.5s 26 Downloading scipy-1.18.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+16.5s 27 Collecting pyyaml
+16.5s 28 Downloading pyyaml-6.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+16.7s 29 Downloading pyyaml-6.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+16.7s 30 Collecting psutil
+16.7s 31 Downloading psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl.metadata (22 kB)
+16.9s 32 Collecting psutil
+16.9s 33 Downloading psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl.metadata (22 kB)
+17.1s 34 Collecting pandas
+17.1s 35 Downloading pandas-3.1.0-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (18 kB)
+17.2s 36 Collecting rustworkx>=0.15.0 (from qiskit==2.3.1)
+17.2s 37 Downloading rustworkx-0.18.1-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (10 kB)
+17.3s 38 Collecting pandas
+17.3s 39 Downloading pandas-3.1.0-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (18 kB)
+17.3s 40 Collecting rustworkx>=0.15.0 (from qiskit==2.3.1)
+17.3s 41 Downloading rustworkx-0.18.1-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (10 kB)
+17.3s 42 Collecting dill>=0.3 (from qiskit==2.3.1)
+17.4s 43 Downloading dill-0.4.1-py3-none-any.whl.metadata (10 kB)
+17.4s 44 Collecting stevedore>=3.0.0 (from qiskit==2.3.1)
+17.5s 45 Downloading stevedore-5.9.1-py3-none-any.whl.metadata (2.3 kB)
+17.5s 46 Collecting dill>=0.3 (from qiskit==2.3.1)
+17.5s 47 Downloading dill-0.4.1-py3-none-any.whl.metadata (10 kB)
+17.5s 48 Collecting stevedore>=3.0.0 (from qiskit==2.3.1)
+17.5s 49 Downloading stevedore-5.9.1-py3-none-any.whl.metadata (2.3 kB)
+17.5s 50 Collecting typing-extensions (from qiskit==2.3.1)
+17.6s 51 Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+17.6s 52 Collecting python-dateutil>=2.8.0 (from qiskit-aer==0.18.0)
+17.7s 53 Downloading python_dateutil-3.0.0-py2.py3-none-any.whl.metadata (8.2 kB)
+17.7s 54 Collecting typing-extensions (from qiskit==2.3.1)
+17.7s 55 Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+17.7s 56 Collecting python-dateutil>=2.8.0 (from qiskit-aer==0.18.0)
+17.7s 57 Downloading python_dateutil-3.0.0-py2.py3-none-any.whl.metadata (8.2 kB)
+17.8s 58 Collecting six>=1.6 (from python-dateutil>=2.8.0->qiskit-aer==0.18.0)
+17.8s 59 Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+17.9s 60 Collecting tzdata (from python-dateutil>=2.8.0->qiskit-aer==0.18.0)
+17.9s 61 Downloading tzdata-2026.5-py2.py3-none-any.whl.metadata (1.4 kB)
+17.9s 62 Downloading qiskit-2.3.1-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (8.8 MB)
+18.0s 63 Collecting six>=1.6 (from python-dateutil>=2.8.0->qiskit-aer==0.18.0)
+18.0s 64 Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+18.0s 65 Collecting tzdata (from python-dateutil>=2.8.0->qiskit-aer==0.18.0)
+18.0s 66 Downloading tzdata-2026.5-py2.py3-none-any.whl.metadata (1.4 kB)
+18.0s 67 Downloading qiskit-2.3.1-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (8.8 MB)
+18.2s 68 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.8/8.8 MB 44.5 MB/s  0:00:00
+18.2s 69 Downloading qiskit_aer-0.18.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (14.2 MB)
+18.4s 70 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.8/8.8 MB 44.5 MB/s  0:00:00
+18.4s 71 Downloading qiskit_aer-0.18.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (14.2 MB)
+18.4s 72 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.2/14.2 MB 76.1 MB/s  0:00:00
+18.4s 73 Downloading numpy-2.5.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.7 MB)
+18.5s 74 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.7/16.7 MB 123.4 MB/s  0:00:00
+18.6s 75 Downloading scipy-1.18.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (35.3 MB)
+18.6s 76 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.2/14.2 MB 76.1 MB/s  0:00:00
+18.6s 77 Downloading numpy-2.5.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.7 MB)
+18.6s 78 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.7/16.7 MB 123.4 MB/s  0:00:00
+18.6s 79 Downloading scipy-1.18.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (35.3 MB)
+18.8s 80 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.3/35.3 MB 148.0 MB/s  0:00:00
+18.8s 81 Downloading pyyaml-6.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (801 kB)
+18.9s 82 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 801.6/801.6 kB 14.4 MB/s  0:00:00
+18.9s 83 Downloading psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl (155 kB)
+18.9s 84 Downloading pandas-3.1.0-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (12.0 MB)
+19.0s 85 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.3/35.3 MB 148.0 MB/s  0:00:00
+19.0s 86 Downloading pyyaml-6.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (801 kB)
+19.0s 87 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 801.6/801.6 kB 14.4 MB/s  0:00:00
+19.0s 88 Downloading psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl (155 kB)
+19.0s 89 Downloading pandas-3.1.0-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (12.0 MB)
+19.1s 90 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 87.8 MB/s  0:00:00
+19.1s 91 Downloading dill-0.4.1-py3-none-any.whl (120 kB)
+19.1s 92 Downloading python_dateutil-3.0.0-py2.py3-none-any.whl (94 kB)
+19.2s 93 Downloading rustworkx-0.18.1-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (2.4 MB)
+19.2s 94 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.4/2.4 MB 53.9 MB/s  0:00:00
+19.3s 95 Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+19.3s 96 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 87.8 MB/s  0:00:00
+19.3s 97 Downloading dill-0.4.1-py3-none-any.whl (120 kB)
+19.3s 98 Downloading python_dateutil-3.0.0-py2.py3-none-any.whl (94 kB)
+19.3s 99 Downloading rustworkx-0.18.1-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (2.4 MB)
+19.3s 100 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.4/2.4 MB 53.9 MB/s  0:00:00
+19.3s 101 Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+19.3s 102 Downloading stevedore-5.9.1-py3-none-any.whl (54 kB)
+19.3s 103 Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+19.4s 104 Downloading tzdata-2026.5-py2.py3-none-any.whl (347 kB)
+19.5s 105 Downloading stevedore-5.9.1-py3-none-any.whl (54 kB)
+19.5s 106 Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+19.5s 107 Downloading tzdata-2026.5-py2.py3-none-any.whl (347 kB)
+19.8s 108 Saved ./wheelhouse/qiskit-2.3.1-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+19.8s 109 Saved ./wheelhouse/qiskit_aer-0.18.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+19.8s 110 Saved ./wheelhouse/numpy-2.5.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+19.9s 111 Saved ./wheelhouse/scipy-1.18.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+19.9s 112 Saved ./wheelhouse/pyyaml-6.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
+19.9s 113 Saved ./wheelhouse/psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl
+19.9s 114 Saved ./wheelhouse/pandas-3.1.0-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
+19.9s 115 Saved ./wheelhouse/dill-0.4.1-py3-none-any.whl
+19.9s 116 Saved ./wheelhouse/python_dateutil-3.0.0-py2.py3-none-any.whl
+19.9s 117 Saved ./wheelhouse/rustworkx-0.18.1-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+19.9s 118 Saved ./wheelhouse/six-1.17.0-py2.py3-none-any.whl
+19.9s 119 Saved ./wheelhouse/stevedore-5.9.1-py3-none-any.whl
+19.9s 120 Saved ./wheelhouse/typing_extensions-4.16.0-py3-none-any.whl
+19.9s 121 Saved ./wheelhouse/tzdata-2026.5-py2.py3-none-any.whl
+19.9s 122 Successfully downloaded qiskit qiskit-aer numpy scipy pyyaml psutil pandas dill python-dateutil rustworkx six stevedore typing-extensions tzdata
+20.0s 123 Saved ./wheelhouse/qiskit-2.3.1-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+20.0s 124 Saved ./wheelhouse/qiskit_aer-0.18.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+20.0s 125 Saved ./wheelhouse/numpy-2.5.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+20.0s 126 Saved ./wheelhouse/scipy-1.18.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+20.0s 127 Saved ./wheelhouse/pyyaml-6.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
+20.0s 128 Saved ./wheelhouse/psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl
+20.0s 129 Saved ./wheelhouse/pandas-3.1.0-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
+20.0s 130 Saved ./wheelhouse/dill-0.4.1-py3-none-any.whl
+20.0s 131 Saved ./wheelhouse/python_dateutil-3.0.0-py2.py3-none-any.whl
+20.0s 132 Saved ./wheelhouse/rustworkx-0.18.1-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+20.0s 133 Saved ./wheelhouse/six-1.17.0-py2.py3-none-any.whl
+20.0s 134 Saved ./wheelhouse/stevedore-5.9.1-py3-none-any.whl
+20.0s 135 Saved ./wheelhouse/typing_extensions-4.16.0-py3-none-any.whl
+20.0s 136 Saved ./wheelhouse/tzdata-2026.5-py2.py3-none-any.whl
+20.0s 137 Successfully downloaded qiskit qiskit-aer numpy scipy pyyaml psutil pandas dill python-dateutil rustworkx six stevedore typing-extensions tzdata
+41.8s 138 ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+41.8s 139 bigframes 2.48.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.
+41.8s 140 ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.
+41.8s 141 ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.
+41.8s 142 ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.
+41.8s 143 aiobotocore 2.26.0 requires python-dateutil<3.0.0,>=2.1, but you have python-dateutil 3.0.0 which is incompatible.
+41.8s 144 botocore 1.41.5 requires python-dateutil<3.0.0,>=2.1, but you have python-dateutil 3.0.0 which is incompatible.
+41.8s 145 google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.
+41.8s 146 google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.
+41.8s 147 google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.
+41.8s 148 holidays 0.103 requires python-dateutil<3,>=2.9.0.post0, but you have python-dateutil 3.0.0 which is incompatible.
+41.8s 149 dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.
+41.8s 150 gradio 6.26.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.
+41.8s 151 ibis-framework 9.5.0 requires python-dateutil<3,>=2.8.2, but you have python-dateutil 3.0.0 which is incompatible.
+41.8s 152 moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.
+41.8s 153 bigframes 2.48.0 requires python-dateutil<3,>=2.8.2, but you have python-dateutil 3.0.0 which is incompatible.
+41.8s 154 google-cloud-bigquery 3.44.0 requires python-dateutil<3.0.0,>=2.8.2, but you have python-dateutil 3.0.0 which is incompatible.
+41.8s 155 betterproto 2.0.0b7 requires python-dateutil<3.0,>=2.8, but you have python-dateutil 3.0.0 which is incompatible.
+41.8s 156 numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.
+42.0s 157 ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+42.0s 158 bigframes 2.48.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.
+42.0s 159 ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.
+42.0s 160 ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.
+42.0s 161 ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.
+42.0s 162 aiobotocore 2.26.0 requires python-dateutil<3.0.0,>=2.1, but you have python-dateutil 3.0.0 which is incompatible.
+42.0s 163 botocore 1.41.5 requires python-dateutil<3.0.0,>=2.1, but you have python-dateutil 3.0.0 which is incompatible.
+42.0s 164 google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.
+42.0s 165 google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.
+42.0s 166 google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.
+42.0s 167 holidays 0.103 requires python-dateutil<3,>=2.9.0.post0, but you have python-dateutil 3.0.0 which is incompatible.
+42.0s 168 dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.
+42.0s 169 gradio 6.26.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.
+42.0s 170 ibis-framework 9.5.0 requires python-dateutil<3,>=2.8.2, but you have python-dateutil 3.0.0 which is incompatible.
+42.0s 171 moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.
+42.0s 172 bigframes 2.48.0 requires python-dateutil<3,>=2.8.2, but you have python-dateutil 3.0.0 which is incompatible.
+42.0s 173 google-cloud-bigquery 3.44.0 requires python-dateutil<3.0.0,>=2.8.2, but you have python-dateutil 3.0.0 which is incompatible.
+42.0s 174 betterproto 2.0.0b7 requires python-dateutil<3.0,>=2.8, but you have python-dateutil 3.0.0 which is incompatible.
+42.0s 175 numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.
+42.0s 176 
+42.0s 177 ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+42.0s 178 bigframes 2.48.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.
+42.0s 179 ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.
+42.0s 180 ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.
+42.0s 181 ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.
+42.0s 182 aiobotocore 2.26.0 requires python-dateutil<3.0.0,>=2.1, but you have python-dateutil 3.0.0 which is incompatible.
+42.0s 183 botocore 1.41.5 requires python-dateutil<3.0.0,>=2.1, but you have python-dateutil 3.0.0 which is incompatible.
+42.0s 184 google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.
+42.0s 185 google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.
+42.0s 186 google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.
+42.0s 187 holidays 0.103 requires python-dateutil<3,>=2.9.0.post0, but you have python-dateutil 3.0.0 which is incompatible.
+42.0s 188 dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.
+42.0s 189 gradio 6.26.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.
+42.0s 190 ibis-framework 9.5.0 requires python-dateutil<3,>=2.8.2, but you have python-dateutil 3.0.0 which is incompatible.
+42.0s 191 moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.
+42.0s 192 bigframes 2.48.0 requires python-dateutil<3,>=2.8.2, but you have python-dateutil 3.0.0 which is incompatible.
+42.0s 193 google-cloud-bigquery 3.44.0 requires python-dateutil<3.0.0,>=2.8.2, but you have python-dateutil 3.0.0 which is incompatible.
+42.0s 194 betterproto 2.0.0b7 requires python-dateutil<3.0,>=2.8, but you have python-dateutil 3.0.0 which is incompatible.
+42.0s 195 numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.
+43.4s 196 {
+43.4s 197 "qiskit_requested": "2.3.1",
+43.4s 198 "aer_requested": "0.18.0",
+43.4s 199 "import_check": "2.3.1 0.18.0",
+43.4s 200 "python": "3.13.15",
+43.4s 201 "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+43.4s 202 "cpu": "model name\t: Intel(R) Xeon(R) CPU @ 2.20GHz",
+43.4s 203 "install_method": "pip install --no-index --find-links <wheelhouse> --target <site>; PYTHONPATH=<site>"
+43.4s 204 } 14 wheels
+43.4s 205 pins: PyYAML==6.0.3, dill==0.4.1, numpy==2.5.4, pandas==3.1.0, psutil==7.2.2, python-dateutil==3.0.0, qiskit-aer==0.18.0, qiskit==2.3.1, rustworkx==0.18.1, scipy==1.18.1, six==1.17.0, stevedore==5.9.1, typing_extensions==4.16.0, tzdata==2026.5
+46.8s 206 /usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+46.8s 207 cells[i][c] = re.sub('\\\\\|', '|', cell)
+47.0s 208 /usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+47.0s 209 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+48.0s 210 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+48.1s 211 [NbConvertApp] Writing 11454 bytes to __notebook__.ipynb
+51.3s 212 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+52.0s 213 [NbConvertApp] Writing 284002 bytes to __results__.html

@@ -1,0 +1,181 @@
+{
+ "note": "post hoc (after the R3 sessions): each fix's own regression tests, run with the clean build and with the fault overlay; exit 0 = pass, 1 = fail, 'hang' = no result in 300 s, 4 = test not collected",
+ "results": {
+  "17163": [
+   {
+    "test": "test_zsx_near_2_3_cx_boundary",
+    "clean": 0,
+    "fault": 1
+   },
+   {
+    "test": "test_zsx_near_2_0_cx_boundary",
+    "clean": 0,
+    "fault": 0
+   },
+   {
+    "test": "test_zsx_near_3_0_cx_boundary",
+    "clean": 0,
+    "fault": 0
+   },
+   {
+    "test": "test_zsx_near_2_1_cx_boundary",
+    "clean": 0,
+    "fault": 0
+   },
+   {
+    "test": "test_zsx_with_sign_problem",
+    "clean": 0,
+    "fault": 1
+   }
+  ],
+  "16988": [
+   {
+    "test": "test_ignores_duplicate_coupling",
+    "clean": 0,
+    "fault": 1
+   },
+   {
+    "test": "test_duplicate_coupling_symmetry",
+    "clean": 0,
+    "fault": 1
+   },
+   {
+    "test": "test_no_parallel_edges",
+    "clean": 0,
+    "fault": 1
+   }
+  ],
+  "16963": [
+   {
+    "test": "test_custom_gates_sharing_wire",
+    "clean": 0,
+    "fault": "hang"
+   },
+   {
+    "test": "test_custom_gates_sharing_wire",
+    "clean": 0,
+    "fault": 0
+   }
+  ],
+  "16884": [
+   {
+    "test": "test_toffoli_is_not_removed",
+    "clean": 0,
+    "fault": 1
+   }
+  ],
+  "16752": [
+   {
+    "test": "test_optimization_same_symbol",
+    "clean": 0,
+    "fault": 1
+   }
+  ],
+  "16283": [
+   {
+    "test": "test_division_with_addition",
+    "clean": 0,
+    "fault": 1
+   },
+   {
+    "test": "test_division_with_subtraction",
+    "clean": 0,
+    "fault": 1
+   },
+   {
+    "test": "test_nested_division",
+    "clean": 0,
+    "fault": 1
+   },
+   {
+    "test": "test_gradient_composite_base_constant_exponent",
+    "clean": 0,
+    "fault": 1
+   },
+   {
+    "test": "test_power_expression_with_addition_subtraction",
+    "clean": 0,
+    "fault": 1
+   },
+   {
+    "test": "test_conjugate_gradient",
+    "clean": 0,
+    "fault": 1
+   },
+   {
+    "test": "test_mul_expand_rhs_div",
+    "clean": 0,
+    "fault": 1
+   },
+   {
+    "test": "test_mul_expand_self_div",
+    "clean": 0,
+    "fault": 1
+   },
+   {
+    "test": "test_chain_rule_gradient",
+    "clean": 0,
+    "fault": 1
+   }
+  ],
+  "16656": [
+   {
+    "test": "test_remove_qubits_determinism",
+    "clean": 0,
+    "fault": 1
+   },
+   {
+    "test": "test_remove_clbits_determinism",
+    "clean": 0,
+    "fault": 1
+   }
+  ],
+  "16599": [
+   {
+    "test": "test_negative_x_rotations",
+    "clean": 0,
+    "fault": 1
+   }
+  ],
+  "16402": [
+   {
+    "test": "test_p_u1_2pi_accumulation",
+    "clean": 0,
+    "fault": 1
+   }
+  ],
+  "13945": [
+   {
+    "test": "test_split2q_and_elide",
+    "clean": 0,
+    "fault": 1
+   },
+   {
+    "test": "test_all_combinations_of_split2q_swap_and_elide",
+    "clean": 0,
+    "fault": 1
+   }
+  ],
+  "16153": [
+   {
+    "test": "test_symmetries",
+    "clean": 0,
+    "fault": 1
+   }
+  ],
+  "15623": [
+   {
+    "test": "test_ancilla_register_with_physical",
+    "clean": 0,
+    "fault": 1
+   }
+  ],
+  "14943": [
+   {
+    "test": "test_pass_returning_falsy_value_is_not_replaced",
+    "clean": 4,
+    "fault": 4
+   }
+  ]
+ }
+}
