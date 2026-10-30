@@ -1,4 +1,4 @@
-# Results of the registered study (Paper 3)
+# Results of the registered study
 
 Registration: `PREREGISTRATION_P3.md`, commit `40077ab` (pushed 2026-10-24, before any cohort data existed). Registered analysis: `obsaware/scripts/analyze_p3.py`, run unchanged on 2026-10-24. The manifest verified 85/85 frozen files before the run. Full output: `results/registered_analysis.json` and `.md`.
 
@@ -38,9 +38,9 @@ Script: `posthoc/diagnose_claim_c.py`; output: `posthoc/diagnose_claim_c.json`. 
 - **Cause.** The registered speed rule estimates machine speed from baseline compile costs. Compilation in the cohorts cost 0.415 (C261) and 0.419 (C252) times its K1 cost, on the same CPU model. Oracle checks did not get cheaper: the median cohort/K1 ratio was 1.12 and 1.07 for the output check (12-qubit exact units) and 0.99 and 1.03 for the state probe. The reference benchmark ratio was 0.85 and 0.87. The drop in compile cost therefore reflects faster compilation in Qiskit 2.5 and 2.6, not a faster machine. The rule scaled every estimated cost, oracle costs included, by about 0.42, so the oracle checks were underpriced about 2.4-fold.
 - **All strategies overspent**, not only the method. Mean spend / budget at 5%: output-only 1.45 (C261) and 1.44 (C252), all-checks 1.96 and 1.99, observability-aware 1.70 and 1.70, cheapest-items 1.66 and 1.69.
 - **Claim A's pattern under real costs.** Each planned 5% selection was cut at the point where its real cost would exceed the budget. Events detected, the same in both cohorts: observability-aware 18, cheapest-items 16, all-checks 15, output-only 9.
-- **Implication.** As in Paper 2, the estimate that failed is the cost model, not the ordering. Estimates must not transfer a transpiler-version speed-up to oracle costs. A speed rule based on the reference benchmark, or one that scales compile and oracle costs separately, is the obvious repair. Like any repair, it needs confirmation on fresh data.
+- **Implication.** As in our earlier study, the estimate that failed is the cost model, not the ordering. Estimates must not transfer a transpiler-version speed-up to oracle costs. A speed rule based on the reference benchmark, or one that scales compile and oracle costs separately, is the obvious repair. Like any repair, it needs confirmation on fresh data.
 
 ## Not yet done
 
 - ~~Separate re-analysis~~ done 2026-10-25 (`reanalysis/`): reproduces every value of this analysis (2 x 529 values, 0 differences).
-- The case study on Paper 1B's nine historical faults.
+- The case study on the nine historical faults of our earlier fault study.

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Paper 3, exploratory analyses requested in review (NOT registered; nothing here changes a registered decision).
+"""Exploratory analyses requested in review (NOT registered; nothing here changes a registered decision).
 
 Run from the repository root (it imports the frozen code and reads only data/):
 

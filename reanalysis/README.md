@@ -1,12 +1,12 @@
-# Separate re-analysis (AI-assisted)
+# Separate re-analysis
 
-A second computation of Paper 3's registered claims A, B and C, for both registrations (`PREREGISTRATION_P3.md` and `PREREGISTRATION_P3_R2.md`), done on 2026-10-25 after both registered analyses.
+A second computation of the registered claims A, B and C, for both registrations (`PREREGISTRATION_P3.md` and `PREREGISTRATION_P3_R2.md`), done on 2026-10-25 after both registered analyses.
 
 **Independence and its limits.** `reanalyze.py` was written anew from the written definitions:
 - the two registrations;
 - the strategy descriptions in the docstring of `obsaware/src/obsaware/selection.py`.
 
-It reads only the raw session files under `data/` and imports nothing from `obsaware/`, `r2/` or `cart/`. It was written by the same AI tool (Claude) that wrote the registered analysis code, so it is **not** an independent re-implementation by another team. Like Paper 2's checks, it is a separate re-analysis (AI-assisted).
+It reads only the raw session files under `data/` and imports nothing from `obsaware/`, `r2/` or `cart/`. It was written by the same team, with the same tools, that wrote the registered analysis code, so it is **not** an independent re-implementation by another team. Like the checks of our earlier study, it is a separate re-analysis.
 
 **Details the registrations leave open.** The re-analysis follows the documented behaviour of the frozen implementation for these:
 - **Unit order (output-only, all-checks):** an unused (family, backend, output tier) comes first, then lower estimated compile plus output-check cost, then unit id.

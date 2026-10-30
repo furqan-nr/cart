@@ -10,7 +10,7 @@ export PYTHONPATH="$PWD/cart/src:$PWD/obsaware/src"
 export RAYON_NUM_THREADS=1 OMP_NUM_THREADS=1 QISKIT_IN_PARALLEL=TRUE
 ```
 
-`cart` reads its configuration files relative to its own folder, so run scripts with the working directory set to `cart/` (as below) or from the repository root with `PYTHONPATH` as above. Exact versions of the Paper 2 environment: `cart/environment/requirements.lock`. Exact versions of each Kaggle session: the `requirements_p3.txt` in that session's wheelhouse dataset.
+`cart` reads its configuration files relative to its own folder, so run scripts with the working directory set to `cart/` (as below) or from the repository root with `PYTHONPATH` as above. Exact versions of the earlier study's environment: `cart/environment/requirements.lock`. Exact versions of each Kaggle session: the `requirements_p3.txt` in that session's wheelhouse dataset.
 
 ## Development results (`obsaware/results/`, exploratory)
 

@@ -1,4 +1,4 @@
-# Results of registration R2 (Paper 3)
+# Results of registration R2
 
 Registration: `PREREGISTRATION_P3_R2.md`, commit `504533e` (pushed 2026-10-24, before any R2 data existed). The only change from the first registration is the cost estimate: previous-revision costs from a separate calibration session N on the same Qiskit version, with machine rule M1. Registered analysis: `r2/analyze_r2.py`, run unchanged on 2026-10-25. Both manifests verified before the run (R2 7/7, first registration 85/85). The analysis was run twice, from a clean clone of the registered commit and on the authors' machine, and gave identical results (floating-point differences below 1e-9 relative). Full output: `results/registered_analysis_r2.json` and `.md`.
 
@@ -35,7 +35,7 @@ At 5%: output-visible events (10) were detected by every strategy except output-
 
 Mean real spend / budget at 5% for every strategy (exploratory): output-only 1.08 / 1.03, all-checks 1.08 / 1.08, observability-aware 1.06 / 1.07, cheapest-items 1.01 / 1.00 (C260 / C231). With the previous-revision estimate, every strategy stays close to its budget.
 
-## Paper 3 in one place
+## Both registrations in one place
 
 | Registration | Cost estimate | Cohorts | A | B | C |
 |---|---|---|---|---|---|
@@ -44,4 +44,4 @@ Mean real spend / budget at 5% for every strategy (exploratory): output-only 1.0
 
 ## Separate re-analysis
 
-A separately written computation (`reanalysis/`, AI-assisted, reads only the raw data, imports none of the analysis or selection code) reproduces this analysis exactly: 2 x 529 values per cohort compared, 0 differences. The raw labels obey the registered labeling rules (4,212 checks per cohort, 0 problems). Details and limits: `reanalysis/README.md`.
+A separately written computation (`reanalysis/`, reads only the raw data, imports none of the analysis or selection code) reproduces this analysis exactly: 2 x 529 values per cohort compared, 0 differences. The raw labels obey the registered labeling rules (4,212 checks per cohort, 0 problems). Details and limits: `reanalysis/README.md`.

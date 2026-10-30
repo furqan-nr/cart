@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate every table and figure of the Paper 3 manuscript from the repository's result files.
+"""Generate every table and figure of the manuscript from the repository's result files.
 
     python gen/make_assets.py --repo /path/to/cart
 
@@ -43,16 +43,16 @@ CHANNEL = {  # operator -> (group, channel shown in the paper, origin)
     "final_layout_record_wide": ("invisible", "layout record", "new"),
     "hash_order_rz_shift_line": ("invisible", "determinism", "new"),
     "hash_order_rz_4pi_heavyhex": ("invisible", "determinism", "new"),
-    "wide_drop_opt_loop": ("visible", "quality", "Paper 2"),
-    "heavy_hex_trivial_layout": ("visible", "quality", "Paper 2"),
-    "small_drop_opt_loop": ("visible", "quality", "Paper 2"),
-    "cp_swap_detour": ("visible", "quality", "Paper 2"),
-    "wide_no_elide_permutations": ("visible", "quality", "Paper 2"),
-    "cp_small_angle_sign_flip": ("visible", "semantics", "Paper 2"),
-    "wide_rz_sign_flip": ("visible", "semantics", "Paper 2"),
-    "drop_routed_swap": ("visible", "semantics", "Paper 2"),
-    "drop_first_rzz": ("visible", "semantics", "Paper 2"),
-    "wide_leaky_basis_h": ("visible", "structure", "Paper 2"),
+    "wide_drop_opt_loop": ("visible", "quality", "earlier study"),
+    "heavy_hex_trivial_layout": ("visible", "quality", "earlier study"),
+    "small_drop_opt_loop": ("visible", "quality", "earlier study"),
+    "cp_swap_detour": ("visible", "quality", "earlier study"),
+    "wide_no_elide_permutations": ("visible", "quality", "earlier study"),
+    "cp_small_angle_sign_flip": ("visible", "semantics", "earlier study"),
+    "wide_rz_sign_flip": ("visible", "semantics", "earlier study"),
+    "drop_routed_swap": ("visible", "semantics", "earlier study"),
+    "drop_first_rzz": ("visible", "semantics", "earlier study"),
+    "wide_leaky_basis_h": ("visible", "structure", "earlier study"),
 }
 
 
@@ -118,7 +118,7 @@ def tab_operators(r1, r2):
            r"\multicolumn{7}{@{}l}{\emph{Output-invisible (new in this study)}} \\"]
     for i, k in enumerate(order):
         if i == 8:
-            out.append(r"\multicolumn{7}{@{}l}{\emph{Output-visible (Paper 2's operators, unchanged)}} \\")
+            out.append(r"\multicolumn{7}{@{}l}{\emph{Output-visible (operators of our earlier study, unchanged)}} \\")
         checks = sorted(set().union(*[ev[c["cohort"]][k]["checks_detecting"] for c in cohorts]))
         units = " & ".join(str(ev[c["cohort"]][k]["units_detecting"]) for c in cohorts)
         out.append(f"{tt(k)} & {CHANNEL[k][1]} & {', '.join(checks)} & {units} \\\\")

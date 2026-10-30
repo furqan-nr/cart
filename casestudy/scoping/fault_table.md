@@ -1,4 +1,4 @@
-# Real-fault case study: release provenance of the nine Paper 1B faults
+# Real-fault case study: release provenance of the nine faults of our earlier fault study
 
 Compiled 2026-10-25. Evidence sources, in order of weight:
 
@@ -80,4 +80,4 @@ Abbreviations:
 - Commits: `https://github.com/Qiskit/qiskit/commit/<sha>` for each SHA above.
 - Release tags: `https://github.com/Qiskit/qiskit/releases/tag/<v>` for 2.0.2, 2.0.3, 2.1.1, 2.1.2, 2.2.0rc1, 2.2.0, 2.2.1, 2.4.1, 2.4.2, 2.5.0.
 - PyPI: `https://pypi.org/pypi/qiskit/<v>/json` for 1.4.3, 1.4.4, 2.0.2, 2.0.3, 2.1.0, 2.1.1, 2.1.2, 2.2.0b1, 2.2.0rc1, 2.2.0, 2.2.1, 2.4.1, 2.4.2, 2.5.0rc1, 2.5.0 (all fetched).
-- Companion paper: `/mnt/user-data/uploads/Paper 3 Positive results/06_paper3_manuscript/reference_sources/paper1b/tqc/tqc_latex/body_raw.tex` (Table 2 ≈ l.250–300; Table 4 ≈ l.434–583; §6.6 l.1044–1050).
+- Companion paper: the manuscript of our earlier fault study (tables of the nine faults).

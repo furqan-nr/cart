@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Paper 3, further exploratory analyses (NOT registered; nothing here changes a registered decision).
+"""Further exploratory analyses (NOT registered; nothing here changes a registered decision).
 
 Run from the repository root:
 

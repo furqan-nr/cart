@@ -1,4 +1,4 @@
-# Minimal reproducer for observation O1: no cart, no Paper 3 operators, not a corpus unit.
+# Minimal reproducer for observation O1: no cart, no fault operators, not a corpus unit.
 import warnings; warnings.filterwarnings("ignore")
 import qiskit, numpy as np
 from qiskit import QuantumCircuit

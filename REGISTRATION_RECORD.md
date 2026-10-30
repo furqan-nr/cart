@@ -33,7 +33,7 @@ Filled in after each step by a commit that changes only this file. Times in UTC.
 
 ## Registration R3
 
-**Where R3 is reported.** R3 was registered during the Paper 3 work, which is why its frozen file is titled "(Paper 3)". It asks a different question (how far a fixed corpus reveals real faults) and is reported in Paper 4 (in preparation), together with its post hoc diagnosis (`docs/R3_DIAGNOSIS.md`). Paper 3 reports R1 and R2 and refers to R3 as a separately reported follow-up.
+**Where R3 is reported.** R3 asks a different question from R1 and R2 (how far a fixed corpus reveals real faults) and is reported separately, together with its post hoc diagnosis (`docs/R3_DIAGNOSIS.md`). The report of R1 and R2 refers to R3 as a separately reported follow-up. "P3" in file names and "(Paper 3)" in the frozen registration titles are internal working labels.
 
 - Registration commit `198c867a6dc243743fe2f71d1782365263e7983e`, committed and pushed 2026-10-29 18:26:14 +0500 (13:26:14 UTC); the pushed manifest equals the frozen one.
 - Kaggle datasets made from: `p3-code-r3.zip` (sha256 `96cdd564f95eb33ed32517ac751d2705f1b722c94e0f1ecb453dc08f8354d66a`), `p3-wheelhouse-r3.zip`, `p3-r3-faults.zip` (hashes of their contents in `r3/wheelhouse.sha256` and `r3/fault_overlays.sha256`).

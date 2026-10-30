@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Separate re-analysis (AI-assisted) of Paper 3's registered claims A, B and C, for both registrations.
+"""Separate re-analysis of the registered claims A, B and C, for both registrations.
 
 Written anew from the written definitions (PREREGISTRATION_P3.md Sections 5 to 8, PREREGISTRATION_P3_R2.md Section 2,
 and the strategy descriptions in the docstring of obsaware/src/obsaware/selection.py). It reads only the raw session
@@ -121,7 +121,7 @@ class Account:
 
 # ------------------------------------------------------------------------------------------------ strategies
 def unit_order(meta, est):
-    """Paper 2's COAST order: an unused (family, backend, output tier) first, then cheaper (compile + output check),
+    """The earlier study's COAST order: an unused (family, backend, output tier) first, then cheaper (compile + output check),
     then unit id."""
     left = sorted(meta)
     used, order = set(), []

@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software or data, please cite it as below."
-title: "cart: observability-aware, cost-aware regression testing for the Qiskit transpiler (Paper 3 registration and reproduction package)"
+title: "cart: observability-aware, cost-aware regression testing for the Qiskit transpiler (registration and reproduction package)"
 abstract: >-
   Pre-registration, code, data and reproduction recipes for a study of observability-aware, cost-aware regression
   test selection for the Qiskit transpiler, in which the pipeline chooses both which tests to run and which oracle

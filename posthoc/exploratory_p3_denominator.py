@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Paper 3, denominator sensitivity (exploratory, NOT registered; nothing here changes a registered decision).
+"""Denominator sensitivity (exploratory, NOT registered; nothing here changes a registered decision).
 
 Run from the repository root:
 
