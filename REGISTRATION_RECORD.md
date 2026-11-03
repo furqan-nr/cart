@@ -33,9 +33,9 @@ Filled in after each step by a commit that changes only this file. Times in UTC.
 
 ## Registration R3
 
-**Where R3 is reported.** R3 asks a different question from R1 and R2 (how far a fixed corpus reveals real faults) and is reported separately, together with its post hoc diagnosis (`docs/R3_DIAGNOSIS.md`). The report of R1 and R2 refers to R3 as a separately reported follow-up. "P3" in file names and "(Paper 3)" in the frozen registration titles are internal working labels.
+**Where R3 is reported.** R3 asks a different question from R1 and R2 (how far a fixed corpus reveals real faults) and is reported separately. The report of R1 and R2 refers to R3 as a separately reported follow-up. "P3" in file names and "(Paper 3)" in the frozen registration titles are internal working labels.
 
 - Registration commit `198c867a6dc243743fe2f71d1782365263e7983e`, committed and pushed 2026-10-29 18:26:14 +0500 (13:26:14 UTC); the pushed manifest equals the frozen one.
 - Kaggle datasets made from: `p3-code-r3.zip` (sha256 `96cdd564f95eb33ed32517ac751d2705f1b722c94e0f1ecb453dc08f8354d66a`), `p3-wheelhouse-r3.zip`, `p3-r3-faults.zip` (hashes of their contents in `r3/wheelhouse.sha256` and `r3/fault_overlays.sha256`).
-- Calibration session N_R3: started 2026-10-29 13:41:49 UTC (hardware.json), Kaggle run time 1836 s; output `data/NR3/out_NR3.zip` (sha256 `b9dd5ce39ba0238769eecfcc526de8e38f56d91d00c2e5e27147a582df546bcf`).
-- Labeling session R3: started 2026-10-29 14:50:43 UTC, after N_R3 had finished; Kaggle run time 4337 s; output `data/R3/out_R3.zip` (sha256 `696c0fb4b15b386cb4d2c30ca91082cbde28417ec5f697096606317f1d53cdfb`).
+- Calibration session N_R3: started 2026-10-29 13:41:49 UTC (hardware.json), Kaggle run time 1836 s; output `out_NR3.zip` (sha256 `b9dd5ce39ba0238769eecfcc526de8e38f56d91d00c2e5e27147a582df546bcf`), published with the R3 report.
+- Labeling session R3: started 2026-10-29 14:50:43 UTC, after N_R3 had finished; Kaggle run time 4337 s; output `out_R3.zip` (sha256 `696c0fb4b15b386cb4d2c30ca91082cbde28417ec5f697096606317f1d53cdfb`), published with the R3 report.

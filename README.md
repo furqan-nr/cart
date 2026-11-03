@@ -4,7 +4,7 @@ Code, registration, data and reproduction recipes for a pre-registered study of 
 
 **Status:** registered (commit `40077ab`, 2026-10-24) and run. Both cohorts labeled; registered analysis complete: claims A and B SUPPORTED, claim C NOT SUPPORTED. See `docs/RESULTS_P3.md` (with a post hoc diagnosis of claim C, clearly separated). A second registration, `PREREGISTRATION_P3_R2.md` (files in `r2/`), changes only the cost estimate (previous-revision costs from a separate calibration session) and re-tests claims A to C on fresh cohorts (Qiskit 2.6.0 and 2.3.1). **R2 result: claims A, B and C all SUPPORTED in both cohorts** (`docs/RESULTS_P3_R2.md`).
 
-**Registration R3** (`PREREGISTRATION_P3_R3.md`, files in `r3/`): real Qiskit faults re-injected into Qiskit 2.6.1, with measured costs. None of the 15 faults changed any corpus compilation (`docs/RESULTS_P3_R3.md`; diagnosis in `docs/R3_DIAGNOSIS.md`). R3 asks a different question from R1 and R2 and is reported separately.
+**Registration R3** (`PREREGISTRATION_P3_R3.md`, files in `r3/`): a follow-up study that evaluates the framework on real Qiskit faults. Merged fixes of real Qiskit bugs are reverted one at a time on Qiskit 2.6.1, so that each faulty compiler differs from the clean one by exactly one real bug; costs are measured as in R2, and cost-aware all-checks and lane-first cheapest-items selection are added as registered comparators. R3 asks a different question from R1 and R2 and is reported separately.
 
 ## Layout
 
@@ -13,6 +13,7 @@ Code, registration, data and reproduction recipes for a pre-registered study of 
 | `PREREGISTRATION_P3.md` | The registration: question, disclosures, cohorts, rules, strategies, claims A to C, forecast |
 | `PREREGISTRATION_P3.sha256` | SHA-256 of every frozen file (`obsaware/scripts/freeze_registration.py`) |
 | `PREREGISTRATION_P3_R2.md`, `PREREGISTRATION_P3_R2.sha256`, `r2/` | Registration R2: the repaired cost estimate, its frozen analysis and manifest (`r2/freeze_r2.py --verify` also checks the first manifest) |
+| `PREREGISTRATION_P3_R3.md`, `PREREGISTRATION_P3_R3.sha256`, `r3/` | Registration R3 (follow-up study on real Qiskit faults, reported separately): fault selection rule and selected faults, fix patches, build recipe, labeling driver, comparators and frozen analysis |
 | `REGISTRATION_RECORD.md` | Commit and push times of the registration and of every later run (not frozen) |
 | `cart/` | The `cart` prototype from the replication package of our earlier study ([Quantum-Selection](https://github.com/furqan-nr/Quantum-Selection), DOI [10.5281/zenodo.23475857](https://doi.org/10.5281/zenodo.23475857)), copied unchanged: `src/cart`, `configs`, `pyproject.toml`, `environment/requirements.lock` |
 | `obsaware/` | This study's code: `src/obsaware` (state probe, contract checker v2, determinism runner, invisible-channel fault operators, selection strategies, cost model, reference benchmark), `scripts/` (development checks, Kaggle calibration and labeling drivers, frozen analysis, manifest and packaging tools), `kaggle/` (notebooks and runbook), `results/` (development results) |
