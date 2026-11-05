@@ -24,15 +24,30 @@ TAB, FIG = HERE / "tab", HERE / "fig"
 
 STRATS = ["observability", "all_checks", "cheapest_items", "output_only"]
 LABEL = {"observability": "Observability-aware", "all_checks": "All checks", "cheapest_items": "Cheapest items",
-         "output_only": "Output only", "random_items": "Random items (20 seeds)", "ac_cost": "AC-cost"}
+         "output_only": "Output only", "random_items": "Random items (20 seeds)"}
 SHORT = {"observability": "OA", "all_checks": "AC", "cheapest_items": "CH", "output_only": "OO"}
-COLOR = {"observability": "#2a78d6", "output_only": "#eb6834", "all_checks": "#1baf7a",
-         "cheapest_items": "#eda100", "random_items": "#e87ba4", "ac_cost": "#7a5bc7"}
-# Hue encodes the selection strategy only. Cohort, registration and event group are encoded by marker shape and
-# fill in neutral ink, so a colour means the same strategy in every figure.
-MARK = {"observability": "o", "output_only": "s", "all_checks": "^", "cheapest_items": "D", "random_items": "v",
-        "ac_cost": "P"}
-INK, MUTED, GRID = "#1f1f1e", "#6b6b66", "#e4e3df"
+# One scheme for every figure. Strategies: Okabe-Ito colourblind-safe hues, each with its own line style and marker,
+# so lines stay distinguishable in greyscale. Everything that is not a strategy (cohort, registration, event group,
+# heat-map shading) uses the neutral navy/rust/ink set below, never a strategy hue.
+COLOR = {"observability": "#0072B2", "all_checks": "#D55E00", "ac_cost": "#CC79A7", "cheapest_items": "#009E73",
+         "output_only": "#666666", "random_items": "#E69F00"}
+MARK = {"observability": "o", "all_checks": "s", "ac_cost": "D", "cheapest_items": "^", "output_only": "x",
+        "random_items": "v"}
+LS = {"observability": "-", "all_checks": "--", "ac_cost": (0, (3, 1.2, 1, 1.2)), "cheapest_items": ":",
+      "output_only": (0, (4, 2)), "random_items": "-."}
+LEG = {"observability": "Observability-aware (OA)", "all_checks": "All checks (AC)", "ac_cost": "Cost-aware AC (AC-cost)",
+       "cheapest_items": "Cheapest items (CH)", "output_only": "Output-only (OO)", "random_items": "Random items (20 seeds)"}
+INK, MUTED, GRID, SPINE = "#173242", "#53616E", "#E4E9ED", "#7B848D"
+NAVY, RUST, FAINT = "#245E78", "#AE5E3C", "#EFF3F5"
+plt.rcParams.update({"font.family": "DejaVu Sans", "pdf.fonttype": 42, "ps.fonttype": 42})
+
+
+def _line(s, ms=4.0):
+    oa = s == "observability"
+    return dict(color=COLOR[s], marker=MARK[s], ls=LS[s], lw=1.8 if oa else 1.3, ms=ms + 0.6 if oa else ms,
+                mfc="white" if oa else COLOR[s], mec=COLOR[s], mew=1.0, label=LEG[s], zorder=5 if oa else 2)
+
+
 BUDGETS = ["0.02", "0.05", "0.1"]
 COHORT_LABEL = {"out_C261": "C261 (2.6.1)", "out_C252": "C252 (2.5.2)",
                 "out_C260": "C260 (2.6.0)", "out_C231": "C231 (2.3.1)"}
@@ -236,8 +251,8 @@ def _style(ax):
     for s in ("top", "right"):
         ax.spines[s].set_visible(False)
     for s in ("left", "bottom"):
-        ax.spines[s].set_color(MUTED)
-    ax.tick_params(colors=MUTED, labelsize=8)
+        ax.spines[s].set_color(SPINE)
+    ax.tick_params(colors=MUTED, labelsize=8, direction="out", length=3)
     ax.yaxis.grid(True, color=GRID, lw=0.6)
     ax.set_axisbelow(True)
 
@@ -312,7 +327,8 @@ def fig_first(r2):
             a, o = e["first_cost"]["all_checks"], e["first_cost"]["observability"]
             g = e["group"]
             ax.scatter(max(a, 0.01), max(o, 0.01), s=24, marker="o" if g == "invisible" else "s",
-                       facecolors=INK if g == "invisible" else "white", edgecolors=INK, linewidths=0.8,
+                       facecolors=NAVY if g == "invisible" else "white", edgecolors=NAVY if g == "invisible" else RUST,
+                       linewidths=1.0,
                        zorder=3)
         lim = (0.008, 200)
         ax.plot(lim, lim, color=MUTED, lw=0.9, ls="--")
@@ -328,8 +344,8 @@ def fig_first(r2):
         ax.xaxis.grid(True, color=GRID, lw=0.6)
     axes[0].set_ylabel("Observability-aware (s)", fontsize=8, color=INK)
     from matplotlib.lines import Line2D
-    h = [Line2D([], [], marker="o", ls="", color=INK, label="output-invisible event"),
-         Line2D([], [], marker="s", ls="", mfc="white", mec=INK, mew=0.8, label="output-visible event")]
+    h = [Line2D([], [], marker="o", ls="", color=NAVY, label="output-invisible event"),
+         Line2D([], [], marker="s", ls="", mfc="white", mec=RUST, mew=1.0, label="output-visible event")]
     fig.legend(handles=h, loc="upper center", ncol=2, fontsize=7.5, frameon=False, bbox_to_anchor=(0.5, 1.04))
     fig.tight_layout(rect=(0, 0, 1, 0.94))
     fig.savefig(FIG / "first_detection.pdf", bbox_inches="tight")
@@ -420,11 +436,10 @@ def fig_grid(ex):
     m = {"OO": "output_only", "AC": "all_checks", "CI": "cheapest_items", "OA": "observability"}
     for ax, c in zip(axes, cs):
         fs = [float(f) for f in c["grid"]]
-        for k in ("OO", "AC", "CI", "OA"):
+        for k in ("OA", "AC", "CI", "OO"):
             s = m[k]
             ys = [c["grid"][f][k]["detected"] for f in c["grid"]]
-            ax.plot([100 * f for f in fs], ys, color=COLOR[s], marker=MARK[s], ms=3.8, lw=1.4, label=LABEL[s],
-                    zorder=3 if k == "OA" else 2, mec="white", mew=0.6)
+            ax.plot([100 * f for f in fs], ys, **_line(s, 3.6))
         for x in (2, 5, 10):
             ax.axvline(x, color=GRID, lw=0.8, zorder=0)
         ax.set_xscale("log")
@@ -521,8 +536,8 @@ def fig_effects(ex):
     cs = [c for c in ex["cohorts"] if c["cohort"] in R2_COHORTS]
     comps = [("OA_vs_AC", "AC (registered)"), ("OA_vs_AC_costaware", "AC-cost"),
              ("OA_vs_AC_lane_last", "AC-lane-last"), ("OA_vs_CI", "CH")]
-    style = {"out_C260": dict(marker="o", color=INK, mfc=INK),
-             "out_C231": dict(marker="s", color=MUTED, mfc="white")}
+    style = {"out_C260": dict(marker="o", color=NAVY, mfc=NAVY),
+             "out_C231": dict(marker="s", color=RUST, mfc="white")}
     fig, ax = plt.subplots(figsize=(7.2, 2.5))
     for i, (k, name) in enumerate(comps):
         for j, c in enumerate(cs):
@@ -563,7 +578,7 @@ def fig_ablation(ex):
             ("OA_key_channel", "OA, 5-value key"), ("CI_lane_first", "CH, lane first"), ("CI", "CH")]
     fs = [f for f in cs[0]["grid"] if float(f) >= 0.01]
     from matplotlib.colors import LinearSegmentedColormap
-    cmap = LinearSegmentedColormap.from_list("oa", ["#ffffff", COLOR["observability"], "#123f73"])
+    cmap = LinearSegmentedColormap.from_list("navy", [FAINT, "#8FB0C0", NAVY])
     fig, axes = plt.subplots(1, 2, figsize=(7.2, 2.2), sharey=True)
     for ax, c in zip(axes, cs):
         for r, (k, _) in enumerate(rows):
@@ -574,7 +589,7 @@ def fig_ablation(ex):
                 ax.text(x + 0.47, r + 0.45, str(v), ha="center", va="center", fontsize=7.5,
                         color="white" if v >= 16 else INK, fontweight="bold" if v != oa else "normal")
                 if v != oa:
-                    ax.add_patch(Rectangle((x + 0.03, r + 0.03), 0.88, 0.84, fill=False, ec=INK, lw=1.1))
+                    ax.add_patch(Rectangle((x + 0.03, r + 0.03), 0.88, 0.84, fill=False, ec=RUST, lw=1.4))
         ax.set_xlim(0, len(fs))
         ax.set_ylim(len(rows), 0)
         lab = []
@@ -597,9 +612,8 @@ def fig_seconds(ex, dn):
     """Detection against the budget in seconds, full and reduced suite, R2 cohorts (Online Resource 1)."""
     cs = {c["cohort"]: c for c in ex["cohorts"] if c["cohort"] in R2_COHORTS}
     ds = {c["cohort"]: c for c in dn["cohorts"] if c["cohort"] in R2_COHORTS}
-    keys = [("OO", "output_only"), ("AC", "all_checks"), ("AC_costaware", "ac_cost"), ("CI", "cheapest_items"),
-            ("OA", "observability")]
-    col, mk, lab = COLOR, MARK, LABEL
+    keys = [("OA", "observability"), ("AC", "all_checks"), ("AC_costaware", "ac_cost"), ("CI", "cheapest_items"),
+            ("OO", "output_only")]
     fig, axes = plt.subplots(2, 2, figsize=(7.2, 4.6), sharex=True, sharey=True)
     for col_i, ck in enumerate(R2_COHORTS):
         for row_i, (src, total, name) in enumerate(
@@ -608,8 +622,7 @@ def fig_seconds(ex, dn):
             ax = axes[row_i][col_i]
             fs = list(src["grid"])
             for k, s in keys:
-                ax.plot([float(f) * total for f in fs], [src["grid"][f][k]["detected"] for f in fs], color=col[s],
-                        marker=mk[s], ms=3.6, lw=1.3, label=lab[s], zorder=3 if k == "OA" else 2, mec="white", mew=0.5)
+                ax.plot([float(f) * total for f in fs], [src["grid"][f][k]["detected"] for f in fs], **_line(s, 3.4))
             ax.set_xscale("log")
             ax.set_xticks([0.5, 1, 2, 5, 10, 20, 50, 100, 200], ["0.5", "1", "2", "5", "10", "20", "50", "100", "200"])
             ax.minorticks_off()
@@ -622,7 +635,7 @@ def fig_seconds(ex, dn):
             if col_i == 0:
                 ax.set_ylabel("Events detected (of 18)", fontsize=8, color=INK)
     h, l = axes[0][0].get_legend_handles_labels()
-    fig.legend(h, l, loc="upper center", ncol=5, fontsize=7.5, frameon=False, bbox_to_anchor=(0.5, 1.03))
+    fig.legend(h, l, loc="upper center", ncol=3, fontsize=7.5, frameon=False, bbox_to_anchor=(0.5, 1.06))
     fig.tight_layout(rect=(0, 0, 1, 0.96))
     fig.savefig(FIG / "detection_seconds.pdf", bbox_inches="tight")
     plt.close(fig)
