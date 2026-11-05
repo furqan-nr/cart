@@ -508,6 +508,123 @@ def tab_denominator(dn):
     return "\n".join(out)
 
 
+# ------------------------------------------------------------------------------------------------ figures added in v9
+R2_COHORTS = ("out_C260", "out_C231")
+
+
+def fig_effects(ex):
+    """Forest plot of the geometric-mean first-detection cost ratios, R2 cohorts (data of tab/effects.tex)."""
+    cs = [c for c in ex["cohorts"] if c["cohort"] in R2_COHORTS]
+    comps = [("OA_vs_AC", "AC (registered)"), ("OA_vs_AC_costaware", "AC-cost"),
+             ("OA_vs_AC_lane_last", "AC-lane-last"), ("OA_vs_CI", "CH")]
+    style = {"out_C260": dict(marker="o", color="#2a78d6", mfc="#2a78d6"),
+             "out_C231": dict(marker="s", color="#eb6834", mfc="white")}
+    fig, ax = plt.subplots(figsize=(7.2, 2.5))
+    for i, (k, name) in enumerate(comps):
+        for j, c in enumerate(cs):
+            v = c["first"][k]
+            y = -(i + (j - 0.5) * 0.32)
+            lo, hi = v["ci95"]
+            st_ = style[c["cohort"]]
+            ax.errorbar(v["gmean_ratio"], y, xerr=[[v["gmean_ratio"] - lo], [hi - v["gmean_ratio"]]], fmt=st_["marker"],
+                        color=st_["color"], mfc=st_["mfc"], mec=st_["color"], ms=5, lw=1.3, capsize=2.5, zorder=3,
+                        label=COHORT_LABEL[c["cohort"]] if i == 0 else None)
+            ax.text(1.02, y, f"{v['wins']}/{v['losses']}/{v['ties']}", fontsize=7, color=st_["color"], va="center",
+                    ha="left", transform=ax.get_yaxis_transform())
+    ax.axvline(1, color=MUTED, ls="--", lw=0.9, zorder=1)
+    ax.set_xscale("log")
+    ax.set_xlim(0.01, 4)
+    ax.set_xticks([0.01, 0.03, 0.1, 0.3, 1], ["0.01", "0.03", "0.1", "0.3", "1"])
+    ax.minorticks_off()
+    ax.set_yticks([-i for i in range(len(comps))], [n for _, n in comps], fontsize=8, color=INK)
+    ax.set_ylim(-len(comps) + 0.4, 0.6)
+    ax.set_xlabel("Geometric-mean ratio of first-detection cost, OA / comparator (log scale)", fontsize=8, color=INK)
+    ax.text(1.02, 0.42, "earlier/later/\ntied", fontsize=6.5, color=MUTED, ha="left", va="bottom",
+            transform=ax.get_yaxis_transform())
+    ax.text(0.011, 0.42, "favours OA", fontsize=6.5, color=MUTED, ha="left", va="bottom")
+    _style(ax)
+    ax.yaxis.grid(False)
+    ax.xaxis.grid(True, color=GRID, lw=0.6)
+    ax.legend(loc="upper center", bbox_to_anchor=(0.45, 1.17), ncol=2, fontsize=7.5, frameon=False)
+    fig.tight_layout()
+    fig.savefig(FIG / "effects_forest.pdf", bbox_inches="tight")
+    plt.close(fig)
+
+
+def fig_ablation(ex):
+    """Detection of the coverage-key and determinism-lane variants against OA and CH, R2 cohorts, 1 to 10%."""
+    from matplotlib.patches import Rectangle
+    cs = [c for c in ex["cohorts"] if c["cohort"] in R2_COHORTS]
+    rows = [("OA", "OA, 40-value key"), ("OA_key_target_channel", "OA, 10-value key"),
+            ("OA_key_channel", "OA, 5-value key"), ("CI_lane_first", "CH, lane first"), ("CI", "CH")]
+    fs = [f for f in cs[0]["grid"] if float(f) >= 0.01]
+    cmap = matplotlib.colormaps["Blues"]
+    fig, axes = plt.subplots(1, 2, figsize=(7.2, 2.2), sharey=True)
+    for ax, c in zip(axes, cs):
+        for r, (k, _) in enumerate(rows):
+            for x, f in enumerate(fs):
+                v = c["grid"][f][k]["detected"]
+                oa = c["grid"][f]["OA"]["detected"]
+                ax.add_patch(Rectangle((x, r), 0.94, 0.9, color=cmap(0.15 + 0.75 * (v - 12) / 6), lw=0))
+                ax.text(x + 0.47, r + 0.45, str(v), ha="center", va="center", fontsize=7.5,
+                        color="white" if v >= 17 else INK, fontweight="bold" if v != oa else "normal")
+                if v != oa:
+                    ax.add_patch(Rectangle((x + 0.03, r + 0.03), 0.88, 0.84, fill=False, ec=INK, lw=1.1))
+        ax.set_xlim(0, len(fs))
+        ax.set_ylim(len(rows), 0)
+        lab = []
+        for f in fs:
+            s = f"{float(f) * 100:g}"
+            lab.append(s + ("*" if f in ("0.02", "0.05", "0.1") else ""))
+        ax.set_xticks([x + 0.47 for x in range(len(fs))], lab, fontsize=7.5)
+        ax.set_yticks([r + 0.45 for r in range(len(rows))], [n for _, n in rows], fontsize=7.5, color=INK)
+        ax.tick_params(length=0, colors=INK)
+        for s in ax.spines.values():
+            s.set_visible(False)
+        ax.set_title(COHORT_LABEL[c["cohort"]], fontsize=8.5, color=INK)
+        ax.set_xlabel("Budget (% of the estimated full suite)", fontsize=8, color=INK)
+    fig.tight_layout()
+    fig.savefig(FIG / "ablation.pdf", bbox_inches="tight")
+    plt.close(fig)
+
+
+def fig_seconds(ex, dn):
+    """Detection against the budget in seconds, full and reduced suite, R2 cohorts (Online Resource 1)."""
+    cs = {c["cohort"]: c for c in ex["cohorts"] if c["cohort"] in R2_COHORTS}
+    ds = {c["cohort"]: c for c in dn["cohorts"] if c["cohort"] in R2_COHORTS}
+    keys = [("OO", "output_only"), ("AC", "all_checks"), ("AC_costaware", "ac_cost"), ("CI", "cheapest_items"),
+            ("OA", "observability")]
+    col = dict(COLOR, ac_cost="#7a5bc7")
+    mk = dict(MARK, ac_cost="P")
+    lab = dict(LABEL, ac_cost="AC-cost")
+    fig, axes = plt.subplots(2, 2, figsize=(7.2, 4.6), sharex=True, sharey=True)
+    for col_i, ck in enumerate(R2_COHORTS):
+        for row_i, (src, total, name) in enumerate(
+                ((cs[ck], cs[ck]["full_suite_estimate_s"], "full suite"),
+                 (ds[ck], ds[ck]["reduced_suite_estimate_s"], "reduced suite"))):
+            ax = axes[row_i][col_i]
+            fs = list(src["grid"])
+            for k, s in keys:
+                ax.plot([float(f) * total for f in fs], [src["grid"][f][k]["detected"] for f in fs], color=col[s],
+                        marker=mk[s], ms=3.6, lw=1.3, label=lab[s], zorder=3 if k == "OA" else 2, mec="white", mew=0.5)
+            ax.set_xscale("log")
+            ax.set_xticks([0.5, 1, 2, 5, 10, 20, 50, 100, 200], ["0.5", "1", "2", "5", "10", "20", "50", "100", "200"])
+            ax.minorticks_off()
+            ax.set_ylim(6, 19)
+            ax.set_title(f"{COHORT_LABEL[ck]}, {name} ({total:,.0f} s)", fontsize=8.5, color=INK)
+            _style(ax)
+            ax.xaxis.grid(True, color=GRID, lw=0.6)
+            if row_i == 1:
+                ax.set_xlabel("Budget (estimated CPU seconds, log scale)", fontsize=8, color=INK)
+            if col_i == 0:
+                ax.set_ylabel("Events detected (of 18)", fontsize=8, color=INK)
+    h, l = axes[0][0].get_legend_handles_labels()
+    fig.legend(h, l, loc="upper center", ncol=5, fontsize=7.5, frameon=False, bbox_to_anchor=(0.5, 1.03))
+    fig.tight_layout(rect=(0, 0, 1, 0.96))
+    fig.savefig(FIG / "detection_seconds.pdf", bbox_inches="tight")
+    plt.close(fig)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--repo", required=True)
@@ -536,6 +653,9 @@ def main() -> int:
     dn = repo / "posthoc" / "exploratory_p3_denominator.json"
     if dn.exists():
         (TAB / "denominator.tex").write_text(tab_denominator(json.loads(dn.read_text())))
+        fig_seconds(ex, json.loads(dn.read_text()))
+    fig_effects(ex)
+    fig_ablation(ex)
     fig_grid(ex)
     fig_spend(r1, r2)
     fig_first(r2)
