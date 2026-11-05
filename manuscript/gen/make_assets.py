@@ -24,11 +24,14 @@ TAB, FIG = HERE / "tab", HERE / "fig"
 
 STRATS = ["observability", "all_checks", "cheapest_items", "output_only"]
 LABEL = {"observability": "Observability-aware", "all_checks": "All checks", "cheapest_items": "Cheapest items",
-         "output_only": "Output only", "random_items": "Random items (20 seeds)"}
+         "output_only": "Output only", "random_items": "Random items (20 seeds)", "ac_cost": "AC-cost"}
 SHORT = {"observability": "OA", "all_checks": "AC", "cheapest_items": "CH", "output_only": "OO"}
 COLOR = {"observability": "#2a78d6", "output_only": "#eb6834", "all_checks": "#1baf7a",
-         "cheapest_items": "#eda100", "random_items": "#e87ba4"}
-MARK = {"observability": "o", "output_only": "s", "all_checks": "^", "cheapest_items": "D", "random_items": "v"}
+         "cheapest_items": "#eda100", "random_items": "#e87ba4", "ac_cost": "#7a5bc7"}
+# Hue encodes the selection strategy only. Cohort, registration and event group are encoded by marker shape and
+# fill in neutral ink, so a colour means the same strategy in every figure.
+MARK = {"observability": "o", "output_only": "s", "all_checks": "^", "cheapest_items": "D", "random_items": "v",
+        "ac_cost": "P"}
 INK, MUTED, GRID = "#1f1f1e", "#6b6b66", "#e4e3df"
 BUDGETS = ["0.02", "0.05", "0.1"]
 COHORT_LABEL = {"out_C261": "C261 (2.6.1)", "out_C252": "C252 (2.5.2)",
@@ -281,9 +284,10 @@ def fig_spend(r1, r2):
                 p += 1
             p += 0.6
         for x, ys, i in zip(pos, data, range(len(pos))):
-            col = "#eb6834" if i < 2 else "#2a78d6"
+            col = COLOR["observability"]
             jitter = [x + 0.18 * ((j % 5) - 2) / 2 for j in range(len(ys))]
-            ax.scatter(jitter, ys, s=12, color=col, edgecolors="white", linewidths=0.5, zorder=3,
+            ax.scatter(jitter, ys, s=12, facecolors="white" if i < 2 else col,
+                       edgecolors=col if i < 2 else "white", linewidths=0.8 if i < 2 else 0.5, zorder=3,
                        marker="s" if i < 2 else "o")
             ax.hlines(st.mean(ys), x - 0.3, x + 0.3, color=INK, lw=1.4, zorder=4)
         ax.axhline(1.25, color=MUTED, ls="--", lw=0.9)
@@ -307,8 +311,8 @@ def fig_first(r2):
         for e in det:
             a, o = e["first_cost"]["all_checks"], e["first_cost"]["observability"]
             g = e["group"]
-            ax.scatter(max(a, 0.01), max(o, 0.01), s=26, marker="o" if g == "invisible" else "s",
-                       color="#2a78d6" if g == "invisible" else "#eb6834", edgecolors="white", linewidths=0.6,
+            ax.scatter(max(a, 0.01), max(o, 0.01), s=24, marker="o" if g == "invisible" else "s",
+                       facecolors=INK if g == "invisible" else "white", edgecolors=INK, linewidths=0.8,
                        zorder=3)
         lim = (0.008, 200)
         ax.plot(lim, lim, color=MUTED, lw=0.9, ls="--")
@@ -324,8 +328,8 @@ def fig_first(r2):
         ax.xaxis.grid(True, color=GRID, lw=0.6)
     axes[0].set_ylabel("Observability-aware (s)", fontsize=8, color=INK)
     from matplotlib.lines import Line2D
-    h = [Line2D([], [], marker="o", ls="", color="#2a78d6", label="output-invisible event"),
-         Line2D([], [], marker="s", ls="", color="#eb6834", label="output-visible event")]
+    h = [Line2D([], [], marker="o", ls="", color=INK, label="output-invisible event"),
+         Line2D([], [], marker="s", ls="", mfc="white", mec=INK, mew=0.8, label="output-visible event")]
     fig.legend(handles=h, loc="upper center", ncol=2, fontsize=7.5, frameon=False, bbox_to_anchor=(0.5, 1.04))
     fig.tight_layout(rect=(0, 0, 1, 0.94))
     fig.savefig(FIG / "first_detection.pdf", bbox_inches="tight")
@@ -517,8 +521,8 @@ def fig_effects(ex):
     cs = [c for c in ex["cohorts"] if c["cohort"] in R2_COHORTS]
     comps = [("OA_vs_AC", "AC (registered)"), ("OA_vs_AC_costaware", "AC-cost"),
              ("OA_vs_AC_lane_last", "AC-lane-last"), ("OA_vs_CI", "CH")]
-    style = {"out_C260": dict(marker="o", color="#2a78d6", mfc="#2a78d6"),
-             "out_C231": dict(marker="s", color="#eb6834", mfc="white")}
+    style = {"out_C260": dict(marker="o", color=INK, mfc=INK),
+             "out_C231": dict(marker="s", color=MUTED, mfc="white")}
     fig, ax = plt.subplots(figsize=(7.2, 2.5))
     for i, (k, name) in enumerate(comps):
         for j, c in enumerate(cs):
@@ -558,16 +562,17 @@ def fig_ablation(ex):
     rows = [("OA", "OA, 40-value key"), ("OA_key_target_channel", "OA, 10-value key"),
             ("OA_key_channel", "OA, 5-value key"), ("CI_lane_first", "CH, lane first"), ("CI", "CH")]
     fs = [f for f in cs[0]["grid"] if float(f) >= 0.01]
-    cmap = matplotlib.colormaps["Blues"]
+    from matplotlib.colors import LinearSegmentedColormap
+    cmap = LinearSegmentedColormap.from_list("oa", ["#ffffff", COLOR["observability"], "#123f73"])
     fig, axes = plt.subplots(1, 2, figsize=(7.2, 2.2), sharey=True)
     for ax, c in zip(axes, cs):
         for r, (k, _) in enumerate(rows):
             for x, f in enumerate(fs):
                 v = c["grid"][f][k]["detected"]
                 oa = c["grid"][f]["OA"]["detected"]
-                ax.add_patch(Rectangle((x, r), 0.94, 0.9, color=cmap(0.15 + 0.75 * (v - 12) / 6), lw=0))
+                ax.add_patch(Rectangle((x, r), 0.94, 0.9, color=cmap(min(1.0, 0.1 + 0.9 * max(v - 14, 0) / 4)), lw=0))
                 ax.text(x + 0.47, r + 0.45, str(v), ha="center", va="center", fontsize=7.5,
-                        color="white" if v >= 17 else INK, fontweight="bold" if v != oa else "normal")
+                        color="white" if v >= 16 else INK, fontweight="bold" if v != oa else "normal")
                 if v != oa:
                     ax.add_patch(Rectangle((x + 0.03, r + 0.03), 0.88, 0.84, fill=False, ec=INK, lw=1.1))
         ax.set_xlim(0, len(fs))
@@ -594,9 +599,7 @@ def fig_seconds(ex, dn):
     ds = {c["cohort"]: c for c in dn["cohorts"] if c["cohort"] in R2_COHORTS}
     keys = [("OO", "output_only"), ("AC", "all_checks"), ("AC_costaware", "ac_cost"), ("CI", "cheapest_items"),
             ("OA", "observability")]
-    col = dict(COLOR, ac_cost="#7a5bc7")
-    mk = dict(MARK, ac_cost="P")
-    lab = dict(LABEL, ac_cost="AC-cost")
+    col, mk, lab = COLOR, MARK, LABEL
     fig, axes = plt.subplots(2, 2, figsize=(7.2, 4.6), sharex=True, sharey=True)
     for col_i, ck in enumerate(R2_COHORTS):
         for row_i, (src, total, name) in enumerate(
